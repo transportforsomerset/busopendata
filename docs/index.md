@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Transport for Somerset
-h1: page.title
+{% capture h1 %}{{ title }}{% endcapture %}
 ---
 <p>Welcome to the {{ page.title }} web site!</p>
