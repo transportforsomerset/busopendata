@@ -1,3 +1,4 @@
 source: /data/
 destination: /docs/
 timezone: Europe/London
+keep_files: [404.html, CNAME, README.md]
