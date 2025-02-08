@@ -15,7 +15,7 @@ jobs:
 
       - name: Make API Request
         id: api-request
-        uses: muhfaris/request-action@v1
+        uses: muhfaris/request-action@v0.1.2
         with:
           url: https://data.bus-data.dft.gov.uk/api/
           headers: "none"
