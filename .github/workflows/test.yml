@@ -1,0 +1,34 @@
+name: Make API Request
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  make-api-request:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Make API Request
+        id: api-request
+        uses: muhfaris/request-action@v1
+        with:
+          url: https://data.bus-data.dft.gov.uk/api/
+          headers: "none"
+          body: |
+            {
+              "key": "value"
+            }
+          method: POST
+
+      - name: Show API Response Status
+        run: |
+          echo "Response Status: ${{ steps.api-request.outputs.response-status }}"
+
+      - name: Show API Response Data
+        run: |
+          echo "Response Data: ${{ steps.api-request.outputs.response-data }}"
