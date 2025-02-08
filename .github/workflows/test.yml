@@ -18,7 +18,7 @@ jobs:
         uses: muhfaris/request-action@v0.1.2
         with:
           url: https://data.bus-data.dft.gov.uk/api/
-          headers: "none"
+          headers: {"none"}
           body: |
             {
               "key": "value"
