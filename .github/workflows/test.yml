@@ -17,7 +17,7 @@ jobs:
         id: api-request
         uses: muhfaris/request-action@v0.1.2
         with:
-          url: https://data.bus-data.dft.gov.uk/api/v1/datafeed/?api_key=${{ secrets.BUS_DATA_API }}
+          url: https://data.bus-data.dft.gov.uk/api/v1/datafeed/HGCO/?api_key=${{ secrets.BUS_DATA_API }}
           headers: '{"header":"value"}'
           body: |
             {
