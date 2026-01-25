@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 from geojson import Feature, FeatureCollection, Point, dump
 
-API_KEY = os.environ.get("BUS_DATA_API")
+API_KEY = os.environ.get("BODS_API_KEY")
 if not API_KEY:
     print("Error: BODS_API_KEY secret is not set", file=sys.stderr)
     sys.exit(1)
