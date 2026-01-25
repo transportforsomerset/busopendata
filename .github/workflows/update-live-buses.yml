@@ -1,0 +1,45 @@
+name: Update Live Bus Locations GeoJSON
+
+on:
+  schedule:
+    # Every 10 minutes (adjust as needed — don't hammer the API)
+    - cron: '*/10 * * * *'
+  workflow_dispatch:   # allows manual trigger from GitHub UI
+
+permissions:
+  contents: write     # needed to commit back to repo
+
+jobs:
+  update-buses:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # needed for commit history
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests geojson
+
+      - name: Fetch & convert live bus positions to GeoJSON
+        env:
+          BODS_API_KEY: ${{ secrets.BUS_DATA_API }}
+        run: python scripts/fetch_bods_sirivm_to_geojson.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          
+          git add live-bus-positions.geojson || true
+          git diff --staged --quiet || git commit -m "Update live bus positions (automatic)"
+          git push
+        # The || true prevents failure when no changes
