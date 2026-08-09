@@ -1,5 +1,8 @@
 const apiKey = process.env.BUS_DATA_API;
 
+console.log(process);
+console.log(process.env);
+
 if (!apiKey) {
   console.error("BUS_DATA_API secret is not available.");
   process.exit(1);
