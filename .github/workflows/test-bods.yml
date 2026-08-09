@@ -27,4 +27,4 @@ jobs:
       - name: Test BODS API
         run: bun run src/test-bods.ts
         env:
-          BODS_API_KEY: ${{ secrets.BODS_API_KEY }}
+          BODS_API_KEY: ${{ secrets.BUS_DATA_API }}
