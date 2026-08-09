@@ -1,4 +1,4 @@
-name: Update Somerset Bus Data
+name: Try Update Somerset Bus Data
 
 on:
   schedule:
