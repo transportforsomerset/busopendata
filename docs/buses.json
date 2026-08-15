@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T21:46:10.373Z",
+  "generated_at": "2026-08-15T21:47:12.055Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 39,
+  "data_age_seconds": 37,
   "vehicle_count": 14,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30004-YK25OHO",
       "operator": "FBOS",
       "operator_code": "FBOS",
-      "route": "21",
-      "direction": "inbound",
-      "origin": "Sea View Road",
-      "destination": "Castle Way",
-      "latitude": 51.01455,
-      "longitude": -3.105112,
-      "bearing": 253,
+      "route": "22A",
+      "direction": "outbound",
+      "origin": "Castle Way",
+      "destination": "Dobree Park",
+      "latitude": 51.014909,
+      "longitude": -3.105036,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T21:45:40+00:00",
-      "journey_id": "228"
+      "recorded_at": "2026-08-15T21:46:58+00:00",
+      "journey_id": "273"
     },
     {
       "vehicle_id": "FBOS-30006-YK25OHR",
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Castle Way",
-      "latitude": 50.973408,
-      "longitude": -3.243525,
-      "bearing": 56,
+      "latitude": 50.975709,
+      "longitude": -3.233453,
+      "bearing": 71,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T21:46:00+00:00",
+      "recorded_at": "2026-08-15T21:47:05+00:00",
       "journey_id": "274"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "The Parade",
       "destination": "The Guildhall",
-      "latitude": 50.911669,
-      "longitude": -2.933369,
-      "bearing": 269,
+      "latitude": 50.908548,
+      "longitude": -2.941092,
+      "bearing": 194,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T21:45:56+00:00",
+      "recorded_at": "2026-08-15T21:46:56+00:00",
       "journey_id": "19"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Sea View Road",
       "destination": "Castle Way",
-      "latitude": 51.223185,
-      "longitude": -2.974495,
-      "bearing": 194,
+      "latitude": 51.218322,
+      "longitude": -2.97977,
+      "bearing": 246,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T21:45:49+00:00",
+      "recorded_at": "2026-08-15T21:47:07+00:00",
       "journey_id": "230"
     },
     {
@@ -83,7 +83,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T21:45:32+00:00",
+      "recorded_at": "2026-08-15T21:47:02+00:00",
       "journey_id": "255"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "inbound",
       "origin": "Butlins",
       "destination": "Lethbridge Arms",
-      "latitude": 51.203259,
-      "longitude": -3.477581,
-      "bearing": 155,
+      "latitude": 51.200629,
+      "longitude": -3.473686,
+      "bearing": 119,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T21:45:31+00:00",
+      "recorded_at": "2026-08-15T21:47:07+00:00",
       "journey_id": "144"
     },
     {
@@ -115,7 +115,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T21:45:55+00:00",
+      "recorded_at": "2026-08-15T21:46:55+00:00",
       "journey_id": "143"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.546116,
-      "longitude": -2.435979,
-      "bearing": 13,
+      "latitude": 50.548583,
+      "longitude": -2.435977,
+      "bearing": 345,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T21:46:03+00:00",
+      "recorded_at": "2026-08-15T21:46:35+00:00",
       "journey_id": "420"
     },
     {
@@ -147,7 +147,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T21:45:45+00:00",
+      "recorded_at": "2026-08-15T21:46:45+00:00",
       "journey_id": "418"
     },
     {
@@ -158,12 +158,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.563327,
-      "longitude": -2.449605,
-      "bearing": 0,
+      "latitude": 50.562604,
+      "longitude": -2.446767,
+      "bearing": 173,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T21:45:47+00:00",
+      "recorded_at": "2026-08-15T21:47:01+00:00",
       "journey_id": "421"
     },
     {
@@ -174,12 +174,12 @@
       "direction": "outbound",
       "origin": "North Park Road",
       "destination": "Court Royal",
-      "latitude": 50.730576,
-      "longitude": -3.453125,
-      "bearing": 72,
+      "latitude": 50.731892,
+      "longitude": -3.442619,
+      "bearing": 66,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T21:46:04+00:00",
+      "recorded_at": "2026-08-15T21:47:05+00:00",
       "journey_id": "419"
     },
     {
@@ -190,12 +190,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.728298,
-      "longitude": -3.464675,
-      "bearing": 240,
+      "latitude": 50.725605,
+      "longitude": -3.470509,
+      "bearing": 228,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T21:45:47+00:00",
+      "recorded_at": "2026-08-15T21:46:48+00:00",
       "journey_id": "420"
     },
     {
@@ -206,12 +206,12 @@
       "direction": "outbound",
       "origin": "North Park Road",
       "destination": "Court Royal",
-      "latitude": 50.721435,
-      "longitude": -3.505394,
-      "bearing": 96,
+      "latitude": 50.721279,
+      "longitude": -3.503494,
+      "bearing": 90,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T21:45:58+00:00",
+      "recorded_at": "2026-08-15T21:46:59+00:00",
       "journey_id": "421"
     },
     {
@@ -219,16 +219,16 @@
       "operator": "SDVN",
       "operator_code": "SDVN",
       "route": "22",
-      "direction": "inbound",
-      "origin": "South Devon College",
-      "destination": "Town Hall",
-      "latitude": 50.480877,
-      "longitude": -3.522256,
+      "direction": "outbound",
+      "origin": "Town Hall",
+      "destination": "South Devon College",
+      "latitude": 50.48085,
+      "longitude": -3.522587,
       "bearing": 228,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T21:46:04+00:00",
-      "journey_id": "392"
+      "recorded_at": "2026-08-15T21:47:04+00:00",
+      "journey_id": "397"
     }
   ]
 }
