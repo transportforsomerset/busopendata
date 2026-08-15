@@ -5,6 +5,7 @@ import { createStatusData } from "./status";
 import { calculateDistanceMetres } from "./movement";
 import { analyseMovement } from "./functions";
 import type { Geofence, VehicleHistory } from "./types";
+import { updateTimestampLog } from "./timestamps";
 
 const busDataFile = "docs/buses.json";
 const statusFile = "docs/status.json";
@@ -188,6 +189,9 @@ for (const vehicle of busData.vehicles) {
     `  Route ${vehicle.route}: ${vehicle.origin} → ${vehicle.destination}`
   );
 }
+
+/* Test the actions run by storing run timestamps for review later. */
+await updateTimestampLog();
 
 console.log("");
 console.log("Finished successfully.");
