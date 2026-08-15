@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T23:23:13.203Z",
+  "generated_at": "2026-08-15T23:24:11.399Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1048,
+  "data_age_seconds": 1106,
   "vehicle_count": 8,
   "vehicles": [
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Old Works Road",
-      "latitude": 51.017988,
-      "longitude": -3.075421,
-      "bearing": 277,
+      "latitude": 51.017732,
+      "longitude": -3.085515,
+      "bearing": 262,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:23:06+00:00",
+      "recorded_at": "2026-08-15T23:24:03+00:00",
       "journey_id": "231"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.598302,
-      "longitude": -2.472201,
-      "bearing": 74,
+      "latitude": 50.600281,
+      "longitude": -2.464254,
+      "bearing": 81,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:23:04+00:00",
+      "recorded_at": "2026-08-15T23:24:01+00:00",
       "journey_id": "426"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Cheeke Street",
       "destination": "Court Royal",
-      "latitude": 50.722801,
-      "longitude": -3.513025,
-      "bearing": 114,
+      "latitude": 50.722439,
+      "longitude": -3.511357,
+      "bearing": 96,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:23:05+00:00",
+      "recorded_at": "2026-08-15T23:23:46+00:00",
       "journey_id": "801"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.723255,
-      "longitude": -3.514818,
-      "bearing": 288,
+      "latitude": 50.725151,
+      "longitude": -3.522978,
+      "bearing": 300,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:22:54+00:00",
+      "recorded_at": "2026-08-15T23:23:55+00:00",
       "journey_id": "426"
     }
   ]
