@@ -56,5 +56,4 @@ jobs:
           - name: Trigger live data deployment
             env:
               GH_TOKEN: ${{ github.token }}
-            run: |
-              gh workflow run deploy-data.yml --ref main
+            run: gh workflow run deploy-data.yml --ref main
