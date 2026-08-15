@@ -1,27 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T23:44:09.399Z",
+  "generated_at": "2026-08-15T23:45:09.437Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1198,
-  "vehicle_count": 5,
+  "data_age_seconds": 800,
+  "vehicle_count": 4,
   "vehicles": [
-    {
-      "vehicle_id": "FBOS-30006-YK25OHR",
-      "operator": "FBOS",
-      "operator_code": "FBOS",
-      "route": "21",
-      "direction": "outbound",
-      "origin": "Castle Way",
-      "destination": "Old Works Road",
-      "latitude": 51.017661,
-      "longitude": -3.085879,
-      "bearing": 0,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-15T23:24:11+00:00",
-      "journey_id": "231"
-    },
     {
       "vehicle_id": "FDOR-63192",
       "operator": "FDOR",
@@ -46,12 +30,12 @@
       "direction": "outbound",
       "origin": "Cheeke Street",
       "destination": "Court Royal",
-      "latitude": 50.749969,
-      "longitude": -3.4199,
-      "bearing": 66,
+      "latitude": 50.749695,
+      "longitude": -3.415415,
+      "bearing": 132,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:43:43+00:00",
+      "recorded_at": "2026-08-15T23:44:44+00:00",
       "journey_id": "801"
     },
     {
