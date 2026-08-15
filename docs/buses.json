@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T23:02:14.406Z",
+  "generated_at": "2026-08-15T23:03:09.114Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 978,
+  "data_age_seconds": 1033,
   "vehicle_count": 13,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Castle Way",
-      "latitude": 51.013195,
-      "longitude": -3.125752,
-      "bearing": 67,
+      "latitude": 51.013289,
+      "longitude": -3.120408,
+      "bearing": 112,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:01:58+00:00",
+      "recorded_at": "2026-08-15T23:03:01+00:00",
       "journey_id": "276"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Old Works Road",
-      "latitude": 51.145169,
-      "longitude": -2.991012,
-      "bearing": 4,
+      "latitude": 51.145623,
+      "longitude": -2.99099,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:02:05+00:00",
+      "recorded_at": "2026-08-15T23:02:38+00:00",
       "journey_id": "231"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Lethbridge Arms",
       "destination": "Castle Way",
-      "latitude": 51.019575,
-      "longitude": -3.105857,
-      "bearing": 195,
+      "latitude": 51.017583,
+      "longitude": -3.104109,
+      "bearing": 151,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:01:41+00:00",
+      "recorded_at": "2026-08-15T23:02:55+00:00",
       "journey_id": "146"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Lethbridge Arms",
       "destination": "Butlins",
-      "latitude": 51.16776,
-      "longitude": -3.402868,
-      "bearing": 299,
+      "latitude": 51.170786,
+      "longitude": -3.411562,
+      "bearing": 298,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:02:08+00:00",
+      "recorded_at": "2026-08-15T23:02:43+00:00",
       "journey_id": "145"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.614588,
-      "longitude": -2.456215,
+      "latitude": 50.614539,
+      "longitude": -2.456233,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:01:48+00:00",
+      "recorded_at": "2026-08-15T23:02:48+00:00",
       "journey_id": "424"
     },
     {
@@ -115,7 +115,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:01:54+00:00",
+      "recorded_at": "2026-08-15T23:02:54+00:00",
       "journey_id": "426"
     },
     {
@@ -126,13 +126,29 @@
       "direction": "outbound",
       "origin": "Parade",
       "destination": "Parade",
-      "latitude": 50.620083,
-      "longitude": -3.39929,
-      "bearing": 240,
+      "latitude": 50.616802,
+      "longitude": -3.405771,
+      "bearing": 228,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:01:52+00:00",
+      "recorded_at": "2026-08-15T23:02:52+00:00",
       "journey_id": "385"
+    },
+    {
+      "vehicle_id": "SDVN-19269",
+      "operator": "SDVN",
+      "operator_code": "SDVN",
+      "route": "4",
+      "direction": "outbound",
+      "origin": "Cheeke Street",
+      "destination": "Court Royal",
+      "latitude": 50.726334,
+      "longitude": -3.523586,
+      "bearing": 294,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-08-15T23:02:46+00:00",
+      "journey_id": "801"
     },
     {
       "vehicle_id": "SDVN-27688",
@@ -142,12 +158,12 @@
       "direction": "outbound",
       "origin": "North Park Road",
       "destination": "Court Royal",
-      "latitude": 50.738483,
-      "longitude": -3.428317,
-      "bearing": 54,
+      "latitude": 50.742455,
+      "longitude": -3.420485,
+      "bearing": 48,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:02:08+00:00",
+      "recorded_at": "2026-08-15T23:02:48+00:00",
       "journey_id": "425"
     },
     {
@@ -158,12 +174,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.75032,
-      "longitude": -3.400123,
-      "bearing": 156,
+      "latitude": 50.748844,
+      "longitude": -3.404967,
+      "bearing": 258,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:02:05+00:00",
+      "recorded_at": "2026-08-15T23:02:45+00:00",
       "journey_id": "426"
     },
     {
@@ -197,22 +213,6 @@
       "occupancy": "",
       "recorded_at": "2026-08-15T22:49:54+00:00",
       "journey_id": "394"
-    },
-    {
-      "vehicle_id": "SDVN-80279",
-      "operator": "SDVN",
-      "operator_code": "SDVN",
-      "route": "12",
-      "direction": "inbound",
-      "origin": "Town Square",
-      "destination": "Sherborne Road",
-      "latitude": 50.482681,
-      "longitude": -3.549969,
-      "bearing": 342,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-15T23:02:01+00:00",
-      "journey_id": "442"
     }
   ]
 }
