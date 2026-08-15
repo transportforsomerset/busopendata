@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T23:19:13.758Z",
+  "generated_at": "2026-08-15T23:20:09.694Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 808,
+  "data_age_seconds": 864,
   "vehicle_count": 8,
   "vehicles": [
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Old Works Road",
-      "latitude": 51.039031,
-      "longitude": -3.037115,
-      "bearing": 217,
+      "latitude": 51.029822,
+      "longitude": -3.048888,
+      "bearing": 218,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:18:42+00:00",
+      "recorded_at": "2026-08-15T23:19:42+00:00",
       "journey_id": "231"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.576622,
-      "longitude": -2.467085,
-      "bearing": 329,
+      "latitude": 50.580132,
+      "longitude": -2.469896,
+      "bearing": 337,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:19:07+00:00",
+      "recorded_at": "2026-08-15T23:19:37+00:00",
       "journey_id": "426"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Cheeke Street",
       "destination": "Court Royal",
-      "latitude": 50.725811,
-      "longitude": -3.523081,
+      "latitude": 50.725857,
+      "longitude": -3.523051,
       "bearing": 138,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:19:01+00:00",
+      "recorded_at": "2026-08-15T23:20:02+00:00",
       "journey_id": "801"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "St Martins Primary",
-      "latitude": 50.741089,
-      "longitude": -3.422482,
-      "bearing": 228,
+      "latitude": 50.736828,
+      "longitude": -3.430821,
+      "bearing": 210,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:19:07+00:00",
+      "recorded_at": "2026-08-15T23:19:47+00:00",
       "journey_id": "428"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.721157,
-      "longitude": -3.486997,
-      "bearing": 246,
+      "latitude": 50.719688,
+      "longitude": -3.49273,
+      "bearing": 264,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:18:52+00:00",
+      "recorded_at": "2026-08-15T23:19:52+00:00",
       "journey_id": "426"
     }
   ]
