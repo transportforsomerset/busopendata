@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T23:25:13.334Z",
+  "generated_at": "2026-08-15T23:26:09.441Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1168,
-  "vehicle_count": 8,
+  "data_age_seconds": 1023,
+  "vehicle_count": 7,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30004-YK25OHO",
@@ -39,22 +39,6 @@
       "journey_id": "231"
     },
     {
-      "vehicle_id": "FBOS-48504-YK25OJA",
-      "operator": "FBOS",
-      "operator_code": "FBOS",
-      "route": "28A",
-      "direction": "inbound",
-      "origin": "Lethbridge Arms",
-      "destination": "Castle Way",
-      "latitude": 51.014998,
-      "longitude": -3.105099,
-      "bearing": 0,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-15T23:05:45+00:00",
-      "journey_id": "146"
-    },
-    {
       "vehicle_id": "FBOS-63702_-_BN75NWK",
       "operator": "FBOS",
       "operator_code": "FBOS",
@@ -78,12 +62,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.600978,
-      "longitude": -2.458679,
-      "bearing": 12,
+      "latitude": 50.603839,
+      "longitude": -2.459524,
+      "bearing": 349,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:25:02+00:00",
+      "recorded_at": "2026-08-15T23:25:47+00:00",
       "journey_id": "426"
     },
     {
@@ -94,12 +78,12 @@
       "direction": "outbound",
       "origin": "Cheeke Street",
       "destination": "Court Royal",
-      "latitude": 50.721371,
-      "longitude": -3.504702,
-      "bearing": 96,
+      "latitude": 50.721256,
+      "longitude": -3.50265,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:25:07+00:00",
+      "recorded_at": "2026-08-15T23:25:47+00:00",
       "journey_id": "801"
     },
     {
@@ -126,12 +110,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.72559,
-      "longitude": -3.526964,
-      "bearing": 324,
+      "latitude": 50.727894,
+      "longitude": -3.531685,
+      "bearing": 258,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:24:56+00:00",
+      "recorded_at": "2026-08-15T23:25:56+00:00",
       "journey_id": "426"
     }
   ]
