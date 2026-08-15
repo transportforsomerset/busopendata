@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T23:41:13.184Z",
+  "generated_at": "2026-08-15T23:42:13.698Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1022,
+  "data_age_seconds": 1082,
   "vehicle_count": 5,
   "vehicles": [
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Cheeke Street",
       "destination": "Court Royal",
-      "latitude": 50.748081,
-      "longitude": -3.41509,
-      "bearing": 6,
+      "latitude": 50.749454,
+      "longitude": -3.415117,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:41:01+00:00",
+      "recorded_at": "2026-08-15T23:42:02+00:00",
       "journey_id": "801"
     },
     {
@@ -71,20 +71,20 @@
       "journey_id": "426"
     },
     {
-      "vehicle_id": "SDVN-80277",
+      "vehicle_id": "SDVN-80280",
       "operator": "SDVN",
       "operator_code": "SDVN",
-      "route": "12",
-      "direction": "outbound",
-      "origin": "Sherborne Road",
-      "destination": "Cary Parade",
-      "latitude": 50.482014,
-      "longitude": -3.549518,
-      "bearing": 168,
+      "route": "22",
+      "direction": "inbound",
+      "origin": "South Devon College",
+      "destination": "Town Hall",
+      "latitude": 50.480957,
+      "longitude": -3.522144,
+      "bearing": 246,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:40:59+00:00",
-      "journey_id": "805"
+      "recorded_at": "2026-08-15T23:41:59+00:00",
+      "journey_id": "396"
     }
   ]
 }
