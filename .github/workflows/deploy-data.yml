@@ -19,10 +19,7 @@ jobs:
       - name: Prepare live files
         run: |
           mkdir -p _site
-          cp docs/buses.json _site/
-          cp docs/status.json _site/
-          cp docs/generatedAt.json _site/
-          cp live/index.htm _site/
+          cp live/* _site/
 
       - name: Setup Pages
         uses: actions/configure-pages@v6
