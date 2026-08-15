@@ -14,7 +14,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     env:
-      BODS_API_KEY: ${{ secrets.BODS_API_KEY }}
+      BODS_API_KEY: ${{ secrets.BUS_DATA_API }}
 
     steps:
       - name: Checkout repository
