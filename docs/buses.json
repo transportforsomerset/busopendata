@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T23:29:11.091Z",
+  "generated_at": "2026-08-15T23:30:12.222Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 844,
+  "data_age_seconds": 905,
   "vehicle_count": 6,
   "vehicles": [
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.613291,
-      "longitude": -2.458666,
-      "bearing": 26,
+      "latitude": 50.614156,
+      "longitude": -2.456137,
+      "bearing": 175,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:28:37+00:00",
+      "recorded_at": "2026-08-15T23:29:38+00:00",
       "journey_id": "426"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Cheeke Street",
       "destination": "Court Royal",
-      "latitude": 50.722187,
-      "longitude": -3.482376,
+      "latitude": 50.723,
+      "longitude": -3.479045,
       "bearing": 78,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:28:50+00:00",
+      "recorded_at": "2026-08-15T23:29:51+00:00",
       "journey_id": "801"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.729809,
-      "longitude": -3.543015,
-      "bearing": 0,
+      "latitude": 50.727871,
+      "longitude": -3.539452,
+      "bearing": 96,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:28:58+00:00",
+      "recorded_at": "2026-08-15T23:29:58+00:00",
       "journey_id": "426"
     }
   ]
