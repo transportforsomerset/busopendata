@@ -1,27 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T23:28:09.422Z",
+  "generated_at": "2026-08-15T23:29:11.091Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1143,
-  "vehicle_count": 7,
+  "data_age_seconds": 844,
+  "vehicle_count": 6,
   "vehicles": [
-    {
-      "vehicle_id": "FBOS-30004-YK25OHO",
-      "operator": "FBOS",
-      "operator_code": "FBOS",
-      "route": "22",
-      "direction": "inbound",
-      "origin": "Dobree Park",
-      "destination": "Castle Way",
-      "latitude": 51.01481,
-      "longitude": -3.105003,
-      "bearing": 0,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-15T23:09:06+00:00",
-      "journey_id": "276"
-    },
     {
       "vehicle_id": "FBOS-30006-YK25OHR",
       "operator": "FBOS",
@@ -62,12 +46,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.611672,
-      "longitude": -2.458494,
-      "bearing": 13,
+      "latitude": 50.613291,
+      "longitude": -2.458666,
+      "bearing": 26,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:27:37+00:00",
+      "recorded_at": "2026-08-15T23:28:37+00:00",
       "journey_id": "426"
     },
     {
@@ -78,12 +62,12 @@
       "direction": "outbound",
       "origin": "Cheeke Street",
       "destination": "Court Royal",
-      "latitude": 50.721115,
-      "longitude": -3.488094,
-      "bearing": 60,
+      "latitude": 50.722187,
+      "longitude": -3.482376,
+      "bearing": 78,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:27:49+00:00",
+      "recorded_at": "2026-08-15T23:28:50+00:00",
       "journey_id": "801"
     },
     {
@@ -110,12 +94,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.729511,
-      "longitude": -3.541001,
-      "bearing": 336,
+      "latitude": 50.729809,
+      "longitude": -3.543015,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:27:57+00:00",
+      "recorded_at": "2026-08-15T23:28:58+00:00",
       "journey_id": "426"
     }
   ]
