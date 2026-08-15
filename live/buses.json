@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T23:40:12.676Z",
+  "generated_at": "2026-08-15T23:41:13.184Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 961,
-  "vehicle_count": 4,
+  "data_age_seconds": 1022,
+  "vehicle_count": 5,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30006-YK25OHR",
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Cheeke Street",
       "destination": "Court Royal",
-      "latitude": 50.745338,
-      "longitude": -3.416371,
+      "latitude": 50.748081,
+      "longitude": -3.41509,
       "bearing": 6,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:40:00+00:00",
+      "recorded_at": "2026-08-15T23:41:01+00:00",
       "journey_id": "801"
     },
     {
@@ -69,6 +69,22 @@
       "occupancy": "",
       "recorded_at": "2026-08-15T23:34:00+00:00",
       "journey_id": "426"
+    },
+    {
+      "vehicle_id": "SDVN-80277",
+      "operator": "SDVN",
+      "operator_code": "SDVN",
+      "route": "12",
+      "direction": "outbound",
+      "origin": "Sherborne Road",
+      "destination": "Cary Parade",
+      "latitude": 50.482014,
+      "longitude": -3.549518,
+      "bearing": 168,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-08-15T23:40:59+00:00",
+      "journey_id": "805"
     }
   ]
 }
