@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T23:34:09.960Z",
+  "generated_at": "2026-08-15T23:35:14.529Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1142,
-  "vehicle_count": 6,
+  "data_age_seconds": 907,
+  "vehicle_count": 5,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30006-YK25OHR",
@@ -21,22 +21,6 @@
       "occupancy": "",
       "recorded_at": "2026-08-15T23:24:11+00:00",
       "journey_id": "231"
-    },
-    {
-      "vehicle_id": "FBOS-63702_-_BN75NWK",
-      "operator": "FBOS",
-      "operator_code": "FBOS",
-      "route": "28A",
-      "direction": "outbound",
-      "origin": "Lethbridge Arms",
-      "destination": "Butlins",
-      "latitude": 51.206752,
-      "longitude": -3.464788,
-      "bearing": 0,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-15T23:15:07+00:00",
-      "journey_id": "145"
     },
     {
       "vehicle_id": "FDOR-63192",
@@ -62,12 +46,12 @@
       "direction": "outbound",
       "origin": "Cheeke Street",
       "destination": "Court Royal",
-      "latitude": 50.728985,
-      "longitude": -3.462029,
-      "bearing": 78,
+      "latitude": 50.73048,
+      "longitude": -3.457064,
+      "bearing": 102,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-15T23:33:54+00:00",
+      "recorded_at": "2026-08-15T23:34:55+00:00",
       "journey_id": "801"
     },
     {
