@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "timestamps",
   "source": "BODS Action",
-  "maxlog": 10,
+  "maxlog": 15,
   "timestamps": [
     "2026-08-15T12:03:12.292Z",
     "2026-08-15T12:01:52.456Z",
