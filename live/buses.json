@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T06:45:09.918Z",
+  "generated_at": "2026-08-16T06:46:10.685Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 430,
-  "vehicle_count": 8,
+  "data_age_seconds": 491,
+  "vehicle_count": 7,
   "vehicles": [
     {
       "vehicle_id": "KN23FVM",
@@ -19,7 +19,7 @@
       "bearing": 261,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:44:52+00:00",
+      "recorded_at": "2026-08-16T06:45:54+00:00",
       "journey_id": "0745"
     },
     {
@@ -35,7 +35,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:44:49+00:00",
+      "recorded_at": "2026-08-16T06:45:49+00:00",
       "journey_id": "512"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.557953,
-      "longitude": -2.440255,
-      "bearing": 41,
+      "latitude": 50.559366,
+      "longitude": -2.442464,
+      "bearing": 285,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:44:58+00:00",
+      "recorded_at": "2026-08-16T06:45:55+00:00",
       "journey_id": "510"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.6058,
-      "longitude": -2.460146,
-      "bearing": 171,
+      "latitude": 50.600776,
+      "longitude": -2.458771,
+      "bearing": 203,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:45:02+00:00",
+      "recorded_at": "2026-08-16T06:45:57+00:00",
       "journey_id": "513"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.725903,
+      "latitude": 50.726032,
       "longitude": -3.52321,
       "bearing": 138,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:44:49+00:00",
+      "recorded_at": "2026-08-16T06:45:51+00:00",
       "journey_id": "507"
     },
     {
@@ -110,29 +110,13 @@
       "direction": "outbound",
       "origin": "Parade",
       "destination": "Parade",
-      "latitude": 50.620056,
-      "longitude": -3.399432,
-      "bearing": 60,
+      "latitude": 50.622623,
+      "longitude": -3.393126,
+      "bearing": 48,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:44:02+00:00",
+      "recorded_at": "2026-08-16T06:45:22+00:00",
       "journey_id": "501"
-    },
-    {
-      "vehicle_id": "SDVN-80258",
-      "operator": "SDVN",
-      "operator_code": "SDVN",
-      "route": "12",
-      "direction": "inbound",
-      "origin": "Cary Parade",
-      "destination": "Sherborne Road",
-      "latitude": 50.482368,
-      "longitude": -3.549827,
-      "bearing": 342,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-16T06:45:03+00:00",
-      "journey_id": "504"
     }
   ]
 }
