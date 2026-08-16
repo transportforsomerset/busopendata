@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T21:06:14.522Z",
+  "generated_at": "2026-08-16T21:07:15.248Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 375,
-  "vehicle_count": 6,
+  "data_age_seconds": 436,
+  "vehicle_count": 5,
   "vehicles": [
     {
       "vehicle_id": "KN23FVM",
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Longforth Car Park",
       "destination": "Hammersmith Bus Station",
-      "latitude": 51.146389,
-      "longitude": -2.717776,
-      "bearing": 171,
+      "latitude": 51.144042,
+      "longitude": -2.720382,
+      "bearing": 252,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T21:06:09+00:00",
+      "recorded_at": "2026-08-16T21:07:12+00:00",
       "journey_id": "1900"
     },
     {
@@ -71,22 +71,6 @@
       "journey_id": "610"
     },
     {
-      "vehicle_id": "SDVN-24150",
-      "operator": "SDVN",
-      "operator_code": "SDVN",
-      "route": "99",
-      "direction": "outbound",
-      "origin": "Parade",
-      "destination": "Parade",
-      "latitude": 50.620621,
-      "longitude": -3.413486,
-      "bearing": 66,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-16T21:05:42+00:00",
-      "journey_id": "549"
-    },
-    {
       "vehicle_id": "SDVN-66102",
       "operator": "SDVN",
       "operator_code": "SDVN",
@@ -94,12 +78,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.721249,
-      "longitude": -3.503821,
-      "bearing": 96,
+      "latitude": 50.720398,
+      "longitude": -3.495429,
+      "bearing": 114,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T21:06:05+00:00",
+      "recorded_at": "2026-08-16T21:07:05+00:00",
       "journey_id": "559"
     }
   ]
