@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T19:44:12.974Z",
+  "generated_at": "2026-08-16T19:45:15.066Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 20,
+  "data_age_seconds": 22,
   "vehicle_count": 5,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Riverside",
       "destination": "Hammersmith Bus Station",
-      "latitude": 50.927033,
-      "longitude": -2.910445,
+      "latitude": 50.926745,
+      "longitude": -2.910159,
       "bearing": 159,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:44:04+00:00",
+      "recorded_at": "2026-08-16T19:45:06+00:00",
       "journey_id": "1730"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.555547,
-      "longitude": -2.443671,
-      "bearing": 208,
+      "latitude": 50.554758,
+      "longitude": -2.44041,
+      "bearing": 113,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:44:05+00:00",
+      "recorded_at": "2026-08-16T19:45:09+00:00",
       "journey_id": "605"
     },
     {
@@ -51,7 +51,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:44:01+00:00",
+      "recorded_at": "2026-08-16T19:45:01+00:00",
       "journey_id": "602"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.546429,
-      "longitude": -2.435897,
-      "bearing": 4,
+      "latitude": 50.548589,
+      "longitude": -2.435957,
+      "bearing": 347,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:44:06+00:00",
+      "recorded_at": "2026-08-16T19:45:08+00:00",
       "journey_id": "604"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.721394,
-      "longitude": -3.504899,
-      "bearing": 102,
+      "latitude": 50.721413,
+      "longitude": -3.504799,
+      "bearing": 108,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:43:52+00:00",
+      "recorded_at": "2026-08-16T19:44:53+00:00",
       "journey_id": "555"
     }
   ]
