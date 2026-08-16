@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T03:48:10.297Z",
+  "generated_at": "2026-08-16T03:49:11.928Z",
   "source": "live",
   "status": "live",
   "data_age_seconds": 20,
@@ -11,16 +11,16 @@
       "operator": "SDVN",
       "operator_code": "SDVN",
       "route": "4",
-      "direction": "outbound",
-      "origin": "St Davids Station",
-      "destination": "Court Royal",
-      "latitude": 50.749886,
-      "longitude": -3.39829,
-      "bearing": 108,
+      "direction": "inbound",
+      "origin": "Court Royal",
+      "destination": "St Davids Station",
+      "latitude": 50.750073,
+      "longitude": -3.394916,
+      "bearing": 78,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T03:47:50+00:00",
-      "journey_id": "501"
+      "recorded_at": "2026-08-16T03:48:51+00:00",
+      "journey_id": "502"
     }
   ]
 }
