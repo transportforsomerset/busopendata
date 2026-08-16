@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T07:24:18.441Z",
+  "generated_at": "2026-08-16T07:25:12.901Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 32,
+  "data_age_seconds": 35,
   "vehicle_count": 10,
   "vehicles": [
     {
@@ -19,7 +19,7 @@
       "bearing": 147,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:24:14+00:00",
+      "recorded_at": "2026-08-16T07:25:02+00:00",
       "journey_id": "0745"
     },
     {
@@ -35,7 +35,7 @@
       "bearing": 258,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:24:03+00:00",
+      "recorded_at": "2026-08-16T07:25:03+00:00",
       "journey_id": "0840"
     },
     {
@@ -51,7 +51,7 @@
       "bearing": 195,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:24:09+00:00",
+      "recorded_at": "2026-08-16T07:24:56+00:00",
       "journey_id": "0800"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Sea View Road",
-      "latitude": 51.103098,
-      "longitude": -2.999421,
-      "bearing": 0,
+      "latitude": 51.104783,
+      "longitude": -2.997218,
+      "bearing": 36,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:23:56+00:00",
+      "recorded_at": "2026-08-16T07:25:05+00:00",
       "journey_id": "301"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Lethbridge Arms",
-      "latitude": 51.032703,
-      "longitude": -3.183906,
-      "bearing": 264,
+      "latitude": 51.036411,
+      "longitude": -3.18263,
+      "bearing": 355,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:23:51+00:00",
+      "recorded_at": "2026-08-16T07:24:52+00:00",
       "journey_id": "303"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.60057,
-      "longitude": -2.46179,
-      "bearing": 82,
+      "latitude": 50.601846,
+      "longitude": -2.458879,
+      "bearing": 350,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:23:49+00:00",
+      "recorded_at": "2026-08-16T07:24:52+00:00",
       "journey_id": "512"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.60029,
-      "longitude": -2.464391,
-      "bearing": 260,
+      "latitude": 50.598354,
+      "longitude": -2.471845,
+      "bearing": 249,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:23:46+00:00",
+      "recorded_at": "2026-08-16T07:24:37+00:00",
       "journey_id": "517"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.554904,
-      "longitude": -2.441096,
-      "bearing": 293,
+      "latitude": 50.55533,
+      "longitude": -2.443997,
+      "bearing": 28,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:24:03+00:00",
+      "recorded_at": "2026-08-16T07:25:01+00:00",
       "journey_id": "514"
     },
     {
@@ -147,7 +147,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:24:09+00:00",
+      "recorded_at": "2026-08-16T07:24:39+00:00",
       "journey_id": "515"
     },
     {
@@ -158,12 +158,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.751526,
-      "longitude": -3.401038,
-      "bearing": 156,
+      "latitude": 50.750046,
+      "longitude": -3.399751,
+      "bearing": 180,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:24:07+00:00",
+      "recorded_at": "2026-08-16T07:25:07+00:00",
       "journey_id": "508"
     }
   ]
