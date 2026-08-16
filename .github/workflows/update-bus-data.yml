@@ -2,6 +2,10 @@ name: Update Somerset Bus Data
 
 on:
   workflow_dispatch:
+  workflow_call:
+    secrets:
+      BUS_DATA_API:
+        required: true
 
 concurrency:
   group: update-bus-data
@@ -9,11 +13,11 @@ concurrency:
 
 permissions:
   contents: write
-  actions: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
+
     env:
       BODS_API_KEY: ${{ secrets.BUS_DATA_API }}
 
@@ -53,8 +57,3 @@ jobs:
 
           git commit -m "Update bus data [skip ci]"
           git push
-
-      - name: Trigger live data deployment
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh workflow run deploy-data.yml --ref main
