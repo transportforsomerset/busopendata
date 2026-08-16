@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T21:20:11.473Z",
+  "generated_at": "2026-08-16T21:21:19.670Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1198,
-  "vehicle_count": 3,
+  "data_age_seconds": 8,
+  "vehicle_count": 2,
   "vehicles": [
     {
       "vehicle_id": "KN23FVM",
@@ -14,29 +14,13 @@
       "direction": "inbound",
       "origin": "Longforth Car Park",
       "destination": "Hammersmith Bus Station",
-      "latitude": 51.12374,
-      "longitude": -2.778127,
-      "bearing": 278,
+      "latitude": 51.122178,
+      "longitude": -2.793947,
+      "bearing": 270,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T21:19:56+00:00",
+      "recorded_at": "2026-08-16T21:21:11+00:00",
       "journey_id": "1900"
-    },
-    {
-      "vehicle_id": "FDOR-63062",
-      "operator": "FDOR",
-      "operator_code": "FDOR",
-      "route": "1",
-      "direction": "inbound",
-      "origin": "Rip Croft Shelter",
-      "destination": "Weymouth King s Statue K4",
-      "latitude": 50.599481,
-      "longitude": -2.468508,
-      "bearing": 61,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-16T21:00:13+00:00",
-      "journey_id": "608"
     },
     {
       "vehicle_id": "SDVN-66102",
@@ -46,12 +30,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.745544,
-      "longitude": -3.416339,
-      "bearing": 12,
+      "latitude": 50.750034,
+      "longitude": -3.415848,
+      "bearing": 330,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T21:19:51+00:00",
+      "recorded_at": "2026-08-16T21:21:12+00:00",
       "journey_id": "559"
     }
   ]
