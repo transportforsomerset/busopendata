@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T19:33:14.579Z",
+  "generated_at": "2026-08-16T19:34:13.590Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1185,
-  "vehicle_count": 7,
+  "data_age_seconds": 908,
+  "vehicle_count": 6,
   "vehicles": [
     {
       "vehicle_id": "WJ16KAA",
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Riverside",
       "destination": "Hammersmith Bus Station",
-      "latitude": 50.952231,
-      "longitude": -2.768988,
-      "bearing": 228,
+      "latitude": 50.945152,
+      "longitude": -2.791063,
+      "bearing": 250,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:33:01+00:00",
+      "recorded_at": "2026-08-16T19:34:04+00:00",
       "journey_id": "1730"
     },
     {
@@ -39,22 +39,6 @@
       "journey_id": "328"
     },
     {
-      "vehicle_id": "FDOR-33971",
-      "operator": "FDOR",
-      "operator_code": "FDOR",
-      "route": "1",
-      "direction": "inbound",
-      "origin": "Rip Croft Shelter",
-      "destination": "Weymouth King s Statue K4",
-      "latitude": 50.614661,
-      "longitude": -2.456298,
-      "bearing": 0,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-16T19:13:29+00:00",
-      "journey_id": "600"
-    },
-    {
       "vehicle_id": "FDOR-47406",
       "operator": "FDOR",
       "operator_code": "FDOR",
@@ -62,12 +46,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.593983,
-      "longitude": -2.47514,
-      "bearing": 154,
+      "latitude": 50.591213,
+      "longitude": -2.47389,
+      "bearing": 169,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:33:06+00:00",
+      "recorded_at": "2026-08-16T19:33:47+00:00",
       "journey_id": "605"
     },
     {
@@ -78,12 +62,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.600574,
-      "longitude": -2.461808,
-      "bearing": 82,
+      "latitude": 50.604244,
+      "longitude": -2.45952,
+      "bearing": 348,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:32:46+00:00",
+      "recorded_at": "2026-08-16T19:33:59+00:00",
       "journey_id": "602"
     },
     {
@@ -94,12 +78,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.533277,
-      "longitude": -2.448442,
-      "bearing": 41,
+      "latitude": 50.532217,
+      "longitude": -2.445326,
+      "bearing": 190,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:33:01+00:00",
+      "recorded_at": "2026-08-16T19:34:08+00:00",
       "journey_id": "604"
     },
     {
@@ -110,12 +94,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.726391,
-      "longitude": -3.524868,
+      "latitude": 50.726387,
+      "longitude": -3.524877,
       "bearing": 42,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:33:04+00:00",
+      "recorded_at": "2026-08-16T19:33:24+00:00",
       "journey_id": "555"
     }
   ]
