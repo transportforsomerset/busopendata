@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T19:42:15.396Z",
+  "generated_at": "2026-08-16T19:43:14.417Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 105,
-  "vehicle_count": 6,
+  "data_age_seconds": 164,
+  "vehicle_count": 5,
   "vehicles": [
     {
       "vehicle_id": "WJ16KAA",
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Riverside",
       "destination": "Hammersmith Bus Station",
-      "latitude": 50.928562,
-      "longitude": -2.899399,
-      "bearing": 217,
+      "latitude": 50.927543,
+      "longitude": -2.907635,
+      "bearing": 271,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:42:02+00:00",
+      "recorded_at": "2026-08-16T19:43:02+00:00",
       "journey_id": "1730"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.559642,
-      "longitude": -2.442953,
-      "bearing": 136,
+      "latitude": 50.559026,
+      "longitude": -2.441979,
+      "bearing": 135,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:42:05+00:00",
+      "recorded_at": "2026-08-16T19:43:03+00:00",
       "journey_id": "605"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.545272,
-      "longitude": -2.444317,
-      "bearing": 10,
+      "latitude": 50.546799,
+      "longitude": -2.441456,
+      "bearing": 98,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:41:49+00:00",
+      "recorded_at": "2026-08-16T19:42:56+00:00",
       "journey_id": "604"
     },
     {
@@ -78,29 +78,13 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.72253,
-      "longitude": -3.512114,
+      "latitude": 50.721916,
+      "longitude": -3.509139,
       "bearing": 114,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:42:11+00:00",
+      "recorded_at": "2026-08-16T19:42:51+00:00",
       "journey_id": "555"
-    },
-    {
-      "vehicle_id": "SDVN-80289",
-      "operator": "SDVN",
-      "operator_code": "SDVN",
-      "route": "12",
-      "direction": "outbound",
-      "origin": "Sherborne Road",
-      "destination": "Town Square",
-      "latitude": 50.480595,
-      "longitude": -3.549491,
-      "bearing": 180,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-16T19:41:51+00:00",
-      "journey_id": "599"
     }
   ]
 }
