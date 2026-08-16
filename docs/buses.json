@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T23:16:12.300Z",
+  "generated_at": "2026-08-16T23:17:13.297Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 959,
+  "data_age_seconds": 1020,
   "vehicle_count": 4,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Riverside",
       "destination": "Hammersmith Bus Station",
-      "latitude": 50.964367,
-      "longitude": -2.995459,
-      "bearing": 302,
+      "latitude": 50.970236,
+      "longitude": -3.004042,
+      "bearing": 325,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T23:16:09+00:00",
+      "recorded_at": "2026-08-16T23:16:55+00:00",
       "journey_id": "1515"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.580729,
-      "longitude": -2.470241,
-      "bearing": 339,
+      "latitude": 50.587012,
+      "longitude": -2.472587,
+      "bearing": 4,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T23:16:07+00:00",
+      "recorded_at": "2026-08-16T23:16:59+00:00",
       "journey_id": "618"
     },
     {
