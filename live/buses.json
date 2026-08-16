@@ -1,27 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T23:43:11.522Z",
+  "generated_at": "2026-08-16T23:44:15.814Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1151,
-  "vehicle_count": 2,
+  "data_age_seconds": 975,
+  "vehicle_count": 1,
   "vehicles": [
-    {
-      "vehicle_id": "YD24ESO",
-      "operator": "BYCO",
-      "operator_code": "BYCO",
-      "route": "SF2",
-      "direction": "inbound",
-      "origin": "Riverside",
-      "destination": "Hammersmith Bus Station",
-      "latitude": 51.016752,
-      "longitude": -3.061754,
-      "bearing": 309,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-16T23:24:00+00:00",
-      "journey_id": "1515"
-    },
     {
       "vehicle_id": "FDOR-47406",
       "operator": "FDOR",
