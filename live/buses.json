@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T22:18:14.320Z",
+  "generated_at": "2026-08-16T22:19:15.099Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 37,
+  "data_age_seconds": 16,
   "vehicle_count": 6,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Longforth Car Park",
       "destination": "Hammersmith Bus Station",
-      "latitude": 51.014548,
-      "longitude": -3.114083,
-      "bearing": 285,
+      "latitude": 51.014758,
+      "longitude": -3.120426,
+      "bearing": 243,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T22:17:59+00:00",
+      "recorded_at": "2026-08-16T22:18:59+00:00",
       "journey_id": "2015"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Riverside",
       "destination": "Hammersmith Bus Station",
-      "latitude": 51.035034,
-      "longitude": -2.523549,
-      "bearing": 256,
+      "latitude": 51.036468,
+      "longitude": -2.547818,
+      "bearing": 283,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T22:18:07+00:00",
+      "recorded_at": "2026-08-16T22:19:07+00:00",
       "journey_id": "1515"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.612021,
-      "longitude": -2.453892,
+      "latitude": 50.612001,
+      "longitude": -2.453878,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T22:18:02+00:00",
+      "recorded_at": "2026-08-16T22:19:02+00:00",
       "journey_id": "617"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.570656,
-      "longitude": -2.457905,
-      "bearing": 286,
+      "latitude": 50.57391,
+      "longitude": -2.464593,
+      "bearing": 329,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T22:18:01+00:00",
+      "recorded_at": "2026-08-16T22:19:02+00:00",
       "journey_id": "614"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.546223,
-      "longitude": -2.437932,
-      "bearing": 295,
+      "latitude": 50.542265,
+      "longitude": -2.444878,
+      "bearing": 184,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T22:17:37+00:00",
+      "recorded_at": "2026-08-16T22:19:10+00:00",
       "journey_id": "615"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.722923,
-      "longitude": -3.479077,
-      "bearing": 66,
+      "latitude": 50.72422,
+      "longitude": -3.473459,
+      "bearing": 54,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T22:18:08+00:00",
+      "recorded_at": "2026-08-16T22:19:09+00:00",
       "journey_id": "563"
     }
   ]
