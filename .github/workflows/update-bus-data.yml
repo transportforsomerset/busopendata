@@ -1,7 +1,6 @@
 name: Update Somerset Bus Data
 
 on:
-  workflow_dispatch:
   workflow_call:
     secrets:
       BUS_DATA_API:
