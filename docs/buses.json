@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T21:02:15.126Z",
+  "generated_at": "2026-08-16T21:03:11.694Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 136,
+  "data_age_seconds": 192,
   "vehicle_count": 7,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Longforth Car Park",
       "destination": "Hammersmith Bus Station",
-      "latitude": 51.154015,
-      "longitude": -2.71443,
-      "bearing": 180,
+      "latitude": 51.14824,
+      "longitude": -2.712603,
+      "bearing": 226,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T21:02:08+00:00",
+      "recorded_at": "2026-08-16T21:03:08+00:00",
       "journey_id": "1900"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Parade",
       "destination": "Parade",
-      "latitude": 50.622665,
-      "longitude": -3.392906,
+      "latitude": 50.619282,
+      "longitude": -3.401615,
       "bearing": 234,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T21:02:01+00:00",
+      "recorded_at": "2026-08-16T21:03:01+00:00",
       "journey_id": "549"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Sherborne Road",
       "destination": "Town Square",
-      "latitude": 50.482769,
-      "longitude": -3.549984,
-      "bearing": 72,
+      "latitude": 50.481239,
+      "longitude": -3.549483,
+      "bearing": 162,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T21:01:55+00:00",
+      "recorded_at": "2026-08-16T21:02:56+00:00",
       "journey_id": "605"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.725845,
-      "longitude": -3.523071,
-      "bearing": 126,
+      "latitude": 50.723911,
+      "longitude": -3.518017,
+      "bearing": 108,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T21:02:02+00:00",
+      "recorded_at": "2026-08-16T21:03:03+00:00",
       "journey_id": "559"
     }
   ]
