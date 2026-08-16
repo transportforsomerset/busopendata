@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T06:44:12.503Z",
+  "generated_at": "2026-08-16T06:45:09.918Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 373,
+  "data_age_seconds": 430,
   "vehicle_count": 8,
   "vehicles": [
     {
@@ -19,7 +19,7 @@
       "bearing": 261,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:44:07+00:00",
+      "recorded_at": "2026-08-16T06:44:52+00:00",
       "journey_id": "0745"
     },
     {
@@ -35,7 +35,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:43:49+00:00",
+      "recorded_at": "2026-08-16T06:44:49+00:00",
       "journey_id": "512"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.55513,
-      "longitude": -2.441737,
-      "bearing": 287,
+      "latitude": 50.557953,
+      "longitude": -2.440255,
+      "bearing": 41,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:43:57+00:00",
+      "recorded_at": "2026-08-16T06:44:58+00:00",
       "journey_id": "510"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.608472,
-      "longitude": -2.459644,
-      "bearing": 191,
+      "latitude": 50.6058,
+      "longitude": -2.460146,
+      "bearing": 171,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:44:00+00:00",
+      "recorded_at": "2026-08-16T06:45:02+00:00",
       "journey_id": "513"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.725857,
-      "longitude": -3.523223,
+      "latitude": 50.725903,
+      "longitude": -3.52321,
       "bearing": 138,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:44:08+00:00",
+      "recorded_at": "2026-08-16T06:44:49+00:00",
       "journey_id": "507"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "inbound",
       "origin": "Cary Parade",
       "destination": "Sherborne Road",
-      "latitude": 50.480396,
-      "longitude": -3.549627,
-      "bearing": 0,
+      "latitude": 50.482368,
+      "longitude": -3.549827,
+      "bearing": 342,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:44:02+00:00",
+      "recorded_at": "2026-08-16T06:45:03+00:00",
       "journey_id": "504"
     }
   ]
