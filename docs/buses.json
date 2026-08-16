@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T04:24:10.142Z",
+  "generated_at": "2026-08-16T04:25:11.164Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 25,
+  "data_age_seconds": 24,
   "vehicle_count": 3,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.611879,
-      "longitude": -2.453383,
-      "bearing": 0,
+      "latitude": 50.611728,
+      "longitude": -2.45379,
+      "bearing": 285,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T04:23:47+00:00",
+      "recorded_at": "2026-08-16T04:24:48+00:00",
       "journey_id": "503"
     },
     {
@@ -27,16 +27,16 @@
       "operator": "FDOR",
       "operator_code": "FDOR",
       "route": "1",
-      "direction": "outbound",
-      "origin": "Weymouth King s Statue K4",
-      "destination": "Rip Croft Shelter",
-      "latitude": 50.534911,
-      "longitude": -2.447489,
-      "bearing": 225,
+      "direction": "inbound",
+      "origin": "Weymouth",
+      "destination": "Portland",
+      "latitude": 50.533077,
+      "longitude": -2.4497,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T04:23:45+00:00",
-      "journey_id": "501"
+      "recorded_at": "2026-08-16T04:25:06+00:00",
+      "journey_id": "502"
     },
     {
       "vehicle_id": "SDVN-24149",
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.727375,
-      "longitude": -3.529458,
-      "bearing": 132,
+      "latitude": 50.725697,
+      "longitude": -3.527112,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T04:23:47+00:00",
+      "recorded_at": "2026-08-16T04:24:47+00:00",
       "journey_id": "503"
     }
   ]
