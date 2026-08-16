@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T01:51:10.104Z",
+  "generated_at": "2026-08-16T01:52:12.139Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 11,
-  "vehicle_count": 1,
+  "data_age_seconds": 12,
+  "vehicle_count": 2,
   "vehicles": [
     {
       "vehicle_id": "SDVN-19269",
@@ -14,12 +14,28 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "Cheeke Street",
-      "latitude": 50.730408,
-      "longitude": -3.457102,
-      "bearing": 288,
+      "latitude": 50.727905,
+      "longitude": -3.466057,
+      "bearing": 234,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T01:50:59+00:00",
+      "recorded_at": "2026-08-16T01:52:00+00:00",
+      "journey_id": "806"
+    },
+    {
+      "vehicle_id": "SDVN-80286",
+      "operator": "SDVN",
+      "operator_code": "SDVN",
+      "route": "12",
+      "direction": "inbound",
+      "origin": "Town Square",
+      "destination": "Sherborne Road",
+      "latitude": 50.482456,
+      "longitude": -3.549903,
+      "bearing": 354,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-08-16T01:52:01+00:00",
       "journey_id": "806"
     }
   ]
