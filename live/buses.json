@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T07:36:12.974Z",
+  "generated_at": "2026-08-16T07:37:10.933Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 32,
-  "vehicle_count": 14,
+  "data_age_seconds": 27,
+  "vehicle_count": 15,
   "vehicles": [
     {
       "vehicle_id": "KN23FVM",
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Thornash Close",
       "destination": "Hammersmith Bus Station",
-      "latitude": 51.147687,
-      "longitude": -2.716477,
-      "bearing": 75,
+      "latitude": 51.148612,
+      "longitude": -2.712507,
+      "bearing": 342,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:36:09+00:00",
+      "recorded_at": "2026-08-16T07:36:55+00:00",
       "journey_id": "0745"
     },
     {
@@ -31,11 +31,11 @@
       "origin": "Longforth Car Park",
       "destination": "Hammersmith Bus Station",
       "latitude": 50.980292,
-      "longitude": -3.22698,
+      "longitude": -3.226979,
       "bearing": 258,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:36:01+00:00",
+      "recorded_at": "2026-08-16T07:37:02+00:00",
       "journey_id": "0840"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Riverside",
       "destination": "Hammersmith Bus Station",
-      "latitude": 50.927782,
-      "longitude": -2.909187,
-      "bearing": 121,
+      "latitude": 50.928572,
+      "longitude": -2.899436,
+      "bearing": 36,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:35:55+00:00",
+      "recorded_at": "2026-08-16T07:36:57+00:00",
       "journey_id": "0800"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Sea View Road",
-      "latitude": 51.131682,
-      "longitude": -3.000945,
-      "bearing": 63,
+      "latitude": 51.12993,
+      "longitude": -2.999888,
+      "bearing": 166,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:35:50+00:00",
+      "recorded_at": "2026-08-16T07:36:57+00:00",
       "journey_id": "301"
     },
     {
@@ -83,7 +83,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:35:46+00:00",
+      "recorded_at": "2026-08-16T07:36:46+00:00",
       "journey_id": "302"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Lethbridge Arms",
       "destination": "Butlins",
-      "latitude": 51.058983,
-      "longitude": -3.191987,
-      "bearing": 341,
+      "latitude": 51.065613,
+      "longitude": -3.198267,
+      "bearing": 330,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:36:02+00:00",
+      "recorded_at": "2026-08-16T07:37:04+00:00",
       "journey_id": "301"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.614139,
-      "longitude": -2.456164,
-      "bearing": 170,
+      "latitude": 50.61174,
+      "longitude": -2.454013,
+      "bearing": 40,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:35:43+00:00",
+      "recorded_at": "2026-08-16T07:36:43+00:00",
       "journey_id": "512"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.61507,
-      "longitude": -2.455573,
-      "bearing": 289,
+      "latitude": 50.613146,
+      "longitude": -2.458716,
+      "bearing": 204,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:35:54+00:00",
+      "recorded_at": "2026-08-16T07:36:56+00:00",
       "journey_id": "519"
     },
     {
@@ -142,12 +142,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.561803,
-      "longitude": -2.446499,
-      "bearing": 167,
+      "latitude": 50.559728,
+      "longitude": -2.442876,
+      "bearing": 134,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:35:53+00:00",
+      "recorded_at": "2026-08-16T07:37:04+00:00",
       "journey_id": "517"
     },
     {
@@ -158,12 +158,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.580902,
-      "longitude": -2.470355,
-      "bearing": 339,
+      "latitude": 50.587019,
+      "longitude": -2.472597,
+      "bearing": 4,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:35:40+00:00",
+      "recorded_at": "2026-08-16T07:37:02+00:00",
       "journey_id": "514"
     },
     {
@@ -174,12 +174,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.538355,
-      "longitude": -2.444748,
-      "bearing": 10,
+      "latitude": 50.541795,
+      "longitude": -2.444866,
+      "bearing": 1,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:36:04+00:00",
+      "recorded_at": "2026-08-16T07:37:07+00:00",
       "journey_id": "516"
     },
     {
@@ -190,12 +190,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.733971,
-      "longitude": -3.435518,
-      "bearing": 0,
+      "latitude": 50.731323,
+      "longitude": -3.445177,
+      "bearing": 258,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:35:51+00:00",
+      "recorded_at": "2026-08-16T07:36:51+00:00",
       "journey_id": "508"
     },
     {
@@ -206,13 +206,29 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.725834,
-      "longitude": -3.52733,
+      "latitude": 50.725632,
+      "longitude": -3.527307,
       "bearing": 120,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:36:07+00:00",
+      "recorded_at": "2026-08-16T07:36:47+00:00",
       "journey_id": "509"
+    },
+    {
+      "vehicle_id": "SDVN-80273",
+      "operator": "SDVN",
+      "operator_code": "SDVN",
+      "route": "22",
+      "direction": "outbound",
+      "origin": "Town Hall",
+      "destination": "South Devon College",
+      "latitude": 50.481735,
+      "longitude": -3.522812,
+      "bearing": 24,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-08-16T07:36:55+00:00",
+      "journey_id": "505"
     },
     {
       "vehicle_id": "1525",
@@ -227,7 +243,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:36:05+00:00",
+      "recorded_at": "2026-08-16T07:37:05+00:00",
       "journey_id": "0911"
     }
   ]
