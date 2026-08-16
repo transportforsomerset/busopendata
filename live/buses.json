@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T21:03:11.694Z",
+  "generated_at": "2026-08-16T21:04:14.284Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 192,
-  "vehicle_count": 7,
+  "data_age_seconds": 255,
+  "vehicle_count": 6,
   "vehicles": [
     {
       "vehicle_id": "KN23FVM",
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Longforth Car Park",
       "destination": "Hammersmith Bus Station",
-      "latitude": 51.14824,
-      "longitude": -2.712603,
-      "bearing": 226,
+      "latitude": 51.147477,
+      "longitude": -2.717818,
+      "bearing": 235,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T21:03:08+00:00",
+      "recorded_at": "2026-08-16T21:04:08+00:00",
       "journey_id": "1900"
     },
     {
@@ -78,29 +78,13 @@
       "direction": "outbound",
       "origin": "Parade",
       "destination": "Parade",
-      "latitude": 50.619282,
-      "longitude": -3.401615,
-      "bearing": 234,
+      "latitude": 50.616371,
+      "longitude": -3.409145,
+      "bearing": 288,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T21:03:01+00:00",
+      "recorded_at": "2026-08-16T21:04:01+00:00",
       "journey_id": "549"
-    },
-    {
-      "vehicle_id": "SDVN-63136",
-      "operator": "SDVN",
-      "operator_code": "SDVN",
-      "route": "12",
-      "direction": "outbound",
-      "origin": "Sherborne Road",
-      "destination": "Town Square",
-      "latitude": 50.481239,
-      "longitude": -3.549483,
-      "bearing": 162,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-16T21:02:56+00:00",
-      "journey_id": "605"
     },
     {
       "vehicle_id": "SDVN-66102",
@@ -110,12 +94,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.723911,
-      "longitude": -3.518017,
-      "bearing": 108,
+      "latitude": 50.722618,
+      "longitude": -3.512374,
+      "bearing": 114,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T21:03:03+00:00",
+      "recorded_at": "2026-08-16T21:04:03+00:00",
       "journey_id": "559"
     }
   ]
