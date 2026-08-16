@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T23:31:11.953Z",
+  "generated_at": "2026-08-16T23:32:13.129Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1170,
+  "data_age_seconds": 493,
   "vehicle_count": 3,
   "vehicles": [
     {
@@ -39,20 +39,20 @@
       "journey_id": "618"
     },
     {
-      "vehicle_id": "SDVN-66102",
+      "vehicle_id": "SDVN-63136",
       "operator": "SDVN",
       "operator_code": "SDVN",
-      "route": "4",
-      "direction": "inbound",
-      "origin": "Court Royal",
-      "destination": "St Davids Station",
-      "latitude": 50.730011,
-      "longitude": -3.542927,
-      "bearing": 12,
+      "route": "12",
+      "direction": "outbound",
+      "origin": "Sherborne Road",
+      "destination": "Cary Parade",
+      "latitude": 50.482346,
+      "longitude": -3.549608,
+      "bearing": 174,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T23:11:41+00:00",
-      "journey_id": "564"
+      "recorded_at": "2026-08-16T23:31:56+00:00",
+      "journey_id": "615"
     }
   ]
 }
