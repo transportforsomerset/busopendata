@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T06:37:10.552Z",
+  "generated_at": "2026-08-16T06:38:10.116Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 27,
-  "vehicle_count": 4,
+  "data_age_seconds": 21,
+  "vehicle_count": 5,
   "vehicles": [
     {
       "vehicle_id": "FDOR-33735",
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.546718,
-      "longitude": -2.435983,
-      "bearing": 182,
+      "latitude": 50.546161,
+      "longitude": -2.437899,
+      "bearing": 297,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:37:05+00:00",
+      "recorded_at": "2026-08-16T06:37:49+00:00",
       "journey_id": "511"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.542211,
-      "longitude": -2.44492,
-      "bearing": 3,
+      "latitude": 50.544795,
+      "longitude": -2.444504,
+      "bearing": 8,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:36:54+00:00",
+      "recorded_at": "2026-08-16T06:37:49+00:00",
       "journey_id": "510"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.614135,
-      "longitude": -2.456115,
-      "bearing": 173,
+      "latitude": 50.612001,
+      "longitude": -2.453872,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:36:43+00:00",
+      "recorded_at": "2026-08-16T06:37:59+00:00",
       "journey_id": "508"
     },
     {
@@ -62,13 +62,29 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.726475,
-      "longitude": -3.524764,
-      "bearing": 48,
+      "latitude": 50.726013,
+      "longitude": -3.52311,
+      "bearing": 138,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:36:43+00:00",
+      "recorded_at": "2026-08-16T06:38:04+00:00",
       "journey_id": "507"
+    },
+    {
+      "vehicle_id": "SDVN-27813",
+      "operator": "SDVN",
+      "operator_code": "SDVN",
+      "route": "99",
+      "direction": "outbound",
+      "origin": "Parade",
+      "destination": "Parade",
+      "latitude": 50.620659,
+      "longitude": -3.41251,
+      "bearing": 270,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-08-16T06:37:59+00:00",
+      "journey_id": "501"
     }
   ]
 }
