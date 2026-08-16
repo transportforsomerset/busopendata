@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T23:02:17.750Z",
+  "generated_at": "2026-08-16T23:03:14.866Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1085,
+  "data_age_seconds": 1142,
   "vehicle_count": 6,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Riverside",
       "destination": "Hammersmith Bus Station",
-      "latitude": 50.927661,
-      "longitude": -2.900447,
-      "bearing": 216,
+      "latitude": 50.928113,
+      "longitude": -2.910222,
+      "bearing": 294,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T23:02:01+00:00",
+      "recorded_at": "2026-08-16T23:03:02+00:00",
       "journey_id": "1515"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.538346,
-      "longitude": -2.444767,
+      "latitude": 50.545267,
+      "longitude": -2.444321,
       "bearing": 9,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T23:02:09+00:00",
+      "recorded_at": "2026-08-16T23:03:12+00:00",
       "journey_id": "618"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Parade",
       "destination": "Parade",
-      "latitude": 50.6161,
-      "longitude": -3.406965,
-      "bearing": 222,
+      "latitude": 50.619087,
+      "longitude": -3.412911,
+      "bearing": 318,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T23:01:55+00:00",
+      "recorded_at": "2026-08-16T23:02:55+00:00",
       "journey_id": "553"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "St Davids Station",
-      "latitude": 50.721104,
-      "longitude": -3.500567,
-      "bearing": 264,
+      "latitude": 50.721516,
+      "longitude": -3.506305,
+      "bearing": 270,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T23:01:55+00:00",
+      "recorded_at": "2026-08-16T23:02:55+00:00",
       "journey_id": "564"
     },
     {
