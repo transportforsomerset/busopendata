@@ -1,1 +1,24 @@
 name: Run All
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: run-all
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-bus-data:
+    name: Update Bus Data
+    uses: ./.github/workflows/update-bus-data.yml
+    secrets: inherit
+
+  deploy-data:
+    name: Deploy Data
+    needs: update-bus-data
+    uses: ./.github/workflows/deploy-data.yml
