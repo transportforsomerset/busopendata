@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T05:45:10.271Z",
+  "generated_at": "2026-08-16T05:46:12.113Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 21,
+  "data_age_seconds": 28,
   "vehicle_count": 4,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.558981,
-      "longitude": -2.44417,
-      "bearing": 295,
+      "latitude": 50.561129,
+      "longitude": -2.448107,
+      "bearing": 332,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T05:44:55+00:00",
+      "recorded_at": "2026-08-16T05:45:44+00:00",
       "journey_id": "506"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.611873,
-      "longitude": -2.45335,
+      "latitude": 50.611878,
+      "longitude": -2.453376,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T05:45:02+00:00",
+      "recorded_at": "2026-08-16T05:46:02+00:00",
       "journey_id": "504"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.559048,
-      "longitude": -2.44197,
-      "bearing": 134,
+      "latitude": 50.556387,
+      "longitude": -2.442778,
+      "bearing": 228,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T05:44:49+00:00",
+      "recorded_at": "2026-08-16T05:45:51+00:00",
       "journey_id": "507"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.731693,
-      "longitude": -3.443261,
-      "bearing": 72,
+      "latitude": 50.734093,
+      "longitude": -3.435407,
+      "bearing": 54,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T05:45:01+00:00",
+      "recorded_at": "2026-08-16T05:46:01+00:00",
       "journey_id": "505"
     }
   ]
