@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T02:31:10.955Z",
+  "generated_at": "2026-08-16T02:32:12.349Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 98,
+  "data_age_seconds": 160,
   "vehicle_count": 1,
   "vehicles": [
     {
