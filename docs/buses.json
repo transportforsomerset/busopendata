@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T06:22:13.988Z",
+  "generated_at": "2026-08-16T06:23:09.830Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 37,
+  "data_age_seconds": 29,
   "vehicle_count": 4,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.600274,
-      "longitude": -2.464318,
-      "bearing": 260,
+      "latitude": 50.597181,
+      "longitude": -2.474943,
+      "bearing": 238,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:21:36+00:00",
+      "recorded_at": "2026-08-16T06:22:56+00:00",
       "journey_id": "511"
     },
     {
@@ -27,16 +27,16 @@
       "operator": "FDOR",
       "operator_code": "FDOR",
       "route": "1",
-      "direction": "outbound",
-      "origin": "Weymouth King s Statue K4",
-      "destination": "Rip Croft Shelter",
-      "latitude": 50.533082,
-      "longitude": -2.44996,
-      "bearing": 131,
+      "direction": "inbound",
+      "origin": "Rip Croft Shelter",
+      "destination": "Weymouth King s Statue K4",
+      "latitude": 50.533079,
+      "longitude": -2.449696,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:21:55+00:00",
-      "journey_id": "509"
+      "recorded_at": "2026-08-16T06:22:42+00:00",
+      "journey_id": "510"
     },
     {
       "vehicle_id": "FDOR-63191",
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.570662,
-      "longitude": -2.457843,
-      "bearing": 286,
+      "latitude": 50.573957,
+      "longitude": -2.464624,
+      "bearing": 330,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:21:39+00:00",
+      "recorded_at": "2026-08-16T06:22:40+00:00",
       "journey_id": "508"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "St Davids Station",
-      "latitude": 50.720905,
-      "longitude": -3.497323,
-      "bearing": 288,
+      "latitude": 50.721283,
+      "longitude": -3.50457,
+      "bearing": 276,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:21:57+00:00",
+      "recorded_at": "2026-08-16T06:22:57+00:00",
       "journey_id": "506"
     }
   ]
