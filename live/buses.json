@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T00:01:10.419Z",
+  "generated_at": "2026-08-16T00:02:13.691Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1151,
-  "vehicle_count": 2,
+  "data_age_seconds": 15,
+  "vehicle_count": 1,
   "vehicles": [
     {
       "vehicle_id": "SDVN-19269",
@@ -14,29 +14,13 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "Cheeke Street",
-      "latitude": 50.743595,
-      "longitude": -3.4174,
-      "bearing": 246,
+      "latitude": 50.738655,
+      "longitude": -3.427642,
+      "bearing": 234,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T00:00:57+00:00",
+      "recorded_at": "2026-08-16T00:01:58+00:00",
       "journey_id": "802"
-    },
-    {
-      "vehicle_id": "SDVN-80280",
-      "operator": "SDVN",
-      "operator_code": "SDVN",
-      "route": "22",
-      "direction": "inbound",
-      "origin": "South Devon College",
-      "destination": "Town Hall",
-      "latitude": 50.480957,
-      "longitude": -3.522144,
-      "bearing": 246,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-15T23:41:59+00:00",
-      "journey_id": "396"
     }
   ]
 }
