@@ -1,11 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T04:17:13.988Z",
+  "generated_at": "2026-08-16T04:18:12.328Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 19,
-  "vehicle_count": 2,
+  "data_age_seconds": 25,
+  "vehicle_count": 3,
   "vehicles": [
+    {
+      "vehicle_id": "FDOR-63182",
+      "operator": "FDOR",
+      "operator_code": "FDOR",
+      "route": "1",
+      "direction": "outbound",
+      "origin": "Weymouth King s Statue K4",
+      "destination": "Rip Croft Shelter",
+      "latitude": 50.611868,
+      "longitude": -2.453372,
+      "bearing": 0,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-08-16T04:17:47+00:00",
+      "journey_id": "503"
+    },
     {
       "vehicle_id": "FDOR-63191",
       "operator": "FDOR",
@@ -14,12 +30,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.556699,
-      "longitude": -2.442321,
-      "bearing": 229,
+      "latitude": 50.555012,
+      "longitude": -2.441257,
+      "bearing": 113,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T04:16:54+00:00",
+      "recorded_at": "2026-08-16T04:18:01+00:00",
       "journey_id": "501"
     },
     {
@@ -30,12 +46,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "St Davids Station",
-      "latitude": 50.727524,
-      "longitude": -3.535962,
-      "bearing": 294,
+      "latitude": 50.728256,
+      "longitude": -3.540374,
+      "bearing": 336,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T04:17:02+00:00",
+      "recorded_at": "2026-08-16T04:18:03+00:00",
       "journey_id": "502"
     }
   ]
