@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T01:16:11.416Z",
+  "generated_at": "2026-08-16T01:17:10.732Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 6,
+  "data_age_seconds": 4,
   "vehicle_count": 1,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Cheeke Street",
       "destination": "Court Royal",
-      "latitude": 50.725937,
-      "longitude": -3.523305,
+      "latitude": 50.725868,
+      "longitude": -3.523154,
       "bearing": 156,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T01:16:05+00:00",
+      "recorded_at": "2026-08-16T01:17:06+00:00",
       "journey_id": "805"
     }
   ]
