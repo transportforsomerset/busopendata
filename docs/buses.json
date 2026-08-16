@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T07:19:13.194Z",
+  "generated_at": "2026-08-16T07:20:11.282Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 35,
+  "data_age_seconds": 26,
   "vehicle_count": 9,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Thornash Close",
       "destination": "Hammersmith Bus Station",
-      "latitude": 51.123627,
-      "longitude": -2.761967,
-      "bearing": 108,
+      "latitude": 51.125922,
+      "longitude": -2.75371,
+      "bearing": 28,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:19:07+00:00",
+      "recorded_at": "2026-08-16T07:20:08+00:00",
       "journey_id": "0745"
     },
     {
@@ -35,7 +35,7 @@
       "bearing": 147,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:19:03+00:00",
+      "recorded_at": "2026-08-16T07:20:05+00:00",
       "journey_id": "0800"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Sea View Road",
-      "latitude": 51.087222,
-      "longitude": -3.017672,
-      "bearing": 352,
+      "latitude": 51.092236,
+      "longitude": -3.016463,
+      "bearing": 39,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:19:05+00:00",
+      "recorded_at": "2026-08-16T07:19:57+00:00",
       "journey_id": "301"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Lethbridge Arms",
-      "latitude": 51.026173,
-      "longitude": -3.144636,
-      "bearing": 272,
+      "latitude": 51.026373,
+      "longitude": -3.151952,
+      "bearing": 266,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:18:55+00:00",
+      "recorded_at": "2026-08-16T07:20:05+00:00",
       "journey_id": "303"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.593956,
-      "longitude": -2.475124,
-      "bearing": 332,
+      "latitude": 50.596658,
+      "longitude": -2.475918,
+      "bearing": 49,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:18:38+00:00",
+      "recorded_at": "2026-08-16T07:19:56+00:00",
       "journey_id": "512"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.615029,
-      "longitude": -2.455419,
-      "bearing": 289,
+      "latitude": 50.611671,
+      "longitude": -2.458456,
+      "bearing": 187,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:18:44+00:00",
+      "recorded_at": "2026-08-16T07:19:45+00:00",
       "journey_id": "517"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.542215,
-      "longitude": -2.444895,
-      "bearing": 4,
+      "latitude": 50.545213,
+      "longitude": -2.444335,
+      "bearing": 9,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:19:06+00:00",
+      "recorded_at": "2026-08-16T07:19:55+00:00",
       "journey_id": "514"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.54679,
-      "longitude": -2.441131,
-      "bearing": 282,
+      "latitude": 50.543439,
+      "longitude": -2.444707,
+      "bearing": 186,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:19:09+00:00",
+      "recorded_at": "2026-08-16T07:20:03+00:00",
       "journey_id": "515"
     },
     {
@@ -142,12 +142,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.749931,
-      "longitude": -3.396187,
-      "bearing": 78,
+      "latitude": 50.751564,
+      "longitude": -3.388665,
+      "bearing": 336,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T07:19:04+00:00",
+      "recorded_at": "2026-08-16T07:20:05+00:00",
       "journey_id": "508"
     }
   ]
