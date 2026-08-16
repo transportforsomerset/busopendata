@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T21:09:15.085Z",
+  "generated_at": "2026-08-16T21:10:16.591Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 556,
+  "data_age_seconds": 617,
   "vehicle_count": 5,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Longforth Car Park",
       "destination": "Hammersmith Bus Station",
-      "latitude": 51.139429,
-      "longitude": -2.735034,
-      "bearing": 219,
+      "latitude": 51.132661,
+      "longitude": -2.735801,
+      "bearing": 171,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T21:08:59+00:00",
+      "recorded_at": "2026-08-16T21:10:00+00:00",
       "journey_id": "1900"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.721882,
-      "longitude": -3.48372,
+      "latitude": 50.723026,
+      "longitude": -3.478692,
       "bearing": 78,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T21:09:06+00:00",
+      "recorded_at": "2026-08-16T21:10:07+00:00",
       "journey_id": "559"
     }
   ]
