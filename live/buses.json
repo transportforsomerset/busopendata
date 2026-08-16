@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T19:35:15.749Z",
+  "generated_at": "2026-08-16T19:36:12.312Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 970,
+  "data_age_seconds": 1027,
   "vehicle_count": 6,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Riverside",
       "destination": "Hammersmith Bus Station",
-      "latitude": 50.941116,
-      "longitude": -2.80494,
-      "bearing": 245,
+      "latitude": 50.935342,
+      "longitude": -2.815646,
+      "bearing": 230,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:35:06+00:00",
+      "recorded_at": "2026-08-16T19:36:07+00:00",
       "journey_id": "1730"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.587454,
-      "longitude": -2.472428,
-      "bearing": 189,
+      "latitude": 50.579231,
+      "longitude": -2.469211,
+      "bearing": 155,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:34:53+00:00",
+      "recorded_at": "2026-08-16T19:35:59+00:00",
       "journey_id": "605"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.606954,
-      "longitude": -2.459836,
-      "bearing": 43,
+      "latitude": 50.608086,
+      "longitude": -2.4598,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:35:00+00:00",
+      "recorded_at": "2026-08-16T19:35:45+00:00",
       "journey_id": "602"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.531026,
-      "longitude": -2.446363,
-      "bearing": 194,
+      "latitude": 50.529613,
+      "longitude": -2.446061,
+      "bearing": 131,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:34:50+00:00",
+      "recorded_at": "2026-08-16T19:35:40+00:00",
       "journey_id": "604"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.726391,
-      "longitude": -3.524814,
+      "latitude": 50.726605,
+      "longitude": -3.524891,
       "bearing": 42,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T19:35:06+00:00",
+      "recorded_at": "2026-08-16T19:36:07+00:00",
       "journey_id": "555"
     }
   ]
