@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T00:10:09.871Z",
+  "generated_at": "2026-08-16T00:11:09.587Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 24,
+  "data_age_seconds": 23,
   "vehicle_count": 1,
   "vehicles": [
     {
@@ -11,16 +11,16 @@
       "operator": "SDVN",
       "operator_code": "SDVN",
       "route": "4",
-      "direction": "inbound",
-      "origin": "Court Royal",
-      "destination": "Cheeke Street",
-      "latitude": 50.719887,
-      "longitude": -3.491935,
-      "bearing": 240,
+      "direction": "outbound",
+      "origin": "Cheeke Street",
+      "destination": "Court Royal",
+      "latitude": 50.720943,
+      "longitude": -3.497567,
+      "bearing": 282,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T00:09:45+00:00",
-      "journey_id": "802"
+      "recorded_at": "2026-08-16T00:10:46+00:00",
+      "journey_id": "803"
     }
   ]
 }
