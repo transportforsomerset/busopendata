@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T21:19:14.875Z",
+  "generated_at": "2026-08-16T21:20:11.473Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1155,
-  "vehicle_count": 5,
+  "data_age_seconds": 1198,
+  "vehicle_count": 3,
   "vehicles": [
     {
       "vehicle_id": "KN23FVM",
@@ -14,29 +14,13 @@
       "direction": "inbound",
       "origin": "Longforth Car Park",
       "destination": "Hammersmith Bus Station",
-      "latitude": 51.124113,
-      "longitude": -2.769456,
-      "bearing": 255,
+      "latitude": 51.12374,
+      "longitude": -2.778127,
+      "bearing": 278,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T21:19:11+00:00",
+      "recorded_at": "2026-08-16T21:19:56+00:00",
       "journey_id": "1900"
-    },
-    {
-      "vehicle_id": "FDOR-47406",
-      "operator": "FDOR",
-      "operator_code": "FDOR",
-      "route": "1",
-      "direction": "outbound",
-      "origin": "Weymouth King s Statue K4",
-      "destination": "Rip Croft Shelter",
-      "latitude": 50.593963,
-      "longitude": -2.475142,
-      "bearing": 153,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-16T20:59:59+00:00",
-      "journey_id": "611"
     },
     {
       "vehicle_id": "FDOR-63062",
@@ -55,22 +39,6 @@
       "journey_id": "608"
     },
     {
-      "vehicle_id": "FDOR-63183",
-      "operator": "FDOR",
-      "operator_code": "FDOR",
-      "route": "1",
-      "direction": "inbound",
-      "origin": "Rip Croft Shelter",
-      "destination": "Weymouth King s Statue K4",
-      "latitude": 50.534537,
-      "longitude": -2.448273,
-      "bearing": 0,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-16T21:00:04+00:00",
-      "journey_id": "610"
-    },
-    {
       "vehicle_id": "SDVN-66102",
       "operator": "SDVN",
       "operator_code": "SDVN",
@@ -78,12 +46,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.741306,
-      "longitude": -3.422289,
-      "bearing": 42,
+      "latitude": 50.745544,
+      "longitude": -3.416339,
+      "bearing": 12,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T21:18:51+00:00",
+      "recorded_at": "2026-08-16T21:19:51+00:00",
       "journey_id": "559"
     }
   ]
