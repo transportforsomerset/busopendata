@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T04:33:09.384Z",
+  "generated_at": "2026-08-16T04:34:11.528Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 23,
+  "data_age_seconds": 19,
   "vehicle_count": 3,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.603017,
-      "longitude": -2.459215,
-      "bearing": 168,
+      "latitude": 50.600249,
+      "longitude": -2.4643,
+      "bearing": 260,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T04:32:57+00:00",
+      "recorded_at": "2026-08-16T04:34:04+00:00",
       "journey_id": "503"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.529607,
-      "longitude": -2.445995,
-      "bearing": 132,
+      "latitude": 50.533049,
+      "longitude": -2.444231,
+      "bearing": 332,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T04:32:46+00:00",
+      "recorded_at": "2026-08-16T04:34:00+00:00",
       "journey_id": "502"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.722713,
-      "longitude": -3.480048,
-      "bearing": 72,
+      "latitude": 50.723732,
+      "longitude": -3.475176,
+      "bearing": 66,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T04:32:51+00:00",
+      "recorded_at": "2026-08-16T04:33:52+00:00",
       "journey_id": "503"
     }
   ]
