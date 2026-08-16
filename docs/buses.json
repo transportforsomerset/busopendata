@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T06:34:13.529Z",
+  "generated_at": "2026-08-16T06:35:13.066Z",
   "source": "live",
   "status": "live",
   "data_age_seconds": 22,
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.55792,
-      "longitude": -2.440166,
-      "bearing": 222,
+      "latitude": 50.555191,
+      "longitude": -2.444011,
+      "bearing": 208,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:33:51+00:00",
+      "recorded_at": "2026-08-16T06:34:51+00:00",
       "journey_id": "511"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.530324,
-      "longitude": -2.443447,
-      "bearing": 358,
+      "latitude": 50.534606,
+      "longitude": -2.445696,
+      "bearing": 327,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:33:57+00:00",
+      "recorded_at": "2026-08-16T06:35:01+00:00",
       "journey_id": "510"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.611849,
-      "longitude": -2.458426,
-      "bearing": 4,
+      "latitude": 50.614019,
+      "longitude": -2.458054,
+      "bearing": 25,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:34:05+00:00",
+      "recorded_at": "2026-08-16T06:35:05+00:00",
       "journey_id": "508"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.727997,
-      "longitude": -3.531124,
-      "bearing": 78,
+      "latitude": 50.726028,
+      "longitude": -3.527513,
+      "bearing": 174,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-16T06:34:02+00:00",
+      "recorded_at": "2026-08-16T06:35:02+00:00",
       "journey_id": "507"
     }
   ]
