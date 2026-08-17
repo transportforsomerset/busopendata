@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T23:15:00.820Z",
+  "generated_at": "2026-08-17T23:16:03.508Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1175,
-  "vehicle_count": 9,
+  "data_age_seconds": 689,
+  "vehicle_count": 8,
   "vehicles": [
     {
       "vehicle_id": "FBOS-47538",
@@ -21,22 +21,6 @@
       "occupancy": "",
       "recorded_at": "2026-08-17T23:04:34+00:00",
       "journey_id": "202"
-    },
-    {
-      "vehicle_id": "FBOS-48502-YK25OHY",
-      "operator": "FBOS",
-      "operator_code": "FBOS",
-      "route": "28A",
-      "direction": "inbound",
-      "origin": "Lethbridge Arms",
-      "destination": "Castle Way",
-      "latitude": 51.015069,
-      "longitude": -3.105059,
-      "bearing": 144,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-17T22:55:25+00:00",
-      "journey_id": "150"
     },
     {
       "vehicle_id": "FBOS-48504-YK25OJA",
@@ -60,15 +44,15 @@
       "operator_code": "FBOS",
       "route": "28A",
       "direction": "outbound",
-      "origin": "Lethbridge Arms",
-      "destination": "Butlins",
-      "latitude": 51.20374,
-      "longitude": -3.47784,
-      "bearing": 340,
+      "origin": "Castle Way",
+      "destination": "Lethbridge Arms",
+      "latitude": 51.205869,
+      "longitude": -3.478502,
+      "bearing": 72,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T23:14:48+00:00",
-      "journey_id": "149"
+      "recorded_at": "2026-08-17T23:15:45+00:00",
+      "journey_id": "147"
     },
     {
       "vehicle_id": "FDOR-33707",
@@ -78,12 +62,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.566088,
-      "longitude": -2.453232,
-      "bearing": 336,
+      "latitude": 50.568469,
+      "longitude": -2.455324,
+      "bearing": 309,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T23:14:45+00:00",
+      "recorded_at": "2026-08-17T23:15:30+00:00",
       "journey_id": "226"
     },
     {
@@ -126,12 +110,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.708721,
-      "longitude": -3.53705,
-      "bearing": 90,
+      "latitude": 50.707993,
+      "longitude": -3.529918,
+      "bearing": 156,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T23:14:49+00:00",
+      "recorded_at": "2026-08-17T23:15:50+00:00",
       "journey_id": "232"
     },
     {
