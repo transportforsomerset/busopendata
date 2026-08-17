@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T23:34:01.692Z",
+  "generated_at": "2026-08-17T23:34:59.972Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 836,
-  "vehicle_count": 4,
+  "data_age_seconds": 894,
+  "vehicle_count": 3,
   "vehicles": [
     {
       "vehicle_id": "FBOS-63698_-_BN75NWF",
@@ -53,22 +53,6 @@
       "occupancy": "",
       "recorded_at": "2026-08-17T23:25:19+00:00",
       "journey_id": "232"
-    },
-    {
-      "vehicle_id": "SDVN-80286",
-      "operator": "SDVN",
-      "operator_code": "SDVN",
-      "route": "12",
-      "direction": "outbound",
-      "origin": "Sherborne Road",
-      "destination": "Cary Parade",
-      "latitude": 50.48037,
-      "longitude": -3.549583,
-      "bearing": 186,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-17T23:33:45+00:00",
-      "journey_id": "255"
     }
   ]
 }
