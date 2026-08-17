@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T03:17:12.463Z",
+  "generated_at": "2026-08-17T03:18:14.510Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 24,
+  "data_age_seconds": 6,
   "vehicle_count": 1,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.722618,
-      "longitude": -3.512418,
-      "bearing": 108,
+      "latitude": 50.721252,
+      "longitude": -3.501675,
+      "bearing": 90,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T03:16:48+00:00",
+      "recorded_at": "2026-08-17T03:18:08+00:00",
       "journey_id": "101"
     }
   ]
