@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T22:17:59.813Z",
+  "generated_at": "2026-08-17T22:19:00.369Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 33,
+  "data_age_seconds": 35,
   "vehicle_count": 13,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Sea View Road",
       "destination": "Castle Way",
-      "latitude": 51.104302,
-      "longitude": -2.997376,
-      "bearing": 198,
+      "latitude": 51.102595,
+      "longitude": -2.99992,
+      "bearing": 218,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:17:51+00:00",
+      "recorded_at": "2026-08-17T22:18:54+00:00",
       "journey_id": "134"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Sea View Road",
-      "latitude": 51.234051,
-      "longitude": -2.997921,
-      "bearing": 286,
+      "latitude": 51.237438,
+      "longitude": -2.998875,
+      "bearing": 1,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:17:45+00:00",
+      "recorded_at": "2026-08-17T22:18:43+00:00",
       "journey_id": "137"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Silk Mills P R",
       "destination": "The Parade",
-      "latitude": 51.026506,
-      "longitude": -3.101638,
-      "bearing": 197,
+      "latitude": 51.02371,
+      "longitude": -3.103398,
+      "bearing": 262,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:17:26+00:00",
+      "recorded_at": "2026-08-17T22:18:49+00:00",
       "journey_id": "157"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Dobree Park",
-      "latitude": 50.98284,
-      "longitude": -3.207251,
-      "bearing": 305,
+      "latitude": 50.985109,
+      "longitude": -3.218029,
+      "bearing": 294,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:17:51+00:00",
+      "recorded_at": "2026-08-17T22:18:52+00:00",
       "journey_id": "199"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Butlins",
       "destination": "Lethbridge Arms",
-      "latitude": 51.12639,
-      "longitude": -3.241551,
-      "bearing": 139,
+      "latitude": 51.121179,
+      "longitude": -3.234597,
+      "bearing": 144,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:17:55+00:00",
+      "recorded_at": "2026-08-17T22:18:40+00:00",
       "journey_id": "148"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Old Works Road",
-      "latitude": 51.014928,
-      "longitude": -3.097571,
-      "bearing": 85,
+      "latitude": 51.016517,
+      "longitude": -3.088681,
+      "bearing": 57,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:17:36+00:00",
+      "recorded_at": "2026-08-17T22:18:49+00:00",
       "journey_id": "139"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Lethbridge Arms",
-      "latitude": 51.040046,
-      "longitude": -3.185685,
-      "bearing": 26,
+      "latitude": 51.042466,
+      "longitude": -3.178492,
+      "bearing": 18,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:17:31+00:00",
+      "recorded_at": "2026-08-17T22:18:36+00:00",
       "journey_id": "147"
     },
     {
@@ -131,7 +131,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:17:53+00:00",
+      "recorded_at": "2026-08-17T22:18:50+00:00",
       "journey_id": "225"
     },
     {
@@ -142,12 +142,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.561055,
-      "longitude": -2.444859,
-      "bearing": 120,
+      "latitude": 50.559405,
+      "longitude": -2.442403,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:17:49+00:00",
+      "recorded_at": "2026-08-17T22:18:56+00:00",
       "journey_id": "223"
     },
     {
@@ -158,12 +158,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.563629,
-      "longitude": -2.45055,
-      "bearing": 304,
+      "latitude": 50.566941,
+      "longitude": -2.45307,
+      "bearing": 318,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:17:45+00:00",
+      "recorded_at": "2026-08-17T22:18:47+00:00",
       "journey_id": "222"
     },
     {
@@ -174,12 +174,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.727772,
-      "longitude": -3.538015,
-      "bearing": 282,
+      "latitude": 50.729313,
+      "longitude": -3.540855,
+      "bearing": 336,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:17:47+00:00",
+      "recorded_at": "2026-08-17T22:18:25+00:00",
       "journey_id": "228"
     },
     {
@@ -190,12 +190,12 @@
       "direction": "outbound",
       "origin": "North Park Road",
       "destination": "Court Royal",
-      "latitude": 50.721115,
-      "longitude": -3.499945,
+      "latitude": 50.721066,
+      "longitude": -3.497798,
       "bearing": 90,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:17:44+00:00",
+      "recorded_at": "2026-08-17T22:18:45+00:00",
       "journey_id": "225"
     },
     {
@@ -206,12 +206,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.740269,
-      "longitude": -3.424115,
-      "bearing": 234,
+      "latitude": 50.736939,
+      "longitude": -3.43155,
+      "bearing": 228,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:17:39+00:00",
+      "recorded_at": "2026-08-17T22:18:39+00:00",
       "journey_id": "230"
     }
   ]
