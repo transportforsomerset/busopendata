@@ -1,27 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T23:40:04.583Z",
+  "generated_at": "2026-08-17T23:41:01.427Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1199,
-  "vehicle_count": 3,
+  "data_age_seconds": 942,
+  "vehicle_count": 2,
   "vehicles": [
-    {
-      "vehicle_id": "FBOS-63698_-_BN75NWF",
-      "operator": "FBOS",
-      "operator_code": "FBOS",
-      "route": "28A",
-      "direction": "outbound",
-      "origin": "Lethbridge Arms",
-      "destination": "Butlins",
-      "latitude": 51.206955,
-      "longitude": -3.462164,
-      "bearing": 0,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-17T23:20:05+00:00",
-      "journey_id": "149"
-    },
     {
       "vehicle_id": "FDOR-33707",
       "operator": "FDOR",
