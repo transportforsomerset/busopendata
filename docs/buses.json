@@ -1,11 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T03:46:12.699Z",
+  "generated_at": "2026-08-17T03:47:12.820Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 12,
-  "vehicle_count": 1,
+  "data_age_seconds": 20,
+  "vehicle_count": 3,
   "vehicles": [
+    {
+      "vehicle_id": "FDOR-33465",
+      "operator": "FDOR",
+      "operator_code": "FDOR",
+      "route": "1",
+      "direction": "outbound",
+      "origin": "Weymouth King s Statue K4",
+      "destination": "Rip Croft Shelter",
+      "latitude": 50.612049,
+      "longitude": -2.453847,
+      "bearing": 0,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-08-17T03:46:52+00:00",
+      "journey_id": "101"
+    },
     {
       "vehicle_id": "SDVN-24148",
       "operator": "SDVN",
@@ -14,13 +30,29 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.749908,
-      "longitude": -3.400491,
-      "bearing": 264,
+      "latitude": 50.746483,
+      "longitude": -3.409643,
+      "bearing": 228,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T03:46:00+00:00",
+      "recorded_at": "2026-08-17T03:47:00+00:00",
       "journey_id": "102"
+    },
+    {
+      "vehicle_id": "SDVN-36249",
+      "operator": "SDVN",
+      "operator_code": "SDVN",
+      "route": "99",
+      "direction": "outbound",
+      "origin": "Savoy Cinema",
+      "destination": "Strand",
+      "latitude": 50.631054,
+      "longitude": -3.399031,
+      "bearing": 0,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-08-17T03:47:07+00:00",
+      "journey_id": "101"
     }
   ]
 }
