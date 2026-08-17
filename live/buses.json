@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T23:16:03.508Z",
+  "generated_at": "2026-08-17T23:17:01.036Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 689,
+  "data_age_seconds": 747,
   "vehicle_count": 8,
   "vehicles": [
     {
@@ -44,15 +44,15 @@
       "operator_code": "FBOS",
       "route": "28A",
       "direction": "outbound",
-      "origin": "Castle Way",
-      "destination": "Lethbridge Arms",
-      "latitude": 51.205869,
-      "longitude": -3.478502,
-      "bearing": 72,
+      "origin": "Lethbridge Arms",
+      "destination": "Butlins",
+      "latitude": 51.206555,
+      "longitude": -3.473931,
+      "bearing": 71,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T23:15:45+00:00",
-      "journey_id": "147"
+      "recorded_at": "2026-08-17T23:16:41+00:00",
+      "journey_id": "149"
     },
     {
       "vehicle_id": "FDOR-33707",
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.568469,
-      "longitude": -2.455324,
-      "bearing": 309,
+      "latitude": 50.57066,
+      "longitude": -2.457836,
+      "bearing": 286,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T23:15:30+00:00",
+      "recorded_at": "2026-08-17T23:16:22+00:00",
       "journey_id": "226"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.707993,
-      "longitude": -3.529918,
-      "bearing": 156,
+      "latitude": 50.703377,
+      "longitude": -3.52796,
+      "bearing": 78,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T23:15:50+00:00",
+      "recorded_at": "2026-08-17T23:16:51+00:00",
       "journey_id": "232"
     },
     {
