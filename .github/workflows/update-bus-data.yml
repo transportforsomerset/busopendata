@@ -39,6 +39,7 @@ jobs:
         run: |
           cp docs/buses.json live/buses.json
           cp docs/status.json live/status.json
+          cp docs/services.json live/services.json
           cp docs/generatedAt.json live/generatedAt.json
 
       - name: Publish generated data
@@ -47,7 +48,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add docs/buses.json docs/status.json docs/services.json docs/generatedAt.json
-          git add live/buses.json live/status.json live/generatedAt.json
+          git add live/buses.json live/status.json live/services.json live/generatedAt.json
 
           if git diff --cached --quiet; then
             echo "No data changes to commit."
