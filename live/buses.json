@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T04:09:12.870Z",
+  "generated_at": "2026-08-17T04:10:13.124Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 31,
+  "data_age_seconds": 32,
   "vehicle_count": 6,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Sea View Road",
-      "latitude": 51.014817,
-      "longitude": -3.102999,
-      "bearing": 9,
+      "latitude": 51.014944,
+      "longitude": -3.09753,
+      "bearing": 80,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:08:46+00:00",
+      "recorded_at": "2026-08-17T04:09:52+00:00",
       "journey_id": "101"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.544385,
-      "longitude": -2.444532,
-      "bearing": 187,
+      "latitude": 50.539177,
+      "longitude": -2.444743,
+      "bearing": 177,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:09:06+00:00",
+      "recorded_at": "2026-08-17T04:09:50+00:00",
       "journey_id": "101"
     },
     {
@@ -48,10 +48,10 @@
       "destination": "Rip Croft Shelter",
       "latitude": 50.611875,
       "longitude": -2.453376,
-      "bearing": 164,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:08:41+00:00",
+      "recorded_at": "2026-08-17T04:09:41+00:00",
       "journey_id": "103"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.903782,
-      "longitude": -3.478752,
+      "latitude": 50.903828,
+      "longitude": -3.478782,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:08:56+00:00",
+      "recorded_at": "2026-08-17T04:09:57+00:00",
       "journey_id": "103"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.724388,
-      "longitude": -3.519791,
-      "bearing": 294,
+      "latitude": 50.725319,
+      "longitude": -3.526594,
+      "bearing": 276,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:08:49+00:00",
+      "recorded_at": "2026-08-17T04:09:50+00:00",
       "journey_id": "102"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Savoy Cinema",
       "destination": "Strand",
-      "latitude": 50.632526,
-      "longitude": -3.394292,
-      "bearing": 342,
+      "latitude": 50.63826,
+      "longitude": -3.393607,
+      "bearing": 36,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:08:55+00:00",
+      "recorded_at": "2026-08-17T04:09:55+00:00",
       "journey_id": "101"
     }
   ]
