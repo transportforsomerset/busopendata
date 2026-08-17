@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T03:47:12.820Z",
+  "generated_at": "2026-08-17T03:48:12.374Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 20,
+  "data_age_seconds": 11,
   "vehicle_count": 3,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.612049,
-      "longitude": -2.453847,
-      "bearing": 0,
+      "latitude": 50.614802,
+      "longitude": -2.454211,
+      "bearing": 289,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T03:46:52+00:00",
+      "recorded_at": "2026-08-17T03:48:01+00:00",
       "journey_id": "101"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.746483,
-      "longitude": -3.409643,
-      "bearing": 228,
+      "latitude": 50.74477,
+      "longitude": -3.416563,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T03:47:00+00:00",
+      "recorded_at": "2026-08-17T03:48:01+00:00",
       "journey_id": "102"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Savoy Cinema",
       "destination": "Strand",
-      "latitude": 50.631054,
-      "longitude": -3.399031,
+      "latitude": 50.631069,
+      "longitude": -3.399062,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T03:47:07+00:00",
+      "recorded_at": "2026-08-17T03:48:08+00:00",
       "journey_id": "101"
     }
   ]
