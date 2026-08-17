@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T04:33:18.882Z",
+  "generated_at": "2026-08-17T04:34:14.137Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 22,
+  "data_age_seconds": 29,
   "vehicle_count": 8,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Dobree Park",
-      "latitude": 51.014605,
-      "longitude": -3.10513,
-      "bearing": 230,
+      "latitude": 51.013387,
+      "longitude": -3.108375,
+      "bearing": 242,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:33:12+00:00",
+      "recorded_at": "2026-08-17T04:33:45+00:00",
       "journey_id": "101"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Sea View Road",
-      "latitude": 51.102799,
-      "longitude": -2.999754,
-      "bearing": 42,
+      "latitude": 51.103795,
+      "longitude": -2.998415,
+      "bearing": 40,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:32:57+00:00",
+      "recorded_at": "2026-08-17T04:34:02+00:00",
       "journey_id": "101"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.55475,
-      "longitude": -2.440521,
-      "bearing": 294,
+      "latitude": 50.555309,
+      "longitude": -2.443985,
+      "bearing": 27,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:32:56+00:00",
+      "recorded_at": "2026-08-17T04:34:06+00:00",
       "journey_id": "102"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.600319,
-      "longitude": -2.463667,
-      "bearing": 261,
+      "latitude": 50.598817,
+      "longitude": -2.470351,
+      "bearing": 240,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:33:00+00:00",
+      "recorded_at": "2026-08-17T04:34:02+00:00",
       "journey_id": "103"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.9174,
-      "longitude": -3.437437,
-      "bearing": 66,
+      "latitude": 50.919441,
+      "longitude": -3.417535,
+      "bearing": 90,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:33:06+00:00",
+      "recorded_at": "2026-08-17T04:34:07+00:00",
       "journey_id": "103"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "North Park Road",
       "destination": "Court Royal",
-      "latitude": 50.725845,
-      "longitude": -3.527227,
-      "bearing": 90,
+      "latitude": 50.726566,
+      "longitude": -3.524839,
+      "bearing": 36,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:32:58+00:00",
+      "recorded_at": "2026-08-17T04:33:59+00:00",
       "journey_id": "105"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "outbound",
       "origin": "Savoy Cinema",
       "destination": "Strand",
-      "latitude": 50.620285,
-      "longitude": -3.398881,
-      "bearing": 66,
+      "latitude": 50.62373,
+      "longitude": -3.390869,
+      "bearing": 42,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:33:03+00:00",
+      "recorded_at": "2026-08-17T04:34:04+00:00",
       "journey_id": "103"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Coronation Road opp",
-      "latitude": 50.726063,
-      "longitude": -3.52323,
+      "latitude": 50.726013,
+      "longitude": -3.523241,
       "bearing": 312,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:33:10+00:00",
+      "recorded_at": "2026-08-17T04:33:50+00:00",
       "journey_id": "101"
     }
   ]
