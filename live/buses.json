@@ -1,11 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T04:06:17.152Z",
+  "generated_at": "2026-08-17T04:07:16.247Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 64,
-  "vehicle_count": 3,
+  "data_age_seconds": 22,
+  "vehicle_count": 4,
   "vehicles": [
+    {
+      "vehicle_id": "FBOS-30007-YK25OHS",
+      "operator": "FBOS",
+      "operator_code": "FBOS",
+      "route": "21",
+      "direction": "outbound",
+      "origin": "Castle Way",
+      "destination": "Sea View Road",
+      "latitude": 51.014733,
+      "longitude": -3.105014,
+      "bearing": 0,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-08-17T04:07:07+00:00",
+      "journey_id": "101"
+    },
     {
       "vehicle_id": "FDOR-33465",
       "operator": "FDOR",
@@ -14,12 +30,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.554994,
-      "longitude": -2.441243,
-      "bearing": 114,
+      "latitude": 50.547379,
+      "longitude": -2.435899,
+      "bearing": 183,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:06:06+00:00",
+      "recorded_at": "2026-08-17T04:07:12+00:00",
       "journey_id": "101"
     },
     {
@@ -30,12 +46,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.720802,
-      "longitude": -3.496912,
-      "bearing": 288,
+      "latitude": 50.721603,
+      "longitude": -3.507088,
+      "bearing": 282,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:06:08+00:00",
+      "recorded_at": "2026-08-17T04:07:08+00:00",
       "journey_id": "102"
     },
     {
@@ -46,12 +62,12 @@
       "direction": "outbound",
       "origin": "Savoy Cinema",
       "destination": "Strand",
-      "latitude": 50.61969,
-      "longitude": -3.400802,
-      "bearing": 66,
+      "latitude": 50.625202,
+      "longitude": -3.391407,
+      "bearing": 324,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:05:13+00:00",
+      "recorded_at": "2026-08-17T04:06:54+00:00",
       "journey_id": "101"
     }
   ]
