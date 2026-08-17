@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T23:17:59.983Z",
+  "generated_at": "2026-08-17T23:19:00.732Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 805,
+  "data_age_seconds": 866,
   "vehicle_count": 8,
   "vehicles": [
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Lethbridge Arms",
       "destination": "Butlins",
-      "latitude": 51.206745,
-      "longitude": -3.463513,
-      "bearing": 92,
+      "latitude": 51.20805,
+      "longitude": -3.455864,
+      "bearing": 150,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T23:17:51+00:00",
+      "recorded_at": "2026-08-17T23:18:53+00:00",
       "journey_id": "149"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.578527,
-      "longitude": -2.468744,
-      "bearing": 332,
+      "latitude": 50.586127,
+      "longitude": -2.472368,
+      "bearing": 337,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T23:17:54+00:00",
+      "recorded_at": "2026-08-17T23:18:50+00:00",
       "journey_id": "226"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.701214,
-      "longitude": -3.52431,
-      "bearing": 162,
+      "latitude": 50.695267,
+      "longitude": -3.519314,
+      "bearing": 282,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T23:17:51+00:00",
+      "recorded_at": "2026-08-17T23:18:52+00:00",
       "journey_id": "232"
     },
     {
