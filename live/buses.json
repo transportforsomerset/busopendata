@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T23:45:02.961Z",
+  "generated_at": "2026-08-17T23:46:00.480Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1183,
-  "vehicle_count": 2,
+  "data_age_seconds": 1057,
+  "vehicle_count": 1,
   "vehicles": [
     {
       "vehicle_id": "FDOR-33707",
@@ -21,22 +21,6 @@
       "occupancy": "",
       "recorded_at": "2026-08-17T23:28:23+00:00",
       "journey_id": "226"
-    },
-    {
-      "vehicle_id": "SDVN-19398",
-      "operator": "SDVN",
-      "operator_code": "SDVN",
-      "route": "4",
-      "direction": "inbound",
-      "origin": "Court Royal",
-      "destination": "North Park Road",
-      "latitude": 50.694435,
-      "longitude": -3.520521,
-      "bearing": 42,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-17T23:25:19+00:00",
-      "journey_id": "232"
     }
   ]
 }
