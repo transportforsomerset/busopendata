@@ -1,27 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T23:25:00.371Z",
+  "generated_at": "2026-08-17T23:26:00.628Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1184,
-  "vehicle_count": 6,
+  "data_age_seconds": 835,
+  "vehicle_count": 5,
   "vehicles": [
-    {
-      "vehicle_id": "FBOS-48504-YK25OJA",
-      "operator": "FBOS",
-      "operator_code": "FBOS",
-      "route": "21",
-      "direction": "outbound",
-      "origin": "Castle Way",
-      "destination": "Old Works Road",
-      "latitude": 51.164687,
-      "longitude": -2.990356,
-      "bearing": 0,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-08-17T23:05:16+00:00",
-      "journey_id": "139"
-    },
     {
       "vehicle_id": "FBOS-63698_-_BN75NWF",
       "operator": "FBOS",
@@ -46,12 +30,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.605889,
-      "longitude": -2.460138,
-      "bearing": 350,
+      "latitude": 50.611889,
+      "longitude": -2.458462,
+      "bearing": 2,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T23:24:28+00:00",
+      "recorded_at": "2026-08-17T23:25:37+00:00",
       "journey_id": "226"
     },
     {
@@ -78,12 +62,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.694439,
-      "longitude": -3.520612,
+      "latitude": 50.694435,
+      "longitude": -3.520521,
       "bearing": 42,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T23:24:38+00:00",
+      "recorded_at": "2026-08-17T23:25:19+00:00",
       "journey_id": "232"
     },
     {
