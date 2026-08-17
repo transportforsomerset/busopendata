@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T03:44:15.691Z",
+  "generated_at": "2026-08-17T03:45:16.074Z",
   "source": "live",
   "status": "live",
   "data_age_seconds": 16,
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.753811,
-      "longitude": -3.397019,
-      "bearing": 288,
+      "latitude": 50.751644,
+      "longitude": -3.401114,
+      "bearing": 150,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T03:43:59+00:00",
+      "recorded_at": "2026-08-17T03:45:00+00:00",
       "journey_id": "102"
     }
   ]
