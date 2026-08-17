@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T04:13:12.094Z",
+  "generated_at": "2026-08-17T04:14:16.596Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 31,
+  "data_age_seconds": 32,
   "vehicle_count": 6,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Sea View Road",
-      "latitude": 51.018039,
-      "longitude": -3.081469,
-      "bearing": 78,
+      "latitude": 51.020102,
+      "longitude": -3.073181,
+      "bearing": 358,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:12:42+00:00",
+      "recorded_at": "2026-08-17T04:14:07+00:00",
       "journey_id": "101"
     },
     {
@@ -35,7 +35,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:12:44+00:00",
+      "recorded_at": "2026-08-17T04:13:44+00:00",
       "journey_id": "102"
     },
     {
@@ -51,7 +51,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:12:41+00:00",
+      "recorded_at": "2026-08-17T04:14:11+00:00",
       "journey_id": "103"
     },
     {
@@ -63,11 +63,11 @@
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
       "latitude": 50.903423,
-      "longitude": -3.479403,
+      "longitude": -3.479453,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:12:58+00:00",
+      "recorded_at": "2026-08-17T04:13:58+00:00",
       "journey_id": "103"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.727917,
-      "longitude": -3.530691,
-      "bearing": 270,
+      "latitude": 50.72776,
+      "longitude": -3.538472,
+      "bearing": 276,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:12:51+00:00",
+      "recorded_at": "2026-08-17T04:14:12+00:00",
       "journey_id": "102"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Savoy Cinema",
       "destination": "Strand",
-      "latitude": 50.642563,
-      "longitude": -3.392958,
-      "bearing": 24,
+      "latitude": 50.641849,
+      "longitude": -3.385532,
+      "bearing": 108,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T04:12:56+00:00",
+      "recorded_at": "2026-08-17T04:13:56+00:00",
       "journey_id": "101"
     }
   ]
