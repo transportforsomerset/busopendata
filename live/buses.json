@@ -1,9 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T03:06:14.717Z",
+  "generated_at": "2026-08-17T03:07:12.867Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 0,
-  "vehicle_count": 0,
-  "vehicles": []
+  "data_age_seconds": 8,
+  "vehicle_count": 1,
+  "vehicles": [
+    {
+      "vehicle_id": "SDVN-24148",
+      "operator": "SDVN",
+      "operator_code": "SDVN",
+      "route": "4",
+      "direction": "outbound",
+      "origin": "St Davids Station",
+      "destination": "Court Royal",
+      "latitude": 50.729843,
+      "longitude": -3.543021,
+      "bearing": 0,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-08-17T03:07:04+00:00",
+      "journey_id": "101"
+    }
+  ]
 }
