@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T22:39:01.753Z",
+  "generated_at": "2026-08-17T22:40:00.280Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1033,
+  "data_age_seconds": 1092,
   "vehicle_count": 14,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Sea View Road",
       "destination": "Castle Way",
-      "latitude": 51.017749,
-      "longitude": -3.084559,
-      "bearing": 266,
+      "latitude": 51.016186,
+      "longitude": -3.089806,
+      "bearing": 250,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:38:58+00:00",
+      "recorded_at": "2026-08-17T22:39:50+00:00",
       "journey_id": "134"
     },
     {
@@ -67,7 +67,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:38:32+00:00",
+      "recorded_at": "2026-08-17T22:39:32+00:00",
       "journey_id": "202"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Lethbridge Arms",
       "destination": "Castle Way",
-      "latitude": 51.030963,
-      "longitude": -3.171474,
-      "bearing": 107,
+      "latitude": 51.026829,
+      "longitude": -3.160675,
+      "bearing": 137,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:38:44+00:00",
+      "recorded_at": "2026-08-17T22:39:53+00:00",
       "journey_id": "150"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Old Works Road",
-      "latitude": 51.091915,
-      "longitude": -3.01677,
-      "bearing": 0,
+      "latitude": 51.092414,
+      "longitude": -3.015816,
+      "bearing": 61,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:38:37+00:00",
+      "recorded_at": "2026-08-17T22:39:52+00:00",
       "journey_id": "139"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "outbound",
       "origin": "Lethbridge Arms",
       "destination": "Butlins",
-      "latitude": 51.118749,
-      "longitude": -3.234159,
-      "bearing": 349,
+      "latitude": 51.125762,
+      "longitude": -3.240539,
+      "bearing": 314,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:38:34+00:00",
+      "recorded_at": "2026-08-17T22:39:33+00:00",
       "journey_id": "149"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.570125,
-      "longitude": -2.45584,
-      "bearing": 136,
+      "latitude": 50.565449,
+      "longitude": -2.452684,
+      "bearing": 149,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:38:25+00:00",
+      "recorded_at": "2026-08-17T22:39:53+00:00",
       "journey_id": "225"
     },
     {
@@ -142,12 +142,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.536894,
-      "longitude": -2.445808,
-      "bearing": 18,
+      "latitude": 50.541737,
+      "longitude": -2.444879,
+      "bearing": 359,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:38:47+00:00",
+      "recorded_at": "2026-08-17T22:39:41+00:00",
       "journey_id": "224"
     },
     {
@@ -174,12 +174,12 @@
       "direction": "outbound",
       "origin": "North Park Road",
       "destination": "Court Royal",
-      "latitude": 50.726093,
-      "longitude": -3.523237,
+      "latitude": 50.726009,
+      "longitude": -3.523287,
       "bearing": 144,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:38:53+00:00",
+      "recorded_at": "2026-08-17T22:39:31+00:00",
       "journey_id": "227"
     },
     {
@@ -190,12 +190,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.753746,
-      "longitude": -3.396199,
-      "bearing": 288,
+      "latitude": 50.752144,
+      "longitude": -3.401314,
+      "bearing": 228,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:38:40+00:00",
+      "recorded_at": "2026-08-17T22:39:41+00:00",
       "journey_id": "232"
     },
     {
@@ -206,12 +206,12 @@
       "direction": "outbound",
       "origin": "Parade",
       "destination": "Parade",
-      "latitude": 50.620735,
-      "longitude": -3.413181,
-      "bearing": 276,
+      "latitude": 50.619717,
+      "longitude": -3.413543,
+      "bearing": 138,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:38:52+00:00",
+      "recorded_at": "2026-08-17T22:39:53+00:00",
       "journey_id": "189"
     },
     {
@@ -222,12 +222,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.729732,
-      "longitude": -3.542095,
-      "bearing": 180,
+      "latitude": 50.72961,
+      "longitude": -3.543164,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T22:38:52+00:00",
+      "recorded_at": "2026-08-17T22:39:53+00:00",
       "journey_id": "230"
     }
   ]
