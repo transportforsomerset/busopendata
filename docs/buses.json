@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T23:13:07.484Z",
+  "generated_at": "2026-08-17T23:14:10.429Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1062,
-  "vehicle_count": 8,
+  "data_age_seconds": 1125,
+  "vehicle_count": 9,
   "vehicles": [
     {
       "vehicle_id": "FBOS-47538",
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Lethbridge Arms",
       "destination": "Butlins",
-      "latitude": 51.197532,
-      "longitude": -3.468495,
-      "bearing": 303,
+      "latitude": 51.200716,
+      "longitude": -3.473835,
+      "bearing": 297,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T23:13:00+00:00",
+      "recorded_at": "2026-08-17T23:14:02+00:00",
       "journey_id": "149"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.559321,
-      "longitude": -2.445517,
-      "bearing": 294,
+      "latitude": 50.56298,
+      "longitude": -2.449643,
+      "bearing": 320,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T23:12:55+00:00",
+      "recorded_at": "2026-08-17T23:13:54+00:00",
       "journey_id": "226"
     },
     {
@@ -126,13 +126,29 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "North Park Road",
-      "latitude": 50.718994,
-      "longitude": -3.536979,
-      "bearing": 204,
+      "latitude": 50.714718,
+      "longitude": -3.535996,
+      "bearing": 192,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-17T23:12:48+00:00",
+      "recorded_at": "2026-08-17T23:13:49+00:00",
       "journey_id": "232"
+    },
+    {
+      "vehicle_id": "SDVN-80262",
+      "operator": "SDVN",
+      "operator_code": "SDVN",
+      "route": "12",
+      "direction": "inbound",
+      "origin": "Town Square",
+      "destination": "ASDA",
+      "latitude": 50.480026,
+      "longitude": -3.5497,
+      "bearing": 12,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-08-17T23:13:43+00:00",
+      "journey_id": "254"
     }
   ]
 }
