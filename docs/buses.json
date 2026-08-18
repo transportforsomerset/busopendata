@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-18T04:44:00.244Z",
+  "generated_at": "2026-08-18T04:45:00.680Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 29,
+  "data_age_seconds": 27,
   "vehicle_count": 9,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Sea View Road",
-      "latitude": 51.130207,
-      "longitude": -3.004421,
-      "bearing": 61,
+      "latitude": 51.131445,
+      "longitude": -3.000549,
+      "bearing": 175,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:43:44+00:00",
+      "recorded_at": "2026-08-18T04:44:47+00:00",
       "journey_id": "101"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Bus Station",
       "destination": "Castle Way",
-      "latitude": 51.129822,
-      "longitude": -2.99899,
+      "latitude": 51.129813,
+      "longitude": -2.998992,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:43:33+00:00",
+      "recorded_at": "2026-08-18T04:44:33+00:00",
       "journey_id": "102"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Dobree Park",
-      "latitude": 50.979366,
-      "longitude": -3.226597,
-      "bearing": 217,
+      "latitude": 50.978708,
+      "longitude": -3.227417,
+      "bearing": 218,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:43:31+00:00",
+      "recorded_at": "2026-08-18T04:44:39+00:00",
       "journey_id": "101"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Butlins",
       "destination": "Castle Way",
-      "latitude": 51.207169,
-      "longitude": -3.470595,
-      "bearing": 253,
+      "latitude": 51.206203,
+      "longitude": -3.475749,
+      "bearing": 252,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:43:42+00:00",
+      "recorded_at": "2026-08-18T04:44:47+00:00",
       "journey_id": "102"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.563968,
-      "longitude": -2.45119,
-      "bearing": 139,
+      "latitude": 50.563874,
+      "longitude": -2.446721,
+      "bearing": 105,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:43:45+00:00",
+      "recorded_at": "2026-08-18T04:44:46+00:00",
       "journey_id": "103"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.589393,
-      "longitude": -2.47277,
-      "bearing": 333,
+      "latitude": 50.591233,
+      "longitude": -2.473918,
+      "bearing": 348,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:43:50+00:00",
+      "recorded_at": "2026-08-18T04:44:50+00:00",
       "journey_id": "102"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.986065,
-      "longitude": -3.190243,
-      "bearing": 96,
+      "latitude": 50.991192,
+      "longitude": -3.17895,
+      "bearing": 48,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:43:55+00:00",
+      "recorded_at": "2026-08-18T04:44:56+00:00",
       "journey_id": "101"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Coronation Road opp",
-      "latitude": 50.726322,
-      "longitude": -3.52349,
+      "latitude": 50.726265,
+      "longitude": -3.523552,
       "bearing": 264,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:43:50+00:00",
+      "recorded_at": "2026-08-18T04:44:50+00:00",
       "journey_id": "101"
     },
     {
@@ -142,12 +142,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "War Memorial",
-      "latitude": 50.708351,
-      "longitude": -3.53009,
-      "bearing": 156,
+      "latitude": 50.704033,
+      "longitude": -3.528226,
+      "bearing": 180,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:43:42+00:00",
+      "recorded_at": "2026-08-18T04:44:42+00:00",
       "journey_id": "101"
     }
   ]
