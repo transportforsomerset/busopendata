@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-18T04:38:04.903Z",
+  "generated_at": "2026-08-18T04:39:03.887Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 31,
+  "data_age_seconds": 30,
   "vehicle_count": 8,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Sea View Road",
-      "latitude": 51.111045,
-      "longitude": -2.994659,
-      "bearing": 348,
+      "latitude": 51.116415,
+      "longitude": -2.996555,
+      "bearing": 346,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:37:41+00:00",
+      "recorded_at": "2026-08-18T04:38:46+00:00",
       "journey_id": "101"
     },
     {
@@ -35,7 +35,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:37:33+00:00",
+      "recorded_at": "2026-08-18T04:38:33+00:00",
       "journey_id": "102"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Dobree Park",
-      "latitude": 50.986031,
-      "longitude": -3.190174,
-      "bearing": 273,
+      "latitude": 50.984104,
+      "longitude": -3.198435,
+      "bearing": 249,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:37:36+00:00",
+      "recorded_at": "2026-08-18T04:38:51+00:00",
       "journey_id": "101"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.587561,
-      "longitude": -2.472379,
-      "bearing": 191,
+      "latitude": 50.584321,
+      "longitude": -2.471714,
+      "bearing": 166,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:37:56+00:00",
+      "recorded_at": "2026-08-18T04:38:42+00:00",
       "journey_id": "103"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.563615,
-      "longitude": -2.450614,
-      "bearing": 302,
+      "latitude": 50.567037,
+      "longitude": -2.453237,
+      "bearing": 318,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:37:47+00:00",
+      "recorded_at": "2026-08-18T04:38:49+00:00",
       "journey_id": "102"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.976543,
-      "longitude": -3.230849,
-      "bearing": 48,
+      "latitude": 50.979061,
+      "longitude": -3.226957,
+      "bearing": 24,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:37:54+00:00",
+      "recorded_at": "2026-08-18T04:38:54+00:00",
       "journey_id": "101"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Coronation Road opp",
-      "latitude": 50.726261,
-      "longitude": -3.523108,
+      "latitude": 50.726318,
+      "longitude": -3.523247,
       "bearing": 264,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:37:47+00:00",
+      "recorded_at": "2026-08-18T04:38:48+00:00",
       "journey_id": "101"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "War Memorial",
-      "latitude": 50.722057,
-      "longitude": -3.533307,
-      "bearing": 240,
+      "latitude": 50.719544,
+      "longitude": -3.536434,
+      "bearing": 216,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:37:40+00:00",
+      "recorded_at": "2026-08-18T04:38:41+00:00",
       "journey_id": "101"
     }
   ]
