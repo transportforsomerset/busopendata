@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-18T03:43:04.460Z",
+  "generated_at": "2026-08-18T03:44:00.668Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 20,
+  "data_age_seconds": 16,
   "vehicle_count": 1,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.612065,
-      "longitude": -2.45386,
+      "latitude": 50.612085,
+      "longitude": -2.453907,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T03:42:44+00:00",
+      "recorded_at": "2026-08-18T03:43:44+00:00",
       "journey_id": "101"
     }
   ]
