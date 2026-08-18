@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-18T04:11:00.346Z",
+  "generated_at": "2026-08-18T04:12:04.398Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 12,
+  "data_age_seconds": 9,
   "vehicle_count": 2,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Sea View Road",
-      "latitude": 51.016191,
-      "longitude": -3.089992,
-      "bearing": 69,
+      "latitude": 51.017172,
+      "longitude": -3.08744,
+      "bearing": 38,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:10:49+00:00",
+      "recorded_at": "2026-08-18T04:11:56+00:00",
       "journey_id": "101"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.535849,
-      "longitude": -2.446227,
-      "bearing": 195,
+      "latitude": 50.533117,
+      "longitude": -2.449939,
+      "bearing": 130,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:10:48+00:00",
+      "recorded_at": "2026-08-18T04:11:55+00:00",
       "journey_id": "101"
     }
   ]
