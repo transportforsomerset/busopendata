@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-18T04:29:00.110Z",
+  "generated_at": "2026-08-18T04:30:03.909Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 29,
+  "data_age_seconds": 26,
   "vehicle_count": 6,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Sea View Road",
-      "latitude": 51.07159,
-      "longitude": -3.021452,
-      "bearing": 4,
+      "latitude": 51.077554,
+      "longitude": -3.019707,
+      "bearing": 20,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:28:40+00:00",
+      "recorded_at": "2026-08-18T04:29:37+00:00",
       "journey_id": "101"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Dobree Park",
-      "latitude": 51.014652,
-      "longitude": -3.114622,
-      "bearing": 285,
+      "latitude": 51.014787,
+      "longitude": -3.120516,
+      "bearing": 243,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:28:34+00:00",
+      "recorded_at": "2026-08-18T04:29:55+00:00",
       "journey_id": "101"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.614087,
-      "longitude": -2.457998,
-      "bearing": 206,
+      "latitude": 50.608899,
+      "longitude": -2.459505,
+      "bearing": 191,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:28:48+00:00",
+      "recorded_at": "2026-08-18T04:29:55+00:00",
       "journey_id": "103"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.546296,
-      "longitude": -2.438222,
-      "bearing": 104,
+      "latitude": 50.546063,
+      "longitude": -2.436043,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:28:31+00:00",
+      "recorded_at": "2026-08-18T04:29:43+00:00",
       "journey_id": "102"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.936501,
-      "longitude": -3.305805,
-      "bearing": 42,
+      "latitude": 50.94556,
+      "longitude": -3.299469,
+      "bearing": 18,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:28:50+00:00",
+      "recorded_at": "2026-08-18T04:29:50+00:00",
       "journey_id": "101"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "War Memorial",
-      "latitude": 50.731995,
-      "longitude": -3.492269,
-      "bearing": 252,
+      "latitude": 50.731514,
+      "longitude": -3.499862,
+      "bearing": 258,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:28:36+00:00",
+      "recorded_at": "2026-08-18T04:29:57+00:00",
       "journey_id": "101"
     }
   ]
