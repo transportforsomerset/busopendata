@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-18T04:14:04.590Z",
+  "generated_at": "2026-08-18T04:15:02.074Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 34,
-  "vehicle_count": 2,
+  "data_age_seconds": 32,
+  "vehicle_count": 3,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30006-YK25OHR",
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Sea View Road",
-      "latitude": 51.018072,
-      "longitude": -3.081513,
-      "bearing": 78,
+      "latitude": 51.017943,
+      "longitude": -3.075008,
+      "bearing": 99,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:13:30+00:00",
+      "recorded_at": "2026-08-18T04:14:30+00:00",
       "journey_id": "101"
     },
     {
@@ -35,8 +35,24 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:13:46+00:00",
+      "recorded_at": "2026-08-18T04:14:46+00:00",
       "journey_id": "102"
+    },
+    {
+      "vehicle_id": "SDVN-66109",
+      "operator": "SDVN",
+      "operator_code": "SDVN",
+      "route": "1",
+      "direction": "outbound",
+      "origin": "Bus Station",
+      "destination": "War Memorial",
+      "latitude": 50.736011,
+      "longitude": -3.455467,
+      "bearing": 84,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-08-18T04:14:50+00:00",
+      "journey_id": "101"
     }
   ]
 }
