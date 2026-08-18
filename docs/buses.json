@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-18T04:12:04.398Z",
+  "generated_at": "2026-08-18T04:13:05.044Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 9,
+  "data_age_seconds": 19,
   "vehicle_count": 2,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Sea View Road",
-      "latitude": 51.017172,
-      "longitude": -3.08744,
-      "bearing": 38,
+      "latitude": 51.017739,
+      "longitude": -3.085374,
+      "bearing": 77,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:11:56+00:00",
+      "recorded_at": "2026-08-18T04:12:55+00:00",
       "journey_id": "101"
     },
     {
@@ -27,16 +27,16 @@
       "operator": "FDOR",
       "operator_code": "FDOR",
       "route": "1",
-      "direction": "outbound",
-      "origin": "Weymouth King s Statue K4",
-      "destination": "Rip Croft Shelter",
-      "latitude": 50.533117,
-      "longitude": -2.449939,
-      "bearing": 130,
+      "direction": "inbound",
+      "origin": "Rip Croft Shelter",
+      "destination": "Weymouth King s Statue K4",
+      "latitude": 50.533095,
+      "longitude": -2.449687,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:11:55+00:00",
-      "journey_id": "101"
+      "recorded_at": "2026-08-18T04:12:46+00:00",
+      "journey_id": "102"
     }
   ]
 }
