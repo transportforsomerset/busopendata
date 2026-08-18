@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-18T04:19:01.854Z",
+  "generated_at": "2026-08-18T04:20:05.289Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 15,
+  "data_age_seconds": 21,
   "vehicle_count": 4,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Castle Way",
       "destination": "Sea View Road",
-      "latitude": 51.030879,
-      "longitude": -3.062174,
-      "bearing": 56,
+      "latitude": 51.033382,
+      "longitude": -3.059067,
+      "bearing": 42,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:18:56+00:00",
+      "recorded_at": "2026-08-18T04:19:44+00:00",
       "journey_id": "101"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.533095,
-      "longitude": -2.449687,
+      "latitude": 50.53309,
+      "longitude": -2.449656,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:18:46+00:00",
+      "recorded_at": "2026-08-18T04:19:46+00:00",
       "journey_id": "102"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.912674,
-      "longitude": -3.451414,
-      "bearing": 78,
+      "latitude": 50.918175,
+      "longitude": -3.433421,
+      "bearing": 72,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:18:47+00:00",
+      "recorded_at": "2026-08-18T04:19:47+00:00",
       "journey_id": "101"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "War Memorial",
-      "latitude": 50.73531,
-      "longitude": -3.463459,
-      "bearing": 240,
+      "latitude": 50.733643,
+      "longitude": -3.470406,
+      "bearing": 216,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-08-18T04:18:52+00:00",
+      "recorded_at": "2026-08-18T04:19:53+00:00",
       "journey_id": "101"
     }
   ]
