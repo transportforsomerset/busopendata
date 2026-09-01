@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T22:30:03.513Z",
+  "generated_at": "2026-09-01T22:31:07.250Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 903,
+  "data_age_seconds": 967,
   "vehicle_count": 11,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Burnham on Sea  Sea View Road",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.042522,
-      "longitude": -3.049778,
-      "bearing": 224,
+      "latitude": 51.036381,
+      "longitude": -3.056652,
+      "bearing": 210,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:29:29+00:00",
+      "recorded_at": "2026-09-01T22:30:42+00:00",
       "journey_id": "2235"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Taunton  Silk Mills P R",
       "destination": "Taunton  Town Centre  J",
-      "latitude": 51.037057,
-      "longitude": -3.097447,
-      "bearing": 133,
+      "latitude": 51.035279,
+      "longitude": -3.094277,
+      "bearing": 173,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:29:50+00:00",
+      "recorded_at": "2026-09-01T22:30:59+00:00",
       "journey_id": "2305"
     },
     {
@@ -83,7 +83,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:29:46+00:00",
+      "recorded_at": "2026-09-01T22:30:46+00:00",
       "journey_id": "2315"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.599254,
-      "longitude": -2.469196,
+      "latitude": 50.598077,
+      "longitude": -2.473149,
       "bearing": 240,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:29:57+00:00",
+      "recorded_at": "2026-09-01T22:30:54+00:00",
       "journey_id": "225"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.614595,
-      "longitude": -2.456224,
-      "bearing": 0,
+      "latitude": 50.611793,
+      "longitude": -2.455733,
+      "bearing": 105,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:29:43+00:00",
+      "recorded_at": "2026-09-01T22:31:01+00:00",
       "journey_id": "222"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.533781,
-      "longitude": -2.447427,
-      "bearing": 82,
+      "latitude": 50.530248,
+      "longitude": -2.447025,
+      "bearing": 137,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:29:47+00:00",
+      "recorded_at": "2026-09-01T22:30:59+00:00",
       "journey_id": "224"
     },
     {
@@ -142,12 +142,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "St Davids Station",
-      "latitude": 50.72551,
-      "longitude": -3.526764,
+      "latitude": 50.725426,
+      "longitude": -3.526776,
       "bearing": 306,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:29:47+00:00",
+      "recorded_at": "2026-09-01T22:30:48+00:00",
       "journey_id": "226"
     },
     {
@@ -155,16 +155,16 @@
       "operator": "SDVN",
       "operator_code": "SDVN",
       "route": "4",
-      "direction": "outbound",
-      "origin": "St Davids Station",
-      "destination": "Court Royal",
-      "latitude": 50.751663,
-      "longitude": -3.403007,
-      "bearing": 48,
+      "direction": "inbound",
+      "origin": "Court Royal",
+      "destination": "St Davids Station",
+      "latitude": 50.75148,
+      "longitude": -3.400997,
+      "bearing": 144,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:29:54+00:00",
-      "journey_id": "225"
+      "recorded_at": "2026-09-01T22:30:54+00:00",
+      "journey_id": "228"
     },
     {
       "vehicle_id": "SDVN-66117",
@@ -174,12 +174,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.732029,
-      "longitude": -3.536379,
-      "bearing": 264,
+      "latitude": 50.729893,
+      "longitude": -3.538926,
+      "bearing": 162,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:29:42+00:00",
+      "recorded_at": "2026-09-01T22:30:42+00:00",
       "journey_id": "227"
     }
   ]
