@@ -1,26 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T23:38:05.580Z",
+  "generated_at": "2026-09-01T23:39:04.397Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1152,
-  "vehicle_count": 1,
-  "vehicles": [
-    {
-      "vehicle_id": "FBOS-63698",
-      "operator": "FBOS",
-      "operator_code": "FBOS",
-      "route": "28A",
-      "direction": "outbound",
-      "origin": "Taunton  Castle Way",
-      "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.205827,
-      "longitude": -3.463166,
-      "bearing": 0,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-09-01T23:18:53+00:00",
-      "journey_id": "143"
-    }
-  ]
+  "data_age_seconds": 0,
+  "vehicle_count": 0,
+  "vehicles": []
 }
