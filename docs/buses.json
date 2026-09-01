@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T23:10:00.572Z",
+  "generated_at": "2026-09-01T23:11:06.565Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 977,
+  "data_age_seconds": 1043,
   "vehicle_count": 9,
   "vehicles": [
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.197378,
-      "longitude": -3.468124,
-      "bearing": 0,
+      "latitude": 51.198532,
+      "longitude": -3.469416,
+      "bearing": 324,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T23:09:43+00:00",
+      "recorded_at": "2026-09-01T23:10:48+00:00",
       "journey_id": "143"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.551617,
-      "longitude": -2.437206,
-      "bearing": 345,
+      "latitude": 50.555058,
+      "longitude": -2.444205,
+      "bearing": 29,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T23:09:34+00:00",
+      "recorded_at": "2026-09-01T23:10:49+00:00",
       "journey_id": "226"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "St Davids Station",
-      "latitude": 50.728123,
-      "longitude": -3.53715,
-      "bearing": 0,
+      "latitude": 50.729897,
+      "longitude": -3.541394,
+      "bearing": 318,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T23:09:38+00:00",
+      "recorded_at": "2026-09-01T23:10:59+00:00",
       "journey_id": "228"
     },
     {
@@ -123,16 +123,16 @@
       "operator": "SDVN",
       "operator_code": "SDVN",
       "route": "4",
-      "direction": "outbound",
-      "origin": "St Davids Station",
-      "destination": "Court Royal",
-      "latitude": 50.748802,
-      "longitude": -3.414321,
-      "bearing": 72,
+      "direction": "inbound",
+      "origin": "Court Royal",
+      "destination": "St Martins Primary",
+      "latitude": 50.74691,
+      "longitude": -3.415592,
+      "bearing": 216,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:57:59+00:00",
-      "journey_id": "227"
+      "recorded_at": "2026-09-01T23:09:30+00:00",
+      "journey_id": "230"
     },
     {
       "vehicle_id": "SDVN-80293",
