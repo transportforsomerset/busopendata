@@ -101,16 +101,7 @@ export async function fetchBodsData(trackedServices: Set<string>,geofences: Geof
 const lineRef = getTagValue(activity, "LineRef");
 const publishedLineName = getTagValue(activity, "PublishedLineName");
 
-if (
-    lineRef?.includes("22") ||
-    lineRef?.includes("28") ||
-    publishedLineName?.includes("22") ||
-    publishedLineName?.includes("28")
-) {
-    console.log(`BODS: LineRef="${lineRef}", PublishedLineName="${publishedLineName}"`);
-}
-
-const line = lineRef ?? publishedLineName;
+const line = (lineRef ?? publishedLineName)?.toUpperCase();
 
 if (!line || !trackedServices.has(line)) {
     continue;
