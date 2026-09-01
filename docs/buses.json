@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T23:04:03.742Z",
+  "generated_at": "2026-09-01T23:05:02.343Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1127,
+  "data_age_seconds": 1186,
   "vehicle_count": 9,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dunball  Old Works Road",
-      "latitude": 51.141966,
-      "longitude": -2.9918,
-      "bearing": 11,
+      "latitude": 51.144351,
+      "longitude": -2.991079,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T23:03:43+00:00",
+      "recorded_at": "2026-09-01T23:04:05+00:00",
       "journey_id": "2315"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.012361,
-      "longitude": -3.119139,
-      "bearing": 320,
+      "latitude": 51.014588,
+      "longitude": -3.121025,
+      "bearing": 60,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T23:03:31+00:00",
+      "recorded_at": "2026-09-01T23:04:54+00:00",
       "journey_id": "2345"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.172766,
-      "longitude": -3.417318,
-      "bearing": 298,
+      "latitude": 51.176577,
+      "longitude": -3.425564,
+      "bearing": 312,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T23:03:29+00:00",
+      "recorded_at": "2026-09-01T23:04:43+00:00",
       "journey_id": "143"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.537083,
-      "longitude": -2.445665,
-      "bearing": 23,
+      "latitude": 50.542651,
+      "longitude": -2.444818,
+      "bearing": 4,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T23:03:52+00:00",
+      "recorded_at": "2026-09-01T23:04:50+00:00",
       "journey_id": "226"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "St Davids Station",
-      "latitude": 50.730473,
-      "longitude": -3.539267,
+      "latitude": 50.733356,
+      "longitude": -3.537845,
       "bearing": 342,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T23:03:55+00:00",
+      "recorded_at": "2026-09-01T23:04:55+00:00",
       "journey_id": "228"
     },
     {
