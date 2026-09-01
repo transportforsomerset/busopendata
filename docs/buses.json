@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T23:14:04.919Z",
+  "generated_at": "2026-09-01T23:15:01.259Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1125,
+  "data_age_seconds": 1182,
   "vehicle_count": 8,
   "vehicles": [
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.205803,
-      "longitude": -3.478326,
-      "bearing": 82,
+      "latitude": 51.206872,
+      "longitude": -3.471992,
+      "bearing": 73,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T23:13:56+00:00",
+      "recorded_at": "2026-09-01T23:14:53+00:00",
       "journey_id": "143"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.563662,
-      "longitude": -2.45068,
-      "bearing": 307,
+      "latitude": 50.566089,
+      "longitude": -2.453213,
+      "bearing": 336,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T23:13:56+00:00",
+      "recorded_at": "2026-09-01T23:14:28+00:00",
       "journey_id": "226"
     },
     {
