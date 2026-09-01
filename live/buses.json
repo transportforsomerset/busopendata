@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T23:12:04.556Z",
+  "generated_at": "2026-09-01T23:13:04.467Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1101,
+  "data_age_seconds": 1161,
   "vehicle_count": 9,
   "vehicles": [
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.200693,
-      "longitude": -3.473839,
-      "bearing": 298,
+      "latitude": 51.203819,
+      "longitude": -3.477889,
+      "bearing": 338,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T23:11:35+00:00",
+      "recorded_at": "2026-09-01T23:12:52+00:00",
       "journey_id": "143"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.558852,
-      "longitude": -2.441463,
-      "bearing": 291,
+      "latitude": 50.559286,
+      "longitude": -2.445455,
+      "bearing": 292,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T23:11:52+00:00",
+      "recorded_at": "2026-09-01T23:12:40+00:00",
       "journey_id": "226"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "St Davids Station",
-      "latitude": 50.730145,
-      "longitude": -3.541614,
-      "bearing": 318,
+      "latitude": 50.729855,
+      "longitude": -3.542189,
+      "bearing": 180,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T23:11:39+00:00",
+      "recorded_at": "2026-09-01T23:12:20+00:00",
       "journey_id": "228"
     },
     {
