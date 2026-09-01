@@ -95,19 +95,10 @@ export async function fetchBodsData(trackedServices: Set<string>,geofences: Geof
   const vehicles: Vehicle[] = [];
 
   for (const activity of vehicleActivities) {
-//    const line = getTagValue(activity, "LineRef") ?? getTagValue(activity, "PublishedLineName");
-//    if (!line || !trackedServices.has(line)) {continue;}
-// START TEST
-const lineRef = getTagValue(activity, "LineRef");
-const publishedLineName = getTagValue(activity, "PublishedLineName");
-
-const line = (lineRef ?? publishedLineName)?.toUpperCase();
-
-if (!line || !trackedServices.has(line)) {
-    continue;
-}
-
-// END TEST.    
+    const lineRef = getTagValue(activity, "LineRef");
+    const publishedLineName = getTagValue(activity, "PublishedLineName");
+    const line = (lineRef ?? publishedLineName)?.toUpperCase(); // Case-insensitive check, BODS returns lowercase, we used uppercase.
+    if (!line || !trackedServices.has(line)) { continue; }
     const recordedAt = getTagValue(activity, "RecordedAtTime");
     if (!recordedAt) {continue;}
     const recordedTime = Date.parse(recordedAt);
