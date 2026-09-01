@@ -23,41 +23,69 @@ type ServiceGroup = {
   services: string[];
 };
 
-let serviceGroups: ServiceGroup[];
+type OperatorServices = Record<string, ServiceGroup[]>;
+
+let operatorServices: OperatorServices;
 
 try {
   const parsedServices: unknown = JSON.parse(servicesContents);
 
-  if (!Array.isArray(parsedServices)) {
-    throw new Error("services.json must contain an array of service groups.");
+  if (
+    typeof parsedServices !== "object" ||
+    parsedServices === null ||
+    Array.isArray(parsedServices)
+  ) {
+    throw new Error(
+      "services.json must contain an object of operator service groups."
+    );
   }
 
-  serviceGroups = parsedServices.map((group) => {
-    if (
-      typeof group !== "object" ||
-      group === null ||
-      typeof (group as ServiceGroup).ref !== "string" ||
-      !Array.isArray((group as ServiceGroup).services) ||
-      !(group as ServiceGroup).services.every(
-        (service) => typeof service === "string"
-      )
-    ) {
+  operatorServices = parsedServices as OperatorServices;
+
+  for (const [operator, groups] of Object.entries(operatorServices)) {
+    if (!Array.isArray(groups)) {
       throw new Error(
-        "Each service group must contain a ref and an array of services."
+        `Operator ${operator} must contain an array of service groups.`
       );
     }
 
-    return group as ServiceGroup;
-  });
+    for (const group of groups) {
+      if (
+        typeof group !== "object" ||
+        group === null ||
+        typeof (group as ServiceGroup).ref !== "string" ||
+        !Array.isArray((group as ServiceGroup).services) ||
+        !(group as ServiceGroup).services.every(
+          (service) => typeof service === "string"
+        )
+      ) {
+        throw new Error(
+          `Each service group for operator ${operator} must contain a ref and an array of services.`
+        );
+      }
+    }
+  }
 } catch (error) {
   console.error(`ERROR: Could not read ${servicesFile}.`);
   console.error(error);
   process.exit(1);
 }
 
-const trackedServices = new Set(
-  serviceGroups.flatMap((group) => group.services)
-);
+// Flatten the operator groups for the website-facing services.json.
+const serviceGroups = Object.values(operatorServices).flat();
+
+// Build an operator + service lookup for BODS filtering.
+const trackedServices = new Set<string>();
+
+for (const [operator, groups] of Object.entries(operatorServices)) {
+  for (const group of groups) {
+    for (const service of group.services) {
+      trackedServices.add(
+        `${operator.toUpperCase()}|${service.toUpperCase()}`
+      );
+    }
+  }
+}
 
 console.log(
   `Tracking services: ${Array.from(trackedServices).join(", ")}`
@@ -113,7 +141,7 @@ try {
 let busData;
 
 try {
-  busData = await fetchBodsData(trackedServices,geofences);
+  busData = await fetchBodsData(trackedServices, geofences);
 } catch (error) {
   console.error("ERROR: Unable to retrieve BODS data.");
 
