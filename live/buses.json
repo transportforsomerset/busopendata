@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T22:58:00.343Z",
+  "generated_at": "2026-09-01T22:59:03.112Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1161,
-  "vehicle_count": 12,
+  "data_age_seconds": 902,
+  "vehicle_count": 11,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30005",
@@ -23,22 +23,6 @@
       "journey_id": "2235"
     },
     {
-      "vehicle_id": "FBOS-48502",
-      "operator": "FBOS",
-      "operator_code": "FBOS",
-      "route": "1",
-      "direction": "outbound",
-      "origin": "Taunton  Silk Mills P R",
-      "destination": "Taunton  Town Centre  J",
-      "latitude": 51.016851,
-      "longitude": -3.103408,
-      "bearing": 172,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-09-01T22:38:39+00:00",
-      "journey_id": "2305"
-    },
-    {
       "vehicle_id": "FBOS-48503",
       "operator": "FBOS",
       "operator_code": "FBOS",
@@ -51,7 +35,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:57:50+00:00",
+      "recorded_at": "2026-09-01T22:58:50+00:00",
       "journey_id": "2315"
     },
     {
@@ -62,12 +46,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.003744,
-      "longitude": -3.149721,
-      "bearing": 60,
+      "latitude": 51.005719,
+      "longitude": -3.145641,
+      "bearing": 53,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:57:34+00:00",
+      "recorded_at": "2026-09-01T22:58:36+00:00",
       "journey_id": "2345"
     },
     {
@@ -78,12 +62,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.160836,
-      "longitude": -3.361128,
-      "bearing": 245,
+      "latitude": 51.161485,
+      "longitude": -3.367836,
+      "bearing": 300,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:57:44+00:00",
+      "recorded_at": "2026-09-01T22:58:48+00:00",
       "journey_id": "143"
     },
     {
@@ -110,12 +94,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.533076,
-      "longitude": -2.449664,
-      "bearing": 0,
+      "latitude": 50.533027,
+      "longitude": -2.449153,
+      "bearing": 84,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:57:34+00:00",
+      "recorded_at": "2026-09-01T22:58:53+00:00",
       "journey_id": "226"
     },
     {
@@ -158,12 +142,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "St Davids Station",
-      "latitude": 50.723629,
-      "longitude": -3.516467,
+      "latitude": 50.725212,
+      "longitude": -3.523346,
       "bearing": 282,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:57:51+00:00",
+      "recorded_at": "2026-09-01T22:58:52+00:00",
       "journey_id": "228"
     },
     {
@@ -174,12 +158,12 @@
       "direction": "outbound",
       "origin": "Parade",
       "destination": "Parade",
-      "latitude": 50.629177,
-      "longitude": -3.393395,
-      "bearing": 138,
+      "latitude": 50.624367,
+      "longitude": -3.390234,
+      "bearing": 126,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:57:53+00:00",
+      "recorded_at": "2026-09-01T22:58:53+00:00",
       "journey_id": "189"
     },
     {
@@ -190,12 +174,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.747585,
-      "longitude": -3.4151,
-      "bearing": 6,
+      "latitude": 50.748802,
+      "longitude": -3.414321,
+      "bearing": 72,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:57:39+00:00",
+      "recorded_at": "2026-09-01T22:57:59+00:00",
       "journey_id": "227"
     }
   ]
