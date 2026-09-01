@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T22:25:05.928Z",
+  "generated_at": "2026-09-01T22:26:04.355Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 605,
+  "data_age_seconds": 664,
   "vehicle_count": 11,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Burnham on Sea  Sea View Road",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.077338,
-      "longitude": -3.019761,
-      "bearing": 200,
+      "latitude": 51.065531,
+      "longitude": -3.02579,
+      "bearing": 225,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:24:58+00:00",
+      "recorded_at": "2026-09-01T22:26:01+00:00",
       "journey_id": "2235"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.231946,
-      "longitude": -2.993636,
-      "bearing": 324,
+      "latitude": 51.234277,
+      "longitude": -2.999439,
+      "bearing": 285,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:25:02+00:00",
+      "recorded_at": "2026-09-01T22:25:58+00:00",
       "journey_id": "2215"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Taunton  Silk Mills P R",
       "destination": "Taunton  Town Centre  J",
-      "latitude": 51.031401,
-      "longitude": -3.101153,
-      "bearing": 0,
+      "latitude": 51.031127,
+      "longitude": -3.10445,
+      "bearing": 276,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:24:37+00:00",
+      "recorded_at": "2026-09-01T22:25:50+00:00",
       "journey_id": "2305"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dunball  Old Works Road",
-      "latitude": 51.029704,
-      "longitude": -3.063478,
-      "bearing": 39,
+      "latitude": 51.034369,
+      "longitude": -3.058007,
+      "bearing": 25,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:24:52+00:00",
+      "recorded_at": "2026-09-01T22:25:58+00:00",
       "journey_id": "2315"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.608881,
-      "longitude": -2.459505,
-      "bearing": 192,
+      "latitude": 50.608007,
+      "longitude": -2.459782,
+      "bearing": 186,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:24:49+00:00",
+      "recorded_at": "2026-09-01T22:25:51+00:00",
       "journey_id": "225"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.603362,
-      "longitude": -2.459341,
-      "bearing": 350,
+      "latitude": 50.607744,
+      "longitude": -2.459734,
+      "bearing": 351,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:24:49+00:00",
+      "recorded_at": "2026-09-01T22:25:50+00:00",
       "journey_id": "222"
     },
     {
@@ -131,7 +131,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:24:51+00:00",
+      "recorded_at": "2026-09-01T22:25:51+00:00",
       "journey_id": "224"
     },
     {
@@ -142,12 +142,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "St Davids Station",
-      "latitude": 50.721195,
-      "longitude": -3.503635,
-      "bearing": 270,
+      "latitude": 50.722305,
+      "longitude": -3.511677,
+      "bearing": 282,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:24:44+00:00",
+      "recorded_at": "2026-09-01T22:25:44+00:00",
       "journey_id": "226"
     },
     {
@@ -158,12 +158,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.740002,
-      "longitude": -3.424865,
-      "bearing": 54,
+      "latitude": 50.744396,
+      "longitude": -3.416589,
+      "bearing": 12,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:24:50+00:00",
+      "recorded_at": "2026-09-01T22:25:51+00:00",
       "journey_id": "225"
     },
     {
@@ -174,12 +174,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.730568,
-      "longitude": -3.539377,
-      "bearing": 342,
+      "latitude": 50.731991,
+      "longitude": -3.538029,
+      "bearing": 18,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:24:58+00:00",
+      "recorded_at": "2026-09-01T22:25:39+00:00",
       "journey_id": "227"
     }
   ]
