@@ -128,8 +128,6 @@ export async function fetchBodsData(trackedServices: Set<string>,geofences: Geof
       continue;
     }
 
-    const operatorCode = getTagValue(activity, "OperatorRef") ?? "";
-
     const journeyId = getTagValue(activity, "DatedVehicleJourneyRef") ?? "";
 
     const vehicle: Vehicle = {
