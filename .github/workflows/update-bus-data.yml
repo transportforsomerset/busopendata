@@ -55,5 +55,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update bus data [skip ci]"
+          git commit -m "Update bus data [then deploy]"
           git push
