@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T22:50:00.286Z",
+  "generated_at": "2026-09-01T22:50:57.160Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1119,
-  "vehicle_count": 11,
+  "data_age_seconds": 1176,
+  "vehicle_count": 13,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30005",
@@ -51,7 +51,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:49:41+00:00",
+      "recorded_at": "2026-09-01T22:50:41+00:00",
       "journey_id": "2315"
     },
     {
@@ -62,13 +62,45 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 50.979321,
-      "longitude": -3.226529,
-      "bearing": 38,
+      "latitude": 50.981176,
+      "longitude": -3.224065,
+      "bearing": 30,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:49:54+00:00",
+      "recorded_at": "2026-09-01T22:50:23+00:00",
       "journey_id": "2345"
+    },
+    {
+      "vehicle_id": "FBOS-63698",
+      "operator": "FBOS",
+      "operator_code": "FBOS",
+      "route": "28A",
+      "direction": "outbound",
+      "origin": "Taunton  Castle Way",
+      "destination": "Minehead  Butlins Main Gate",
+      "latitude": 51.18134,
+      "longitude": -3.328961,
+      "bearing": 235,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-01T22:50:23+00:00",
+      "journey_id": "143"
+    },
+    {
+      "vehicle_id": "FBOS-63700",
+      "operator": "FBOS",
+      "operator_code": "FBOS",
+      "route": "28A",
+      "direction": "inbound",
+      "origin": "Minehead  Butlins Main Gate",
+      "destination": "Taunton  Castle Way",
+      "latitude": 51.023182,
+      "longitude": -3.103699,
+      "bearing": 171,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-01T22:50:43+00:00",
+      "journey_id": "144"
     },
     {
       "vehicle_id": "FDOR-37987",
@@ -78,12 +110,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.545852,
-      "longitude": -2.436059,
-      "bearing": 181,
+      "latitude": 50.546939,
+      "longitude": -2.442529,
+      "bearing": 272,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:49:34+00:00",
+      "recorded_at": "2026-09-01T22:50:47+00:00",
       "journey_id": "225"
     },
     {
@@ -115,7 +147,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:49:49+00:00",
+      "recorded_at": "2026-09-01T22:50:49+00:00",
       "journey_id": "224"
     },
     {
@@ -142,12 +174,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "St Davids Station",
-      "latitude": 50.725426,
-      "longitude": -3.470731,
-      "bearing": 240,
+      "latitude": 50.723873,
+      "longitude": -3.47433,
+      "bearing": 246,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:49:46+00:00",
+      "recorded_at": "2026-09-01T22:50:47+00:00",
       "journey_id": "228"
     },
     {
@@ -158,12 +190,12 @@
       "direction": "outbound",
       "origin": "Parade",
       "destination": "Parade",
-      "latitude": 50.640774,
-      "longitude": -3.394369,
-      "bearing": 330,
+      "latitude": 50.642834,
+      "longitude": -3.392816,
+      "bearing": 18,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:49:47+00:00",
+      "recorded_at": "2026-09-01T22:50:48+00:00",
       "journey_id": "189"
     },
     {
@@ -174,12 +206,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.725605,
-      "longitude": -3.470975,
-      "bearing": 42,
+      "latitude": 50.727902,
+      "longitude": -3.466473,
+      "bearing": 54,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:49:35+00:00",
+      "recorded_at": "2026-09-01T22:50:15+00:00",
       "journey_id": "227"
     }
   ]
