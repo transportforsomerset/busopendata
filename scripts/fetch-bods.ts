@@ -98,7 +98,8 @@ export async function fetchBodsData(trackedServices: Set<string>,geofences: Geof
     const lineRef = getTagValue(activity, "LineRef");
     const publishedLineName = getTagValue(activity, "PublishedLineName");
     const line = (lineRef ?? publishedLineName)?.toUpperCase(); // Case-insensitive check, BODS returns lowercase, we used uppercase.
-    if (!line || !trackedServices.has(line)) { continue; }
+    const operatorCode = getTagValue(activity, "OperatorRef")?.toUpperCase(); // Case-insensitive check, BODS returns lowercase, we used uppercase.
+    if (!line || !operatorCode || !trackedServices.has(`${operatorCode}|${line}`)) { continue; }
     const recordedAt = getTagValue(activity, "RecordedAtTime");
     if (!recordedAt) {continue;}
     const recordedTime = Date.parse(recordedAt);
