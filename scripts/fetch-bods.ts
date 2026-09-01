@@ -95,8 +95,21 @@ export async function fetchBodsData(trackedServices: Set<string>,geofences: Geof
   const vehicles: Vehicle[] = [];
 
   for (const activity of vehicleActivities) {
-    const line = getTagValue(activity, "LineRef") ?? getTagValue(activity, "PublishedLineName");
-    if (!line || !trackedServices.has(line)) {continue;}
+//    const line = getTagValue(activity, "LineRef") ?? getTagValue(activity, "PublishedLineName");
+//    if (!line || !trackedServices.has(line)) {continue;}
+// START TEST
+const lineRef = getTagValue(activity, "LineRef");
+const publishedLineName = getTagValue(activity, "PublishedLineName");
+
+console.log(`BODS: LineRef="${lineRef}", PublishedLineName="${publishedLineName}"`);
+
+const line = lineRef ?? publishedLineName;
+
+if (!line || !trackedServices.has(line)) {
+    continue;
+}
+
+// END TEST.    
     const recordedAt = getTagValue(activity, "RecordedAtTime");
     if (!recordedAt) {continue;}
     const recordedTime = Date.parse(recordedAt);
