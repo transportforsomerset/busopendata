@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T22:37:07.228Z",
+  "generated_at": "2026-09-01T22:38:00.132Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 576,
+  "data_age_seconds": 629,
   "vehicle_count": 11,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Burnham on Sea  Sea View Road",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.019524,
-      "longitude": -3.073235,
-      "bearing": 0,
+      "latitude": 51.018007,
+      "longitude": -3.076445,
+      "bearing": 279,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:36:58+00:00",
+      "recorded_at": "2026-09-01T22:37:56+00:00",
       "journey_id": "2235"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Taunton  Silk Mills P R",
       "destination": "Taunton  Town Centre  J",
-      "latitude": 51.017577,
-      "longitude": -3.10422,
-      "bearing": 152,
+      "latitude": 51.017213,
+      "longitude": -3.103805,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:36:52+00:00",
+      "recorded_at": "2026-09-01T22:37:53+00:00",
       "journey_id": "2305"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dunball  Old Works Road",
-      "latitude": 51.077892,
-      "longitude": -3.019489,
-      "bearing": 20,
+      "latitude": 51.082414,
+      "longitude": -3.016321,
+      "bearing": 4,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:37:00+00:00",
+      "recorded_at": "2026-09-01T22:37:31+00:00",
       "journey_id": "2315"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.572952,
-      "longitude": -2.463658,
-      "bearing": 149,
+      "latitude": 50.570102,
+      "longitude": -2.455827,
+      "bearing": 140,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:36:51+00:00",
+      "recorded_at": "2026-09-01T22:37:55+00:00",
       "journey_id": "225"
     },
     {
@@ -115,7 +115,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:37:00+00:00",
+      "recorded_at": "2026-09-01T22:37:30+00:00",
       "journey_id": "224"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "St Davids Station",
-      "latitude": 50.732227,
-      "longitude": -3.538052,
-      "bearing": 24,
+      "latitude": 50.734993,
+      "longitude": -3.535948,
+      "bearing": 330,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:36:52+00:00",
+      "recorded_at": "2026-09-01T22:37:52+00:00",
       "journey_id": "226"
     },
     {
@@ -142,12 +142,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "St Davids Station",
-      "latitude": 50.750702,
-      "longitude": -3.407067,
-      "bearing": 270,
+      "latitude": 50.748783,
+      "longitude": -3.411505,
+      "bearing": 246,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:36:59+00:00",
+      "recorded_at": "2026-09-01T22:37:39+00:00",
       "journey_id": "228"
     },
     {
@@ -158,12 +158,12 @@
       "direction": "outbound",
       "origin": "Parade",
       "destination": "Parade",
-      "latitude": 50.620476,
-      "longitude": -3.412453,
+      "latitude": 50.620506,
+      "longitude": -3.412449,
       "bearing": 276,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:36:58+00:00",
+      "recorded_at": "2026-09-01T22:37:38+00:00",
       "journey_id": "189"
     },
     {
@@ -174,12 +174,12 @@
       "direction": "outbound",
       "origin": "St Davids Station",
       "destination": "Court Royal",
-      "latitude": 50.725944,
-      "longitude": -3.523143,
-      "bearing": 0,
+      "latitude": 50.725639,
+      "longitude": -3.52259,
+      "bearing": 114,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:36:47+00:00",
+      "recorded_at": "2026-09-01T22:37:48+00:00",
       "journey_id": "227"
     }
   ]
