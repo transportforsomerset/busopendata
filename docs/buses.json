@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T22:44:03.283Z",
+  "generated_at": "2026-09-01T22:46:14.526Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 992,
+  "data_age_seconds": 1123,
   "vehicle_count": 12,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Burnham on Sea  Sea View Road",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.014748,
-      "longitude": -3.106468,
-      "bearing": 37,
+      "latitude": 51.015073,
+      "longitude": -3.105006,
+      "bearing": 142,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:43:47+00:00",
+      "recorded_at": "2026-09-01T22:44:01+00:00",
       "journey_id": "2235"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dunball  Old Works Road",
-      "latitude": 51.116511,
-      "longitude": -2.996553,
-      "bearing": 344,
+      "latitude": 51.126325,
+      "longitude": -3.001944,
+      "bearing": 336,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:43:57+00:00",
+      "recorded_at": "2026-09-01T22:45:39+00:00",
       "journey_id": "2315"
     },
     {
@@ -83,7 +83,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:43:50+00:00",
+      "recorded_at": "2026-09-01T22:45:50+00:00",
       "journey_id": "2345"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Weymouth King s Statue K4",
       "destination": "Rip Croft Shelter",
-      "latitude": 50.559682,
-      "longitude": -2.442932,
-      "bearing": 134,
+      "latitude": 50.55501,
+      "longitude": -2.441269,
+      "bearing": 112,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:43:28+00:00",
+      "recorded_at": "2026-09-01T22:45:54+00:00",
       "journey_id": "225"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "inbound",
       "origin": "Rip Croft Shelter",
       "destination": "Weymouth King s Statue K4",
-      "latitude": 50.566201,
-      "longitude": -2.453244,
-      "bearing": 16,
+      "latitude": 50.571185,
+      "longitude": -2.461219,
+      "bearing": 307,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:43:52+00:00",
+      "recorded_at": "2026-09-01T22:45:49+00:00",
       "journey_id": "224"
     },
     {
@@ -142,12 +142,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "St Davids Station",
-      "latitude": 50.73008,
-      "longitude": -3.541773,
-      "bearing": 330,
+      "latitude": 50.730076,
+      "longitude": -3.542159,
+      "bearing": 210,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:43:55+00:00",
+      "recorded_at": "2026-09-01T22:45:16+00:00",
       "journey_id": "226"
     },
     {
@@ -158,12 +158,12 @@
       "direction": "inbound",
       "origin": "Court Royal",
       "destination": "St Davids Station",
-      "latitude": 50.731941,
-      "longitude": -3.442264,
-      "bearing": 246,
+      "latitude": 50.728626,
+      "longitude": -3.463842,
+      "bearing": 252,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:43:42+00:00",
+      "recorded_at": "2026-09-01T22:46:04+00:00",
       "journey_id": "228"
     },
     {
@@ -174,12 +174,12 @@
       "direction": "outbound",
       "origin": "Parade",
       "destination": "Parade",
-      "latitude": 50.620327,
-      "longitude": -3.397941,
-      "bearing": 96,
+      "latitude": 50.630173,
+      "longitude": -3.394761,
+      "bearing": 318,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-01T22:43:43+00:00",
+      "recorded_at": "2026-09-01T22:46:05+00:00",
       "journey_id": "189"
     },
     {
