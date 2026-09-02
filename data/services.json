@@ -7,7 +7,6 @@
   ],
   "FBOS": [
     { "ref": "1", "services": ["1", "1E"] },
-    { "ref": "3", "services": ["3"] },
     { "ref": "4", "services": ["4"] },
     { "ref": "6", "services": ["6"] },
     { "ref": "7", "services": ["7"] },
