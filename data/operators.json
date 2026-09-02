@@ -50,7 +50,7 @@
   "NATX": {
     "name": "National Express",
     "short_name": "National Express",
-    "logo": null,
+    "logo": "nex-half-logo.svg",
     "website": "https://www.nationalexpress.com/"
   },
   "SCCO": {
