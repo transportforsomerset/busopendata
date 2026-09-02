@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T23:22:32.168Z",
+  "generated_at": "2026-09-02T23:23:36.020Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1109,
+  "data_age_seconds": 1173,
   "vehicle_count": 7,
   "vehicles": [
     {
@@ -99,7 +99,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T23:22:10+00:00",
+      "recorded_at": "2026-09-02T23:23:10+00:00",
       "journey_id": "2320"
     },
     {
@@ -112,10 +112,10 @@
       "destination": "Plymouth Coach Stn Armada Way",
       "latitude": 51.13,
       "longitude": -2.999,
-      "bearing": 161,
+      "bearing": 261,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T23:22:14+00:00",
+      "recorded_at": "2026-09-02T23:22:51+00:00",
       "journey_id": "162246903"
     }
   ]
