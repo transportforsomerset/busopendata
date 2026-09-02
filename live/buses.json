@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T23:11:37.054Z",
+  "generated_at": "2026-09-02T23:12:34.334Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1020,
+  "data_age_seconds": 1077,
   "vehicle_count": 8,
   "vehicles": [
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.197527,
-      "longitude": -3.46843,
-      "bearing": 301,
+      "latitude": 51.200675,
+      "longitude": -3.473772,
+      "bearing": 298,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T23:11:11+00:00",
+      "recorded_at": "2026-09-02T23:12:11+00:00",
       "journey_id": "143"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Wells Bus Station",
-      "latitude": 51.173614,
-      "longitude": -2.694718,
-      "bearing": 19,
+      "latitude": 51.181997,
+      "longitude": -2.691561,
+      "bearing": 6,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T23:11:22+00:00",
+      "recorded_at": "2026-09-02T23:12:23+00:00",
       "journey_id": "2350"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.259449,
-      "longitude": -2.594964,
-      "bearing": 206,
+      "latitude": 51.251716,
+      "longitude": -2.60287,
+      "bearing": 214,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T23:11:06+00:00",
+      "recorded_at": "2026-09-02T23:12:06+00:00",
       "journey_id": "2320"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "outbound",
       "origin": "London Victoria Coach Station",
       "destination": "Plymouth Coach Stn Armada Way",
-      "latitude": 51.256,
-      "longitude": -2.921,
-      "bearing": 186,
+      "latitude": 51.212,
+      "longitude": -2.964,
+      "bearing": 196,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T23:08:42+00:00",
+      "recorded_at": "2026-09-02T23:12:15+00:00",
       "journey_id": "162246903"
     }
   ]
