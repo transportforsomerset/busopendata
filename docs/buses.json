@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T23:15:40.228Z",
+  "generated_at": "2026-09-02T23:16:35.409Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 697,
+  "data_age_seconds": 752,
   "vehicle_count": 7,
   "vehicles": [
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.20729,
-      "longitude": -3.47001,
-      "bearing": 69,
+      "latitude": 51.206745,
+      "longitude": -3.46352,
+      "bearing": 93,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T23:15:22+00:00",
+      "recorded_at": "2026-09-02T23:16:29+00:00",
       "journey_id": "143"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Wells Bus Station",
-      "latitude": 51.196934,
-      "longitude": -2.66573,
-      "bearing": 43,
+      "latitude": 51.201302,
+      "longitude": -2.658434,
+      "bearing": 56,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T23:15:36+00:00",
+      "recorded_at": "2026-09-02T23:16:27+00:00",
       "journey_id": "2350"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.225844,
-      "longitude": -2.623116,
-      "bearing": 240,
+      "latitude": 51.221503,
+      "longitude": -2.635778,
+      "bearing": 258,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T23:15:32+00:00",
+      "recorded_at": "2026-09-02T23:16:29+00:00",
       "journey_id": "2320"
     },
     {
