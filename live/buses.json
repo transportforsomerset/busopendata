@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T05:03:02.959Z",
+  "generated_at": "2026-09-02T05:04:04.209Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 33,
+  "data_age_seconds": 32,
   "vehicle_count": 8,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.164915,
-      "longitude": -2.991015,
-      "bearing": 298,
+      "latitude": 51.164802,
+      "longitude": -2.989839,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T05:02:29+00:00",
+      "recorded_at": "2026-09-02T05:03:32+00:00",
       "journey_id": "0507"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dobree Park",
-      "latitude": 50.985495,
-      "longitude": -3.240538,
+      "latitude": 50.985476,
+      "longitude": -3.240566,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T05:02:46+00:00",
+      "recorded_at": "2026-09-02T05:03:46+00:00",
       "journey_id": "0526"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Chard  The Guildhall",
       "destination": "Axminster  Rail Station",
-      "latitude": 50.872787,
-      "longitude": -2.965185,
+      "latitude": 50.872816,
+      "longitude": -2.96518,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T05:02:48+00:00",
+      "recorded_at": "2026-09-02T05:03:48+00:00",
       "journey_id": "0606"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Bridgwater Bus Station  3",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.129778,
-      "longitude": -2.999257,
-      "bearing": 261,
+      "latitude": 51.131454,
+      "longitude": -3.002221,
+      "bearing": 268,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T05:02:55+00:00",
+      "recorded_at": "2026-09-02T05:03:57+00:00",
       "journey_id": "0600"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.172684,
-      "longitude": -3.417162,
-      "bearing": 115,
+      "latitude": 51.170474,
+      "longitude": -3.410572,
+      "bearing": 116,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T05:02:55+00:00",
+      "recorded_at": "2026-09-02T05:03:35+00:00",
       "journey_id": "102"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.985191,
-      "longitude": -3.220549,
-      "bearing": 78,
+      "latitude": 50.983856,
+      "longitude": -3.20961,
+      "bearing": 120,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T05:02:39+00:00",
+      "recorded_at": "2026-09-02T05:03:40+00:00",
       "journey_id": "103"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "outbound",
       "origin": "Silk Mills P&amp;R",
       "destination": "Gateway P&amp;R",
-      "latitude": 51.014706,
-      "longitude": -3.103793,
-      "bearing": 66,
+      "latitude": 51.014679,
+      "longitude": -3.099693,
+      "bearing": 72,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T05:02:58+00:00",
+      "recorded_at": "2026-09-02T05:03:58+00:00",
       "journey_id": "101"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.919823,
-      "longitude": -3.335756,
-      "bearing": 78,
+      "latitude": 50.921467,
+      "longitude": -3.329034,
+      "bearing": 54,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T05:02:55+00:00",
+      "recorded_at": "2026-09-02T05:03:55+00:00",
       "journey_id": "105"
     }
   ]
