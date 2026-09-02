@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T22:44:34.386Z",
+  "generated_at": "2026-09-02T22:45:45.894Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1113,
+  "data_age_seconds": 1184,
   "vehicle_count": 11,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30002",
       "operator": "FBOS",
       "operator_code": "FBOS",
-      "route": "22A",
-      "direction": "outbound",
-      "origin": "Taunton  Castle Way",
-      "destination": "Dobree Park",
-      "latitude": 50.970704,
-      "longitude": -3.248,
-      "bearing": 0,
+      "route": "22",
+      "direction": "inbound",
+      "origin": "Dobree Park",
+      "destination": "Taunton  Castle Way",
+      "latitude": 50.971465,
+      "longitude": -3.246764,
+      "bearing": 44,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T22:37:22+00:00",
-      "journey_id": "2302"
+      "recorded_at": "2026-09-02T22:45:31+00:00",
+      "journey_id": "2345"
     },
     {
       "vehicle_id": "FBOS-30011",
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dunball  Old Works Road",
-      "latitude": 51.116457,
-      "longitude": -2.996608,
-      "bearing": 343,
+      "latitude": 51.122675,
+      "longitude": -3.000179,
+      "bearing": 331,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T22:44:03+00:00",
+      "recorded_at": "2026-09-02T22:45:31+00:00",
       "journey_id": "2315"
     },
     {
@@ -51,7 +51,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T22:44:07+00:00",
+      "recorded_at": "2026-09-02T22:45:10+00:00",
       "journey_id": "2235"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.157384,
-      "longitude": -3.31534,
-      "bearing": 294,
+      "latitude": 51.160651,
+      "longitude": -3.320967,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T22:44:04+00:00",
+      "recorded_at": "2026-09-02T22:45:32+00:00",
       "journey_id": "143"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.031089,
-      "longitude": -3.133726,
-      "bearing": 76,
+      "latitude": 51.029518,
+      "longitude": -3.125855,
+      "bearing": 123,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T22:44:26+00:00",
+      "recorded_at": "2026-09-02T22:45:36+00:00",
       "journey_id": "144"
     },
     {
@@ -160,10 +160,10 @@
       "destination": "Wells Bus Station",
       "latitude": 51.20741,
       "longitude": -2.650608,
-      "bearing": 29,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T22:44:24+00:00",
+      "recorded_at": "2026-09-02T22:44:28+00:00",
       "journey_id": "2235"
     },
     {
@@ -174,12 +174,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.139762,
-      "longitude": -2.734624,
-      "bearing": 223,
+      "latitude": 51.137227,
+      "longitude": -2.735346,
+      "bearing": 172,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T22:44:18+00:00",
+      "recorded_at": "2026-09-02T22:45:36+00:00",
       "journey_id": "2215"
     }
   ]
