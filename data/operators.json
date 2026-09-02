@@ -2,13 +2,13 @@
   "FBRI": {
     "name": "First West of England",
     "short_name": "First",
-    "logo": "fb-logo.svg",
+    "logo": "fb-logo-basic.svg",
     "website": "https://www.firstbus.co.uk/"
   },
   "FBOS": {
     "name": "First Somerset",
     "short_name": "First",
-    "logo": "fb-logo.svg",
+    "logo": "fb-logo-basic.svg",
     "website": "https://www.firstbus.co.uk/"
   },
   "HGCO": {
