@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T23:04:37.465Z",
+  "generated_at": "2026-09-02T23:05:35.881Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1167,
-  "vehicle_count": 7,
+  "data_age_seconds": 658,
+  "vehicle_count": 6,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30002",
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.01323,
-      "longitude": -3.120171,
-      "bearing": 289,
+      "latitude": 51.014648,
+      "longitude": -3.120935,
+      "bearing": 59,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T23:04:23+00:00",
+      "recorded_at": "2026-09-02T23:05:25+00:00",
       "journey_id": "2345"
     },
     {
@@ -39,22 +39,6 @@
       "journey_id": "2315"
     },
     {
-      "vehicle_id": "FBOS-47535",
-      "operator": "FBOS",
-      "operator_code": "FBOS",
-      "route": "21",
-      "direction": "inbound",
-      "origin": "Burnham on Sea  Sea View Road",
-      "destination": "Taunton  Castle Way",
-      "latitude": 51.014678,
-      "longitude": -3.102582,
-      "bearing": 0,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-09-02T22:45:10+00:00",
-      "journey_id": "2235"
-    },
-    {
       "vehicle_id": "FBOS-63700",
       "operator": "FBOS",
       "operator_code": "FBOS",
@@ -62,12 +46,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.166717,
-      "longitude": -3.39995,
-      "bearing": 299,
+      "latitude": 51.170894,
+      "longitude": -3.411886,
+      "bearing": 298,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T23:04:26+00:00",
+      "recorded_at": "2026-09-02T23:05:14+00:00",
       "journey_id": "143"
     },
     {
@@ -94,12 +78,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Wells Bus Station",
-      "latitude": 51.221348,
-      "longitude": -2.636959,
-      "bearing": 257,
+      "latitude": 51.21888,
+      "longitude": -2.642234,
+      "bearing": 224,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T23:04:31+00:00",
+      "recorded_at": "2026-09-02T23:05:04+00:00",
       "journey_id": "2245"
     },
     {
@@ -110,12 +94,12 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Wells Bus Station",
-      "latitude": 51.143977,
-      "longitude": -2.720634,
-      "bearing": 67,
+      "latitude": 51.146508,
+      "longitude": -2.717704,
+      "bearing": 355,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T23:04:27+00:00",
+      "recorded_at": "2026-09-02T23:05:24+00:00",
       "journey_id": "2350"
     }
   ]
