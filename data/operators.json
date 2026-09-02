@@ -26,7 +26,7 @@
   "SMST": {
     "name": "Somerset Council",
     "short_name": "Somerset Council",
-    "logo": som-logo-basic.svg,
+    "logo": "som-logo-basic.svg",
     "website": "https://www.somerset.gov.uk/"
   },
   "SWCO": {
