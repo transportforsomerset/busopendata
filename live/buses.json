@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T04:19:04.445Z",
+  "generated_at": "2026-09-02T04:20:04.135Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 34,
+  "data_age_seconds": 21,
   "vehicle_count": 2,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.021064,
-      "longitude": -3.073193,
-      "bearing": 11,
+      "latitude": 51.02544,
+      "longitude": -3.071161,
+      "bearing": 25,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:18:30+00:00",
+      "recorded_at": "2026-09-02T04:19:51+00:00",
       "journey_id": "0507"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.918362,
-      "longitude": -3.357932,
-      "bearing": 120,
+      "latitude": 50.917206,
+      "longitude": -3.350486,
+      "bearing": 90,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:18:43+00:00",
+      "recorded_at": "2026-09-02T04:19:43+00:00",
       "journey_id": "101"
     }
   ]
