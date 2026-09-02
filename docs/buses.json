@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T21:44:32.760Z",
+  "generated_at": "2026-09-02T21:45:37.959Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 389,
+  "data_age_seconds": 454,
   "vehicle_count": 14,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Burnham on Sea  Sea View Road",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.014673,
-      "longitude": -3.104198,
-      "bearing": 261,
+      "latitude": 51.014907,
+      "longitude": -3.106135,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T21:44:20+00:00",
+      "recorded_at": "2026-09-02T21:45:21+00:00",
       "journey_id": "2135"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 50.970894,
-      "longitude": -3.247771,
-      "bearing": 0,
+      "latitude": 50.971484,
+      "longitude": -3.246802,
+      "bearing": 44,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T21:44:24+00:00",
+      "recorded_at": "2026-09-02T21:45:25+00:00",
       "journey_id": "2245"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Taunton  Town Centre  I",
       "destination": "Chard  The Guildhall",
-      "latitude": 50.877538,
-      "longitude": -2.951591,
-      "bearing": 156,
+      "latitude": 50.875053,
+      "longitude": -2.954143,
+      "bearing": 207,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T21:44:19+00:00",
+      "recorded_at": "2026-09-02T21:45:12+00:00",
       "journey_id": "2205"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Burnham on Sea  Sea View Road",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.224947,
-      "longitude": -2.977993,
-      "bearing": 129,
+      "latitude": 51.222161,
+      "longitude": -2.974862,
+      "bearing": 194,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T21:44:20+00:00",
+      "recorded_at": "2026-09-02T21:45:34+00:00",
       "journey_id": "2235"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Preston Road ASDA",
       "destination": "Cavalier Way  Lyde Road",
-      "latitude": 50.94477,
-      "longitude": -2.635687,
-      "bearing": 0,
+      "latitude": 50.943462,
+      "longitude": -2.63604,
+      "bearing": 264,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T21:44:22+00:00",
+      "recorded_at": "2026-09-02T21:45:10+00:00",
       "journey_id": "247"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.11099,
-      "longitude": -2.994616,
+      "latitude": 51.116446,
+      "longitude": -2.996571,
       "bearing": 346,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T21:44:07+00:00",
+      "recorded_at": "2026-09-02T21:45:06+00:00",
       "journey_id": "2215"
     },
     {
@@ -115,7 +115,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T21:44:20+00:00",
+      "recorded_at": "2026-09-02T21:45:20+00:00",
       "journey_id": "2205"
     },
     {
@@ -131,7 +131,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T21:44:26+00:00",
+      "recorded_at": "2026-09-02T21:45:26+00:00",
       "journey_id": "143"
     },
     {
@@ -142,12 +142,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.174865,
-      "longitude": -3.42235,
+      "latitude": 51.172659,
+      "longitude": -3.417135,
       "bearing": 115,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T21:44:15+00:00",
+      "recorded_at": "2026-09-02T21:45:21+00:00",
       "journey_id": "144"
     },
     {
@@ -174,12 +174,12 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Wells Bus Station",
-      "latitude": 51.120995,
-      "longitude": -2.741255,
-      "bearing": 98,
+      "latitude": 51.123697,
+      "longitude": -2.738192,
+      "bearing": 20,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T21:44:28+00:00",
+      "recorded_at": "2026-09-02T21:45:21+00:00",
       "journey_id": "2242"
     },
     {
@@ -190,12 +190,12 @@
       "direction": "inbound",
       "origin": "Kingston for Hospital",
       "destination": "Bristol Bus Station",
-      "latitude": 51.159746,
-      "longitude": -2.704348,
-      "bearing": 77,
+      "latitude": 51.161626,
+      "longitude": -2.700469,
+      "bearing": 9,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T21:44:28+00:00",
+      "recorded_at": "2026-09-02T21:45:06+00:00",
       "journey_id": "2140"
     },
     {
@@ -206,12 +206,12 @@
       "direction": "inbound",
       "origin": "Kingston for Hospital",
       "destination": "Wells Bus Station",
-      "latitude": 50.980412,
-      "longitude": -2.67442,
-      "bearing": 344,
+      "latitude": 50.992734,
+      "longitude": -2.679115,
+      "bearing": 346,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T21:44:23+00:00",
+      "recorded_at": "2026-09-02T21:45:23+00:00",
       "journey_id": "2235"
     },
     {
@@ -222,12 +222,12 @@
       "direction": "outbound",
       "origin": "London Victoria Coach Station",
       "destination": "Plymouth Coach Stn Armada Way",
-      "latitude": 50.952,
-      "longitude": -3.265,
-      "bearing": 243,
+      "latitude": 50.943,
+      "longitude": -3.287,
+      "bearing": 232,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T21:44:10+00:00",
+      "recorded_at": "2026-09-02T21:45:19+00:00",
       "journey_id": "162246743"
     }
   ]
