@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T04:30:00.609Z",
+  "generated_at": "2026-09-02T04:31:04.970Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 23,
+  "data_age_seconds": 21,
   "vehicle_count": 3,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.068623,
-      "longitude": -3.022592,
-      "bearing": 24,
+      "latitude": 51.077961,
+      "longitude": -3.01945,
+      "bearing": 20,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:29:37+00:00",
+      "recorded_at": "2026-09-02T04:30:48+00:00",
       "journey_id": "0507"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dobree Park",
-      "latitude": 51.015205,
-      "longitude": -3.118625,
-      "bearing": 256,
+      "latitude": 51.014813,
+      "longitude": -3.120011,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:29:50+00:00",
+      "recorded_at": "2026-09-02T04:30:43+00:00",
       "journey_id": "0526"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.973728,
-      "longitude": -3.242983,
-      "bearing": 60,
+      "latitude": 50.975243,
+      "longitude": -3.239367,
+      "bearing": 84,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:29:46+00:00",
+      "recorded_at": "2026-09-02T04:30:46+00:00",
       "journey_id": "101"
     }
   ]
