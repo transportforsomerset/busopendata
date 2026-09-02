@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T04:38:02.043Z",
+  "generated_at": "2026-09-02T04:39:02.478Z",
   "source": "live",
   "status": "live",
   "data_age_seconds": 28,
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.099327,
-      "longitude": -3.003156,
-      "bearing": 23,
+      "latitude": 51.102761,
+      "longitude": -2.999838,
+      "bearing": 43,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:37:34+00:00",
+      "recorded_at": "2026-09-02T04:38:45+00:00",
       "journey_id": "0507"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dobree Park",
-      "latitude": 51.001145,
-      "longitude": -3.156888,
-      "bearing": 250,
+      "latitude": 50.995931,
+      "longitude": -3.168755,
+      "bearing": 228,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:37:50+00:00",
+      "recorded_at": "2026-09-02T04:38:43+00:00",
       "journey_id": "0526"
     },
     {
@@ -51,7 +51,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:37:48+00:00",
+      "recorded_at": "2026-09-02T04:38:34+00:00",
       "journey_id": "102"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.903286,
-      "longitude": -3.47967,
-      "bearing": 54,
+      "latitude": 50.907959,
+      "longitude": -3.471608,
+      "bearing": 36,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:37:51+00:00",
+      "recorded_at": "2026-09-02T04:38:52+00:00",
       "journey_id": "103"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.986191,
-      "longitude": -3.191502,
-      "bearing": 96,
+      "latitude": 50.991253,
+      "longitude": -3.17881,
+      "bearing": 54,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:37:49+00:00",
+      "recorded_at": "2026-09-02T04:38:49+00:00",
       "journey_id": "101"
     }
   ]
