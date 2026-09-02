@@ -1,12 +1,62 @@
 {
-  "FBRI": "First West of England",
-  "FBOS": "First Somerset",
-  "HGCO": "Hatch Green Coaches",
-  "SDVN": "Stagecoach South West",
-  "SMST": "Somerset Council",
-  "SWCO": "South West Coaches",
-  "BYCO": "Berrys Coaches",
-  "FLIX": "FlixBus",
-  "NATX": "National Express",
-  "SCCO": "MegaBus"
+  "FBRI": {
+    "name": "First West of England",
+    "short_name": "First",
+    "logo": "fb-logo.svg",
+    "website": "https://www.firstbus.co.uk/"
+  },
+  "FBOS": {
+    "name": "First Somerset",
+    "short_name": "First",
+    "logo": "fb-logo.svg",
+    "website": "https://www.firstbus.co.uk/"
+  },
+  "HGCO": {
+    "name": "Hatch Green Coaches",
+    "short_name": "Hatch Green",
+    "logo": null,
+    "website": "https://www.hatchgreencoaches.co.uk/"
+  },
+  "SDVN": {
+    "name": "Stagecoach South West",
+    "short_name": "Stagecoach",
+    "logo": "sc-logo.svg",
+    "website": "https://www.stagecoachbus.com/"
+  },
+  "SMST": {
+    "name": "Somerset Council",
+    "short_name": "Somerset Council",
+    "logo": null,
+    "website": "https://www.somerset.gov.uk/"
+  },
+  "SWCO": {
+    "name": "South West Coaches",
+    "short_name": "South West Coaches",
+    "logo": "swc-logo.jpg",
+    "website": "https://www.southwestcoaches.co.uk/"
+  },
+  "BYCO": {
+    "name": "Berrys Coaches",
+    "short_name": "Berrys",
+    "logo": "swc-logo.jpg",
+    "website": "https://www.berryscoaches.co.uk/"
+  },
+  "FLIX": {
+    "name": "FlixBus",
+    "short_name": "FlixBus",
+    "logo": null,
+    "website": "https://www.flixbus.co.uk/"
+  },
+  "NATX": {
+    "name": "National Express",
+    "short_name": "National Express",
+    "logo": null,
+    "website": "https://www.nationalexpress.com/"
+  },
+  "SCCO": {
+    "name": "MegaBus",
+    "short_name": "Megabus",
+    "logo": null,
+    "website": "https://uk.megabus.com/"
+  }
 }
