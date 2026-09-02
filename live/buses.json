@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T22:57:33.738Z",
+  "generated_at": "2026-09-02T22:58:36.913Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1189,
+  "data_age_seconds": 931,
   "vehicle_count": 9,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.004636,
-      "longitude": -3.146478,
-      "bearing": 195,
+      "latitude": 51.004087,
+      "longitude": -3.146823,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T22:57:17+00:00",
+      "recorded_at": "2026-09-02T22:58:14+00:00",
       "journey_id": "2345"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dunball  Old Works Road",
-      "latitude": 51.129898,
-      "longitude": -2.998236,
-      "bearing": 136,
+      "latitude": 51.131087,
+      "longitude": -3.000687,
+      "bearing": 357,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T22:57:24+00:00",
+      "recorded_at": "2026-09-02T22:58:12+00:00",
       "journey_id": "2315"
     },
     {
@@ -71,22 +71,6 @@
       "journey_id": "250"
     },
     {
-      "vehicle_id": "FBOS-48503",
-      "operator": "FBOS",
-      "operator_code": "FBOS",
-      "route": "1",
-      "direction": "outbound",
-      "origin": "Taunton  Silk Mills P R",
-      "destination": "Taunton  Town Centre  J",
-      "latitude": 51.014331,
-      "longitude": -3.101747,
-      "bearing": 0,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-09-02T22:37:44+00:00",
-      "journey_id": "2305"
-    },
-    {
       "vehicle_id": "FBOS-63700",
       "operator": "FBOS",
       "operator_code": "FBOS",
@@ -94,12 +78,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.158942,
-      "longitude": -3.347999,
-      "bearing": 303,
+      "latitude": 51.161055,
+      "longitude": -3.358533,
+      "bearing": 292,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T22:57:26+00:00",
+      "recorded_at": "2026-09-02T22:58:26+00:00",
       "journey_id": "143"
     },
     {
@@ -117,6 +101,22 @@
       "occupancy": "",
       "recorded_at": "2026-09-02T22:54:37+00:00",
       "journey_id": "144"
+    },
+    {
+      "vehicle_id": "FBRI-33711",
+      "operator": "FBRI",
+      "operator_code": "FBRI",
+      "route": "376A",
+      "direction": "outbound",
+      "origin": "Bristol Bus Station",
+      "destination": "Wells Bus Station",
+      "latitude": 51.261792,
+      "longitude": -2.593322,
+      "bearing": 203,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-02T22:58:26+00:00",
+      "journey_id": "2245"
     },
     {
       "vehicle_id": "FBRI-33936",
@@ -142,12 +142,12 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Wells Bus Station",
-      "latitude": 51.120685,
-      "longitude": -2.74973,
-      "bearing": 23,
+      "latitude": 51.121,
+      "longitude": -2.741245,
+      "bearing": 98,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T22:57:22+00:00",
+      "recorded_at": "2026-09-02T22:58:30+00:00",
       "journey_id": "2350"
     }
   ]
