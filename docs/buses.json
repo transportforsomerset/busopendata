@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T04:56:01.009Z",
+  "generated_at": "2026-09-02T04:56:59.858Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 24,
+  "data_age_seconds": 28,
   "vehicle_count": 8,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.131761,
-      "longitude": -2.995821,
-      "bearing": 93,
+      "latitude": 51.134495,
+      "longitude": -2.994136,
+      "bearing": 9,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:55:46+00:00",
+      "recorded_at": "2026-09-02T04:56:40+00:00",
       "journey_id": "0507"
     },
     {
@@ -35,7 +35,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:55:45+00:00",
+      "recorded_at": "2026-09-02T04:56:45+00:00",
       "journey_id": "0526"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Chard  The Guildhall",
       "destination": "Axminster  Rail Station",
-      "latitude": 50.872755,
-      "longitude": -2.965195,
+      "latitude": 50.872771,
+      "longitude": -2.965221,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:55:48+00:00",
+      "recorded_at": "2026-09-02T04:56:48+00:00",
       "journey_id": "0606"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Bridgwater Bus Station  3",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.129864,
-      "longitude": -2.998969,
+      "latitude": 51.129845,
+      "longitude": -2.999007,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:55:41+00:00",
+      "recorded_at": "2026-09-02T04:56:42+00:00",
       "journey_id": "0600"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.19834,
-      "longitude": -3.469186,
-      "bearing": 143,
+      "latitude": 51.196623,
+      "longitude": -3.466219,
+      "bearing": 117,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:55:51+00:00",
+      "recorded_at": "2026-09-02T04:56:31+00:00",
       "journey_id": "102"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.966076,
-      "longitude": -3.255578,
-      "bearing": 72,
+      "latitude": 50.97102,
+      "longitude": -3.24763,
+      "bearing": 42,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:55:37+00:00",
+      "recorded_at": "2026-09-02T04:56:37+00:00",
       "journey_id": "103"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "outbound",
       "origin": "Silk Mills P&amp;R",
       "destination": "Gateway P&amp;R",
-      "latitude": 51.013325,
-      "longitude": -3.120362,
-      "bearing": 108,
+      "latitude": 51.012272,
+      "longitude": -3.118993,
+      "bearing": 156,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:55:55+00:00",
+      "recorded_at": "2026-09-02T04:56:36+00:00",
       "journey_id": "101"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.912811,
-      "longitude": -3.450513,
-      "bearing": 72,
+      "latitude": 50.918358,
+      "longitude": -3.432464,
+      "bearing": 78,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:55:53+00:00",
+      "recorded_at": "2026-09-02T04:56:53+00:00",
       "journey_id": "105"
     }
   ]
