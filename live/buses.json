@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T04:08:01.091Z",
+  "generated_at": "2026-09-02T04:09:02.876Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 10,
-  "vehicle_count": 1,
+  "data_age_seconds": 22,
+  "vehicle_count": 2,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30005",
@@ -14,13 +14,29 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.014805,
-      "longitude": -3.105049,
+      "latitude": 51.014828,
+      "longitude": -3.105059,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:07:51+00:00",
+      "recorded_at": "2026-09-02T04:08:41+00:00",
       "journey_id": "0507"
+    },
+    {
+      "vehicle_id": "SDVN-15326",
+      "operator": "SDVN",
+      "operator_code": "SDVN",
+      "route": "24",
+      "direction": "outbound",
+      "origin": "Bus Station",
+      "destination": "Silk Mills P&amp;R",
+      "latitude": 50.901661,
+      "longitude": -3.486391,
+      "bearing": 66,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-02T04:08:40+00:00",
+      "journey_id": "101"
     }
   ]
 }
