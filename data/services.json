@@ -29,8 +29,12 @@
   ],
   "SWCO": [
     { "ref": "1", "services": ["1"] }
-  ]
+  ],
   "BYCO": [
     { "ref": "SF", "name": "London Superfast", "services": ["SF1", "SF2", "SF3"] }
+  ],
+  "FLIX": [
+    { "ref": "049", "services": ["049"] },
+    { "ref": "078", "services": ["078"] }
   ]
 }
