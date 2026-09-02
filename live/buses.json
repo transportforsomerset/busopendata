@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T22:51:39.555Z",
+  "generated_at": "2026-09-02T22:52:34.824Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 835,
+  "data_age_seconds": 890,
   "vehicle_count": 9,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 50.982778,
-      "longitude": -3.207072,
-      "bearing": 124,
+      "latitude": 50.984282,
+      "longitude": -3.197797,
+      "bearing": 59,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T22:51:26+00:00",
+      "recorded_at": "2026-09-02T22:52:30+00:00",
       "journey_id": "2345"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dunball  Old Works Road",
-      "latitude": 51.12979,
-      "longitude": -2.998856,
+      "latitude": 51.129841,
+      "longitude": -2.998833,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T22:51:24+00:00",
+      "recorded_at": "2026-09-02T22:52:24+00:00",
       "journey_id": "2315"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.179329,
-      "longitude": -3.331376,
-      "bearing": 37,
+      "latitude": 51.181543,
+      "longitude": -3.32897,
+      "bearing": 43,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T22:51:23+00:00",
+      "recorded_at": "2026-09-02T22:52:23+00:00",
       "journey_id": "143"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.023078,
-      "longitude": -3.103714,
-      "bearing": 170,
+      "latitude": 51.019416,
+      "longitude": -3.105851,
+      "bearing": 190,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T22:51:26+00:00",
+      "recorded_at": "2026-09-02T22:52:12+00:00",
       "journey_id": "144"
     },
     {
@@ -142,12 +142,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.121113,
-      "longitude": -2.742292,
-      "bearing": 281,
+      "latitude": 51.121483,
+      "longitude": -2.745608,
+      "bearing": 288,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T22:51:22+00:00",
+      "recorded_at": "2026-09-02T22:52:11+00:00",
       "journey_id": "2215"
     }
   ]
