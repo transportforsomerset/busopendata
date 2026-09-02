@@ -20,7 +20,7 @@
   "SDVN": {
     "name": "Stagecoach South West",
     "short_name": "Stagecoach",
-    "logo": "sc-logo.svg",
+    "logo": "sc-logo-basic.svg",
     "website": "https://www.stagecoachbus.com/"
   },
   "SMST": {
@@ -38,7 +38,7 @@
   "BYCO": {
     "name": "Berrys Coaches",
     "short_name": "Berrys",
-    "logo": "swc-logo.jpg",
+    "logo": null,
     "website": "https://www.berryscoaches.co.uk/"
   },
   "FLIX": {
