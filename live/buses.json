@@ -1,9 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T04:07:01.018Z",
+  "generated_at": "2026-09-02T04:08:01.091Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 0,
-  "vehicle_count": 0,
-  "vehicles": []
+  "data_age_seconds": 10,
+  "vehicle_count": 1,
+  "vehicles": [
+    {
+      "vehicle_id": "FBOS-30005",
+      "operator": "FBOS",
+      "operator_code": "FBOS",
+      "route": "21",
+      "direction": "outbound",
+      "origin": "Taunton  Castle Way",
+      "destination": "Burnham on Sea  Sea View Road",
+      "latitude": 51.014805,
+      "longitude": -3.105049,
+      "bearing": 0,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-02T04:07:51+00:00",
+      "journey_id": "0507"
+    }
+  ]
 }
