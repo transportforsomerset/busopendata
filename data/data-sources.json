@@ -1,0 +1,25 @@
+{
+  "sources": {
+    "default": "BODS",
+    "BODS": {
+      "name": "Bus Open Data Service",
+      "for": "bus-data",
+      "type": "siri-vm"
+    },
+    "FLIX": {
+      "name": "FlixBus",
+      "for": "coach-data",
+      "type": "api"
+    },
+    "FALCON": {
+      "name": "Falcon",
+      "for": "coach-data",
+      "type": "api"
+    },
+    "NR": {
+      "name": "Network Rail",
+      "for": "rail-data",
+      "type": "api"
+    }
+  }
+}
