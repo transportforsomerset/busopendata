@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T23:23:36.020Z",
+  "generated_at": "2026-09-02T23:24:33.985Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1173,
-  "vehicle_count": 7,
+  "data_age_seconds": 1047,
+  "vehicle_count": 6,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30002",
@@ -21,22 +21,6 @@
       "occupancy": "",
       "recorded_at": "2026-09-02T23:07:06+00:00",
       "journey_id": "2345"
-    },
-    {
-      "vehicle_id": "FBOS-30011",
-      "operator": "FBOS",
-      "operator_code": "FBOS",
-      "route": "21",
-      "direction": "outbound",
-      "origin": "Taunton  Castle Way",
-      "destination": "Dunball  Old Works Road",
-      "latitude": 51.162131,
-      "longitude": -2.987316,
-      "bearing": 338,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-09-02T23:04:03+00:00",
-      "journey_id": "2315"
     },
     {
       "vehicle_id": "FBOS-63700",
@@ -94,12 +78,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.207491,
-      "longitude": -2.650752,
-      "bearing": 0,
+      "latitude": 51.207099,
+      "longitude": -2.651207,
+      "bearing": 133,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T23:23:10+00:00",
+      "recorded_at": "2026-09-02T23:24:26+00:00",
       "journey_id": "2320"
     },
     {
