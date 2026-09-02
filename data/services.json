@@ -1,4 +1,10 @@
 {
+  "FBRI": [
+    { "ref": "373", "services": ["373"] },
+    { "ref": "374", "services": ["374"] },
+    { "ref": "375", "services": ["375"] },
+    { "ref": "375", "services": ["376", "376A"] }
+  ],
   "FBOS": [
     { "ref": "1", "services": ["1", "1E"] },
     { "ref": "3", "services": ["3"] },
