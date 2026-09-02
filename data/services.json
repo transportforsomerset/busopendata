@@ -19,8 +19,7 @@
     { "ref": "51", "services": ["51"] },
     { "ref": "54", "services": ["54"] },
     { "ref": "99", "services": ["99"] },
-    { "ref": "374", "services": ["374"] },
-    { "ref": "375", "services": ["375"] }
+    { "ref": "B1", "services": ["B1"] }
   ],
   "HGCO": [
      { "ref": "97", "services": ["97"] }
