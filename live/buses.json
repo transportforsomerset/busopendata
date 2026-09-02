@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T04:22:01.330Z",
+  "generated_at": "2026-09-02T04:23:03.827Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 17,
-  "vehicle_count": 2,
+  "data_age_seconds": 19,
+  "vehicle_count": 3,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30005",
@@ -14,13 +14,29 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.030612,
-      "longitude": -3.06267,
-      "bearing": 54,
+      "latitude": 51.033525,
+      "longitude": -3.058807,
+      "bearing": 41,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:21:52+00:00",
+      "recorded_at": "2026-09-02T04:22:49+00:00",
       "journey_id": "0507"
+    },
+    {
+      "vehicle_id": "FBOS-30007",
+      "operator": "FBOS",
+      "operator_code": "FBOS",
+      "route": "22A",
+      "direction": "outbound",
+      "origin": "Taunton  Castle Way",
+      "destination": "Dobree Park",
+      "latitude": 51.014708,
+      "longitude": -3.105039,
+      "bearing": 0,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-02T04:22:44+00:00",
+      "journey_id": "0526"
     },
     {
       "vehicle_id": "SDVN-15326",
@@ -30,12 +46,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.923168,
-      "longitude": -3.325702,
-      "bearing": 30,
+      "latitude": 50.931652,
+      "longitude": -3.314743,
+      "bearing": 60,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:21:44+00:00",
+      "recorded_at": "2026-09-02T04:22:44+00:00",
       "journey_id": "101"
     }
   ]
