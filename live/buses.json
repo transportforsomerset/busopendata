@@ -1,27 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T23:37:34.697Z",
+  "generated_at": "2026-09-02T23:38:32.687Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1144,
-  "vehicle_count": 4,
+  "data_age_seconds": 1198,
+  "vehicle_count": 3,
   "vehicles": [
-    {
-      "vehicle_id": "FBOS-63700",
-      "operator": "FBOS",
-      "operator_code": "FBOS",
-      "route": "28A",
-      "direction": "outbound",
-      "origin": "Taunton  Castle Way",
-      "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.206961,
-      "longitude": -3.462197,
-      "bearing": 0,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-09-02T23:18:30+00:00",
-      "journey_id": "143"
-    },
     {
       "vehicle_id": "FBRI-33945",
       "operator": "FBRI",
@@ -46,12 +30,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.15225,
-      "longitude": -2.714214,
-      "bearing": 171,
+      "latitude": 51.148213,
+      "longitude": -2.712496,
+      "bearing": 245,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T23:37:31+00:00",
+      "recorded_at": "2026-09-02T23:38:25+00:00",
       "journey_id": "2320"
     },
     {
