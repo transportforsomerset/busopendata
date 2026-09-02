@@ -42,5 +42,12 @@
   "FLIX": [
     { "ref": "049", "services": ["049"] },
     { "ref": "078", "services": ["078"] }
+  ],
+  "NATX": [
+    { "ref": "104", "services": ["104"] },
+    { "ref": "105", "services": ["105"] },
+    { "ref": "501", "services": ["501"] },
+    { "ref": "502", "services": ["502"] },
+    { "ref": "504", "services": ["504"] }
   ]
 }
