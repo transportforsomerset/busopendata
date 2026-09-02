@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T04:45:00.974Z",
+  "generated_at": "2026-09-02T04:46:03.443Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 29,
+  "data_age_seconds": 25,
   "vehicle_count": 8,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.125345,
-      "longitude": -3.001295,
-      "bearing": 339,
+      "latitude": 51.126278,
+      "longitude": -3.001924,
+      "bearing": 334,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:44:47+00:00",
+      "recorded_at": "2026-09-02T04:45:42+00:00",
       "journey_id": "0507"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dobree Park",
-      "latitude": 50.985199,
-      "longitude": -3.21964,
-      "bearing": 264,
+      "latitude": 50.981076,
+      "longitude": -3.224372,
+      "bearing": 209,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:44:44+00:00",
+      "recorded_at": "2026-09-02T04:45:41+00:00",
       "journey_id": "0526"
     },
     {
@@ -51,7 +51,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:44:50+00:00",
+      "recorded_at": "2026-09-02T04:45:50+00:00",
       "journey_id": "0606"
     },
     {
@@ -67,7 +67,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:44:38+00:00",
+      "recorded_at": "2026-09-02T04:45:38+00:00",
       "journey_id": "0600"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.20728,
-      "longitude": -3.469896,
-      "bearing": 0,
+      "latitude": 51.206326,
+      "longitude": -3.475068,
+      "bearing": 250,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:44:31+00:00",
+      "recorded_at": "2026-09-02T04:45:55+00:00",
       "journey_id": "102"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.925007,
-      "longitude": -3.382295,
-      "bearing": 78,
+      "latitude": 50.921566,
+      "longitude": -3.363143,
+      "bearing": 132,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:44:54+00:00",
+      "recorded_at": "2026-09-02T04:45:54+00:00",
       "journey_id": "103"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 51.023205,
-      "longitude": -3.132631,
-      "bearing": 348,
+      "latitude": 51.023167,
+      "longitude": -3.130479,
+      "bearing": 90,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:44:52+00:00",
+      "recorded_at": "2026-09-02T04:45:53+00:00",
       "journey_id": "101"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.903408,
-      "longitude": -3.479401,
+      "latitude": 50.903385,
+      "longitude": -3.479438,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T04:44:48+00:00",
+      "recorded_at": "2026-09-02T04:45:49+00:00",
       "journey_id": "105"
     }
   ]
