@@ -1,27 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T23:38:32.687Z",
+  "generated_at": "2026-09-02T23:39:33.383Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1198,
-  "vehicle_count": 3,
+  "data_age_seconds": 15,
+  "vehicle_count": 2,
   "vehicles": [
-    {
-      "vehicle_id": "FBRI-33945",
-      "operator": "FBRI",
-      "operator_code": "FBRI",
-      "route": "376",
-      "direction": "inbound",
-      "origin": "Street  Green Lane Avenue",
-      "destination": "Wells Bus Station",
-      "latitude": 51.20727,
-      "longitude": -2.650902,
-      "bearing": 278,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-09-02T23:18:34+00:00",
-      "journey_id": "2350"
-    },
     {
       "vehicle_id": "FBRI-33955",
       "operator": "FBRI",
@@ -30,12 +14,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.148213,
-      "longitude": -2.712496,
-      "bearing": 245,
+      "latitude": 51.146819,
+      "longitude": -2.717848,
+      "bearing": 175,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T23:38:25+00:00",
+      "recorded_at": "2026-09-02T23:39:24+00:00",
       "journey_id": "2320"
     },
     {
@@ -46,12 +30,12 @@
       "direction": "outbound",
       "origin": "London Victoria Coach Station",
       "destination": "Plymouth Coach Stn Armada Way",
-      "latitude": 51.061,
-      "longitude": -3.033,
-      "bearing": 211,
+      "latitude": 51.039,
+      "longitude": -3.054,
+      "bearing": 259,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T23:36:40+00:00",
+      "recorded_at": "2026-09-02T23:39:18+00:00",
       "journey_id": "162246903"
     }
   ]
