@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T23:28:37.031Z",
+  "generated_at": "2026-09-02T23:29:35.954Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1170,
-  "vehicle_count": 5,
+  "data_age_seconds": 665,
+  "vehicle_count": 4,
   "vehicles": [
     {
       "vehicle_id": "FBOS-63700",
@@ -21,22 +21,6 @@
       "occupancy": "",
       "recorded_at": "2026-09-02T23:18:30+00:00",
       "journey_id": "143"
-    },
-    {
-      "vehicle_id": "FBRI-33711",
-      "operator": "FBRI",
-      "operator_code": "FBRI",
-      "route": "376A",
-      "direction": "outbound",
-      "origin": "Bristol Bus Station",
-      "destination": "Wells Bus Station",
-      "latitude": 51.207437,
-      "longitude": -2.650633,
-      "bearing": 0,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-09-02T23:09:07+00:00",
-      "journey_id": "2245"
     },
     {
       "vehicle_id": "FBRI-33945",
@@ -62,12 +46,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.196893,
-      "longitude": -2.665817,
-      "bearing": 224,
+      "latitude": 51.192431,
+      "longitude": -2.671497,
+      "bearing": 228,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-02T23:28:20+00:00",
+      "recorded_at": "2026-09-02T23:29:07+00:00",
       "journey_id": "2320"
     },
     {
