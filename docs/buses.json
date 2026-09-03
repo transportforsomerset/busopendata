@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T23:10:36.855Z",
+  "generated_at": "2026-09-03T23:11:33.879Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 948,
-  "vehicle_count": 7,
+  "data_age_seconds": 1005,
+  "vehicle_count": 8,
   "vehicles": [
     {
       "vehicle_id": "FBOS-33895",
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.015232,
-      "longitude": -3.117232,
-      "bearing": 109,
+      "latitude": 51.013377,
+      "longitude": -3.108238,
+      "bearing": 72,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T23:10:18+00:00",
+      "recorded_at": "2026-09-03T23:11:24+00:00",
       "journey_id": "2345"
     },
     {
@@ -62,13 +62,29 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.191613,
-      "longitude": -3.44771,
-      "bearing": 306,
+      "latitude": 51.19462,
+      "longitude": -3.458961,
+      "bearing": 284,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T23:10:18+00:00",
+      "recorded_at": "2026-09-03T23:11:21+00:00",
       "journey_id": "143"
+    },
+    {
+      "vehicle_id": "FBRI-33711",
+      "operator": "FBRI",
+      "operator_code": "FBRI",
+      "route": "376",
+      "direction": "outbound",
+      "origin": "Bristol Bus Station",
+      "destination": "Street  Green Lane Avenue",
+      "latitude": 51.264083,
+      "longitude": -2.591593,
+      "bearing": 210,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-03T23:11:22+00:00",
+      "journey_id": "2320"
     },
     {
       "vehicle_id": "FBRI-33946",
@@ -94,12 +110,12 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Wells Bus Station",
-      "latitude": 51.169102,
-      "longitude": -2.697242,
-      "bearing": 20,
+      "latitude": 51.178147,
+      "longitude": -2.692504,
+      "bearing": 22,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T23:10:03+00:00",
+      "recorded_at": "2026-09-03T23:11:06+00:00",
       "journey_id": "2350"
     },
     {
@@ -110,12 +126,12 @@
       "direction": "outbound",
       "origin": "London Victoria Coach Station",
       "destination": "Plymouth Coach Stn Armada Way",
-      "latitude": 50.925,
-      "longitude": -3.345,
-      "bearing": 229,
+      "latitude": 50.915,
+      "longitude": -3.359,
+      "bearing": 215,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T23:10:20+00:00",
+      "recorded_at": "2026-09-03T23:11:13+00:00",
       "journey_id": "162261929"
     }
   ]
