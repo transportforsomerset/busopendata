@@ -1,27 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T23:42:38.008Z",
+  "generated_at": "2026-09-03T23:43:39.626Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1192,
-  "vehicle_count": 3,
+  "data_age_seconds": 19,
+  "vehicle_count": 2,
   "vehicles": [
-    {
-      "vehicle_id": "FBOS-63704",
-      "operator": "FBOS",
-      "operator_code": "FBOS",
-      "route": "28A",
-      "direction": "outbound",
-      "origin": "Taunton  Castle Way",
-      "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.203155,
-      "longitude": -3.465692,
-      "bearing": 0,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-09-03T23:22:46+00:00",
-      "journey_id": "143"
-    },
     {
       "vehicle_id": "FBRI-33711",
       "operator": "FBRI",
@@ -30,12 +14,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.13974,
-      "longitude": -2.734588,
-      "bearing": 224,
+      "latitude": 51.133222,
+      "longitude": -2.73599,
+      "bearing": 195,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T23:42:27+00:00",
+      "recorded_at": "2026-09-03T23:43:20+00:00",
       "journey_id": "2320"
     },
     {
@@ -46,12 +30,12 @@
       "direction": "outbound",
       "origin": "London Victoria Coach Station",
       "destination": "Plymouth Coach Stn Armada Way",
-      "latitude": 50.709,
-      "longitude": -3.509,
-      "bearing": 126,
+      "latitude": 50.697,
+      "longitude": -3.497,
+      "bearing": 222,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T23:40:45+00:00",
+      "recorded_at": "2026-09-03T23:43:32+00:00",
       "journey_id": "162261929"
     }
   ]
