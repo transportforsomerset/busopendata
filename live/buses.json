@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T03:57:31.687Z",
+  "generated_at": "2026-09-03T03:58:31.704Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 25,
+  "data_age_seconds": 19,
   "vehicle_count": 2,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.226391,
-      "longitude": -2.621599,
-      "bearing": 57,
+      "latitude": 51.233215,
+      "longitude": -2.61985,
+      "bearing": 344,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T03:57:09+00:00",
+      "recorded_at": "2026-09-03T03:58:12+00:00",
       "journey_id": "0451"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Plymouth Coach Stn Armada Way",
       "destination": "London Victoria Coach Station",
-      "latitude": 51.059,
-      "longitude": -3.022,
-      "bearing": 19,
+      "latitude": 51.075,
+      "longitude": -3.011,
+      "bearing": 23,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T03:57:06+00:00",
+      "recorded_at": "2026-09-03T03:58:15+00:00",
       "journey_id": "162261849"
     }
   ]
