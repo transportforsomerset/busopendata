@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T04:03:36.264Z",
+  "generated_at": "2026-09-03T04:04:33.134Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 24,
-  "vehicle_count": 4,
+  "data_age_seconds": 48,
+  "vehicle_count": 3,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30011",
@@ -19,7 +19,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:03:32+00:00",
+      "recorded_at": "2026-09-03T04:04:01+00:00",
       "journey_id": "0507"
     },
     {
@@ -30,29 +30,13 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.207453,
-      "longitude": -2.650717,
-      "bearing": 27,
+      "latitude": 51.207534,
+      "longitude": -2.652017,
+      "bearing": 313,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:03:12+00:00",
+      "recorded_at": "2026-09-03T04:04:11+00:00",
       "journey_id": "0455"
-    },
-    {
-      "vehicle_id": "FBRI-33980",
-      "operator": "FBRI",
-      "operator_code": "FBRI",
-      "route": "376",
-      "direction": "inbound",
-      "origin": "Wells Bus Station",
-      "destination": "Bristol Bus Station",
-      "latitude": 51.269269,
-      "longitude": -2.586635,
-      "bearing": 21,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-09-03T04:03:26+00:00",
-      "journey_id": "0451"
     },
     {
       "vehicle_id": "BV24ZFN",
@@ -62,12 +46,12 @@
       "direction": "inbound",
       "origin": "Plymouth Coach Stn Armada Way",
       "destination": "London Victoria Coach Station",
-      "latitude": 51.121,
-      "longitude": -2.999,
-      "bearing": 349,
+      "latitude": 51.124,
+      "longitude": -3.001,
+      "bearing": 350,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:03:18+00:00",
+      "recorded_at": "2026-09-03T04:03:45+00:00",
       "journey_id": "162261849"
     }
   ]
