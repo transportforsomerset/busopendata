@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T04:07:32.792Z",
+  "generated_at": "2026-09-03T04:08:35.933Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 32,
-  "vehicle_count": 3,
+  "data_age_seconds": 19,
+  "vehicle_count": 4,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30011",
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.01479,
-      "longitude": -3.105135,
-      "bearing": 0,
+      "latitude": 51.015033,
+      "longitude": -3.102754,
+      "bearing": 131,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:07:14+00:00",
+      "recorded_at": "2026-09-03T04:08:23+00:00",
       "journey_id": "0507"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.218587,
-      "longitude": -2.642832,
-      "bearing": 49,
+      "latitude": 51.222903,
+      "longitude": -2.62946,
+      "bearing": 69,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:07:00+00:00",
+      "recorded_at": "2026-09-03T04:08:21+00:00",
       "journey_id": "0455"
     },
     {
@@ -48,11 +48,27 @@
       "destination": "London Victoria Coach Station",
       "latitude": 51.13,
       "longitude": -2.999,
-      "bearing": 166,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:07:12+00:00",
+      "recorded_at": "2026-09-03T04:08:16+00:00",
       "journey_id": "162261849"
+    },
+    {
+      "vehicle_id": "SDVN-15325",
+      "operator": "SDVN",
+      "operator_code": "SDVN",
+      "route": "24",
+      "direction": "outbound",
+      "origin": "Bus Station",
+      "destination": "Silk Mills P&amp;R",
+      "latitude": 50.901424,
+      "longitude": -3.486769,
+      "bearing": 240,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-03T04:08:19+00:00",
+      "journey_id": "101"
     }
   ]
 }
