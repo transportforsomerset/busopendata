@@ -1,27 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T23:22:40.888Z",
+  "generated_at": "2026-09-03T23:23:34.374Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1175,
-  "vehicle_count": 7,
+  "data_age_seconds": 845,
+  "vehicle_count": 6,
   "vehicles": [
-    {
-      "vehicle_id": "FBOS-33895",
-      "operator": "FBOS",
-      "operator_code": "FBOS",
-      "route": "21",
-      "direction": "outbound",
-      "origin": "Taunton  Castle Way",
-      "destination": "Dunball  Old Works Road",
-      "latitude": 51.163519,
-      "longitude": -2.988382,
-      "bearing": 0,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-09-03T23:03:05+00:00",
-      "journey_id": "2315"
-    },
     {
       "vehicle_id": "FBOS-34468",
       "operator": "FBOS",
@@ -51,7 +35,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T23:22:37+00:00",
+      "recorded_at": "2026-09-03T23:22:46+00:00",
       "journey_id": "143"
     },
     {
@@ -67,7 +51,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T23:22:25+00:00",
+      "recorded_at": "2026-09-03T23:23:25+00:00",
       "journey_id": "2320"
     },
     {
