@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T23:38:37.592Z",
+  "generated_at": "2026-09-03T23:39:32.582Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1110,
+  "data_age_seconds": 1165,
   "vehicle_count": 4,
   "vehicles": [
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.148172,
-      "longitude": -2.712482,
-      "bearing": 228,
+      "latitude": 51.147646,
+      "longitude": -2.716843,
+      "bearing": 254,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T23:38:12+00:00",
+      "recorded_at": "2026-09-03T23:39:23+00:00",
       "journey_id": "2320"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "London Victoria Coach Station",
       "destination": "Plymouth Coach Stn Armada Way",
-      "latitude": 50.727,
-      "longitude": -3.521,
-      "bearing": 123,
+      "latitude": 50.714,
+      "longitude": -3.51,
+      "bearing": 190,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T23:35:44+00:00",
+      "recorded_at": "2026-09-03T23:39:18+00:00",
       "journey_id": "162261929"
     }
   ]
