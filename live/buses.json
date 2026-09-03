@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T22:44:40.509Z",
+  "generated_at": "2026-09-03T22:45:36.310Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 335,
+  "data_age_seconds": 391,
   "vehicle_count": 10,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Burnham on Sea  Sea View Road",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.015091,
-      "longitude": -3.105069,
-      "bearing": 141,
+      "latitude": 51.014806,
+      "longitude": -3.104979,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:44:22+00:00",
+      "recorded_at": "2026-09-03T22:45:25+00:00",
       "journey_id": "2235"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dunball  Old Works Road",
-      "latitude": 51.116492,
-      "longitude": -2.996546,
-      "bearing": 346,
+      "latitude": 51.122656,
+      "longitude": -3.000057,
+      "bearing": 331,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:44:08+00:00",
+      "recorded_at": "2026-09-03T22:45:09+00:00",
       "journey_id": "2315"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 50.970877,
-      "longitude": -3.247757,
-      "bearing": 0,
+      "latitude": 50.971435,
+      "longitude": -3.246828,
+      "bearing": 44,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:44:11+00:00",
+      "recorded_at": "2026-09-03T22:45:28+00:00",
       "journey_id": "2345"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Cavalier Way  Lyde Road",
       "destination": "Preston Road ASDA",
-      "latitude": 50.944138,
-      "longitude": -2.668986,
-      "bearing": 283,
+      "latitude": 50.946545,
+      "longitude": -2.676022,
+      "bearing": 290,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:44:31+00:00",
+      "recorded_at": "2026-09-03T22:45:31+00:00",
       "journey_id": "250"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.031082,
-      "longitude": -3.133736,
-      "bearing": 77,
+      "latitude": 51.028975,
+      "longitude": -3.124736,
+      "bearing": 129,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:44:22+00:00",
+      "recorded_at": "2026-09-03T22:45:29+00:00",
       "journey_id": "144"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.154822,
-      "longitude": -3.294509,
-      "bearing": 267,
+      "latitude": 51.155489,
+      "longitude": -3.304066,
+      "bearing": 276,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:44:32+00:00",
+      "recorded_at": "2026-09-03T22:45:14+00:00",
       "journey_id": "143"
     },
     {
@@ -142,12 +142,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.120915,
-      "longitude": -2.740941,
-      "bearing": 276,
+      "latitude": 51.121483,
+      "longitude": -2.745599,
+      "bearing": 287,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:44:34+00:00",
+      "recorded_at": "2026-09-03T22:45:30+00:00",
       "journey_id": "2215"
     },
     {
@@ -158,12 +158,12 @@
       "direction": "outbound",
       "origin": "London Victoria Coach Station",
       "destination": "Plymouth Coach Stn Armada Way",
-      "latitude": 51.017,
-      "longitude": -3.064,
-      "bearing": 290,
+      "latitude": 51.018,
+      "longitude": -3.065,
+      "bearing": 275,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:44:31+00:00",
+      "recorded_at": "2026-09-03T22:44:43+00:00",
       "journey_id": "162261929"
     }
   ]
