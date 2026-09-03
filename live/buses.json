@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T04:24:36.024Z",
+  "generated_at": "2026-09-03T04:25:33.793Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 114,
+  "data_age_seconds": 171,
   "vehicle_count": 5,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dobree Park",
-      "latitude": 51.014731,
-      "longitude": -3.104993,
+      "latitude": 51.014702,
+      "longitude": -3.105034,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:24:12+00:00",
+      "recorded_at": "2026-09-03T04:25:09+00:00",
       "journey_id": "0526"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.054823,
-      "longitude": -3.035764,
-      "bearing": 357,
+      "latitude": 51.066279,
+      "longitude": -3.024904,
+      "bearing": 40,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:24:08+00:00",
+      "recorded_at": "2026-09-03T04:25:29+00:00",
       "journey_id": "0507"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.216039,
-      "longitude": -2.64512,
-      "bearing": 33,
+      "latitude": 51.22054,
+      "longitude": -2.639147,
+      "bearing": 66,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:24:27+00:00",
+      "recorded_at": "2026-09-03T04:25:28+00:00",
       "journey_id": "0521"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.954319,
-      "longitude": -3.298228,
-      "bearing": 336,
+      "latitude": 50.96225,
+      "longitude": -3.28746,
+      "bearing": 54,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:24:25+00:00",
+      "recorded_at": "2026-09-03T04:25:25+00:00",
       "journey_id": "101"
     }
   ]
