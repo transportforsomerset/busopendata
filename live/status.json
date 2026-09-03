@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "live",
   "source": "live",
-  "generated_at": "2026-09-03T22:37:33.584Z",
-  "checked_at": "2026-09-03T22:37:33.585Z",
+  "generated_at": "2026-09-03T22:38:38.331Z",
+  "checked_at": "2026-09-03T22:38:38.332Z",
   "data_age_seconds": 0,
   "vehicle_count": 11,
   "message": "Live bus data is available."
