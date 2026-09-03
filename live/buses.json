@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T22:55:39.461Z",
+  "generated_at": "2026-09-03T22:56:38.592Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 994,
+  "data_age_seconds": 1053,
   "vehicle_count": 10,
   "vehicles": [
     {
@@ -35,7 +35,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:55:29+00:00",
+      "recorded_at": "2026-09-03T22:56:29+00:00",
       "journey_id": "2315"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 50.999824,
-      "longitude": -3.161282,
-      "bearing": 69,
+      "latitude": 51.003748,
+      "longitude": -3.149761,
+      "bearing": 60,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:55:32+00:00",
+      "recorded_at": "2026-09-03T22:56:16+00:00",
       "journey_id": "2345"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.17859,
-      "longitude": -3.332333,
-      "bearing": 226,
+      "latitude": 51.174671,
+      "longitude": -3.336603,
+      "bearing": 196,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:55:14+00:00",
+      "recorded_at": "2026-09-03T22:56:26+00:00",
       "journey_id": "143"
     },
     {
@@ -142,12 +142,12 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Wells Bus Station",
-      "latitude": 51.126726,
-      "longitude": -2.739518,
-      "bearing": 315,
+      "latitude": 51.12671,
+      "longitude": -2.739539,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:55:13+00:00",
+      "recorded_at": "2026-09-03T22:56:14+00:00",
       "journey_id": "2350"
     },
     {
