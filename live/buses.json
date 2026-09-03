@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T04:29:35.849Z",
+  "generated_at": "2026-09-03T04:30:39.485Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 31,
+  "data_age_seconds": 13,
   "vehicle_count": 6,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dobree Park",
-      "latitude": 51.01463,
-      "longitude": -3.114646,
-      "bearing": 285,
+      "latitude": 51.014695,
+      "longitude": -3.120612,
+      "bearing": 241,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:29:04+00:00",
+      "recorded_at": "2026-09-03T04:30:27+00:00",
       "journey_id": "0526"
     },
     {
@@ -35,7 +35,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:29:27+00:00",
+      "recorded_at": "2026-09-03T04:30:27+00:00",
       "journey_id": "0507"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.206922,
-      "longitude": -3.462216,
+      "latitude": 51.206905,
+      "longitude": -3.462186,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:29:06+00:00",
+      "recorded_at": "2026-09-03T04:30:36+00:00",
       "journey_id": "102"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Wells Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.207451,
-      "longitude": -2.650706,
-      "bearing": 0,
+      "latitude": 51.205569,
+      "longitude": -2.650493,
+      "bearing": 215,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:29:11+00:00",
+      "recorded_at": "2026-09-03T04:30:33+00:00",
       "journey_id": "0525"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.243934,
-      "longitude": -2.611472,
+      "latitude": 51.250555,
+      "longitude": -2.604156,
       "bearing": 34,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:29:30+00:00",
+      "recorded_at": "2026-09-03T04:30:26+00:00",
       "journey_id": "0521"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.973682,
-      "longitude": -3.243033,
-      "bearing": 42,
+      "latitude": 50.974613,
+      "longitude": -3.241549,
+      "bearing": 54,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:29:27+00:00",
+      "recorded_at": "2026-09-03T04:30:27+00:00",
       "journey_id": "101"
     }
   ]
