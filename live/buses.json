@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T22:48:41.317Z",
+  "generated_at": "2026-09-03T22:49:35.462Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 576,
+  "data_age_seconds": 630,
   "vehicle_count": 10,
   "vehicles": [
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dunball  Old Works Road",
-      "latitude": 51.128577,
-      "longitude": -3.004196,
-      "bearing": 256,
+      "latitude": 51.128113,
+      "longitude": -3.005662,
+      "bearing": 238,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:48:31+00:00",
+      "recorded_at": "2026-09-03T22:49:23+00:00",
       "journey_id": "2315"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 50.979087,
-      "longitude": -3.226838,
-      "bearing": 0,
+      "latitude": 50.979349,
+      "longitude": -3.226415,
+      "bearing": 38,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:48:17+00:00",
+      "recorded_at": "2026-09-03T22:49:23+00:00",
       "journey_id": "2345"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Cavalier Way  Lyde Road",
       "destination": "Preston Road ASDA",
-      "latitude": 50.952903,
-      "longitude": -2.676586,
+      "latitude": 50.953182,
+      "longitude": -2.675555,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:48:19+00:00",
+      "recorded_at": "2026-09-03T22:49:24+00:00",
       "journey_id": "250"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.025109,
-      "longitude": -3.102365,
-      "bearing": 205,
+      "latitude": 51.023557,
+      "longitude": -3.102848,
+      "bearing": 284,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:48:26+00:00",
+      "recorded_at": "2026-09-03T22:49:20+00:00",
       "journey_id": "144"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.166136,
-      "longitude": -3.324158,
-      "bearing": 340,
+      "latitude": 51.170067,
+      "longitude": -3.333554,
+      "bearing": 301,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:48:29+00:00",
+      "recorded_at": "2026-09-03T22:49:30+00:00",
       "journey_id": "143"
     },
     {
@@ -147,7 +147,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:48:29+00:00",
+      "recorded_at": "2026-09-03T22:49:29+00:00",
       "journey_id": "2350"
     },
     {
@@ -159,11 +159,11 @@
       "origin": "London Victoria Coach Station",
       "destination": "Plymouth Coach Stn Armada Way",
       "latitude": 51.015,
-      "longitude": -3.094,
-      "bearing": 255,
+      "longitude": -3.099,
+      "bearing": 257,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:48:31+00:00",
+      "recorded_at": "2026-09-03T22:49:19+00:00",
       "journey_id": "162261929"
     }
   ]
