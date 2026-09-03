@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T03:00:37.732Z",
+  "generated_at": "2026-09-03T03:01:32.102Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 115,
+  "data_age_seconds": 51,
   "vehicle_count": 1,
   "vehicles": [
     {
@@ -16,10 +16,10 @@
       "destination": "London Victoria Coach Station",
       "latitude": 50.727,
       "longitude": -3.523,
-      "bearing": 0,
+      "bearing": 48,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T02:58:42+00:00",
+      "recorded_at": "2026-09-03T03:00:41+00:00",
       "journey_id": "162261849"
     }
   ]
