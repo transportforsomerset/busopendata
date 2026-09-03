@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T00:02:33.257Z",
+  "generated_at": "2026-09-03T00:03:36.172Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 37,
+  "data_age_seconds": 29,
   "vehicle_count": 2,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Wells Bus Station",
-      "latitude": 51.127244,
-      "longitude": -2.739177,
-      "bearing": 37,
+      "latitude": 51.13131,
+      "longitude": -2.735893,
+      "bearing": 1,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T00:01:56+00:00",
+      "recorded_at": "2026-09-03T00:03:07+00:00",
       "journey_id": "2454"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "London Victoria Coach Station",
       "destination": "Plymouth Coach Stn Armada Way",
-      "latitude": 50.975,
-      "longitude": -3.208,
-      "bearing": 227,
+      "latitude": 50.97,
+      "longitude": -3.22,
+      "bearing": 265,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T00:02:09+00:00",
+      "recorded_at": "2026-09-03T00:03:25+00:00",
       "journey_id": "162246903"
     }
   ]
