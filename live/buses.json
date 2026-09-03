@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T08:23:36.040Z",
+  "generated_at": "2026-09-03T08:24:35.879Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 497,
+  "data_age_seconds": 556,
   "vehicle_count": 46,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Riverside",
       "destination": "Hammersmith Bus Station",
-      "latitude": 51.024361,
-      "longitude": -3.070199,
-      "bearing": 96,
+      "latitude": 51.022735,
+      "longitude": -3.06265,
+      "bearing": 123,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:24+00:00",
+      "recorded_at": "2026-09-03T08:24:25+00:00",
       "journey_id": "0930"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Langley Corner",
-      "latitude": 51.027314,
-      "longitude": -3.257109,
-      "bearing": 293,
+      "latitude": 51.030757,
+      "longitude": -3.261623,
+      "bearing": 307,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:23+00:00",
+      "recorded_at": "2026-09-03T08:24:24+00:00",
       "journey_id": "0840"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Taunton  Town Centre  I",
       "destination": "Axminster  Rail Station",
-      "latitude": 50.897514,
-      "longitude": -2.949291,
-      "bearing": 196,
+      "latitude": 50.893127,
+      "longitude": -2.948625,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:17+00:00",
+      "recorded_at": "2026-09-03T08:24:14+00:00",
       "journey_id": "0840"
     },
     {
@@ -67,7 +67,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:29+00:00",
+      "recorded_at": "2026-09-03T08:24:05+00:00",
       "journey_id": "0930"
     },
     {
@@ -83,7 +83,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:01+00:00",
+      "recorded_at": "2026-09-03T08:24:01+00:00",
       "journey_id": "0915"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "inbound",
       "origin": "Burnham on Sea  Sea View Road",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.118512,
-      "longitude": -2.997859,
-      "bearing": 157,
+      "latitude": 51.114097,
+      "longitude": -2.995816,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:04+00:00",
+      "recorded_at": "2026-09-03T08:24:26+00:00",
       "journey_id": "0830"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "inbound",
       "origin": "Wellington Tile Centre",
       "destination": "Taunton  Castle Way",
-      "latitude": 50.986612,
-      "longitude": -3.187288,
-      "bearing": 58,
+      "latitude": 50.990622,
+      "longitude": -3.179815,
+      "bearing": 42,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:29+00:00",
+      "recorded_at": "2026-09-03T08:24:14+00:00",
       "journey_id": "0904"
     },
     {
@@ -142,12 +142,12 @@
       "direction": "inbound",
       "origin": "Rooksbridge  Garage",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.065601,
-      "longitude": -3.025637,
-      "bearing": 224,
+      "latitude": 51.059037,
+      "longitude": -3.034795,
+      "bearing": 210,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:25+00:00",
+      "recorded_at": "2026-09-03T08:24:20+00:00",
       "journey_id": "0728"
     },
     {
@@ -158,12 +158,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.164926,
-      "longitude": -2.990985,
-      "bearing": 297,
+      "latitude": 51.165111,
+      "longitude": -2.989419,
+      "bearing": 3,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:06+00:00",
+      "recorded_at": "2026-09-03T08:24:08+00:00",
       "journey_id": "0805"
     },
     {
@@ -174,12 +174,12 @@
       "direction": "inbound",
       "origin": "Axminster  Rail Station",
       "destination": "Taunton  Town Centre  K",
-      "latitude": 50.914686,
-      "longitude": -2.916282,
-      "bearing": 59,
+      "latitude": 50.92053,
+      "longitude": -2.911294,
+      "bearing": 2,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:25+00:00",
+      "recorded_at": "2026-09-03T08:24:26+00:00",
       "journey_id": "0830"
     },
     {
@@ -190,12 +190,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Wellington Tile Centre",
-      "latitude": 51.004451,
-      "longitude": -3.146933,
-      "bearing": 334,
+      "latitude": 51.003411,
+      "longitude": -3.150664,
+      "bearing": 240,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:26+00:00",
+      "recorded_at": "2026-09-03T08:24:23+00:00",
       "journey_id": "0915"
     },
     {
@@ -206,12 +206,12 @@
       "direction": "outbound",
       "origin": "Taunton  Town Centre  I",
       "destination": "Yeovil Bus Station",
-      "latitude": 51.0356,
-      "longitude": -2.836691,
-      "bearing": 70,
+      "latitude": 51.036441,
+      "longitude": -2.833484,
+      "bearing": 67,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:15+00:00",
+      "recorded_at": "2026-09-03T08:24:20+00:00",
       "journey_id": "0845"
     },
     {
@@ -222,12 +222,12 @@
       "direction": "outbound",
       "origin": "Hamp  Wills Road",
       "destination": "Bridgwater Community Hospital",
-      "latitude": 51.118768,
-      "longitude": -3.001769,
-      "bearing": 52,
+      "latitude": 51.122648,
+      "longitude": -3.000078,
+      "bearing": 332,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:03+00:00",
+      "recorded_at": "2026-09-03T08:24:24+00:00",
       "journey_id": "0910"
     },
     {
@@ -238,12 +238,12 @@
       "direction": "outbound",
       "origin": "Preston Road ASDA",
       "destination": "Cavalier Way  Lyde Road",
-      "latitude": 50.950001,
-      "longitude": -2.663535,
-      "bearing": 58,
+      "latitude": 50.953457,
+      "longitude": -2.668828,
+      "bearing": 265,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:14+00:00",
+      "recorded_at": "2026-09-03T08:24:23+00:00",
       "journey_id": "209"
     },
     {
@@ -254,12 +254,12 @@
       "direction": "inbound",
       "origin": "Yeovil Bus Station",
       "destination": "Taunton  Town Centre  K",
-      "latitude": 51.055921,
-      "longitude": -2.722944,
-      "bearing": 269,
+      "latitude": 51.054076,
+      "longitude": -2.727792,
+      "bearing": 216,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:13+00:00",
+      "recorded_at": "2026-09-03T08:24:29+00:00",
       "journey_id": "0845"
     },
     {
@@ -275,7 +275,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:28+00:00",
+      "recorded_at": "2026-09-03T08:24:28+00:00",
       "journey_id": "0920"
     },
     {
@@ -307,7 +307,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:19+00:00",
+      "recorded_at": "2026-09-03T08:24:19+00:00",
       "journey_id": "0915"
     },
     {
@@ -318,12 +318,12 @@
       "direction": "outbound",
       "origin": "Taunton  Town Centre  H",
       "destination": "Taunton  Town Centre  H",
-      "latitude": 51.035338,
-      "longitude": -3.091218,
-      "bearing": 53,
+      "latitude": 51.036031,
+      "longitude": -3.087844,
+      "bearing": 74,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:26+00:00",
+      "recorded_at": "2026-09-03T08:24:20+00:00",
       "journey_id": "0900"
     },
     {
@@ -334,12 +334,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.17558,
-      "longitude": -3.336579,
-      "bearing": 337,
+      "latitude": 51.178112,
+      "longitude": -3.334205,
+      "bearing": 68,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:28+00:00",
+      "recorded_at": "2026-09-03T08:24:28+00:00",
       "journey_id": "105"
     },
     {
@@ -350,12 +350,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.030922,
-      "longitude": -3.136378,
-      "bearing": 353,
+      "latitude": 51.031867,
+      "longitude": -3.136998,
+      "bearing": 317,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:24+00:00",
+      "recorded_at": "2026-09-03T08:24:15+00:00",
       "journey_id": "107"
     },
     {
@@ -366,12 +366,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Bus Station",
-      "latitude": 50.982964,
-      "longitude": -3.207577,
-      "bearing": 311,
+      "latitude": 50.985304,
+      "longitude": -3.214453,
+      "bearing": 279,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:11+00:00",
+      "recorded_at": "2026-09-03T08:24:13+00:00",
       "journey_id": "119"
     },
     {
@@ -382,12 +382,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.091424,
-      "longitude": -3.016966,
-      "bearing": 8,
+      "latitude": 51.092153,
+      "longitude": -3.01634,
+      "bearing": 42,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:14+00:00",
+      "recorded_at": "2026-09-03T08:24:12+00:00",
       "journey_id": "0838"
     },
     {
@@ -414,12 +414,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.170586,
-      "longitude": -3.410974,
-      "bearing": 116,
+      "latitude": 51.164752,
+      "longitude": -3.396196,
+      "bearing": 120,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:21+00:00",
+      "recorded_at": "2026-09-03T08:24:30+00:00",
       "journey_id": "112"
     },
     {
@@ -430,12 +430,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.121108,
-      "longitude": -3.234492,
-      "bearing": 145,
+      "latitude": 51.113555,
+      "longitude": -3.230946,
+      "bearing": 148,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:17+00:00",
+      "recorded_at": "2026-09-03T08:24:07+00:00",
       "journey_id": "110"
     },
     {
@@ -451,7 +451,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:28+00:00",
+      "recorded_at": "2026-09-03T08:24:02+00:00",
       "journey_id": "0850"
     },
     {
@@ -467,7 +467,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:15+00:00",
+      "recorded_at": "2026-09-03T08:24:15+00:00",
       "journey_id": "0800"
     },
     {
@@ -483,7 +483,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:23+00:00",
+      "recorded_at": "2026-09-03T08:24:23+00:00",
       "journey_id": "0950"
     },
     {
@@ -494,12 +494,12 @@
       "direction": "inbound",
       "origin": "Bridgwater Bus Station  6",
       "destination": "Bristol Bus Station",
-      "latitude": 51.20746,
-      "longitude": -2.650712,
+      "latitude": 51.20743,
+      "longitude": -2.650714,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:19+00:00",
+      "recorded_at": "2026-09-03T08:24:19+00:00",
       "journey_id": "0735"
     },
     {
@@ -510,12 +510,12 @@
       "direction": "inbound",
       "origin": "Kingston for Hospital",
       "destination": "Bristol Bus Station",
-      "latitude": 51.12372,
-      "longitude": -2.738142,
-      "bearing": 21,
+      "latitude": 51.126723,
+      "longitude": -2.739503,
+      "bearing": 318,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:18+00:00",
+      "recorded_at": "2026-09-03T08:24:18+00:00",
       "journey_id": "0825"
     },
     {
@@ -526,12 +526,12 @@
       "direction": "inbound",
       "origin": "Taunton  Town Centre  I",
       "destination": "Bristol Bus Station",
-      "latitude": 51.018009,
-      "longitude": -3.065048,
-      "bearing": 0,
+      "latitude": 51.017604,
+      "longitude": -3.061051,
+      "bearing": 83,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:28+00:00",
+      "recorded_at": "2026-09-03T08:24:28+00:00",
       "journey_id": "0910"
     },
     {
@@ -542,12 +542,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Yeovil  The Borough",
-      "latitude": 51.112472,
-      "longitude": -2.737875,
-      "bearing": 150,
+      "latitude": 51.107666,
+      "longitude": -2.737278,
+      "bearing": 200,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:21+00:00",
+      "recorded_at": "2026-09-03T08:24:20+00:00",
       "journey_id": "0730"
     },
     {
@@ -558,12 +558,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Bridgwater Bus Station  6",
-      "latitude": 51.149502,
-      "longitude": -2.873474,
-      "bearing": 312,
+      "latitude": 51.150986,
+      "longitude": -2.878136,
+      "bearing": 291,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:19+00:00",
+      "recorded_at": "2026-09-03T08:24:04+00:00",
       "journey_id": "0700"
     },
     {
@@ -574,12 +574,12 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Wells Bus Station",
-      "latitude": 51.147819,
-      "longitude": -2.715988,
-      "bearing": 76,
+      "latitude": 51.148754,
+      "longitude": -2.712505,
+      "bearing": 348,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:14+00:00",
+      "recorded_at": "2026-09-03T08:24:09+00:00",
       "journey_id": "0850"
     },
     {
@@ -595,7 +595,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:14+00:00",
+      "recorded_at": "2026-09-03T08:24:20+00:00",
       "journey_id": "0900"
     },
     {
@@ -606,12 +606,12 @@
       "direction": "clockwise",
       "origin": "Canonsgrove House",
       "destination": "The Surgery",
-      "latitude": 51.007655,
-      "longitude": -3.11728,
-      "bearing": 280,
+      "latitude": 51.00501,
+      "longitude": -3.120081,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:26+00:00",
+      "recorded_at": "2026-09-03T08:24:18+00:00",
       "journey_id": "0900"
     },
     {
@@ -654,12 +654,12 @@
       "direction": "outbound",
       "origin": "Silk Mills P&amp;R",
       "destination": "Gateway P&amp;R",
-      "latitude": 51.014687,
-      "longitude": -3.103826,
+      "latitude": 51.014679,
+      "longitude": -3.103716,
       "bearing": 66,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:22+00:00",
+      "recorded_at": "2026-09-03T08:24:23+00:00",
       "journey_id": "119"
     },
     {
@@ -686,12 +686,12 @@
       "direction": "inbound",
       "origin": "Gateway P&amp;R",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 51.017784,
-      "longitude": -3.083543,
+      "latitude": 51.017681,
+      "longitude": -3.085119,
       "bearing": 270,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:21+00:00",
+      "recorded_at": "2026-09-03T08:24:21+00:00",
       "journey_id": "118"
     },
     {
@@ -702,12 +702,12 @@
       "direction": "inbound",
       "origin": "Richard Huish Colle",
       "destination": "Job Centre",
-      "latitude": 50.976326,
-      "longitude": -3.225563,
-      "bearing": 150,
+      "latitude": 50.974567,
+      "longitude": -3.224214,
+      "bearing": 156,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:18+00:00",
+      "recorded_at": "2026-09-03T08:24:19+00:00",
       "journey_id": "602"
     },
     {
@@ -718,12 +718,12 @@
       "direction": "outbound",
       "origin": "Church",
       "destination": "Parkfield Road",
-      "latitude": 51.016524,
-      "longitude": -3.135688,
-      "bearing": 0,
+      "latitude": 51.016532,
+      "longitude": -3.13561,
+      "bearing": 57,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:16+00:00",
+      "recorded_at": "2026-09-03T08:24:28+00:00",
       "journey_id": "3"
     },
     {
@@ -734,12 +734,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Amulet Way",
-      "latitude": 50.942231,
-      "longitude": -2.627608,
+      "latitude": 50.942233,
+      "longitude": -2.627611,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T08:23:04+00:00",
+      "recorded_at": "2026-09-03T08:24:08+00:00",
       "journey_id": "0930"
     }
   ]
