@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T00:09:35.494Z",
+  "generated_at": "2026-09-03T00:10:39.347Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 51,
+  "data_age_seconds": 115,
   "vehicle_count": 2,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Wells Bus Station",
-      "latitude": 51.148791,
-      "longitude": -2.712547,
-      "bearing": 345,
+      "latitude": 51.154013,
+      "longitude": -2.714431,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T00:09:22+00:00",
+      "recorded_at": "2026-09-03T00:10:32+00:00",
       "journey_id": "2454"
     },
     {
