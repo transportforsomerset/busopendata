@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T22:56:38.592Z",
+  "generated_at": "2026-09-03T22:57:33.216Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1053,
-  "vehicle_count": 10,
+  "data_age_seconds": 1108,
+  "vehicle_count": 12,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30008",
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dunball  Old Works Road",
-      "latitude": 51.129798,
-      "longitude": -2.998788,
-      "bearing": 0,
+      "latitude": 51.129692,
+      "longitude": -2.999493,
+      "bearing": 261,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:56:29+00:00",
+      "recorded_at": "2026-09-03T22:57:10+00:00",
       "journey_id": "2315"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.003748,
-      "longitude": -3.149761,
-      "bearing": 60,
+      "latitude": 51.00394,
+      "longitude": -3.146631,
+      "bearing": 316,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:56:16+00:00",
+      "recorded_at": "2026-09-03T22:57:15+00:00",
       "journey_id": "2345"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.174671,
-      "longitude": -3.336603,
-      "bearing": 196,
+      "latitude": 51.169062,
+      "longitude": -3.340928,
+      "bearing": 197,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:56:26+00:00",
+      "recorded_at": "2026-09-03T22:57:27+00:00",
       "journey_id": "143"
     },
     {
@@ -135,6 +135,22 @@
       "journey_id": "2235"
     },
     {
+      "vehicle_id": "FBRI-33946",
+      "operator": "FBRI",
+      "operator_code": "FBRI",
+      "route": "376A",
+      "direction": "outbound",
+      "origin": "Bristol Bus Station",
+      "destination": "Wells Bus Station",
+      "latitude": 51.267838,
+      "longitude": -2.587499,
+      "bearing": 202,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-03T22:57:01+00:00",
+      "journey_id": "2245"
+    },
+    {
       "vehicle_id": "FBRI-33980",
       "operator": "FBRI",
       "operator_code": "FBRI",
@@ -142,13 +158,29 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Wells Bus Station",
-      "latitude": 51.12671,
-      "longitude": -2.739539,
+      "latitude": 51.127199,
+      "longitude": -2.739273,
+      "bearing": 45,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-03T22:57:18+00:00",
+      "journey_id": "2350"
+    },
+    {
+      "vehicle_id": "BV24ZGK",
+      "operator": "NATX",
+      "operator_code": "NATX",
+      "route": "501",
+      "direction": "outbound",
+      "origin": "London Victoria Coach Station",
+      "destination": "Plymouth Coach Stn Armada Way",
+      "latitude": 50.483,
+      "longitude": -3.535,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:56:14+00:00",
-      "journey_id": "2350"
+      "recorded_at": "2026-09-03T22:57:07+00:00",
+      "journey_id": "162261769"
     },
     {
       "vehicle_id": "BV73ZWP",
@@ -158,12 +190,12 @@
       "direction": "outbound",
       "origin": "London Victoria Coach Station",
       "destination": "Plymouth Coach Stn Armada Way",
-      "latitude": 51.013,
-      "longitude": -3.125,
-      "bearing": 245,
+      "latitude": 51.004,
+      "longitude": -3.15,
+      "bearing": 239,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:54:39+00:00",
+      "recorded_at": "2026-09-03T22:57:18+00:00",
       "journey_id": "162261929"
     }
   ]
