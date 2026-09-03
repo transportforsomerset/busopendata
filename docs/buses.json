@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T22:21:35.281Z",
+  "generated_at": "2026-09-03T22:22:35.389Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 948,
+  "data_age_seconds": 1008,
   "vehicle_count": 14,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Burnham on Sea  Sea View Road",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.102534,
-      "longitude": -3.000022,
-      "bearing": 218,
+      "latitude": 51.098242,
+      "longitude": -3.004033,
+      "bearing": 208,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:21:30+00:00",
+      "recorded_at": "2026-09-03T22:22:14+00:00",
       "journey_id": "2235"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dunball  Old Works Road",
-      "latitude": 51.018078,
-      "longitude": -3.081243,
-      "bearing": 78,
+      "latitude": 51.017924,
+      "longitude": -3.074999,
+      "bearing": 99,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:21:30+00:00",
+      "recorded_at": "2026-09-03T22:22:10+00:00",
       "journey_id": "2315"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dobree Park",
-      "latitude": 50.983536,
-      "longitude": -3.22297,
-      "bearing": 196,
+      "latitude": 50.979382,
+      "longitude": -3.226497,
+      "bearing": 219,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:21:16+00:00",
+      "recorded_at": "2026-09-03T22:22:25+00:00",
       "journey_id": "2302"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Cavalier Way  Lyde Road",
       "destination": "Preston Road ASDA",
-      "latitude": 50.951921,
-      "longitude": -2.613878,
-      "bearing": 272,
+      "latitude": 50.953436,
+      "longitude": -2.615017,
+      "bearing": 267,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:21:21+00:00",
+      "recorded_at": "2026-09-03T22:22:17+00:00",
       "journey_id": "250"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Taunton  Silk Mills P R",
       "destination": "Taunton  Town Centre  J",
-      "latitude": 51.026486,
-      "longitude": -3.101517,
-      "bearing": 0,
+      "latitude": 51.029971,
+      "longitude": -3.100863,
+      "bearing": 28,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:21:05+00:00",
+      "recorded_at": "2026-09-03T22:22:23+00:00",
       "journey_id": "2305"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.234074,
-      "longitude": -2.998047,
-      "bearing": 283,
+      "latitude": 51.234275,
+      "longitude": -2.99943,
+      "bearing": 282,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:21:26+00:00",
+      "recorded_at": "2026-09-03T22:22:25+00:00",
       "journey_id": "2215"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.102285,
-      "longitude": -3.216255,
-      "bearing": 130,
+      "latitude": 51.095057,
+      "longitude": -3.213145,
+      "bearing": 167,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:21:22+00:00",
+      "recorded_at": "2026-09-03T22:22:22+00:00",
       "journey_id": "144"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.046083,
-      "longitude": -3.178887,
-      "bearing": 39,
+      "latitude": 51.050306,
+      "longitude": -3.180994,
+      "bearing": 294,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:21:05+00:00",
+      "recorded_at": "2026-09-03T22:22:05+00:00",
       "journey_id": "143"
     },
     {
@@ -158,12 +158,12 @@
       "direction": "inbound",
       "origin": "Kingston for Hospital",
       "destination": "Wells Bus Station",
-      "latitude": 51.126381,
-      "longitude": -2.739045,
-      "bearing": 321,
+      "latitude": 51.126694,
+      "longitude": -2.739487,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:21:18+00:00",
+      "recorded_at": "2026-09-03T22:22:15+00:00",
       "journey_id": "2235"
     },
     {
@@ -179,7 +179,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:21:09+00:00",
+      "recorded_at": "2026-09-03T22:22:10+00:00",
       "journey_id": "2215"
     },
     {
@@ -222,12 +222,12 @@
       "direction": "outbound",
       "origin": "London Victoria Coach Station",
       "destination": "Plymouth Coach Stn Armada Way",
-      "latitude": 51.164,
-      "longitude": -2.989,
-      "bearing": 175,
+      "latitude": 51.161,
+      "longitude": -2.986,
+      "bearing": 168,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T22:21:15+00:00",
+      "recorded_at": "2026-09-03T22:21:42+00:00",
       "journey_id": "162261929"
     }
   ]
