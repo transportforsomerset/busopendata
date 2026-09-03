@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T04:26:32.854Z",
+  "generated_at": "2026-09-03T04:27:38.972Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 26,
-  "vehicle_count": 6,
+  "data_age_seconds": 32,
+  "vehicle_count": 5,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30002",
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dobree Park",
-      "latitude": 51.014702,
-      "longitude": -3.105034,
-      "bearing": 0,
+      "latitude": 51.013806,
+      "longitude": -3.107008,
+      "bearing": 240,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:26:10+00:00",
+      "recorded_at": "2026-09-03T04:27:25+00:00",
       "journey_id": "0526"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.077048,
-      "longitude": -3.019987,
-      "bearing": 19,
+      "latitude": 51.082441,
+      "longitude": -3.016349,
+      "bearing": 4,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:26:29+00:00",
+      "recorded_at": "2026-09-03T04:27:06+00:00",
       "journey_id": "0507"
     },
     {
@@ -51,7 +51,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:26:06+00:00",
+      "recorded_at": "2026-09-03T04:27:06+00:00",
       "journey_id": "102"
     },
     {
@@ -62,29 +62,13 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.22287,
-      "longitude": -2.629458,
-      "bearing": 69,
+      "latitude": 51.226417,
+      "longitude": -2.621554,
+      "bearing": 58,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:26:22+00:00",
+      "recorded_at": "2026-09-03T04:27:07+00:00",
       "journey_id": "0521"
-    },
-    {
-      "vehicle_id": "BV24ZFN",
-      "operator": "NATX",
-      "operator_code": "NATX",
-      "route": "504",
-      "direction": "inbound",
-      "origin": "Plymouth Coach Stn Armada Way",
-      "destination": "London Victoria Coach Station",
-      "latitude": 51.261,
-      "longitude": -2.922,
-      "bearing": 349,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-09-03T04:26:13+00:00",
-      "journey_id": "162261849"
     },
     {
       "vehicle_id": "SDVN-15325",
@@ -94,12 +78,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.967011,
-      "longitude": -3.269836,
-      "bearing": 102,
+      "latitude": 50.966412,
+      "longitude": -3.254393,
+      "bearing": 48,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:26:26+00:00",
+      "recorded_at": "2026-09-03T04:27:26+00:00",
       "journey_id": "101"
     }
   ]
