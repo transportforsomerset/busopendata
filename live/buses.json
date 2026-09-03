@@ -1,9 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T02:47:36.123Z",
+  "generated_at": "2026-09-03T02:48:35.642Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 0,
-  "vehicle_count": 0,
-  "vehicles": []
+  "data_age_seconds": 16,
+  "vehicle_count": 1,
+  "vehicles": [
+    {
+      "vehicle_id": "BV24ZFN",
+      "operator": "NATX",
+      "operator_code": "NATX",
+      "route": "504",
+      "direction": "inbound",
+      "origin": "Plymouth Coach Stn Armada Way",
+      "destination": "London Victoria Coach Station",
+      "latitude": 50.676,
+      "longitude": -3.53,
+      "bearing": 58,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-03T02:48:19+00:00",
+      "journey_id": "162261849"
+    }
+  ]
 }
