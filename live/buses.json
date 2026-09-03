@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T04:17:31.430Z",
+  "generated_at": "2026-09-03T04:18:32.020Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 21,
+  "data_age_seconds": 50,
   "vehicle_count": 4,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.025446,
-      "longitude": -3.071175,
-      "bearing": 26,
+      "latitude": 51.027445,
+      "longitude": -3.067251,
+      "bearing": 63,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:17:17+00:00",
+      "recorded_at": "2026-09-03T04:18:14+00:00",
       "journey_id": "0507"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.207051,
-      "longitude": -2.65107,
-      "bearing": 310,
+      "latitude": 51.207442,
+      "longitude": -2.650697,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:17:12+00:00",
+      "recorded_at": "2026-09-03T04:18:13+00:00",
       "journey_id": "0521"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Plymouth Coach Stn Armada Way",
       "destination": "London Victoria Coach Station",
-      "latitude": 51.157,
-      "longitude": -2.987,
-      "bearing": 10,
+      "latitude": 51.163,
+      "longitude": -2.988,
+      "bearing": 332,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:17:10+00:00",
+      "recorded_at": "2026-09-03T04:17:42+00:00",
       "journey_id": "162261849"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.923824,
-      "longitude": -3.367819,
+      "latitude": 50.918304,
+      "longitude": -3.356208,
       "bearing": 120,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:17:22+00:00",
+      "recorded_at": "2026-09-03T04:18:23+00:00",
       "journey_id": "101"
     }
   ]
