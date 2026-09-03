@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T23:53:40.847Z",
+  "generated_at": "2026-09-03T23:54:35.733Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 22,
-  "vehicle_count": 2,
+  "data_age_seconds": 14,
+  "vehicle_count": 1,
   "vehicles": [
     {
       "vehicle_id": "FBRI-33711",
@@ -19,24 +19,8 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T23:53:18+00:00",
+      "recorded_at": "2026-09-03T23:54:21+00:00",
       "journey_id": "2454"
-    },
-    {
-      "vehicle_id": "BV73ZWP",
-      "operator": "NATX",
-      "operator_code": "NATX",
-      "route": "504",
-      "direction": "outbound",
-      "origin": "London Victoria Coach Station",
-      "destination": "Plymouth Coach Stn Armada Way",
-      "latitude": 50.647,
-      "longitude": -3.545,
-      "bearing": 234,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-09-03T23:53:32+00:00",
-      "journey_id": "162261929"
     }
   ]
 }
