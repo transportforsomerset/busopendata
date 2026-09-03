@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T04:08:35.933Z",
+  "generated_at": "2026-09-03T04:09:36.485Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 19,
+  "data_age_seconds": 52,
   "vehicle_count": 4,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.015033,
-      "longitude": -3.102754,
-      "bearing": 131,
+      "latitude": 51.014793,
+      "longitude": -3.098765,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:08:23+00:00",
+      "recorded_at": "2026-09-03T04:09:31+00:00",
       "journey_id": "0507"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.222903,
-      "longitude": -2.62946,
-      "bearing": 69,
+      "latitude": 51.229697,
+      "longitude": -2.61904,
+      "bearing": 8,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:08:21+00:00",
+      "recorded_at": "2026-09-03T04:09:33+00:00",
       "journey_id": "0455"
     },
     {
@@ -51,7 +51,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:08:16+00:00",
+      "recorded_at": "2026-09-03T04:08:44+00:00",
       "journey_id": "162261849"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.901424,
-      "longitude": -3.486769,
-      "bearing": 240,
+      "latitude": 50.902592,
+      "longitude": -3.481213,
+      "bearing": 24,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:08:19+00:00",
+      "recorded_at": "2026-09-03T04:09:19+00:00",
       "journey_id": "101"
     }
   ]
