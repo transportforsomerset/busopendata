@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T23:04:38.239Z",
+  "generated_at": "2026-09-03T23:05:39.750Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1090,
+  "data_age_seconds": 1151,
   "vehicle_count": 9,
   "vehicles": [
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.012748,
-      "longitude": -3.127369,
-      "bearing": 66,
+      "latitude": 51.01407,
+      "longitude": -3.122546,
+      "bearing": 64,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T23:04:34+00:00",
+      "recorded_at": "2026-09-03T23:05:12+00:00",
       "journey_id": "2345"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.161181,
-      "longitude": -3.390897,
-      "bearing": 277,
+      "latitude": 51.168146,
+      "longitude": -3.404012,
+      "bearing": 299,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T23:04:11+00:00",
+      "recorded_at": "2026-09-03T23:05:32+00:00",
       "journey_id": "143"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Wells Bus Station",
-      "latitude": 51.218874,
-      "longitude": -2.642253,
-      "bearing": 225,
+      "latitude": 51.212199,
+      "longitude": -2.646341,
+      "bearing": 183,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T23:04:19+00:00",
+      "recorded_at": "2026-09-03T23:05:25+00:00",
       "journey_id": "2245"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Wells Bus Station",
-      "latitude": 51.147618,
-      "longitude": -2.717421,
-      "bearing": 72,
+      "latitude": 51.148132,
+      "longitude": -2.713179,
+      "bearing": 76,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T23:04:23+00:00",
+      "recorded_at": "2026-09-03T23:05:07+00:00",
       "journey_id": "2350"
     },
     {
