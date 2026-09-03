@@ -1,11 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T04:21:32.479Z",
+  "generated_at": "2026-09-03T04:22:42.533Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 18,
-  "vehicle_count": 4,
+  "data_age_seconds": 21,
+  "vehicle_count": 5,
   "vehicles": [
+    {
+      "vehicle_id": "FBOS-30002",
+      "operator": "FBOS",
+      "operator_code": "FBOS",
+      "route": "22A",
+      "direction": "outbound",
+      "origin": "Taunton  Castle Way",
+      "destination": "Dobree Park",
+      "latitude": 51.0147,
+      "longitude": -3.104957,
+      "bearing": 166,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-03T04:22:21+00:00",
+      "journey_id": "0526"
+    },
     {
       "vehicle_id": "FBOS-30011",
       "operator": "FBOS",
@@ -14,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.037616,
-      "longitude": -3.055365,
-      "bearing": 36,
+      "latitude": 51.04311,
+      "longitude": -3.04897,
+      "bearing": 50,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:21:15+00:00",
+      "recorded_at": "2026-09-03T04:22:24+00:00",
       "journey_id": "0507"
     },
     {
@@ -30,12 +46,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.20722,
-      "longitude": -2.651194,
-      "bearing": 225,
+      "latitude": 51.209144,
+      "longitude": -2.650657,
+      "bearing": 67,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:21:22+00:00",
+      "recorded_at": "2026-09-03T04:22:25+00:00",
       "journey_id": "0521"
     },
     {
@@ -46,12 +62,12 @@
       "direction": "inbound",
       "origin": "Plymouth Coach Stn Armada Way",
       "destination": "London Victoria Coach Station",
-      "latitude": 51.196,
-      "longitude": -2.97,
-      "bearing": 13,
+      "latitude": 51.213,
+      "longitude": -2.963,
+      "bearing": 17,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:21:14+00:00",
+      "recorded_at": "2026-09-03T04:22:23+00:00",
       "journey_id": "162261849"
     },
     {
@@ -62,12 +78,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.927109,
-      "longitude": -3.323065,
-      "bearing": 18,
+      "latitude": 50.933544,
+      "longitude": -3.309797,
+      "bearing": 42,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:21:24+00:00",
+      "recorded_at": "2026-09-03T04:22:24+00:00",
       "journey_id": "101"
     }
   ]
