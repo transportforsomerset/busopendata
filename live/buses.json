@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T04:14:38.788Z",
+  "generated_at": "2026-09-03T04:15:45.086Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 54,
+  "data_age_seconds": 121,
   "vehicle_count": 4,
   "vehicles": [
     {
@@ -14,29 +14,29 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.017934,
-      "longitude": -3.075026,
-      "bearing": 96,
+      "latitude": 51.02055,
+      "longitude": -3.073319,
+      "bearing": 357,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:14:12+00:00",
+      "recorded_at": "2026-09-03T04:15:11+00:00",
       "journey_id": "0507"
     },
     {
-      "vehicle_id": "FBRI-33673",
+      "vehicle_id": "FBRI-33955",
       "operator": "FBRI",
       "operator_code": "FBRI",
       "route": "376A",
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.26708,
-      "longitude": -2.588107,
-      "bearing": 37,
+      "latitude": 51.20587,
+      "longitude": -2.650766,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:14:24+00:00",
-      "journey_id": "0455"
+      "recorded_at": "2026-09-03T04:15:17+00:00",
+      "journey_id": "0521"
     },
     {
       "vehicle_id": "BV24ZFN",
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.919056,
-      "longitude": -3.425808,
-      "bearing": 84,
+      "latitude": 50.919682,
+      "longitude": -3.405965,
+      "bearing": 72,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:14:21+00:00",
+      "recorded_at": "2026-09-03T04:15:22+00:00",
       "journey_id": "101"
     }
   ]
