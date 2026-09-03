@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T04:27:38.972Z",
+  "generated_at": "2026-09-03T04:28:35.432Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 32,
-  "vehicle_count": 5,
+  "data_age_seconds": 29,
+  "vehicle_count": 6,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30002",
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dobree Park",
-      "latitude": 51.013806,
-      "longitude": -3.107008,
-      "bearing": 240,
+      "latitude": 51.012338,
+      "longitude": -3.109753,
+      "bearing": 299,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:27:25+00:00",
+      "recorded_at": "2026-09-03T04:28:07+00:00",
       "journey_id": "0526"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.082441,
-      "longitude": -3.016349,
-      "bearing": 4,
+      "latitude": 51.089866,
+      "longitude": -3.016777,
+      "bearing": 353,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:27:06+00:00",
+      "recorded_at": "2026-09-03T04:28:14+00:00",
       "journey_id": "0507"
     },
     {
@@ -51,8 +51,24 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:27:06+00:00",
+      "recorded_at": "2026-09-03T04:28:06+00:00",
       "journey_id": "102"
+    },
+    {
+      "vehicle_id": "FBRI-33666",
+      "operator": "FBRI",
+      "operator_code": "FBRI",
+      "route": "376",
+      "direction": "outbound",
+      "origin": "Wells Bus Station",
+      "destination": "Street  Green Lane Avenue",
+      "latitude": 51.207086,
+      "longitude": -2.651145,
+      "bearing": 312,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-03T04:28:31+00:00",
+      "journey_id": "0525"
     },
     {
       "vehicle_id": "FBRI-33955",
@@ -62,12 +78,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.226417,
-      "longitude": -2.621554,
-      "bearing": 58,
+      "latitude": 51.233349,
+      "longitude": -2.619974,
+      "bearing": 344,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:27:07+00:00",
+      "recorded_at": "2026-09-03T04:28:08+00:00",
       "journey_id": "0521"
     },
     {
@@ -78,12 +94,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.966412,
-      "longitude": -3.254393,
-      "bearing": 48,
+      "latitude": 50.97139,
+      "longitude": -3.246969,
+      "bearing": 42,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:27:26+00:00",
+      "recorded_at": "2026-09-03T04:28:27+00:00",
       "journey_id": "101"
     }
   ]
