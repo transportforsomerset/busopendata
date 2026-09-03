@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T04:39:35.646Z",
+  "generated_at": "2026-09-03T04:40:38.655Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 29,
+  "data_age_seconds": 32,
   "vehicle_count": 7,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dobree Park",
-      "latitude": 50.985164,
-      "longitude": -3.195406,
-      "bearing": 239,
+      "latitude": 50.984134,
+      "longitude": -3.198213,
+      "bearing": 238,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:39:29+00:00",
+      "recorded_at": "2026-09-03T04:40:25+00:00",
       "journey_id": "0526"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.127427,
-      "longitude": -3.003461,
-      "bearing": 294,
+      "latitude": 51.128196,
+      "longitude": -3.005412,
+      "bearing": 240,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:39:09+00:00",
+      "recorded_at": "2026-09-03T04:40:29+00:00",
       "journey_id": "0507"
     },
     {
@@ -51,7 +51,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:39:12+00:00",
+      "recorded_at": "2026-09-03T04:40:12+00:00",
       "journey_id": "0600"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.206918,
-      "longitude": -3.462174,
+      "latitude": 51.206919,
+      "longitude": -3.462189,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:39:06+00:00",
+      "recorded_at": "2026-09-03T04:40:06+00:00",
       "journey_id": "102"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Wells Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.159189,
-      "longitude": -2.708649,
-      "bearing": 259,
+      "latitude": 51.157452,
+      "longitude": -2.712283,
+      "bearing": 223,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:39:27+00:00",
+      "recorded_at": "2026-09-03T04:40:20+00:00",
       "journey_id": "0525"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.988751,
-      "longitude": -3.182849,
-      "bearing": 60,
+      "latitude": 50.997295,
+      "longitude": -3.16672,
+      "bearing": 42,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:39:10+00:00",
+      "recorded_at": "2026-09-03T04:40:30+00:00",
       "journey_id": "101"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.913708,
-      "longitude": -3.463458,
-      "bearing": 126,
+      "latitude": 50.916908,
+      "longitude": -3.439255,
+      "bearing": 60,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T04:39:12+00:00",
+      "recorded_at": "2026-09-03T04:40:33+00:00",
       "journey_id": "103"
     }
   ]
