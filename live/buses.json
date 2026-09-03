@@ -1,11 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T03:49:32.881Z",
+  "generated_at": "2026-09-03T03:50:34.869Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 14,
-  "vehicle_count": 1,
+  "data_age_seconds": 44,
+  "vehicle_count": 2,
   "vehicles": [
+    {
+      "vehicle_id": "FBRI-33980",
+      "operator": "FBRI",
+      "operator_code": "FBRI",
+      "route": "376",
+      "direction": "inbound",
+      "origin": "Wells Bus Station",
+      "destination": "Bristol Bus Station",
+      "latitude": 51.207456,
+      "longitude": -2.650659,
+      "bearing": 0,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-03T03:50:24+00:00",
+      "journey_id": "0451"
+    },
     {
       "vehicle_id": "BV24ZFN",
       "operator": "NATX",
@@ -14,12 +30,12 @@
       "direction": "inbound",
       "origin": "Plymouth Coach Stn Armada Way",
       "destination": "London Victoria Coach Station",
-      "latitude": 51.016,
-      "longitude": -3.091,
-      "bearing": 69,
+      "latitude": 51.018,
+      "longitude": -3.089,
+      "bearing": 333,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-03T03:49:18+00:00",
+      "recorded_at": "2026-09-03T03:49:50+00:00",
       "journey_id": "162261849"
     }
   ]
