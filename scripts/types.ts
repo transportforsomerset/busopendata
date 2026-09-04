@@ -51,6 +51,7 @@ export type Geofence = {
   name: string;
   latitude: number;
   longitude: number;
+  operator: string;
   radius_metres: number;
   services?: string[];
 };
