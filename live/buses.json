@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T04:21:35.076Z",
+  "generated_at": "2026-09-04T04:22:35.646Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 109,
+  "data_age_seconds": 169,
   "vehicle_count": 3,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.037659,
-      "longitude": -3.055317,
-      "bearing": 36,
+      "latitude": 51.042727,
+      "longitude": -3.049686,
+      "bearing": 45,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:21:11+00:00",
+      "recorded_at": "2026-09-04T04:22:20+00:00",
       "journey_id": "0507"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.207467,
-      "longitude": -2.650704,
-      "bearing": 0,
+      "latitude": 51.207274,
+      "longitude": -2.65118,
+      "bearing": 225,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:21:19+00:00",
+      "recorded_at": "2026-09-04T04:22:19+00:00",
       "journey_id": "0521"
     },
     {
