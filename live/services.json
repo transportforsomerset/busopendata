@@ -147,6 +147,12 @@
     ]
   },
   {
+    "ref": "S2",
+    "services": [
+      "S2"
+    ]
+  },
+  {
     "ref": "SK",
     "name": "Slinky",
     "services": [
