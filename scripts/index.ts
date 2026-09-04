@@ -142,17 +142,25 @@ try {
 
 let busData;
 
+let busData;
+
 try {
   busData = await fetchBodsData(trackedServices, geofences);
 
-    let megabusData = [];
-    try {
-      megabusData = await fetchMegaBusData();
-    } catch (error) {
-      console.error("MegaBus fetch failed:", error);
-    }
- 
-    busData = [...busData, ...megabusData];
+  let megabusData = [];
+  try {
+    megabusData = await fetchMegaBusData();
+  } catch (error) {
+    console.error("MegaBus fetch failed:", error);
+  }
+
+  busData.vehicles = [
+    ...busData.vehicles,
+    ...megabusData,
+  ];
+
+  busData.vehicle_count = busData.vehicles.length;
+
 } catch (error) {
   console.error("ERROR: Unable to retrieve BODS data.");
 
