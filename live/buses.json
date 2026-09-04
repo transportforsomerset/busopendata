@@ -1,11 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T03:36:35.764Z",
+  "generated_at": "2026-09-04T03:37:32.615Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 107,
-  "vehicle_count": 1,
+  "data_age_seconds": 164,
+  "vehicle_count": 2,
   "vehicles": [
+    {
+      "vehicle_id": "FBRI-33752",
+      "operator": "FBRI",
+      "operator_code": "FBRI",
+      "route": "376",
+      "direction": "inbound",
+      "origin": "Wells Bus Station",
+      "destination": "Bristol Bus Station",
+      "latitude": 51.205888,
+      "longitude": -2.650613,
+      "bearing": 0,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-04T03:37:13+00:00",
+      "journey_id": "0451"
+    },
     {
       "vehicle_id": "BV74LNJ",
       "operator": "NATX",
