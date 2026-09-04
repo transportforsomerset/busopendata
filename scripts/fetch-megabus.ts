@@ -36,6 +36,19 @@ type MegaBusVehicle = {
   occupancy: string | null;
 };
 
+type MegaBusResponse = {
+  OpStatus?: string;
+  Message?: string;
+  entity?: string;
+};
+
+type MegaBusEntity = {
+  Table?: Array<Record<string, unknown>>;
+  Table1?: Array<Record<string, unknown>>;
+  Table2?: Array<Record<string, unknown>>;
+  Table3?: Array<Record<string, unknown>>;
+};
+
 function getValue(
   row: Record<string, unknown>,
   ...names: string[]
@@ -43,7 +56,11 @@ function getValue(
   for (const name of names) {
     const value = row[name];
 
-    if (value !== undefined && value !== null && String(value).trim() !== "") {
+    if (
+      value !== undefined &&
+      value !== null &&
+      String(value).trim() !== ""
+    ) {
       return String(value);
     }
   }
@@ -55,6 +72,7 @@ async function fetchJourneyStage(
   journey: MegaBusJourney
 ): Promise<MegaBusVehicle | null> {
   const controller = new AbortController();
+
   const timeout = setTimeout(
     () => controller.abort(),
     REQUEST_TIMEOUT_MS
@@ -67,72 +85,128 @@ async function fetchJourneyStage(
     });
 
     const response = await fetch(MEGABUS_URL, {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/x-www-form-urlencoded",
-    "User-Agent": "Mozilla/5.0",
-    "Accept": "application/json, text/plain, */*",
-    "Referer": "https://megabus.tmpanel.co.uk/Tracker",
-  },
-  body: body.toString(),
-  signal: controller.signal,
-});
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "User-Agent": "Mozilla/5.0",
+        "Accept": "application/json, text/plain, */*",
+        "Referer": "https://megabus.tmpanel.co.uk/Tracker",
+      },
+      body: body.toString(),
+      signal: controller.signal,
+    });
 
-console.log(
-  `MegaBus ${journey.jrny_id}: HTTP ${response.status} ${response.statusText}`
-);
+    console.log(
+      `MegaBus ${journey.jrny_id}: HTTP ${response.status} ${response.statusText}`
+    );
 
-console.log(
-  `MegaBus ${journey.jrny_id}: Content-Type =`,
-  response.headers.get("content-type")
-);
+    console.log(
+      `MegaBus ${journey.jrny_id}: Content-Type =`,
+      response.headers.get("content-type")
+    );
 
-const raw = await response.text();
+    if (!response.ok) {
+      throw new Error(
+        `HTTP ${response.status} ${response.statusText}`
+      );
+    }
 
-console.log(
-  `MegaBus ${journey.jrny_id}: response =`,
-  raw.slice(0, 1000)
-);
+    const raw = await response.text();
 
-if (!response.ok) {
-  throw new Error(
-    `HTTP ${response.status} ${response.statusText}`
-  );
-}
+    let data: MegaBusResponse;
 
-const data = JSON.parse(raw);
-  //  const data = await response.json();
+    try {
+      data = JSON.parse(raw) as MegaBusResponse;
+    } catch {
+      throw new Error(
+        `MegaBus ${journey.jrny_id}: response was not valid JSON`
+      );
+    }
 
-    const liveRows = Array.isArray(data.Table2)
-      ? data.Table2
+    if (data.OpStatus !== "SUCCESS") {
+      console.log(
+        `MegaBus ${journey.jrny_id}: ${data.OpStatus ?? "unknown status"} - ${data.Message ?? ""}`
+      );
+
+      return null;
+    }
+
+    if (!data.entity) {
+      console.log(
+        `MegaBus ${journey.jrny_id}: response contained no entity data`
+      );
+
+      return null;
+    }
+
+    let entity: MegaBusEntity;
+
+    try {
+      entity = JSON.parse(data.entity) as MegaBusEntity;
+    } catch {
+      throw new Error(
+        `MegaBus ${journey.jrny_id}: entity was not valid JSON`
+      );
+    }
+
+    const journeyRows = Array.isArray(entity.Table)
+      ? entity.Table
+      : [];
+
+    const isLiveJourney =
+      journeyRows.length > 0 &&
+      Number(getValue(journeyRows[0], "IsLiveJourney")) === 1;
+
+    if (!isLiveJourney) {
+      console.log(
+        `MegaBus ${journey.jrny_id}: journey is not live`
+      );
+
+      return null;
+    }
+
+    const liveRows = Array.isArray(entity.Table2)
+      ? entity.Table2
       : [];
 
     if (liveRows.length === 0) {
       console.log(
         `MegaBus ${journey.jrny_id}: no live position`
       );
+
       return null;
     }
 
-    const live = liveRows[0] as Record<string, unknown>;
+    const live = liveRows[0];
 
     const latitude = Number(getValue(live, "Lat"));
     const longitude = Number(getValue(live, "Lng"));
 
-    if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) {
+    if (
+      !Number.isFinite(latitude) ||
+      !Number.isFinite(longitude)
+    ) {
       console.log(
-        `MegaBus ${journey.jrny_id}: invalid position`
+        `MegaBus ${journey.jrny_id}: invalid live position`
       );
+
       return null;
     }
 
     const recordedAt =
-      getValue(live, "GeoDtTime") ?? new Date().toISOString();
+      getValue(live, "GeoDtTime") ??
+      new Date().toISOString();
 
     const busReg =
-      getValue(live, "BusReg") ?? journey.vehicle;
+      getValue(live, "BusReg") ??
+      journey.vehicle;
 
-    const occupancy = getValue(live, "Occupancy");
+    const occupancy =
+      getValue(live, "Occupancy");
+
+    console.log(
+      `MegaBus ${journey.jrny_id}: live position ${latitude}, ${longitude} (${busReg})`
+    );
 
     return {
       vehicle_id: busReg,
@@ -173,8 +247,14 @@ export async function fetchMegaBusData(): Promise<MegaBusVehicle[]> {
   );
 
   try {
-    const contents = await fs.readFile(configPath, "utf8");
-    const config = JSON.parse(contents) as MegaBusConfig;
+    const contents = await fs.readFile(
+      configPath,
+      "utf8"
+    );
+
+    const config = JSON.parse(
+      contents
+    ) as MegaBusConfig;
 
     if (!Array.isArray(config.services)) {
       throw new Error(
@@ -191,7 +271,8 @@ export async function fetchMegaBusData(): Promise<MegaBusVehicle[]> {
     );
 
     const vehicles = results.filter(
-      (vehicle): vehicle is MegaBusVehicle => vehicle !== null
+      (vehicle): vehicle is MegaBusVehicle =>
+        vehicle !== null
     );
 
     console.log(
