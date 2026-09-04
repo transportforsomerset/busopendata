@@ -31,7 +31,7 @@
   ],
   "SMST": [
     { "ref": "3", "services": ["3"] },
-    { "ref": "Taunton2", "name": "Slinky", "services": ["Taunton2"] }
+    { "ref": "Taunton2", "name": "Slinky", "services": ["SK"] }
   ],
   "SWCO": [
     { "ref": "1", "services": ["1"] }
