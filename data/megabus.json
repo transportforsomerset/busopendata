@@ -1,0 +1,51 @@
+{
+  "operator": "SCCO",
+  "route": "FALC",
+  "services": [
+    {
+      "jrny_id": "1703",
+      "journey_id": "253900260904193159",
+      "vehicle": "YX68 UAL",
+      "origin": "Bristol (Cabot Circus)",
+      "destination": "Plymouth Coach Station",
+      "departure": "19:30",
+      "arrival": "22:59"
+    },
+    {
+      "jrny_id": "1653",
+      "journey_id": "253770260904204721",
+      "vehicle": "YX67 UPV",
+      "origin": "Plymouth Coach Station",
+      "destination": "Bristol (Cabot Circus)",
+      "departure": "21:00",
+      "arrival": "00:22"
+    },
+    {
+      "jrny_id": "1704",
+      "journey_id": "253771260904205428",
+      "vehicle": "YX68 UAR",
+      "origin": "Bristol (Cabot Circus)",
+      "destination": "Plymouth Coach Station",
+      "departure": "21:00",
+      "arrival": "00:28"
+    },
+    {
+      "jrny_id": "1705",
+      "journey_id": "253855260904205351",
+      "vehicle": "YX68 UAT",
+      "origin": "Bristol (Cabot Circus)",
+      "destination": "Plymouth Coach Station",
+      "departure": "22:30",
+      "arrival": "01:58"
+    },
+    {
+      "jrny_id": "1654",
+      "journey_id": "253917260904224137",
+      "vehicle": "YX68 UAM",
+      "origin": "Plymouth Coach Station",
+      "destination": "Bristol (Cabot Circus)",
+      "departure": "23:00",
+      "arrival": "02:22"
+    }
+  ]
+}
