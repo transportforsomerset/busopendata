@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T04:00:37.373Z",
+  "generated_at": "2026-09-04T04:01:32.307Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 21,
+  "data_age_seconds": 32,
   "vehicle_count": 4,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.209138,
-      "longitude": -2.650685,
-      "bearing": 66,
+      "latitude": 51.212668,
+      "longitude": -2.64633,
+      "bearing": 338,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:00:20+00:00",
+      "recorded_at": "2026-09-04T04:01:19+00:00",
       "journey_id": "0455"
     },
     {
@@ -35,7 +35,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:00:18+00:00",
+      "recorded_at": "2026-09-04T04:01:18+00:00",
       "journey_id": "0521"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.248161,
-      "longitude": -2.60678,
+      "latitude": 51.250565,
+      "longitude": -2.604143,
       "bearing": 34,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:00:32+00:00",
+      "recorded_at": "2026-09-04T04:01:00+00:00",
       "journey_id": "0451"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Plymouth Coach Stn Armada Way",
       "destination": "London Victoria Coach Station",
-      "latitude": 51.015,
-      "longitude": -3.12,
-      "bearing": 64,
+      "latitude": 51.013,
+      "longitude": -3.111,
+      "bearing": 137,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:00:16+00:00",
+      "recorded_at": "2026-09-04T04:01:14+00:00",
       "journey_id": "16227793X"
     }
   ]
