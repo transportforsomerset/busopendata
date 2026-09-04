@@ -30,7 +30,7 @@
     { "ref": "PR", "name": "Taunton Park & Ride", "services": ["PR"] }
   ],
   "SMST": [
-    { "ref": "3", "services": ["3"] }
+    { "ref": "3", "services": ["3"] },
     { "ref": "Taunton2", "name": "Slinky", "services": ["Taunton2"] }
   ],
   "SWCO": [
