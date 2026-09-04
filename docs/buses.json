@@ -1,11 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T04:06:38.566Z",
+  "generated_at": "2026-09-04T04:08:10.636Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 51,
-  "vehicle_count": 3,
+  "data_age_seconds": 143,
+  "vehicle_count": 4,
   "vehicles": [
+    {
+      "vehicle_id": "FBOS-30010",
+      "operator": "FBOS",
+      "operator_code": "FBOS",
+      "route": "21",
+      "direction": "outbound",
+      "origin": "Taunton  Castle Way",
+      "destination": "Burnham on Sea  Sea View Road",
+      "latitude": 51.014767,
+      "longitude": -3.105058,
+      "bearing": 0,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-04T04:08:02+00:00",
+      "journey_id": "0507"
+    },
     {
       "vehicle_id": "FBRI-33666",
       "operator": "FBRI",
@@ -14,12 +30,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.236822,
-      "longitude": -2.619079,
-      "bearing": 13,
+      "latitude": 51.247173,
+      "longitude": -2.60793,
+      "bearing": 34,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:06:28+00:00",
+      "recorded_at": "2026-09-04T04:08:01+00:00",
       "journey_id": "0455"
     },
     {
@@ -30,12 +46,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.207454,
-      "longitude": -2.650694,
+      "latitude": 51.207456,
+      "longitude": -2.65068,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:06:19+00:00",
+      "recorded_at": "2026-09-04T04:07:49+00:00",
       "journey_id": "0521"
     },
     {
