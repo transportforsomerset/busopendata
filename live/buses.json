@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T00:00:41.726Z",
+  "generated_at": "2026-09-04T00:01:34.340Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 32,
+  "data_age_seconds": 25,
   "vehicle_count": 1,
   "vehicles": [
     {
@@ -19,7 +19,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T00:00:09+00:00",
+      "recorded_at": "2026-09-04T00:01:09+00:00",
       "journey_id": "2454"
     }
   ]
