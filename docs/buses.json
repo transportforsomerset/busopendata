@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T04:55:33.914Z",
+  "generated_at": "2026-09-04T04:56:33.185Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 23,
+  "data_age_seconds": 29,
   "vehicle_count": 4,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dobree Park",
-      "latitude": 50.979458,
-      "longitude": -3.231657,
-      "bearing": 131,
+      "latitude": 50.978677,
+      "longitude": -3.227699,
+      "bearing": 123,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:55:26+00:00",
+      "recorded_at": "2026-09-04T04:56:04+00:00",
       "journey_id": "0526"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.13929,
-      "longitude": -2.992664,
-      "bearing": 10,
+      "latitude": 51.14515,
+      "longitude": -2.991017,
+      "bearing": 4,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:55:20+00:00",
+      "recorded_at": "2026-09-04T04:56:24+00:00",
       "journey_id": "0507"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.19446,
-      "longitude": -3.458109,
-      "bearing": 104,
+      "latitude": 51.194332,
+      "longitude": -3.457191,
+      "bearing": 110,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:55:18+00:00",
+      "recorded_at": "2026-09-04T04:56:22+00:00",
       "journey_id": "102"
     },
     {
@@ -60,14 +60,14 @@
       "operator_code": "FBRI",
       "route": "376",
       "direction": "inbound",
-      "origin": "Bristol",
-      "destination": "Yeovil",
-      "latitude": 51.117809,
-      "longitude": -2.745649,
-      "bearing": 0,
+      "origin": "Street  Green Lane Avenue",
+      "destination": "Bristol Bus Station",
+      "latitude": 51.118271,
+      "longitude": -2.745723,
+      "bearing": 356,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:55:10+00:00",
+      "recorded_at": "2026-09-04T04:56:26+00:00",
       "journey_id": "0555"
     }
   ]
