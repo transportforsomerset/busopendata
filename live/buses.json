@@ -1,27 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T00:39:34.315Z",
+  "generated_at": "2026-09-04T00:40:37.441Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1191,
-  "vehicle_count": 2,
+  "data_age_seconds": 544,
+  "vehicle_count": 1,
   "vehicles": [
-    {
-      "vehicle_id": "FBRI-33711",
-      "operator": "FBRI",
-      "operator_code": "FBRI",
-      "route": "376",
-      "direction": "inbound",
-      "origin": "Street  Green Lane Avenue",
-      "destination": "Wells Bus Station",
-      "latitude": 51.203068,
-      "longitude": -2.65465,
-      "bearing": 0,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-09-04T00:19:43+00:00",
-      "journey_id": "2454"
-    },
     {
       "vehicle_id": "FBRI-33936",
       "operator": "FBRI",
