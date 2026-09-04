@@ -14,7 +14,8 @@
     "FALCON": {
       "name": "Falcon",
       "for": "coach-data",
-      "type": "api"
+      "type": "api",
+      "url": "https://megabus.tmpanel.co.uk/Tracker/GetJourneyStage"
     },
     "NR": {
       "name": "Network Rail",
