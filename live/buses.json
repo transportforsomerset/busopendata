@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T22:58:40.355Z",
+  "generated_at": "2026-09-04T22:59:40.592Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 845,
+  "data_age_seconds": 905,
   "vehicle_count": 15,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 50.990023,
-      "longitude": -3.18076,
-      "bearing": 43,
+      "latitude": 50.996478,
+      "longitude": -3.167929,
+      "bearing": 44,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T22:58:28+00:00",
+      "recorded_at": "2026-09-04T22:59:30+00:00",
       "journey_id": "2345"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dunball  Old Works Road",
-      "latitude": 51.131746,
-      "longitude": -2.995722,
-      "bearing": 94,
+      "latitude": 51.136796,
+      "longitude": -2.993427,
+      "bearing": 12,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T22:58:29+00:00",
+      "recorded_at": "2026-09-04T22:59:26+00:00",
       "journey_id": "2315"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.168078,
-      "longitude": -3.341904,
-      "bearing": 225,
+      "latitude": 51.160197,
+      "longitude": -3.346893,
+      "bearing": 222,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T22:58:20+00:00",
+      "recorded_at": "2026-09-04T22:59:28+00:00",
       "journey_id": "143"
     },
     {
@@ -131,7 +131,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T22:58:26+00:00",
+      "recorded_at": "2026-09-04T22:59:26+00:00",
       "journey_id": "2410"
     },
     {
@@ -142,12 +142,12 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Wells Bus Station",
-      "latitude": 51.120985,
-      "longitude": -2.741222,
-      "bearing": 98,
+      "latitude": 51.123738,
+      "longitude": -2.738159,
+      "bearing": 22,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T22:58:18+00:00",
+      "recorded_at": "2026-09-04T22:59:17+00:00",
       "journey_id": "2350"
     },
     {
@@ -158,12 +158,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Wells Bus Station",
-      "latitude": 51.270945,
-      "longitude": -2.58483,
-      "bearing": 223,
+      "latitude": 51.26459,
+      "longitude": -2.591127,
+      "bearing": 209,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T22:58:26+00:00",
+      "recorded_at": "2026-09-04T22:59:23+00:00",
       "journey_id": "2245"
     },
     {
@@ -174,12 +174,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.3292,
-      "longitude": -2.547652,
-      "bearing": 0,
+      "latitude": 51.324402,
+      "longitude": -2.547053,
+      "bearing": 145,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T22:58:07+00:00",
+      "recorded_at": "2026-09-04T22:59:16+00:00",
       "journey_id": "2320"
     },
     {
@@ -190,12 +190,12 @@
       "direction": "outbound",
       "origin": "London Victoria Coach Station",
       "destination": "Plymouth Coach Stn Armada Way",
-      "latitude": 51.102,
-      "longitude": -3.001,
-      "bearing": 216,
+      "latitude": 51.099,
+      "longitude": -3.003,
+      "bearing": 200,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T22:58:20+00:00",
+      "recorded_at": "2026-09-04T22:58:47+00:00",
       "journey_id": "162278014"
     },
     {
@@ -206,12 +206,12 @@
       "direction": "outbound",
       "origin": "London Victoria Coach Station",
       "destination": "Plymouth Coach Stn Armada Way",
-      "latitude": 50.654,
-      "longitude": -3.541,
-      "bearing": 182,
+      "latitude": 50.649,
+      "longitude": -3.542,
+      "bearing": 187,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T22:58:19+00:00",
+      "recorded_at": "2026-09-04T22:58:45+00:00",
       "journey_id": "16227785X"
     },
     {
