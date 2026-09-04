@@ -142,8 +142,6 @@ try {
 
 let busData;
 
-let busData;
-
 try {
   busData = await fetchBodsData(trackedServices, geofences);
 
