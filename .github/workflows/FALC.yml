@@ -1,0 +1,5 @@
+name: Get Falcon (MegaBus) Bus Data
+
+on:
+  workflow_call:
+# https://megabus.tmpanel.co.uk/Tracker/GetJourneyStage
