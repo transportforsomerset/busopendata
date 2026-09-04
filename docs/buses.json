@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T23:15:39.881Z",
+  "generated_at": "2026-09-04T23:24:42.415Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1183,
-  "vehicle_count": 10,
+  "data_age_seconds": 833,
+  "vehicle_count": 8,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30001",
@@ -23,22 +23,6 @@
       "journey_id": "2345"
     },
     {
-      "vehicle_id": "FBOS-63046",
-      "operator": "FBOS",
-      "operator_code": "FBOS",
-      "route": "21",
-      "direction": "outbound",
-      "origin": "Taunton  Castle Way",
-      "destination": "Dunball  Old Works Road",
-      "latitude": 51.163378,
-      "longitude": -2.988259,
-      "bearing": 0,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-09-04T23:02:55+00:00",
-      "journey_id": "2315"
-    },
-    {
       "vehicle_id": "FBOS-63705",
       "operator": "FBOS",
       "operator_code": "FBOS",
@@ -46,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.199187,
-      "longitude": -3.470363,
-      "bearing": 312,
+      "latitude": 51.206951,
+      "longitude": -3.461873,
+      "bearing": 292,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T23:15:18+00:00",
+      "recorded_at": "2026-09-04T23:20:38+00:00",
       "journey_id": "143"
     },
     {
@@ -62,12 +46,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Wells Bus Station",
-      "latitude": 51.456226,
-      "longitude": -2.59152,
-      "bearing": 100,
+      "latitude": 51.439746,
+      "longitude": -2.573406,
+      "bearing": 146,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T23:15:08+00:00",
+      "recorded_at": "2026-09-04T23:24:30+00:00",
       "journey_id": "2410"
     },
     {
@@ -78,12 +62,12 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Wells Bus Station",
-      "latitude": 51.161575,
-      "longitude": -2.7005,
-      "bearing": 12,
+      "latitude": 51.207038,
+      "longitude": -2.650919,
+      "bearing": 308,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T23:15:23+00:00",
+      "recorded_at": "2026-09-04T23:24:08+00:00",
       "journey_id": "2350"
     },
     {
@@ -110,12 +94,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.225824,
-      "longitude": -2.623121,
-      "bearing": 240,
+      "latitude": 51.205135,
+      "longitude": -2.651034,
+      "bearing": 213,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T23:15:18+00:00",
+      "recorded_at": "2026-09-04T23:24:14+00:00",
       "journey_id": "2320"
     },
     {
@@ -126,12 +110,12 @@
       "direction": "outbound",
       "origin": "London Victoria Coach Station",
       "destination": "Plymouth Coach Stn Armada Way",
-      "latitude": 51.015,
-      "longitude": -3.097,
-      "bearing": 261,
+      "latitude": 50.991,
+      "longitude": -3.18,
+      "bearing": 222,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T23:12:51+00:00",
+      "recorded_at": "2026-09-04T23:22:44+00:00",
       "journey_id": "162278014"
     },
     {
@@ -142,29 +126,13 @@
       "direction": "outbound",
       "origin": "London Victoria Coach Station",
       "destination": "Plymouth Coach Stn Armada Way",
-      "latitude": 50.529,
-      "longitude": -3.6,
-      "bearing": 0,
+      "latitude": 50.478,
+      "longitude": -3.549,
+      "bearing": 178,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T23:12:49+00:00",
+      "recorded_at": "2026-09-04T23:22:55+00:00",
       "journey_id": "16227785X"
-    },
-    {
-      "vehicle_id": "SDVN-63138",
-      "operator": "SDVN",
-      "operator_code": "SDVN",
-      "route": "24",
-      "direction": "outbound",
-      "origin": "Bus Station",
-      "destination": "Bus Station",
-      "latitude": 50.433907,
-      "longitude": -3.566957,
-      "bearing": 288,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-09-04T22:55:56+00:00",
-      "journey_id": "181"
     }
   ]
 }
