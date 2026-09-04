@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T04:51:30.827Z",
+  "generated_at": "2026-09-04T04:52:35.586Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 24,
-  "vehicle_count": 5,
+  "data_age_seconds": 32,
+  "vehicle_count": 4,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30008",
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dobree Park",
-      "latitude": 50.988689,
-      "longitude": -3.245695,
-      "bearing": 0,
+      "latitude": 50.986657,
+      "longitude": -3.242421,
+      "bearing": 131,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:51:15+00:00",
+      "recorded_at": "2026-09-04T04:52:25+00:00",
       "journey_id": "0526"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.129705,
-      "longitude": -2.999538,
-      "bearing": 261,
+      "latitude": 51.13167,
+      "longitude": -3.000764,
+      "bearing": 359,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:51:15+00:00",
+      "recorded_at": "2026-09-04T04:52:03+00:00",
       "journey_id": "0507"
     },
     {
@@ -46,29 +46,13 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.198744,
-      "longitude": -3.469647,
-      "bearing": 0,
+      "latitude": 51.198342,
+      "longitude": -3.469186,
+      "bearing": 142,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:51:06+00:00",
+      "recorded_at": "2026-09-04T04:52:29+00:00",
       "journey_id": "102"
-    },
-    {
-      "vehicle_id": "FBRI-33857",
-      "operator": "FBRI",
-      "operator_code": "FBRI",
-      "route": "376",
-      "direction": "inbound",
-      "origin": "Wells Bus Station",
-      "destination": "Bristol Bus Station",
-      "latitude": 51.262652,
-      "longitude": -2.592733,
-      "bearing": 22,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-09-04T04:51:08+00:00",
-      "journey_id": "0538"
     },
     {
       "vehicle_id": "FBRI-33980",
@@ -78,12 +62,12 @@
       "direction": "outbound",
       "origin": "Wells Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.1213,
-      "longitude": -2.744149,
-      "bearing": 276,
+      "latitude": 51.12027,
+      "longitude": -2.749612,
+      "bearing": 161,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:51:19+00:00",
+      "recorded_at": "2026-09-04T04:52:29+00:00",
       "journey_id": "0525"
     }
   ]
