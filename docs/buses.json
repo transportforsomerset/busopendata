@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T04:23:33.638Z",
+  "generated_at": "2026-09-04T04:24:34.130Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 26,
+  "data_age_seconds": 29,
   "vehicle_count": 4,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.046726,
-      "longitude": -3.037491,
-      "bearing": 68,
+      "latitude": 51.050238,
+      "longitude": -3.034182,
+      "bearing": 341,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:23:26+00:00",
+      "recorded_at": "2026-09-04T04:24:05+00:00",
       "journey_id": "0507"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.209128,
-      "longitude": -2.650731,
-      "bearing": 65,
+      "latitude": 51.211769,
+      "longitude": -2.646449,
+      "bearing": 9,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:23:20+00:00",
+      "recorded_at": "2026-09-04T04:24:25+00:00",
       "journey_id": "0521"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.205839,
-      "longitude": -2.650914,
+      "latitude": 51.205868,
+      "longitude": -2.650879,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:23:23+00:00",
+      "recorded_at": "2026-09-04T04:24:23+00:00",
       "journey_id": "0538"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Plymouth Coach Stn Armada Way",
       "destination": "London Victoria Coach Station",
-      "latitude": 51.119,
-      "longitude": -2.999,
-      "bearing": 338,
+      "latitude": 51.126,
+      "longitude": -3.002,
+      "bearing": 333,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:23:07+00:00",
+      "recorded_at": "2026-09-04T04:24:10+00:00",
       "journey_id": "16227793X"
     }
   ]
