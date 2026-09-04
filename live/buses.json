@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T04:04:35.329Z",
+  "generated_at": "2026-09-04T04:05:36.399Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 20,
+  "data_age_seconds": 21,
   "vehicle_count": 3,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.224518,
-      "longitude": -2.625534,
-      "bearing": 49,
+      "latitude": 51.229618,
+      "longitude": -2.619033,
+      "bearing": 10,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:04:22+00:00",
+      "recorded_at": "2026-09-04T04:05:19+00:00",
       "journey_id": "0455"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.207453,
-      "longitude": -2.650681,
+      "latitude": 51.207435,
+      "longitude": -2.650674,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:04:19+00:00",
+      "recorded_at": "2026-09-04T04:05:19+00:00",
       "journey_id": "0521"
     },
     {
@@ -48,10 +48,10 @@
       "destination": "London Victoria Coach Station",
       "latitude": 51.014,
       "longitude": -3.108,
-      "bearing": 0,
+      "bearing": 47,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:04:15+00:00",
+      "recorded_at": "2026-09-04T04:05:15+00:00",
       "journey_id": "16227793X"
     }
   ]
