@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T03:58:35.643Z",
+  "generated_at": "2026-09-04T03:59:32.244Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 111,
-  "vehicle_count": 3,
+  "data_age_seconds": 168,
+  "vehicle_count": 4,
   "vehicles": [
     {
       "vehicle_id": "FBRI-33666",
@@ -14,13 +14,29 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.207478,
-      "longitude": -2.650606,
+      "latitude": 51.207363,
+      "longitude": -2.650735,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T03:58:24+00:00",
+      "recorded_at": "2026-09-04T03:59:24+00:00",
       "journey_id": "0455"
+    },
+    {
+      "vehicle_id": "FBRI-33711",
+      "operator": "FBRI",
+      "operator_code": "FBRI",
+      "route": "376A",
+      "direction": "inbound",
+      "origin": "Wells Bus Station",
+      "destination": "Bristol Bus Station",
+      "latitude": 51.20745,
+      "longitude": -2.650666,
+      "bearing": 0,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-04T03:59:18+00:00",
+      "journey_id": "0521"
     },
     {
       "vehicle_id": "FBRI-33752",
@@ -30,12 +46,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.233168,
-      "longitude": -2.619835,
-      "bearing": 344,
+      "latitude": 51.238007,
+      "longitude": -2.618047,
+      "bearing": 34,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T03:58:29+00:00",
+      "recorded_at": "2026-09-04T03:59:18+00:00",
       "journey_id": "0451"
     },
     {
