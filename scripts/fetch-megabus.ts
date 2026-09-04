@@ -67,22 +67,41 @@ async function fetchJourneyStage(
     });
 
     const response = await fetch(MEGABUS_URL, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-        "User-Agent": "Mozilla/5.0",
-      },
-      body: body.toString(),
-      signal: controller.signal,
-    });
+  method: "POST",
+  headers: {
+    "Content-Type": "application/x-www-form-urlencoded",
+    "User-Agent": "Mozilla/5.0",
+    "Accept": "application/json, text/plain, */*",
+    "Referer": "https://megabus.tmpanel.co.uk/Tracker",
+  },
+  body: body.toString(),
+  signal,
+});
 
-    if (!response.ok) {
-      throw new Error(
-        `HTTP ${response.status} ${response.statusText}`
-      );
-    }
+console.log(
+  `MegaBus ${journey.jrny_id}: HTTP ${response.status} ${response.statusText}`
+);
 
-    const data = await response.json();
+console.log(
+  `MegaBus ${journey.jrny_id}: Content-Type =`,
+  response.headers.get("content-type")
+);
+
+const raw = await response.text();
+
+console.log(
+  `MegaBus ${journey.jrny_id}: response =`,
+  raw.slice(0, 1000)
+);
+
+if (!response.ok) {
+  throw new Error(
+    `HTTP ${response.status} ${response.statusText}`
+  );
+}
+
+const data = JSON.parse(raw);
+  //  const data = await response.json();
 
     const liveRows = Array.isArray(data.Table2)
       ? data.Table2
