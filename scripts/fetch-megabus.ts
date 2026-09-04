@@ -70,6 +70,7 @@ async function fetchJourneyStage(
       method: "POST",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
+        "User-Agent": "Mozilla/5.0",
       },
       body: body.toString(),
       signal: controller.signal,
