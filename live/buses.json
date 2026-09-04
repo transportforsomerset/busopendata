@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T22:57:39.856Z",
+  "generated_at": "2026-09-04T22:58:40.355Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 1175,
-  "vehicle_count": 16,
+  "data_age_seconds": 845,
+  "vehicle_count": 15,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30001",
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 50.984743,
-      "longitude": -3.196514,
-      "bearing": 60,
+      "latitude": 50.990023,
+      "longitude": -3.18076,
+      "bearing": 43,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T22:57:17+00:00",
+      "recorded_at": "2026-09-04T22:58:28+00:00",
       "journey_id": "2345"
     },
     {
@@ -71,22 +71,6 @@
       "journey_id": "144"
     },
     {
-      "vehicle_id": "FBOS-48504",
-      "operator": "FBOS",
-      "operator_code": "FBOS",
-      "route": "1",
-      "direction": "outbound",
-      "origin": "Taunton  Silk Mills P R",
-      "destination": "Taunton  Town Centre  J",
-      "latitude": 51.014424,
-      "longitude": -3.102129,
-      "bearing": 0,
-      "speed_mps": 0,
-      "occupancy": "",
-      "recorded_at": "2026-09-04T22:38:04+00:00",
-      "journey_id": "2305"
-    },
-    {
       "vehicle_id": "FBOS-63046",
       "operator": "FBOS",
       "operator_code": "FBOS",
@@ -94,12 +78,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dunball  Old Works Road",
-      "latitude": 51.131194,
-      "longitude": -3.00066,
-      "bearing": 358,
+      "latitude": 51.131746,
+      "longitude": -2.995722,
+      "bearing": 94,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T22:57:23+00:00",
+      "recorded_at": "2026-09-04T22:58:29+00:00",
       "journey_id": "2315"
     },
     {
@@ -110,12 +94,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.174583,
-      "longitude": -3.336654,
-      "bearing": 195,
+      "latitude": 51.168078,
+      "longitude": -3.341904,
+      "bearing": 225,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T22:57:18+00:00",
+      "recorded_at": "2026-09-04T22:58:20+00:00",
       "journey_id": "143"
     },
     {
@@ -147,7 +131,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T22:57:26+00:00",
+      "recorded_at": "2026-09-04T22:58:26+00:00",
       "journey_id": "2410"
     },
     {
@@ -158,12 +142,12 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Wells Bus Station",
-      "latitude": 51.120898,
-      "longitude": -2.749048,
-      "bearing": 61,
+      "latitude": 51.120985,
+      "longitude": -2.741222,
+      "bearing": 98,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T22:57:09+00:00",
+      "recorded_at": "2026-09-04T22:58:18+00:00",
       "journey_id": "2350"
     },
     {
@@ -174,12 +158,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Wells Bus Station",
-      "latitude": 51.276063,
-      "longitude": -2.578033,
-      "bearing": 207,
+      "latitude": 51.270945,
+      "longitude": -2.58483,
+      "bearing": 223,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T22:57:27+00:00",
+      "recorded_at": "2026-09-04T22:58:26+00:00",
       "journey_id": "2245"
     },
     {
@@ -190,12 +174,12 @@
       "direction": "outbound",
       "origin": "Bristol Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.331702,
-      "longitude": -2.547824,
-      "bearing": 177,
+      "latitude": 51.3292,
+      "longitude": -2.547652,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T22:57:17+00:00",
+      "recorded_at": "2026-09-04T22:58:07+00:00",
       "journey_id": "2320"
     },
     {
@@ -206,12 +190,12 @@
       "direction": "outbound",
       "origin": "London Victoria Coach Station",
       "destination": "Plymouth Coach Stn Armada Way",
-      "latitude": 51.105,
-      "longitude": -2.996,
-      "bearing": 214,
+      "latitude": 51.102,
+      "longitude": -3.001,
+      "bearing": 216,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T22:57:16+00:00",
+      "recorded_at": "2026-09-04T22:58:20+00:00",
       "journey_id": "162278014"
     },
     {
@@ -222,12 +206,12 @@
       "direction": "outbound",
       "origin": "London Victoria Coach Station",
       "destination": "Plymouth Coach Stn Armada Way",
-      "latitude": 50.661,
-      "longitude": -3.538,
-      "bearing": 201,
+      "latitude": 50.654,
+      "longitude": -3.541,
+      "bearing": 182,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T22:57:15+00:00",
+      "recorded_at": "2026-09-04T22:58:19+00:00",
       "journey_id": "16227785X"
     },
     {
