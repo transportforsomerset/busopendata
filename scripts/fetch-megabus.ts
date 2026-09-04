@@ -75,7 +75,7 @@ async function fetchJourneyStage(
     "Referer": "https://megabus.tmpanel.co.uk/Tracker",
   },
   body: body.toString(),
-  signal,
+  signal: controller.signal,
 });
 
 console.log(
