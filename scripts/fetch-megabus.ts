@@ -218,8 +218,8 @@ async function fetchJourneyStage(
       latitude,
       longitude,
       recorded_at: recordedAt,
-      speed_mps: speed_mps: 100 / 2.23694,
-      occupancy: occupancy || null,
+      speed_mps: 100 / 2.23694,
+      occupancy: 100,
     };
   } catch (error) {
     if ((error as Error).name === "AbortError") {
