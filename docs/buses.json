@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T05:21:35.146Z",
+  "generated_at": "2026-09-04T05:22:32.674Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 28,
+  "data_age_seconds": 35,
   "vehicle_count": 13,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Thornash Close",
       "destination": "Hammersmith Bus Station",
-      "latitude": 51.037703,
-      "longitude": -3.061855,
-      "bearing": 53,
+      "latitude": 51.040705,
+      "longitude": -3.055743,
+      "bearing": 54,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:21:27+00:00",
+      "recorded_at": "2026-09-04T05:22:29+00:00",
       "journey_id": "0620"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.014973,
-      "longitude": -3.119664,
-      "bearing": 69,
+      "latitude": 51.014334,
+      "longitude": -3.112561,
+      "bearing": 114,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:21:28+00:00",
+      "recorded_at": "2026-09-04T05:22:15+00:00",
       "journey_id": "0600"
     },
     {
@@ -51,7 +51,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:21:07+00:00",
+      "recorded_at": "2026-09-04T05:22:07+00:00",
       "journey_id": "0622"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Chard  The Guildhall",
       "destination": "Axminster  Rail Station",
-      "latitude": 50.827036,
-      "longitude": -2.968063,
-      "bearing": 216,
+      "latitude": 50.822471,
+      "longitude": -2.969412,
+      "bearing": 207,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:21:28+00:00",
+      "recorded_at": "2026-09-04T05:22:19+00:00",
       "journey_id": "0606"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dobree Park",
-      "latitude": 51.01467,
-      "longitude": -3.114712,
-      "bearing": 285,
+      "latitude": 51.014858,
+      "longitude": -3.120053,
+      "bearing": 242,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:21:13+00:00",
+      "recorded_at": "2026-09-04T05:22:10+00:00",
       "journey_id": "0619"
     },
     {
@@ -99,7 +99,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:21:13+00:00",
+      "recorded_at": "2026-09-04T05:22:13+00:00",
       "journey_id": "0630"
     },
     {
@@ -112,10 +112,10 @@
       "destination": "Taunton  Town Centre  H",
       "latitude": 51.032591,
       "longitude": -3.094944,
-      "bearing": 150,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:21:24+00:00",
+      "recorded_at": "2026-09-04T05:21:57+00:00",
       "journey_id": "0605"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "inbound",
       "origin": "Bridgwater Bus Station  3",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.076297,
-      "longitude": -3.020361,
-      "bearing": 197,
+      "latitude": 51.067482,
+      "longitude": -3.023337,
+      "bearing": 209,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:21:25+00:00",
+      "recorded_at": "2026-09-04T05:22:15+00:00",
       "journey_id": "0600"
     },
     {
@@ -142,12 +142,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.175471,
-      "longitude": -3.336544,
-      "bearing": 157,
+      "latitude": 51.17079,
+      "longitude": -3.337144,
+      "bearing": 103,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:21:23+00:00",
+      "recorded_at": "2026-09-04T05:22:18+00:00",
       "journey_id": "102"
     },
     {
@@ -158,12 +158,12 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Bristol Bus Station",
-      "latitude": 51.161612,
-      "longitude": -2.700485,
-      "bearing": 13,
+      "latitude": 51.163775,
+      "longitude": -2.699538,
+      "bearing": 15,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:21:31+00:00",
+      "recorded_at": "2026-09-04T05:22:02+00:00",
       "journey_id": "0555"
     },
     {
@@ -174,12 +174,12 @@
       "direction": "inbound",
       "origin": "Gateway P&amp;R",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 51.017536,
-      "longitude": -3.059438,
-      "bearing": 282,
+      "latitude": 51.017776,
+      "longitude": -3.065341,
+      "bearing": 264,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:21:17+00:00",
+      "recorded_at": "2026-09-04T05:22:18+00:00",
       "journey_id": "102"
     },
     {
@@ -190,12 +190,12 @@
       "direction": "outbound",
       "origin": "Silk Mills P&amp;R",
       "destination": "Gateway P&amp;R",
-      "latitude": 51.014442,
-      "longitude": -3.12175,
-      "bearing": 126,
+      "latitude": 51.01339,
+      "longitude": -3.12065,
+      "bearing": 114,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:21:23+00:00",
+      "recorded_at": "2026-09-04T05:22:23+00:00",
       "journey_id": "103"
     },
     {
@@ -206,12 +206,12 @@
       "direction": "outbound",
       "origin": "Bus Station",
       "destination": "Silk Mills P&amp;R",
-      "latitude": 50.993969,
-      "longitude": -3.172412,
-      "bearing": 48,
+      "latitude": 51.000145,
+      "longitude": -3.160144,
+      "bearing": 66,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:21:20+00:00",
+      "recorded_at": "2026-09-04T05:22:21+00:00",
       "journey_id": "105"
     }
   ]
