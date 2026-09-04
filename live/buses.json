@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T05:04:34.514Z",
+  "generated_at": "2026-09-04T05:05:37.395Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 31,
+  "data_age_seconds": 34,
   "vehicle_count": 8,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 50.975937,
-      "longitude": -3.232084,
-      "bearing": 73,
+      "latitude": 50.979289,
+      "longitude": -3.226558,
+      "bearing": 38,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:04:22+00:00",
+      "recorded_at": "2026-09-04T05:05:27+00:00",
       "journey_id": "0600"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.183943,
-      "longitude": -3.003693,
-      "bearing": 31,
+      "latitude": 51.190816,
+      "longitude": -2.998177,
+      "bearing": 28,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:04:24+00:00",
+      "recorded_at": "2026-09-04T05:05:25+00:00",
       "journey_id": "0507"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Chard  The Guildhall",
       "destination": "Axminster  Rail Station",
-      "latitude": 50.872804,
-      "longitude": -2.96518,
+      "latitude": 50.872832,
+      "longitude": -2.965236,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:04:03+00:00",
+      "recorded_at": "2026-09-04T05:05:03+00:00",
       "journey_id": "0606"
     },
     {
@@ -67,7 +67,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:04:11+00:00",
+      "recorded_at": "2026-09-04T05:05:11+00:00",
       "journey_id": "0605"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Bridgwater Bus Station  3",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.129521,
-      "longitude": -3.006589,
-      "bearing": 253,
+      "latitude": 51.127622,
+      "longitude": -3.007974,
+      "bearing": 204,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:04:14+00:00",
+      "recorded_at": "2026-09-04T05:05:14+00:00",
       "journey_id": "0600"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.165497,
-      "longitude": -3.397487,
-      "bearing": 137,
+      "latitude": 51.160942,
+      "longitude": -3.389459,
+      "bearing": 111,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:04:08+00:00",
+      "recorded_at": "2026-09-04T05:05:19+00:00",
       "journey_id": "102"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.218457,
-      "longitude": -2.643038,
-      "bearing": 45,
+      "latitude": 51.221564,
+      "longitude": -2.635395,
+      "bearing": 78,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:04:09+00:00",
+      "recorded_at": "2026-09-04T05:05:07+00:00",
       "journey_id": "0556"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Bristol Bus Station",
-      "latitude": 51.126686,
-      "longitude": -2.739511,
-      "bearing": 0,
+      "latitude": 51.127171,
+      "longitude": -2.739296,
+      "bearing": 39,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:04:25+00:00",
+      "recorded_at": "2026-09-04T05:05:17+00:00",
       "journey_id": "0555"
     }
   ]
