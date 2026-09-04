@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T03:46:36.605Z",
+  "generated_at": "2026-09-04T03:47:36.332Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 708,
+  "data_age_seconds": 768,
   "vehicle_count": 2,
   "vehicles": [
     {
@@ -16,10 +16,10 @@
       "destination": "Bristol Bus Station",
       "latitude": 51.207457,
       "longitude": -2.650643,
-      "bearing": 32,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T03:46:07+00:00",
+      "recorded_at": "2026-09-04T03:47:07+00:00",
       "journey_id": "0451"
     },
     {
