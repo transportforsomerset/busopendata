@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T05:01:36.371Z",
+  "generated_at": "2026-09-04T05:02:35.274Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 22,
-  "vehicle_count": 7,
+  "data_age_seconds": 35,
+  "vehicle_count": 8,
   "vehicles": [
     {
       "vehicle_id": "FBOS-30008",
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 50.970887,
-      "longitude": -3.247757,
-      "bearing": 0,
+      "latitude": 50.972958,
+      "longitude": -3.244645,
+      "bearing": 56,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:01:14+00:00",
+      "recorded_at": "2026-09-04T05:02:25+00:00",
       "journey_id": "0600"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.165236,
-      "longitude": -2.98941,
-      "bearing": 348,
+      "latitude": 51.171772,
+      "longitude": -2.994046,
+      "bearing": 335,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:01:19+00:00",
+      "recorded_at": "2026-09-04T05:02:14+00:00",
       "journey_id": "0507"
     },
     {
@@ -51,8 +51,24 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:01:27+00:00",
+      "recorded_at": "2026-09-04T05:02:21+00:00",
       "journey_id": "0606"
+    },
+    {
+      "vehicle_id": "FBOS-48502",
+      "operator": "FBOS",
+      "operator_code": "FBOS",
+      "route": "1",
+      "direction": "outbound",
+      "origin": "Taunton  Town Centre  H",
+      "destination": "Taunton  Town Centre  H",
+      "latitude": 51.015404,
+      "longitude": -3.103192,
+      "bearing": 0,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-04T05:02:11+00:00",
+      "journey_id": "0605"
     },
     {
       "vehicle_id": "FBOS-48504",
@@ -62,12 +78,12 @@
       "direction": "inbound",
       "origin": "Bridgwater Bus Station  3",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.129854,
-      "longitude": -2.999009,
-      "bearing": 0,
+      "latitude": 51.131402,
+      "longitude": -3.000744,
+      "bearing": 351,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:01:14+00:00",
+      "recorded_at": "2026-09-04T05:02:26+00:00",
       "journey_id": "0600"
     },
     {
@@ -78,12 +94,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.17426,
-      "longitude": -3.420076,
-      "bearing": 97,
+      "latitude": 51.172368,
+      "longitude": -3.415767,
+      "bearing": 110,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:01:18+00:00",
+      "recorded_at": "2026-09-04T05:02:00+00:00",
       "journey_id": "102"
     },
     {
@@ -94,12 +110,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.209182,
-      "longitude": -2.650679,
-      "bearing": 62,
+      "latitude": 51.212654,
+      "longitude": -2.646322,
+      "bearing": 346,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:01:19+00:00",
+      "recorded_at": "2026-09-04T05:02:28+00:00",
       "journey_id": "0556"
     },
     {
@@ -115,7 +131,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:01:25+00:00",
+      "recorded_at": "2026-09-04T05:02:25+00:00",
       "journey_id": "0555"
     }
   ]
