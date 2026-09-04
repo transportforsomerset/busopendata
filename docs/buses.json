@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T04:20:39.830Z",
+  "generated_at": "2026-09-04T04:21:35.076Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 53,
+  "data_age_seconds": 109,
   "vehicle_count": 3,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.0341,
-      "longitude": -3.058247,
-      "bearing": 24,
+      "latitude": 51.037659,
+      "longitude": -3.055317,
+      "bearing": 36,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:20:14+00:00",
+      "recorded_at": "2026-09-04T04:21:11+00:00",
       "journey_id": "0507"
     },
     {
@@ -35,7 +35,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:20:19+00:00",
+      "recorded_at": "2026-09-04T04:21:19+00:00",
       "journey_id": "0521"
     },
     {
