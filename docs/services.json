@@ -147,6 +147,13 @@
     ]
   },
   {
+    "ref": "SedgeCe",
+    "name": "Slinky",
+    "services": [
+      "SK"
+    ]
+  },
+  {
     "ref": "Taunton2",
     "name": "Slinky",
     "services": [
