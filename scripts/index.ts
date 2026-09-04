@@ -1,11 +1,13 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { fetchBodsData } from "./fetch-bods";
+import { fetchMegaBusData } from "./fetch-megabus";
 import { validateBusData } from "./validate";
 import { createStatusData } from "./status";
 import { calculateDistanceMetres } from "./movement";
 import { analyseMovement } from "./functions";
 import type { Geofence, VehicleHistory } from "./types";
 import { updateTimestampLog } from "./timestamps";
+
 
 const busDataFile = "docs/buses.json";
 const statusFile = "docs/status.json";
@@ -142,6 +144,15 @@ let busData;
 
 try {
   busData = await fetchBodsData(trackedServices, geofences);
+
+    let megabusData = [];
+    try {
+      megabusData = await fetchMegaBusData();
+    } catch (error) {
+      console.error("MegaBus fetch failed:", error);
+    }
+ 
+    busData = [...busData, ...megabusData];
 } catch (error) {
   console.error("ERROR: Unable to retrieve BODS data.");
 
