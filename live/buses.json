@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T04:15:37.079Z",
+  "generated_at": "2026-09-04T04:16:36.194Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 26,
+  "data_age_seconds": 58,
   "vehicle_count": 3,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.020083,
-      "longitude": -3.073225,
-      "bearing": 359,
+      "latitude": 51.020917,
+      "longitude": -3.073251,
+      "bearing": 8,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:15:25+00:00",
+      "recorded_at": "2026-09-04T04:16:14+00:00",
       "journey_id": "0507"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.207398,
-      "longitude": -2.650661,
+      "latitude": 51.207429,
+      "longitude": -2.650664,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:15:19+00:00",
+      "recorded_at": "2026-09-04T04:16:19+00:00",
       "journey_id": "0521"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Plymouth Coach Stn Armada Way",
       "destination": "London Victoria Coach Station",
-      "latitude": 51.047,
-      "longitude": -3.03,
-      "bearing": 25,
+      "latitude": 51.053,
+      "longitude": -3.026,
+      "bearing": 23,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T04:15:11+00:00",
+      "recorded_at": "2026-09-04T04:15:38+00:00",
       "journey_id": "16227793X"
     }
   ]
