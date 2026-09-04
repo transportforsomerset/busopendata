@@ -147,6 +147,13 @@
     ]
   },
   {
+    "ref": "Taunton2",
+    "name": "Slinky",
+    "services": [
+      "Taunton2"
+    ]
+  },
+  {
     "ref": "1",
     "services": [
       "1"
