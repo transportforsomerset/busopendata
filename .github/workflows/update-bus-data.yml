@@ -1,4 +1,4 @@
-name: Update Somerset Bus Data
+name: Get BODS Bus Data
 
 on:
   workflow_call:
