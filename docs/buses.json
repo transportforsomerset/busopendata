@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T05:09:35.375Z",
+  "generated_at": "2026-09-04T05:10:38.298Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 29,
+  "data_age_seconds": 24,
   "vehicle_count": 9,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Dobree Park",
       "destination": "Taunton  Castle Way",
-      "latitude": 50.984694,
-      "longitude": -3.196622,
-      "bearing": 59,
+      "latitude": 50.989266,
+      "longitude": -3.181815,
+      "bearing": 42,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:09:17+00:00",
+      "recorded_at": "2026-09-04T05:10:35+00:00",
       "journey_id": "0600"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.216982,
-      "longitude": -2.981629,
-      "bearing": 0,
+      "latitude": 51.219978,
+      "longitude": -2.975976,
+      "bearing": 23,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:09:13+00:00",
+      "recorded_at": "2026-09-04T05:10:14+00:00",
       "journey_id": "0507"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Chard  The Guildhall",
       "destination": "Axminster  Rail Station",
-      "latitude": 50.865159,
-      "longitude": -2.96258,
-      "bearing": 142,
+      "latitude": 50.859329,
+      "longitude": -2.958182,
+      "bearing": 148,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:09:20+00:00",
+      "recorded_at": "2026-09-04T05:10:21+00:00",
       "journey_id": "0606"
     },
     {
@@ -67,7 +67,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:09:10+00:00",
+      "recorded_at": "2026-09-04T05:10:34+00:00",
       "journey_id": "0619"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Taunton  Town Centre  H",
       "destination": "Taunton  Town Centre  H",
-      "latitude": 51.025414,
-      "longitude": -3.102534,
-      "bearing": 113,
+      "latitude": 51.029186,
+      "longitude": -3.10136,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:09:30+00:00",
+      "recorded_at": "2026-09-04T05:10:29+00:00",
       "journey_id": "0605"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "inbound",
       "origin": "Bridgwater Bus Station  3",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.122016,
-      "longitude": -2.999608,
-      "bearing": 157,
+      "latitude": 51.118885,
+      "longitude": -2.998107,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:09:18+00:00",
+      "recorded_at": "2026-09-04T05:10:23+00:00",
       "journey_id": "0600"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.160648,
-      "longitude": -3.365137,
-      "bearing": 105,
+      "latitude": 51.160709,
+      "longitude": -3.362903,
+      "bearing": 83,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:09:13+00:00",
+      "recorded_at": "2026-09-04T05:10:16+00:00",
       "journey_id": "102"
     },
     {
@@ -126,12 +126,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.243942,
-      "longitude": -2.611441,
+      "latitude": 51.250618,
+      "longitude": -2.604095,
       "bearing": 34,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:09:21+00:00",
+      "recorded_at": "2026-09-04T05:10:21+00:00",
       "journey_id": "0556"
     },
     {
@@ -142,12 +142,12 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Bristol Bus Station",
-      "latitude": 51.141838,
-      "longitude": -2.728717,
-      "bearing": 38,
+      "latitude": 51.144244,
+      "longitude": -2.719206,
+      "bearing": 76,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-04T05:09:06+00:00",
+      "recorded_at": "2026-09-04T05:10:26+00:00",
       "journey_id": "0555"
     }
   ]
