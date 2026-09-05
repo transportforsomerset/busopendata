@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T03:53:15.212Z",
+  "generated_at": "2026-09-05T03:54:16.163Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 57,
+  "data_age_seconds": 58,
   "vehicle_count": 3,
   "vehicles": [
     {
@@ -19,7 +19,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T03:52:59+00:00",
+      "recorded_at": "2026-09-05T03:53:59+00:00",
       "journey_id": "0454"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Plymouth Coach Stn Armada Way",
       "destination": "London Victoria Coach Station",
-      "latitude": 50.793,
-      "longitude": -3.445,
-      "bearing": 6,
+      "latitude": 50.804,
+      "longitude": -3.435,
+      "bearing": 42,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T03:52:44+00:00",
+      "recorded_at": "2026-09-05T03:53:37+00:00",
       "journey_id": "162294495"
     },
     {
@@ -51,7 +51,7 @@
       "bearing": 254,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T03:52:18+00:00",
+      "recorded_at": "2026-09-05T03:53:18+00:00",
       "journey_id": "16229451X"
     }
   ]
