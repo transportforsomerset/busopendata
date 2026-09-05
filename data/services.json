@@ -27,7 +27,6 @@
   "SDVN": [
     { "ref": "20", "services": ["20"] },
     { "ref": "24", "services": ["24"] },
-    { "ref": "57", "services": ["57"] },
     { "ref": "FAL", "services": ["FAL"] },
     { "ref": "FALC", "services": ["FALC"] },
     { "ref": "PR", "name": "Taunton Park & Ride", "services": ["PR"] }
@@ -56,7 +55,6 @@
     { "ref": "504", "services": ["504"] }
   ],
   "SCCO": [
-    { "ref": "57", "services": ["57"] },
     { "ref": "FAL",  "services": ["FAL"]  },
     { "ref": "FALC", "services": ["FALC"] }
   ]
