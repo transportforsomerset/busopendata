@@ -1,7 +1,21 @@
-name: Get Falcon (MegaBus) Bus Data
+name: Falcon Journey Scraper
 
 on:
-  workflow_call:
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Run Falcon journey scraper
+        run: bun run scripts/get-falcon-journeys.ts
 
 # https://megabus.tmpanel.co.uk/Tracker/GetJourney
 # https://megabus.tmpanel.co.uk/Tracker/GetJourneyStage
