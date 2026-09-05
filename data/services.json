@@ -27,6 +27,8 @@
   "SDVN": [
     { "ref": "20", "services": ["20"] },
     { "ref": "24", "services": ["24"] },
+    { "ref": "FAL", "services": ["FAL"] },
+    { "ref": "FALC", "services": ["FALC"] },
     { "ref": "PR", "name": "Taunton Park & Ride", "services": ["PR"] }
   ],
   "SMST": [
