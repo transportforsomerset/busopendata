@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T04:46:17.632Z",
+  "generated_at": "2026-09-05T04:47:13.409Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 61,
-  "vehicle_count": 9,
+  "data_age_seconds": 57,
+  "vehicle_count": 10,
   "vehicles": [
     {
       "vehicle_id": "FBOS-63705",
@@ -19,7 +19,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:45:55+00:00",
+      "recorded_at": "2026-09-05T04:46:55+00:00",
       "journey_id": "202"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.448799,
-      "longitude": -2.588987,
-      "bearing": 263,
+      "latitude": 51.449343,
+      "longitude": -2.594089,
+      "bearing": 276,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:45:41+00:00",
+      "recorded_at": "2026-09-05T04:46:43+00:00",
       "journey_id": "0454"
     },
     {
@@ -46,13 +46,29 @@
       "direction": "outbound",
       "origin": "Wells Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.158156,
-      "longitude": -2.711276,
-      "bearing": 226,
+      "latitude": 51.157478,
+      "longitude": -2.712267,
+      "bearing": 222,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:46:02+00:00",
+      "recorded_at": "2026-09-05T04:46:43+00:00",
       "journey_id": "0524"
+    },
+    {
+      "vehicle_id": "FBRI-33857",
+      "operator": "FBRI",
+      "operator_code": "FBRI",
+      "route": "376",
+      "direction": "outbound",
+      "origin": "Wells Bus Station",
+      "destination": "Street  Green Lane Avenue",
+      "latitude": 51.207121,
+      "longitude": -2.651227,
+      "bearing": 318,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-05T04:46:37+00:00",
+      "journey_id": "0549"
     },
     {
       "vehicle_id": "FBRI-33955",
@@ -62,12 +78,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.293201,
-      "longitude": -2.495412,
-      "bearing": 94,
+      "latitude": 51.2897,
+      "longitude": -2.49208,
+      "bearing": 177,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:45:49+00:00",
+      "recorded_at": "2026-09-05T04:46:53+00:00",
       "journey_id": "0522"
     },
     {
@@ -78,12 +94,12 @@
       "direction": "inbound",
       "origin": "Plymouth Coach Stn Armada Way",
       "destination": "London Victoria Coach Station",
-      "latitude": 51.131,
-      "longitude": -3,
-      "bearing": 158,
+      "latitude": 51.13,
+      "longitude": -2.999,
+      "bearing": 263,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:45:50+00:00",
+      "recorded_at": "2026-09-05T04:46:38+00:00",
       "journey_id": "162294495"
     },
     {
@@ -96,10 +112,10 @@
       "destination": "London Victoria Coach Station",
       "latitude": 51.072,
       "longitude": -4.06,
-      "bearing": 0,
+      "bearing": 342,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:45:53+00:00",
+      "recorded_at": "2026-09-05T04:46:42+00:00",
       "journey_id": "16229443X"
     },
     {
@@ -115,7 +131,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:45:54+00:00",
+      "recorded_at": "2026-09-05T04:46:41+00:00",
       "journey_id": "16229451X"
     },
     {
@@ -128,10 +144,10 @@
       "destination": "London Victoria Coach Station",
       "latitude": 50.404,
       "longitude": -4.159,
-      "bearing": 51,
+      "bearing": 214,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:45:52+00:00",
+      "recorded_at": "2026-09-05T04:46:52+00:00",
       "journey_id": "162294509"
     },
     {
@@ -147,7 +163,7 @@
       "bearing": 97,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:45:16+00:00",
+      "recorded_at": "2026-09-05T04:46:16+00:00",
       "journey_id": "162294382"
     }
   ]
