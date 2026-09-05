@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T04:21:18.324Z",
+  "generated_at": "2026-09-05T04:22:20.159Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 24,
+  "data_age_seconds": 33,
   "vehicle_count": 3,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.337835,
-      "longitude": -2.548563,
-      "bearing": 4,
+      "latitude": 51.345152,
+      "longitude": -2.54156,
+      "bearing": 8,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:20:58+00:00",
+      "recorded_at": "2026-09-05T04:21:59+00:00",
       "journey_id": "0454"
     },
     {
@@ -35,7 +35,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:20:56+00:00",
+      "recorded_at": "2026-09-05T04:21:48+00:00",
       "journey_id": "162294495"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Penzance Bus Station Station Road",
       "destination": "London Victoria Coach Station",
-      "latitude": 50.105,
-      "longitude": -5.289,
-      "bearing": 131,
+      "latitude": 50.101,
+      "longitude": -5.281,
+      "bearing": 151,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:20:54+00:00",
+      "recorded_at": "2026-09-05T04:21:47+00:00",
       "journey_id": "16229451X"
     }
   ]
