@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T04:29:13.616Z",
+  "generated_at": "2026-09-05T04:30:14.343Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 90,
+  "data_age_seconds": 151,
   "vehicle_count": 5,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.389489,
-      "longitude": -2.551026,
-      "bearing": 355,
+      "latitude": 51.396019,
+      "longitude": -2.550664,
+      "bearing": 342,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:28:42+00:00",
+      "recorded_at": "2026-09-05T04:29:52+00:00",
       "journey_id": "0454"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Wells Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.205945,
-      "longitude": -2.650795,
+      "latitude": 51.205939,
+      "longitude": -2.650823,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:28:38+00:00",
+      "recorded_at": "2026-09-05T04:29:38+00:00",
       "journey_id": "0524"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.220487,
-      "longitude": -2.639347,
-      "bearing": 65,
+      "latitude": 51.222953,
+      "longitude": -2.629205,
+      "bearing": 67,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:28:52+00:00",
+      "recorded_at": "2026-09-05T04:29:46+00:00",
       "journey_id": "0522"
     },
     {
