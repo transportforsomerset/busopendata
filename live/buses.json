@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T04:04:22.712Z",
+  "generated_at": "2026-09-05T04:05:12.764Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 42,
+  "data_age_seconds": 92,
   "vehicle_count": 3,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.254501,
-      "longitude": -2.59982,
-      "bearing": 34,
+      "latitude": 51.262647,
+      "longitude": -2.592754,
+      "bearing": 22,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:03:44+00:00",
+      "recorded_at": "2026-09-05T04:04:47+00:00",
       "journey_id": "0454"
     },
     {
