@@ -73,3 +73,16 @@ for (const journey of journeys) {
     `${journey.is_live === "1" ? "LIVE" : "scheduled"}`
   );
 }
+
+const output = {
+  operator: "SCCO",
+  route: "FALC",
+  services: journeys,
+};
+
+await Bun.write(
+  "data/megabus.json",
+  JSON.stringify(output, null, 2) + "\n"
+);
+
+console.log(`\nWrote data/megabus.json with ${journeys.length} journeys.`);
