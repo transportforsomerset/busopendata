@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T04:45:12.543Z",
+  "generated_at": "2026-09-05T04:46:17.632Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 34,
-  "vehicle_count": 8,
+  "data_age_seconds": 61,
+  "vehicle_count": 9,
   "vehicles": [
     {
       "vehicle_id": "FBOS-63705",
@@ -16,10 +16,10 @@
       "destination": "Taunton  Castle Way",
       "latitude": 51.206932,
       "longitude": -3.462202,
-      "bearing": 250,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:44:53+00:00",
+      "recorded_at": "2026-09-05T04:45:55+00:00",
       "journey_id": "202"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.448744,
-      "longitude": -2.58429,
-      "bearing": 312,
+      "latitude": 51.448799,
+      "longitude": -2.588987,
+      "bearing": 263,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:44:48+00:00",
+      "recorded_at": "2026-09-05T04:45:41+00:00",
       "journey_id": "0454"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "outbound",
       "origin": "Wells Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.160409,
-      "longitude": -2.701329,
-      "bearing": 220,
+      "latitude": 51.158156,
+      "longitude": -2.711276,
+      "bearing": 226,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:44:51+00:00",
+      "recorded_at": "2026-09-05T04:46:02+00:00",
       "journey_id": "0524"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.292412,
-      "longitude": -2.501952,
-      "bearing": 70,
+      "latitude": 51.293201,
+      "longitude": -2.495412,
+      "bearing": 94,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:45:01+00:00",
+      "recorded_at": "2026-09-05T04:45:49+00:00",
       "journey_id": "0522"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Plymouth Coach Stn Armada Way",
       "destination": "London Victoria Coach Station",
-      "latitude": 51.13,
-      "longitude": -2.997,
-      "bearing": 24,
+      "latitude": 51.131,
+      "longitude": -3,
+      "bearing": 158,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:44:41+00:00",
+      "recorded_at": "2026-09-05T04:45:50+00:00",
       "journey_id": "162294495"
     },
     {
@@ -95,11 +95,11 @@
       "origin": "Barnstaple Bus Stn Belle Meadow Rd",
       "destination": "London Victoria Coach Station",
       "latitude": 51.072,
-      "longitude": -4.061,
+      "longitude": -4.06,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:44:53+00:00",
+      "recorded_at": "2026-09-05T04:45:53+00:00",
       "journey_id": "16229443X"
     },
     {
@@ -110,12 +110,12 @@
       "direction": "inbound",
       "origin": "Penzance Bus Station Station Road",
       "destination": "London Victoria Coach Station",
-      "latitude": 50.155,
-      "longitude": -5.081,
-      "bearing": 93,
+      "latitude": 50.154,
+      "longitude": -5.074,
+      "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:44:38+00:00",
+      "recorded_at": "2026-09-05T04:45:54+00:00",
       "journey_id": "16229451X"
     },
     {
@@ -128,11 +128,27 @@
       "destination": "London Victoria Coach Station",
       "latitude": 50.404,
       "longitude": -4.159,
-      "bearing": 161,
+      "bearing": 51,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:44:51+00:00",
+      "recorded_at": "2026-09-05T04:45:52+00:00",
       "journey_id": "162294509"
+    },
+    {
+      "vehicle_id": "BV73ZWN",
+      "operator": "NATX",
+      "operator_code": "NATX",
+      "route": "501",
+      "direction": "inbound",
+      "origin": "Plymouth Coach Stn Armada Way",
+      "destination": "London Victoria Coach Station",
+      "latitude": 50.373,
+      "longitude": -4.144,
+      "bearing": 97,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-05T04:45:16+00:00",
+      "journey_id": "162294382"
     }
   ]
 }
