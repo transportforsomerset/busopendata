@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T04:57:10.049Z",
+  "generated_at": "2026-09-05T04:58:15.363Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 114,
+  "data_age_seconds": 179,
   "vehicle_count": 11,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Bridgwater Bus Station  3",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.129852,
-      "longitude": -2.999073,
+      "latitude": 51.12984,
+      "longitude": -2.999046,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:56:48+00:00",
+      "recorded_at": "2026-09-05T04:57:48+00:00",
       "journey_id": "0600"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.205083,
-      "longitude": -3.477687,
-      "bearing": 163,
+      "latitude": 51.20289,
+      "longitude": -3.477336,
+      "bearing": 153,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:56:33+00:00",
+      "recorded_at": "2026-09-05T04:57:38+00:00",
       "journey_id": "202"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.209854,
-      "longitude": -2.64853,
-      "bearing": 68,
+      "latitude": 51.21265,
+      "longitude": -2.646392,
+      "bearing": 343,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:56:53+00:00",
+      "recorded_at": "2026-09-05T04:57:50+00:00",
       "journey_id": "0554"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Wells Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.126151,
-      "longitude": -2.738905,
-      "bearing": 141,
+      "latitude": 51.12104,
+      "longitude": -2.738989,
+      "bearing": 180,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:56:44+00:00",
+      "recorded_at": "2026-09-05T04:57:51+00:00",
       "journey_id": "0524"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Wells Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.1777,
-      "longitude": -2.692779,
-      "bearing": 201,
+      "latitude": 51.168122,
+      "longitude": -2.697729,
+      "bearing": 193,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:56:33+00:00",
+      "recorded_at": "2026-09-05T04:57:45+00:00",
       "journey_id": "0549"
     },
     {
@@ -94,12 +94,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.298853,
-      "longitude": -2.494199,
-      "bearing": 345,
+      "latitude": 51.299714,
+      "longitude": -2.494506,
+      "bearing": 349,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:56:50+00:00",
+      "recorded_at": "2026-09-05T04:57:35+00:00",
       "journey_id": "0522"
     },
     {
