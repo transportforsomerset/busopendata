@@ -134,18 +134,6 @@
     ]
   },
   {
-    "ref": "FAL",
-    "services": [
-      "FAL"
-    ]
-  },
-  {
-    "ref": "FALC",
-    "services": [
-      "FALC"
-    ]
-  },
-  {
     "ref": "PR",
     "name": "Taunton Park & Ride",
     "services": [
@@ -233,6 +221,18 @@
     "ref": "504",
     "services": [
       "504"
+    ]
+  },
+  {
+    "ref": "FAL",
+    "services": [
+      "FAL"
+    ]
+  },
+  {
+    "ref": "FALC",
+    "services": [
+      "FALC"
     ]
   }
 ]
