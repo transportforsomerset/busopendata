@@ -3,6 +3,9 @@ name: Falcon Journey Scraper
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -16,6 +19,14 @@ jobs:
 
       - name: Run Falcon journey scraper
         run: bun run scripts/get-falcon-journeys.ts
+
+      - name: Commit updated MegaBus data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/megabus.json
+          git diff --cached --quiet || git commit -m "Update MegaBus journey data"
+          git push
 
 # https://megabus.tmpanel.co.uk/Tracker/GetJourney
 # https://megabus.tmpanel.co.uk/Tracker/GetJourneyStage
