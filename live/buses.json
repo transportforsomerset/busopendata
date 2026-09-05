@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T03:12:13.336Z",
+  "generated_at": "2026-09-05T03:13:13.706Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 154,
+  "data_age_seconds": 34,
   "vehicle_count": 2,
   "vehicles": [
     {
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Plymouth Coach Stn Armada Way",
       "destination": "London Victoria Coach Station",
-      "latitude": 50.543,
-      "longitude": -3.695,
-      "bearing": 71,
+      "latitude": 50.574,
+      "longitude": -3.644,
+      "bearing": 33,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T03:09:41+00:00",
+      "recorded_at": "2026-09-05T03:12:51+00:00",
       "journey_id": "162294495"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "inbound",
       "origin": "Penzance Bus Station Station Road",
       "destination": "London Victoria Coach Station",
-      "latitude": 50.129,
+      "latitude": 50.13,
       "longitude": -5.504,
-      "bearing": 326,
+      "bearing": 277,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T03:09:39+00:00",
+      "recorded_at": "2026-09-05T03:12:39+00:00",
       "journey_id": "16229451X"
     }
   ]
