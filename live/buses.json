@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T05:32:50.764Z",
+  "generated_at": "2026-09-05T05:33:48.918Z",
   "source": "live",
   "status": "live",
-  "data_age_seconds": 796,
-  "vehicle_count": 20,
+  "data_age_seconds": 854,
+  "vehicle_count": 21,
   "vehicles": [
     {
       "vehicle_id": "KN23FVM",
@@ -19,7 +19,7 @@
       "bearing": 150,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T05:32:34+00:00",
+      "recorded_at": "2026-09-05T05:33:34+00:00",
       "journey_id": "0635"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Bridgwater Bus Station  3",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.027144,
-      "longitude": -3.068212,
-      "bearing": 246,
+      "latitude": 51.024521,
+      "longitude": -3.071479,
+      "bearing": 184,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T05:32:34+00:00",
+      "recorded_at": "2026-09-05T05:33:37+00:00",
       "journey_id": "0600"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Dobree Park",
-      "latitude": 50.985242,
-      "longitude": -3.219594,
-      "bearing": 265,
+      "latitude": 50.981011,
+      "longitude": -3.224306,
+      "bearing": 214,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T05:32:36+00:00",
+      "recorded_at": "2026-09-05T05:33:28+00:00",
       "journey_id": "0615"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Minehead  Butlins Main Gate",
-      "latitude": 51.042367,
-      "longitude": -3.159583,
-      "bearing": 300,
+      "latitude": 51.046376,
+      "longitude": -3.170971,
+      "bearing": 291,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T05:32:33+00:00",
+      "recorded_at": "2026-09-05T05:33:30+00:00",
       "journey_id": "201"
     },
     {
@@ -94,13 +94,29 @@
       "direction": "outbound",
       "origin": "Taunton  Castle Way",
       "destination": "Burnham on Sea  Sea View Road",
-      "latitude": 51.087009,
-      "longitude": -3.017669,
+      "latitude": 51.087383,
+      "longitude": -3.017733,
+      "bearing": 356,
+      "speed_mps": 0,
+      "occupancy": "",
+      "recorded_at": "2026-09-05T05:33:28+00:00",
+      "journey_id": "0610"
+    },
+    {
+      "vehicle_id": "FBOS-63704",
+      "operator": "FBOS",
+      "operator_code": "FBOS",
+      "route": "28",
+      "direction": "inbound",
+      "origin": "Minehead  Butlins Main Gate",
+      "destination": "Taunton  Castle Way",
+      "latitude": 51.206957,
+      "longitude": -3.462232,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T05:32:15+00:00",
-      "journey_id": "0610"
+      "recorded_at": "2026-09-05T05:33:21+00:00",
+      "journey_id": "204"
     },
     {
       "vehicle_id": "FBOS-63705",
@@ -110,12 +126,12 @@
       "direction": "inbound",
       "origin": "Minehead  Butlins Main Gate",
       "destination": "Taunton  Castle Way",
-      "latitude": 51.156602,
-      "longitude": -3.308497,
-      "bearing": 115,
+      "latitude": 51.154826,
+      "longitude": -3.295333,
+      "bearing": 94,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T05:32:34+00:00",
+      "recorded_at": "2026-09-05T05:33:31+00:00",
       "journey_id": "202"
     },
     {
@@ -126,12 +142,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.41034,
-      "longitude": -2.558759,
-      "bearing": 357,
+      "latitude": 51.41759,
+      "longitude": -2.560426,
+      "bearing": 348,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T05:32:11+00:00",
+      "recorded_at": "2026-09-05T05:33:31+00:00",
       "journey_id": "0554"
     },
     {
@@ -142,12 +158,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.296624,
-      "longitude": -2.529732,
-      "bearing": 107,
+      "latitude": 51.296341,
+      "longitude": -2.522293,
+      "bearing": 91,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T05:32:34+00:00",
+      "recorded_at": "2026-09-05T05:33:16+00:00",
       "journey_id": "0612"
     },
     {
@@ -158,12 +174,12 @@
       "direction": "inbound",
       "origin": "Street  Green Lane Avenue",
       "destination": "Bristol Bus Station",
-      "latitude": 51.204726,
-      "longitude": -2.651501,
-      "bearing": 38,
+      "latitude": 51.207475,
+      "longitude": -2.650726,
+      "bearing": 34,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T05:32:11+00:00",
+      "recorded_at": "2026-09-05T05:33:25+00:00",
       "journey_id": "0556"
     },
     {
@@ -179,7 +195,7 @@
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T05:32:29+00:00",
+      "recorded_at": "2026-09-05T05:33:29+00:00",
       "journey_id": "0616"
     },
     {
@@ -190,12 +206,12 @@
       "direction": "outbound",
       "origin": "Wells Bus Station",
       "destination": "Bridgwater Bus Station  6",
-      "latitude": 51.12655,
-      "longitude": -2.739383,
-      "bearing": 135,
+      "latitude": 51.123631,
+      "longitude": -2.738215,
+      "bearing": 201,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T05:32:14+00:00",
+      "recorded_at": "2026-09-05T05:33:29+00:00",
       "journey_id": "0610"
     },
     {
@@ -206,12 +222,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.294684,
-      "longitude": -2.510941,
-      "bearing": 119,
+      "latitude": 51.293081,
+      "longitude": -2.499327,
+      "bearing": 64,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T05:32:11+00:00",
+      "recorded_at": "2026-09-05T05:33:30+00:00",
       "journey_id": "0552"
     },
     {
@@ -222,12 +238,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.435396,
-      "longitude": -2.567713,
-      "bearing": 321,
+      "latitude": 51.437957,
+      "longitude": -2.571143,
+      "bearing": 295,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T05:32:15+00:00",
+      "recorded_at": "2026-09-05T05:33:34+00:00",
       "journey_id": "0522"
     },
     {
@@ -318,12 +334,12 @@
       "direction": "outbound",
       "origin": "Tesco Superstore",
       "destination": "Lace Walk",
-      "latitude": 50.729645,
-      "longitude": -3.435716,
-      "bearing": 96,
+      "latitude": 50.729229,
+      "longitude": -3.417561,
+      "bearing": 102,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T05:32:31+00:00",
+      "recorded_at": "2026-09-05T05:33:31+00:00",
       "journey_id": "301"
     }
   ]
