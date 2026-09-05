@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T04:31:17.943Z",
+  "generated_at": "2026-09-05T04:32:16.505Z",
   "source": "live",
   "status": "live",
   "data_age_seconds": 25,
@@ -14,12 +14,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.404289,
-      "longitude": -2.556588,
-      "bearing": 294,
+      "latitude": 51.409398,
+      "longitude": -2.558702,
+      "bearing": 357,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:31:03+00:00",
+      "recorded_at": "2026-09-05T04:31:59+00:00",
       "journey_id": "0454"
     },
     {
@@ -30,12 +30,12 @@
       "direction": "outbound",
       "origin": "Wells Bus Station",
       "destination": "Street  Green Lane Avenue",
-      "latitude": 51.205908,
-      "longitude": -2.650784,
+      "latitude": 51.205922,
+      "longitude": -2.650838,
       "bearing": 0,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:31:00+00:00",
+      "recorded_at": "2026-09-05T04:32:02+00:00",
       "journey_id": "0524"
     },
     {
@@ -46,12 +46,12 @@
       "direction": "inbound",
       "origin": "Wells Bus Station",
       "destination": "Bristol Bus Station",
-      "latitude": 51.229853,
-      "longitude": -2.618957,
-      "bearing": 3,
+      "latitude": 51.236782,
+      "longitude": -2.619114,
+      "bearing": 13,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:31:01+00:00",
+      "recorded_at": "2026-09-05T04:31:58+00:00",
       "journey_id": "0522"
     },
     {
@@ -62,12 +62,12 @@
       "direction": "inbound",
       "origin": "Plymouth Coach Stn Armada Way",
       "destination": "London Victoria Coach Station",
-      "latitude": 51.024,
-      "longitude": -3.07,
-      "bearing": 96,
+      "latitude": 51.019,
+      "longitude": -3.065,
+      "bearing": 167,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:30:58+00:00",
+      "recorded_at": "2026-09-05T04:31:51+00:00",
       "journey_id": "162294495"
     },
     {
@@ -78,12 +78,12 @@
       "direction": "inbound",
       "origin": "Penzance Bus Station Station Road",
       "destination": "London Victoria Coach Station",
-      "latitude": 50.125,
-      "longitude": -5.236,
-      "bearing": 45,
+      "latitude": 50.134,
+      "longitude": -5.224,
+      "bearing": 33,
       "speed_mps": 0,
       "occupancy": "",
-      "recorded_at": "2026-09-05T04:30:52+00:00",
+      "recorded_at": "2026-09-05T04:31:58+00:00",
       "journey_id": "16229451X"
     }
   ]
