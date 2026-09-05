@@ -53,5 +53,9 @@
     { "ref": "501", "services": ["501"] },
     { "ref": "502", "services": ["502"] },
     { "ref": "504", "services": ["504"] }
-  ]
+  ],
+  "SDVN": [
+    { "ref": "FAL",  "services": ["FAL"] },
+    { "ref": "FALC", "services": ["FALC"] }
+  ],
 }
