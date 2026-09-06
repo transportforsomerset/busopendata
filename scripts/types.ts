@@ -46,6 +46,13 @@ export interface StatusData {
   message: string;
 }
 
+export interface ServiceGroup {
+  ref: string;
+  name?: string;
+  services: string[];
+  route_id?: string;
+}
+
 export interface Geofence {
   name: string;
   latitude: number;
