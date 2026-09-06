@@ -55,7 +55,6 @@
     { "ref": "504", "services": ["504"] }
   ],
   "SCCO": [
-    { "ref": "FAL",  "services": ["FAL"]  },
-    { "ref": "FALC", "services": ["FALC"] }
+    { "ref": "FALC", "services": ["FALC"], "route_id": "57" }
   ]
 }
