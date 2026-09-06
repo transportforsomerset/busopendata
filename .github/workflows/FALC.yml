@@ -18,7 +18,8 @@ jobs:
         uses: oven-sh/setup-bun@v2
 
       - name: Run Falcon journey scraper
-        run: bun run scripts/get-falcon-journeys.ts
+        #run: bun run scripts/get-falcon-journeys.ts
+        run: bun scripts/fetch-megabus-new.ts
 
       - name: Commit updated MegaBus data
         run: |
