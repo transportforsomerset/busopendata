@@ -1,3 +1,4 @@
+// Needed for debugging with our test action.
 const debug = process.argv.includes("--debug");
 
 console.log("Flix isn't LIVE yet!");
