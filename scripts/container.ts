@@ -9,7 +9,7 @@ const [bods, megabus, flix] = await Promise.all([
   fetchFlixData(),
 ]);
 
-const vehicles = [
+const vehicles: Vehicle[] = [
   ...bods,
   ...megabus,
   ...flix,
