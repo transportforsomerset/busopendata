@@ -342,3 +342,7 @@ export async function fetchMegaBusData(): Promise<MegaBusVehicle[]> {
     return [];
   }
 }
+
+if (import.meta.main) {
+  await fetchMegaBusData();
+}
