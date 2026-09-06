@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 jobs:
-  update:
+  Fetch-BODS-Data:
     runs-on: ubuntu-latest
 
     env:
