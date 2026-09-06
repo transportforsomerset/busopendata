@@ -3,9 +3,6 @@ name: Test Falcon Bus Data
 on:
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   Fetch-Falcon-Data:
     runs-on: ubuntu-latest
