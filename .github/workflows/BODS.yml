@@ -1,0 +1,21 @@
+name: Get BODS Bus Data
+
+on:
+  workflow_dispatch:
+
+jobs:
+  Fetch-FlixBus-Data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Generate BODS bus Data
+        run: bun run bods
