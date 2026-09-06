@@ -1,9 +1,9 @@
-const debug = process.argv.includes("--debug");
-
 import type { Vehicle } from "./types";
 
-const BODS_API_URL =
-  "https://data.bus-data.dft.gov.uk/api/v1/datafeed";
+// Needed for debugging with our test action.
+const debug = process.argv.includes("--debug");
+
+const BODS_API_URL = "https://data.bus-data.dft.gov.uk/api/v1/datafeed";
 
 const SECONDS_PER_MINUTE = 60;
 const GHOST_VEHICLE_AGE_SECONDS = 20 * SECONDS_PER_MINUTE;
