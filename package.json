@@ -10,7 +10,7 @@
     "bods": "bun run scripts/fetch-bods.ts --debug",
     "flix": "bun run scripts/fetch-flix.ts --debug",
     "megabus": "bun run scripts/fetch-megabus-new.ts --debug",
-    "check": "tsc --noEmit"
+    "check": "tsc --showConfig"
   },
   "devDependencies": {
     "@types/bun": "1.4.1",
