@@ -6,7 +6,7 @@
   "type": "module",
   "packageManager": "bun@1.3.14",
   "scripts": {
-    "fresh": "bun run scripts/contaner.ts",
+    "fresh": "bun run scripts/container.ts",
     "bods": "bun run scripts/fetch-bods.ts --degbug",
     "flix": "bun run scripts/fetch-flix.ts --degbug",
     "megabus": "bun run scripts/fetch-megabus-new.ts --degbug",
