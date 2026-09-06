@@ -1,4 +1,4 @@
-name: Get Falcon Bus Data
+name: Test Falcon Bus Data
 
 on:
   workflow_dispatch:
