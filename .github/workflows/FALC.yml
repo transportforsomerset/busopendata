@@ -1,4 +1,4 @@
-name: Falcon Journey Scraper
+name: Get Falcon Bus Data
 
 on:
   workflow_dispatch:
