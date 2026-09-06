@@ -32,11 +32,14 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
-      - name: Generate BODS data
-        run: bun run update
+      - name: Generate LIVE bus Data
+        run: bun run fresh
 
-      - name: Generate MegaBus data
-        run: bun run megabus
+  #    - name: Generate BODS data
+  #      run: bun run update
+
+  #    - name: Generate MegaBus data
+  #      run: bun run megabus
 
       - name: Prepare live data
         run: |
