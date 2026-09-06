@@ -1,4 +1,4 @@
-name: Get BODS Bus Data
+name: Test BODS Bus Data
 
 on:
   workflow_dispatch:
