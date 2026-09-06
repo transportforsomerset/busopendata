@@ -206,6 +206,11 @@ async function fetchJourneyStage(
       ? entity.Table
       : [];
 
+    console.log(
+      `MegaBus ${journey.jrny_id}: Table =`,
+      JSON.stringify(journeyRows)
+    );
+
     const isLiveJourney =
       journeyRows.length > 0 &&
       Number(getValue(journeyRows[0], "IsLiveJourney")) === 2;
