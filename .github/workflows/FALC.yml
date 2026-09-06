@@ -7,7 +7,7 @@ permissions:
   contents: write
 
 jobs:
-  scrape:
+  Fetch Falcon Data:
     runs-on: ubuntu-latest
 
     steps:
