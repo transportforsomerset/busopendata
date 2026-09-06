@@ -7,7 +7,7 @@ permissions:
   contents: write
 
 jobs:
-  update:
+  Fetch-FlixBus-Data:
     runs-on: ubuntu-latest
 
     steps:
