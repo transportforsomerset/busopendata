@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Fetch-FlixBus-Data:
+  Fetch-BODS-Data:
     runs-on: ubuntu-latest
 
     steps:
