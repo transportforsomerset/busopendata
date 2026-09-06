@@ -8,7 +8,7 @@
   "scripts": {
     "fresh": "bun run scripts/container.ts",
     "bods": "bun run scripts/fetch-bods.ts --debug",
-    "flix": "bun run scripts/fetch-flix.ts --debug",
+    "flix": "bun run scripts/fetch-flix.ts",
     "megabus": "bun run scripts/fetch-megabus-new.ts --debug",
     "check": "tsc --noEmit"
   },
