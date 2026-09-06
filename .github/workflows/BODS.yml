@@ -20,4 +20,4 @@ jobs:
       - name: Generate BODS bus Data
         run: bun run bods
         env:
-          BODS_API_KEY: ${{ secrets.BODS_API_KEY }}
+          BODS_API_KEY: ${{ secrets.BUS_DATA_API }}
