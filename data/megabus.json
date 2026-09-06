@@ -87,18 +87,6 @@
       "vehicle": "YX68 UAN"
     },
     {
-      "jrny_id": "1638",
-      "journey_id": "0",
-      "route": "FALC",
-      "origin": "Plymouth Coach Station",
-      "destination": "Bristol (Cabot Circus)",
-      "departure": "06/09/2026 12:30:00",
-      "arrival": "16:03",
-      "duration": "3 hr 33 min",
-      "is_live": "0",
-      "vehicle": ""
-    },
-    {
       "jrny_id": "1686",
       "journey_id": "0",
       "route": "FALC",
@@ -191,6 +179,18 @@
       "departure": "06/09/2026 17:15:00",
       "arrival": "20:43",
       "duration": "3 hr 28 min",
+      "is_live": "0",
+      "vehicle": ""
+    },
+    {
+      "jrny_id": "1699",
+      "journey_id": "0",
+      "route": "FALC",
+      "origin": "Bristol (Cabot Circus)",
+      "destination": "Plymouth Coach Station",
+      "departure": "06/09/2026 17:30:00",
+      "arrival": "21:07",
+      "duration": "3 hr 37 min",
       "is_live": "0",
       "vehicle": ""
     }
