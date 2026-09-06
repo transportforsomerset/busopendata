@@ -3,30 +3,6 @@
   "route": "FALC",
   "services": [
     {
-      "jrny_id": "1674",
-      "journey_id": "253855260906084518",
-      "route": "FALC",
-      "origin": "Bristol (Cabot Circus)",
-      "destination": "Plymouth Coach Station",
-      "departure": "06/09/2026 09:00:00",
-      "arrival": "12:40",
-      "duration": "3 hr 40 min",
-      "is_live": "1",
-      "vehicle": "YX68 UAR"
-    },
-    {
-      "jrny_id": "1629",
-      "journey_id": "292597260906091309",
-      "route": "FALC",
-      "origin": "Plymouth Coach Station",
-      "destination": "Bristol (Cabot Circus)",
-      "departure": "06/09/2026 09:15:00",
-      "arrival": "12:48",
-      "duration": "3 hr 33 min",
-      "is_live": "1",
-      "vehicle": "YX66 WNP"
-    },
-    {
       "jrny_id": "1677",
       "journey_id": "253835260906084734",
       "route": "FALC",
@@ -87,16 +63,28 @@
       "vehicle": "YX68 UAN"
     },
     {
+      "jrny_id": "1638",
+      "journey_id": "253771260906122351",
+      "route": "FALC",
+      "origin": "Plymouth Coach Station",
+      "destination": "Bristol (Cabot Circus)",
+      "departure": "06/09/2026 12:30:00",
+      "arrival": "16:03",
+      "duration": "3 hr 33 min",
+      "is_live": "1",
+      "vehicle": "YX68 UAT"
+    },
+    {
       "jrny_id": "1686",
-      "journey_id": "0",
+      "journey_id": "253917260906123546",
       "route": "FALC",
       "origin": "Bristol (Cabot Circus)",
       "destination": "Plymouth Coach Station",
       "departure": "06/09/2026 13:15:00",
       "arrival": "17:00",
       "duration": "3 hr 45 min",
-      "is_live": "0",
-      "vehicle": ""
+      "is_live": "1",
+      "vehicle": "YX67 UPV"
     },
     {
       "jrny_id": "1641",
@@ -191,6 +179,18 @@
       "departure": "06/09/2026 17:30:00",
       "arrival": "21:07",
       "duration": "3 hr 37 min",
+      "is_live": "0",
+      "vehicle": ""
+    },
+    {
+      "jrny_id": "1702",
+      "journey_id": "0",
+      "route": "FALC",
+      "origin": "Bristol (Cabot Circus)",
+      "destination": "Plymouth Coach Station",
+      "departure": "06/09/2026 18:30:00",
+      "arrival": "21:59",
+      "duration": "3 hr 29 min",
       "is_live": "0",
       "vehicle": ""
     }
