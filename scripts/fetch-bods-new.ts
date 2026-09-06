@@ -193,3 +193,11 @@ export async function fetchBodsData(): Promise<Vehicle[]> {
 
   return vehicles;
 }
+
+if (import.meta.main) {
+  const vehicles = await fetchBodsData();
+
+  if (debug) {
+    console.log(`Returned ${vehicles.length} vehicles.`);
+  }
+}
