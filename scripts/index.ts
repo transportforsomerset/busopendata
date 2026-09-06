@@ -5,7 +5,7 @@ import { validateBusData } from "./validate";
 import { createStatusData } from "./status";
 import { calculateDistanceMetres } from "./movement";
 import { analyseMovement } from "./functions";
-import type { Geofence, VehicleHistory } from "./types";
+import type { Geofence, ServiceGroup, VehicleHistory } from "./types";
 import { updateTimestampLog } from "./timestamps";
 
 
@@ -18,12 +18,6 @@ const historyFile = "data/vehicle-history.json";
 console.log(`Reading ${servicesFile}...`);
 
 const servicesContents = await readFile(servicesFile, "utf8");
-
-type ServiceGroup = {
-  ref: string;
-  name?: string;
-  services: string[];
-};
 
 type OperatorServices = Record<string, ServiceGroup[]>;
 
