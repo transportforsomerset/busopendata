@@ -211,17 +211,22 @@ async function fetchJourneyStage(
       JSON.stringify(journeyRows)
     );
 
-    const isLiveJourney =
-      journeyRows.length > 0 &&
-      Number(getValue(journeyRows[0], "IsLiveJourney")) === 2;
+    const liveJourneyStatus =
+  journeyRows.length > 0
+    ? Number(getValue(journeyRows[0], "IsLiveJourney"))
+    : 0;
 
-    if (!isLiveJourney) {
-      console.log(
-        `MegaBus ${journey.jrny_id}: journey is not live`
-      );
+const isLiveJourney =
+  liveJourneyStatus === 1 ||
+  liveJourneyStatus === 2;
 
-      return null;
-    }
+if (!isLiveJourney) {
+  console.log(
+    `MegaBus ${journey.jrny_id}: journey is not live`
+  );
+
+  return null;
+}
 
     const liveRows = Array.isArray(entity.Table2)
       ? entity.Table2
