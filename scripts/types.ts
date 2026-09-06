@@ -13,8 +13,7 @@ export interface Vehicle {
   latitude: number;
   longitude: number;
   bearing: number;
-  speed_mps: number;
-  occupancy: string;
+  occupancy: string | null;
   recorded_at: string;
   journey_id: string;
 }
@@ -47,11 +46,76 @@ export interface StatusData {
   message: string;
 }
 
-export type Geofence = {
+export interface Geofence {
   name: string;
   latitude: number;
   longitude: number;
   operator: string;
   radius_metres: number;
   services?: string[];
-};
+}
+
+/**
+ * A journey returned by the MegaBus GetJourney endpoint.
+ *
+ * JrnyID is the stable journey identifier. JourneyID may be "0"
+ * even when GetJourneyStage subsequently returns live tracking data.
+ */
+export interface MegaBusJourney {
+  jrny_id: string;
+  journey_id: string;
+  route: string;
+  origin: string;
+  destination: string;
+  departure: string;
+  arrival: string;
+  duration: string;
+  is_live: string;
+  vehicle: string;
+}
+
+/**
+ * The MegaBus journey catalogue saved in data/megabus.json.
+ */
+export interface MegaBusConfig {
+  operator: string;
+  route: string;
+  services: MegaBusJourney[];
+}
+
+/**
+ * A live vehicle produced by the MegaBus collector.
+ */
+export interface MegaBusVehicle {
+  vehicle_id: string;
+  operator_code: string;
+  operator: string;
+  route: string;
+  origin: string;
+  destination: string;
+  latitude: number;
+  longitude: number;
+  recorded_at: string;
+  bearing: number | null;
+  occupancy: string | null;
+  journey_id: string;
+}
+
+/**
+ * Top-level response from the MegaBus GetJourneyStage endpoint.
+ */
+export interface MegaBusResponse {
+  OpStatus?: string;
+  Message?: string;
+  entity?: string;
+}
+
+/**
+ * Parsed entity returned inside the MegaBus GetJourneyStage response.
+ */
+export interface MegaBusEntity {
+  Table?: Array<Record<string, unknown>>;
+  Table1?: Array<Record<string, unknown>>;
+  Table2?: Array<Record<string, unknown>>;
+  Table3?: Array<Record<string, unknown>>;
+}
