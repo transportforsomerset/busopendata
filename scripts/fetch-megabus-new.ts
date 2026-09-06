@@ -1,10 +1,7 @@
-import type {
-  MegaBusConfig,
-  MegaBusEntity,
-  MegaBusJourney,
-  MegaBusResponse,
-  MegaBusVehicle,
-} from "./types";
+import type { MegaBusConfig, MegaBusEntity, MegaBusJourney, MegaBusResponse, MegaBusVehicle } from "./types";
+
+// Needed for debugging with our test action.
+const debug = process.argv.includes("--debug");
 
 const MEGABUS_JOURNEY_URL = "https://megabus.tmpanel.co.uk/Tracker/GetJourney";
 const MEGABUS_TRACKING_URL = "https://megabus.tmpanel.co.uk/Tracker/GetJourneyStage";
