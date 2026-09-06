@@ -1,4 +1,4 @@
-name: Get BODS Bus Data
+name: Get ALL Bus Data
 
 on:
   workflow_call:
@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 jobs:
-  Fetch-BODS-Data:
+  Fetch-ALL-Bus-Data:
     runs-on: ubuntu-latest
 
     env:
