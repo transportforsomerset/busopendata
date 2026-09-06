@@ -7,7 +7,7 @@ permissions:
   contents: write
 
 jobs:
-  Fetch Falcon Data:
+  Fetch-Falcon-Data:
     runs-on: ubuntu-latest
 
     steps:
