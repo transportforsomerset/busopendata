@@ -8,8 +8,6 @@ const BODS_API_URL = "https://data.bus-data.dft.gov.uk/api/v1/datafeed";
 const SECONDS_PER_MINUTE = 60;
 const GHOST_VEHICLE_AGE_SECONDS = 20 * SECONDS_PER_MINUTE;
 
-const debug = process.argv.includes("--debug");
-
 function getTagValue(xml: string, tag: string): string | null {
   const match = xml.match(new RegExp(`<${tag}>([^<]*)</${tag}>`));
   return match?.[1] ?? null;
