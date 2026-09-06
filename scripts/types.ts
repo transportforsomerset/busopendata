@@ -1,5 +1,5 @@
+/* Previous idea, use a Raspberry Pi to run the site. Now using GitHub Actions for everything. */
 export type DataSource = "live" | "github" | "pi" | "sample";
-
 export type DataStatus = "live" | "backup" | "stale" | "sample";
 
 export interface Vehicle {
