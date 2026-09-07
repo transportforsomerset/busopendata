@@ -1,4 +1,4 @@
-name: Test All Fetchers
+name: 3 - Test All Fetchers
 
 on:
   workflow_dispatch:
