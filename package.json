@@ -11,7 +11,7 @@
     "container": "bun run scripts/container.ts",
     "bods": "bun run scripts/fetch-bods-new.ts --debug",
     "flix": "bun run scripts/fetch-flix.ts --debug",
-    "megabus": "bun run scripts/fetch-megabus-new.ts --debug"
+    "megabus": "bun run scripts/fetch-megabus.ts --debug"
   },
   "contributors": [
     "Transport for Somerset"
