@@ -314,7 +314,7 @@ if (!isLiveJourney) {
   }
 }
 
-export async function fetchMegaBusData(): Promise<MegaBusVehicle[]> {
+export async function fetchMegaBusData(): Promise<Vehicle[]> {
   try {
     const journeys = await getFalconJourneys();
 
