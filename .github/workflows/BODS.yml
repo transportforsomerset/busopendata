@@ -1,4 +1,4 @@
-name: Test BODS Bus Data
+name: 3.1 - Test BODS Bus Data
 
 on:
   workflow_dispatch:
