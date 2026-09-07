@@ -1,4 +1,4 @@
-name: 3.2 - Test Falcon Bus Data
+name: 3.3 - Test Falcon Bus Data
 
 on:
   workflow_dispatch:
