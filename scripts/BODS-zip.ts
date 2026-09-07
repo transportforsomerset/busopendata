@@ -128,6 +128,20 @@ const parsed = Bun.XML.parse(xml);
 console.log(`XML parse: ${elapsed(parseStart)}`);
 console.log();
 
+const vehicleActivities =
+  parsed.Siri.ServiceDelivery.VehicleMonitoringDelivery.VehicleActivity;
+
+console.log(`VehicleActivity records: ${vehicleActivities.length}`);
+console.log();
+
+console.log("First VehicleActivity:");
+console.dir(vehicleActivities[0], {
+  depth: 10,
+  maxArrayLength: 20,
+});
+
+console.log();
+
 //
 // Inspect result
 //
