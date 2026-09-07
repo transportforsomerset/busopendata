@@ -290,7 +290,6 @@ if (!isLiveJourney) {
       latitude,
       longitude,
       recorded_at: recordedAt,
-      bearing: null,
       occupancy,
       journey_id: journey.jrny_id,
     };
