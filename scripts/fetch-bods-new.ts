@@ -30,7 +30,7 @@ export async function fetchBodsData(): Promise<Vehicle[]> {
   const boundingBox = "-5.81,49.92,1.85,56.20";
 
   const url = new URL(BODS_API_URL);
-  // try entire dataset: url.searchParams.set("boundingBox", boundingBox);
+  url.searchParams.set("boundingBox", boundingBox);
   url.searchParams.set("api_key", apiKey);
 
   if (debug) {
