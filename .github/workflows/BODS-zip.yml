@@ -2,6 +2,7 @@ name: 3.1 - Test BODS National ZIP
 
 on:
   workflow_dispatch:
+  workflow_call:
 
 jobs:
   Test-BODS-ZIP:
