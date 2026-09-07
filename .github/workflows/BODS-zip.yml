@@ -1,1 +1,21 @@
+name: Test BODS National ZIP
 
+on:
+  workflow_dispatch:
+
+jobs:
+  Test-BODS-ZIP:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Test BODS national ZIP
+        run: bun run scripts/BODS-zip.ts
