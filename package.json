@@ -13,8 +13,14 @@
     "flix": "bun run scripts/fetch-flix.ts --debug",
     "megabus": "bun run scripts/fetch-megabus-new.ts --debug"
   },
+  "contributors": [
+    "Transport for Somerset"
+  ],
   "devDependencies": {
     "@types/bun": "1.4.1",
     "typescript": "7.0.2"
+  },
+  "engines": {
+    "bun": "1.4.2"
   }
 }
