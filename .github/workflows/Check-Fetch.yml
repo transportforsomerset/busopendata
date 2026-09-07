@@ -5,6 +5,7 @@ on:
 
 concurrency:
   group: run-all
+  cancel-in-progress: false
 
 jobs:
   run-BODS-fetcher:
