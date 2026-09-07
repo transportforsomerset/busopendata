@@ -1,3 +1,5 @@
+import { unzipSync } from "node:zlib";
+
 const BODS_ZIP_URL =
   "https://data.bus-data.dft.gov.uk/avl/download/bulk_archive";
 
@@ -47,25 +49,18 @@ console.log("Extracting ZIP...");
 
 const extractionStart = performance.now();
 
-const unzip = Bun.spawn(
-  ["unzip", "-o", zipPath, "-d", extractPath],
-  {
-    stdout: "pipe",
-    stderr: "pipe",
-  }
-);
-
-const unzipExitCode = await unzip.exited;
-
-if (unzipExitCode !== 0) {
-  const stderr = await new Response(unzip.stderr).text();
-
-  throw new Error(
-    `ZIP extraction failed (exit code ${unzipExitCode}):\n${stderr}`
-  );
-}
+const zipBytes = await Bun.file(zipPath).arrayBuffer();
+const extracted = unzipSync(zipBytes);
 
 console.log(`Extraction complete: ${elapsed(extractionStart)}`);
+console.log();
+
+console.log("Extracted ZIP contents:");
+console.dir(extracted, {
+  depth: 3,
+  maxArrayLength: 20,
+});
+
 console.log();
 
 //
