@@ -13,7 +13,7 @@ jobs:
     uses: ./.github/workflows/BODS-zip.yml
     
   run-BODS-API-fetcher:
-    name: Run BODS.yml
+    name: Run BODS-API.yml
     uses: ./.github/workflows/BODS-API.yml
     secrets: inherit
 
