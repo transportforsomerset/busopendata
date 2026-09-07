@@ -6,8 +6,8 @@
   "type": "module",
   "packageManager": "bun@1.4.2",
   "scripts": {
-    "check": "tsc --noEmit",
-    "check fetch": "bun run --parallel bods flix megabus",
+    "check:types": "tsc --noEmit",
+    "check:fetch": "bun run --parallel bods flix megabus",
     "fresh": "bun run scripts/container.ts",
     "bods": "bun run scripts/fetch-bods-new.ts --debug",
     "flix": "bun run scripts/fetch-flix.ts --debug",
