@@ -1,4 +1,4 @@
-name: 1: Run All
+name: 1 - Run All
 
 on:
   workflow_dispatch:
