@@ -1,4 +1,4 @@
-import type { MegaBusConfig, MegaBusEntity, MegaBusJourney, MegaBusResponse, MegaBusVehicle } from "./types";
+import type { MegaBusConfig, MegaBusEntity, MegaBusJourney, MegaBusResponse, Vehicle } from "./types";
 
 // Needed for debugging with our test action.
 const debug = process.argv.includes("--debug");
