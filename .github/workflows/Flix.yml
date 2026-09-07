@@ -1,4 +1,4 @@
-name: Test Flix Bus Data
+name: 3.3 - Test Flix Bus Data
 
 on:
   workflow_dispatch:
