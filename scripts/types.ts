@@ -7,7 +7,7 @@ export interface Vehicle {
   operator: string;
   operator_code: string;
   route: string;
-  direction: string;
+  direction?: string;
   origin: string;
   destination: string;
   latitude: number;
