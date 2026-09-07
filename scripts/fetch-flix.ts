@@ -1,10 +1,20 @@
+import type { Vehicle } from "./types";
+
 // Needed for debugging with our test action.
 const debug = process.argv.includes("--debug");
 
-console.log("Flix isn't LIVE yet!");
+export async function fetchFlixData(): Promise<Vehicle[]> {
+  if (debug) {
+    console.log("Flix isn't LIVE yet!");
+  }
 
-if (debug) {
-  console.log("--debug: true");
-} else {
-  console.log("--debug: not found");
+  return [];
+}
+
+if (import.meta.main) {
+  const vehicles = await fetchFlixData();
+
+  if (debug) {
+    console.log(`Returned ${vehicles.length} vehicles.`);
+  }
 }
