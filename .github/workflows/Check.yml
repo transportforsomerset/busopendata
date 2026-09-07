@@ -1,4 +1,4 @@
-name: Run Bun Check
+name: 2 - Run Bun Check
 
 on:
   workflow_dispatch:
