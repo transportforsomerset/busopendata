@@ -8,9 +8,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  run-BODS-fetcher:
+  run-BODS-API-fetcher:
     name: Run BODS.yml
-    uses: ./.github/workflows/BODS.yml
+    uses: ./.github/workflows/BODS-API.yml
     secrets: inherit
 
   run-FLIX-fetcher:
