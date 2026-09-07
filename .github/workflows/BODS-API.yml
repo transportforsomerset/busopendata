@@ -1,4 +1,4 @@
-name: 3.1 - Test BODS Bus Data via the API
+name: 3.2 - Test BODS Bus Data via the API
 
 on:
   workflow_dispatch:
