@@ -6,11 +6,12 @@
   "type": "module",
   "packageManager": "bun@1.4.2",
   "scripts": {
+    "check": "tsc --noEmit",
+    "check fetch": "bun run --parallel bods flix megabus",
     "fresh": "bun run scripts/container.ts",
     "bods": "bun run scripts/fetch-bods-new.ts --debug",
     "flix": "bun run scripts/fetch-flix.ts --debug",
-    "megabus": "bun run scripts/fetch-megabus-new.ts --debug",
-    "check": "tsc --noEmit"
+    "megabus": "bun run scripts/fetch-megabus-new.ts --debug"
   },
   "devDependencies": {
     "@types/bun": "1.4.1",
