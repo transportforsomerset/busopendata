@@ -1,6 +1,6 @@
 import type { Vehicle } from "./types";
 import { fetchBodsData } from "./fetch-bods-new";
-import { fetchMegaBusData } from "./fetch-megabus-new";
+import { fetchMegaBusData } from "./fetch-megabus";
 import { fetchFlixData } from "./fetch-flix";
 
 const [bods, megabus, flix] = await Promise.all([
