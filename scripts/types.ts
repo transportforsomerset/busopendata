@@ -12,7 +12,7 @@ export interface Vehicle {
   destination: string;
   latitude: number;
   longitude: number;
-  bearing: number;
+  bearing?: number;
   occupancy: string | null;
   recorded_at: string;
   journey_id: string;
