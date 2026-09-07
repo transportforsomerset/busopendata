@@ -121,9 +121,7 @@ async function getFalconJourneys(): Promise<MegaBusJourney[]> {
   return journeys;
 }
 
-async function fetchJourneyStage(
-  journey: MegaBusJourney
-): Promise<MegaBusVehicle | null> {
+async function fetchJourneyStage(journey: MegaBusJourney): Promise<Vehicle | null> {
   const controller = new AbortController();
 
   const timeout = setTimeout(
@@ -333,7 +331,7 @@ export async function fetchMegaBusData(): Promise<Vehicle[]> {
     );
 
     const vehicles = results.filter(
-      (vehicle): vehicle is MegaBusVehicle =>
+      (vehicle): vehicle is Vehicle =>
         vehicle !== null
     );
 
