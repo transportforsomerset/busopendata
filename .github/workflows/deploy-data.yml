@@ -1,4 +1,4 @@
-name: Deploy Somerset Bus Data
+name: 1.2 - Deploy Somerset Bus Data
 
 on:
   workflow_call:
