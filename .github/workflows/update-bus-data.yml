@@ -33,7 +33,7 @@ jobs:
         run: bun install --frozen-lockfile
 
       - name: Generate LIVE bus Data
-        run: bun run fresh
+        run: bun run container
 
       - name: Prepare live data
         run: |
