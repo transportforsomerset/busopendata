@@ -2,6 +2,7 @@ name: Test BODS Bus Data
 
 on:
   workflow_dispatch:
+  workflow_call: 
 
 jobs:
   Fetch-BODS-Data:
