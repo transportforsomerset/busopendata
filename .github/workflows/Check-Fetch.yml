@@ -11,6 +11,7 @@ jobs:
   run-BODS-fetcher:
     name: Run BODS.yml
     uses: ./.github/workflows/BODS.yml
+    secrets: inherit
 
   run-FLIX-fetcher:
     name: Run Flix.yml
