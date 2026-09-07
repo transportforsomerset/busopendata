@@ -8,6 +8,10 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  run-BODS-ZIP-fetcher:
+    name: Run BODS-zip.yml
+    uses: ./.github/workflows/BODS-zip.yml
+    
   run-BODS-API-fetcher:
     name: Run BODS.yml
     uses: ./.github/workflows/BODS-API.yml
