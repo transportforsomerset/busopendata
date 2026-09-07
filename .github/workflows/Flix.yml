@@ -2,6 +2,7 @@ name: Test Flix Bus Data
 
 on:
   workflow_dispatch:
+  workflow_call: 
 
 jobs:
   Fetch-FlixBus-Data:
