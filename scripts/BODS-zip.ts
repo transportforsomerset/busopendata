@@ -1,5 +1,33 @@
 import type { Vehicle } from "./types";
 
+type BodsParsed = {
+  Siri: {
+    ServiceDelivery: {
+      VehicleMonitoringDelivery: {
+        VehicleActivity: Array<{
+          RecordedAtTime?: string;
+          MonitoredVehicleJourney?: {
+            LineRef?: string;
+            DirectionRef?: string;
+            OperatorRef?: string;
+            OriginName?: string;
+            DestinationName?: string;
+            VehicleRef?: string;
+            Bearing?: string;
+            VehicleLocation?: {
+              Latitude?: string;
+              Longitude?: string;
+            };
+            FramedVehicleJourneyRef?: {
+              DatedVehicleJourneyRef?: string;
+            };
+          };
+        }>;
+      };
+    };
+  };
+};
+
 const BODS_ZIP_URL = "https://data.bus-data.dft.gov.uk/avl/download/bulk_archive";
 const zipPath = "/tmp/bods-national.zip";
 const extractPath = "/tmp/bods-national";
@@ -123,7 +151,7 @@ console.log("Parsing XML with Bun.XML.parse()...");
 
 const parseStart = performance.now();
 
-const parsed = Bun.XML.parse(xml);
+const parsed = Bun.XML.parse(xml) as BodsParsed;
 
 console.log(`XML parse: ${elapsed(parseStart)}`);
 console.log();
