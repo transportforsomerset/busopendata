@@ -24,12 +24,12 @@ jobs:
       - name: Test BODS national ZIP
         run: bun run bods-zip
 
-      - name: Commit all.json
+      - name: Commit all.json & all-new.json
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add live/all.json
+          git add live/all.json live/all-new.json
 
           if git diff --cached --quiet; then
             echo "No changes to all.json"
