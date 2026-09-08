@@ -142,7 +142,7 @@ console.log("Mapping VehicleActivity records to Vehicle[]...");
 
 const mapStart = performance.now();
 
-const vehicles: Vehicle = [];
+const vehicles: Vehicle[] = [];
 
 for (const activity of vehicleActivities) {
   const journey = activity.MonitoredVehicleJourney;
