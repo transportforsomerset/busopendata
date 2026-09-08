@@ -4,6 +4,9 @@ on:
   workflow_dispatch:
   workflow_call:
 
+permissions:
+  contents: write
+
 jobs:
   Test-BODS-ZIP:
     runs-on: ubuntu-latest
@@ -20,3 +23,18 @@ jobs:
 
       - name: Test BODS national ZIP
         run: bun run bods-zip
+
+      - name: Commit all.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add live/all.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to all.json"
+            exit 0
+          fi
+
+          git commit -m "Update all BODS vehicle data"
+          git push
