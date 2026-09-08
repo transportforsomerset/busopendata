@@ -2,6 +2,7 @@ name: 1.2 - Deploy Somerset Bus Data
 
 on:
   workflow_call:
+  workflow_dispatch: 
 
 permissions:
   contents: read
