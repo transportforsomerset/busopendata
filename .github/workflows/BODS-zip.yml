@@ -32,7 +32,7 @@ jobs:
           git add live/all.json live/all-new.json
 
           if git diff --cached --quiet; then
-            echo "No changes to all.json"
+            echo "No changes to all.json or all-new.json"
             exit 0
           fi
 
