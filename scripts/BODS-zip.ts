@@ -1,5 +1,6 @@
-const BODS_ZIP_URL = "https://data.bus-data.dft.gov.uk/avl/download/bulk_archive";
+import type { Vehicle } from "./types";
 
+const BODS_ZIP_URL = "https://data.bus-data.dft.gov.uk/avl/download/bulk_archive";
 const zipPath = "/tmp/bods-national.zip";
 const extractPath = "/tmp/bods-national";
 
@@ -133,43 +134,87 @@ const vehicleActivities =
 console.log(`VehicleActivity records: ${vehicleActivities.length}`);
 console.log();
 
-console.log("First VehicleActivity:");
-console.dir(vehicleActivities[0], {
-  depth: 10,
-  maxArrayLength: 20,
-});
+//
+// Map to Vehicle[]
+//
 
+console.log("Mapping VehicleActivity records to Vehicle[]...");
+
+const mapStart = performance.now();
+
+cont vehicles: Vehicle = [];
+
+for (const activity of vehicleActivities) {
+  const journey = activity.MonitoredVehicleJourney;
+
+  if (!journey) continue;
+
+  const vehicleId = journey.VehicleRef;
+  const operatorCode = journey.OperatorRef;
+  const route = journey.LineRef;
+  const recordedAt = activity.RecordedAtTime;
+
+  const latitude = Number(journey.VehicleLocation?.Latitude);
+  const longitude = Number(journey.VehicleLocation?.Longitude);
+
+  if (
+    !vehicleId ||
+    !operatorCode ||
+    !route ||
+    !recordedAt ||
+    !Number.isFinite(latitude) ||
+    !Number.isFinite(longitude)
+  ) {
+    continue;
+  }
+
+  vehicles.push({
+    vehicle_id: vehicleId,
+    operator: operatorCode,
+    operator_code: operatorCode,
+    route,
+    direction: journey.DirectionRef ?? "",
+    origin: journey.OriginName ?? "",
+    destination: journey.DestinationName ?? "",
+    latitude,
+    longitude,
+    bearing: Number(journey.Bearing ?? 0),
+    occupancy: "",
+    recorded_at: recordedAt,
+    journey_id:
+      journey.FramedVehicleJourneyRef?.DatedVehicleJourneyRef ?? "",
+  });
+}
+
+console.log(`Mapping complete: ${elapsed(mapStart)}`);
+console.log(`Usable vehicles: ${vehicles.length}`);
 console.log();
 
 //
-// Inspect result
+// Write all.json
 //
 
-console.log("Parsed object inspection");
-console.log("────────────────────────");
+console.log("Writing live/all.json...");
 
+const writeStart = performance.now();
+
+const allJson = JSON.stringify(vehicles);
+
+await Bun.write("live/all.json", allJson);
+
+console.log(`Write complete: ${elapsed(writeStart)}`);
 console.log(
-  `Top-level keys: ${
-    parsed && typeof parsed === "object"
-      ? Object.keys(parsed).join(", ")
-      : typeof parsed
-  }`
+  `all.json size: ${(Buffer.byteLength(allJson) / 1024 / 1024).toFixed(2)} MB`
 );
-
 console.log();
 
-console.log("First level of parsed XML:");
-
-console.dir(parsed, {
-  depth: 4,
-  maxArrayLength: 3,
-});
-
-console.log();
+//
+// Benchmark
+//
 
 console.log("──────────────────────────────────────");
 console.log("Benchmark complete");
-console.log(`Download:   ${elapsed(downloadStart)}`);
-console.log(`Parse:      ${elapsed(parseStart)}`);
-console.log(`Total:      ${elapsed(downloadStart)}`);
+console.log(`Download: ${elapsed(downloadStart)}`);
+console.log(`Parse:    ${elapsed(parseStart)}`);
+console.log(`Total:    ${elapsed(downloadStart)}`);
 console.log("──────────────────────────────────────");
