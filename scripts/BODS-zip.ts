@@ -96,6 +96,30 @@ type CompactVehicleDataV3 = {
   operators: Record<string, CompactVehicleV3[]>;
 };
 
+type CompactVehicleV4 = [
+  string,
+  string,
+  number,
+  string,
+  number,
+  number,
+  number,
+  string | null,
+  number,
+  string,
+  string
+];
+
+type CompactVehicleDataV4 = {
+  version: 4;
+  dates: string[];
+  directions: string[];
+  destinations: string[];
+  fields: string[];
+  operator_names: Record<string, string>;
+  operators: Record<string, CompactVehicleV4[]>;
+};
+
 const BODS_ZIP_URL =
   "https://data.bus-data.dft.gov.uk/avl/download/bulk_archive";
 
@@ -133,6 +157,21 @@ const compactFieldsV2 = [
 ];
 
 const compactFieldsV3 = [
+  "vehicle_id",
+  "route",
+  "direction",
+  "origin",
+  "destination",
+  "latitude",
+  "longitude",
+  "bearing",
+  "occupancy",
+  "recorded_date",
+  "recorded_time",
+  "journey_id",
+];
+
+const compactFieldsV4 = [
   "vehicle_id",
   "route",
   "direction",
@@ -891,6 +930,240 @@ if (v3Differences === 0) {
 
 console.log();
 
+
+//
+// Create compact v4 representation
+//
+
+console.log("Creating compact all-v4.json...");
+
+const v4Start = performance.now();
+
+//
+// Build exact destination dictionary from the actual data.
+//
+// No normalisation is performed.
+// "Bus Station" and "Bus_Station" remain separate entries.
+//
+
+const destinations = [
+  "",
+  ...Array.from(
+    new Set(
+      vehicles
+        .map((vehicle) => vehicle.destination)
+        .filter((destination) => destination !== "")
+    )
+  ),
+];
+
+const operatorsV4: Record<string, CompactVehicleV4[]> = {};
+
+for (const vehicle of vehicles) {
+  const operatorCode = vehicle.operator_code;
+
+  if (!operatorsV4[operatorCode]) {
+    operatorsV4[operatorCode] = [];
+  }
+
+  const directionIndex = directions.indexOf(
+    vehicle.direction ?? ""
+  );
+
+  if (directionIndex === -1) {
+    throw new Error(
+      `Unknown direction "${vehicle.direction}" for vehicle ${vehicle.vehicle_id}`
+    );
+  }
+
+  const destinationIndex = destinations.indexOf(
+    vehicle.destination
+  );
+
+  if (destinationIndex === -1) {
+    throw new Error(
+      `Unknown destination "${vehicle.destination}" for vehicle ${vehicle.vehicle_id}`
+    );
+  }
+
+  const recordedDate = vehicle.recorded_at.slice(0, 10);
+  const recordedTime = vehicle.recorded_at.slice(11, 19);
+  const dateIndex = dates.indexOf(recordedDate);
+
+  if (dateIndex === -1) {
+    throw new Error(
+      `Unknown recorded date "${recordedDate}" for vehicle ${vehicle.vehicle_id}`
+    );
+  }
+
+  operatorsV4[operatorCode].push([
+    vehicle.vehicle_id,
+    vehicle.route,
+    directionIndex,
+    vehicle.origin,
+    destinationIndex,
+    vehicle.latitude,
+    vehicle.longitude,
+    vehicle.bearing ?? 0,
+    vehicle.occupancy,
+    dateIndex,
+    recordedTime,
+    vehicle.journey_id,
+  ]);
+}
+
+const compactDataV4: CompactVehicleDataV4 = {
+  version: 4,
+  dates,
+  directions,
+  destinations,
+  fields: compactFieldsV4,
+  operator_names: operatorNames,
+  operators: operatorsV4,
+};
+
+const allV4Json = JSON.stringify(compactDataV4);
+
+await Bun.write("live/all-v4.json", allV4Json);
+
+const allV4JsonSize = Buffer.byteLength(allV4Json);
+
+console.log(`Compact v4 creation complete: ${elapsed(v4Start)}`);
+console.log(`all-v4.json size: ${formatSize(allV4JsonSize)}`);
+console.log(`Date entries: ${dates.length}`);
+console.log(`Direction entries: ${directions.length}`);
+console.log(`Destination entries: ${destinations.length}`);
+console.log(`Operator groups: ${Object.keys(operatorsV4).length}`);
+console.log();
+
+//
+// Decode compact v4 representation
+//
+
+console.log("Decoding all-v4.json for comparison...");
+
+const decodedV4 = JSON.parse(allV4Json) as CompactVehicleDataV4;
+
+const decodedVehiclesV4: Vehicle[] = [];
+
+for (const [operatorCode, operatorVehicles] of Object.entries(
+  decodedV4.operators
+)) {
+  const operatorName =
+    decodedV4.operator_names[operatorCode] ?? operatorCode;
+
+  for (const vehicle of operatorVehicles) {
+    const date = decodedV4.dates[vehicle[9]];
+
+    if (!date) {
+      throw new Error(
+        `Invalid date index ${vehicle[9]} for vehicle ${vehicle[0]}`
+      );
+    }
+
+    const destination =
+      decodedV4.destinations[vehicle[4]];
+
+    if (destination === undefined) {
+      throw new Error(
+        `Invalid destination index ${vehicle[4]} for vehicle ${vehicle[0]}`
+      );
+    }
+
+    decodedVehiclesV4.push({
+      vehicle_id: vehicle[0],
+      operator: operatorName,
+      operator_code: operatorCode,
+      route: vehicle[1],
+      direction: decodedV4.directions[vehicle[2]] ?? "",
+      origin: vehicle[3],
+      destination,
+      latitude: vehicle[5],
+      longitude: vehicle[6],
+      bearing: vehicle[7],
+      occupancy: vehicle[8],
+      recorded_at: `${date}T${vehicle[10]}+00:00`,
+      journey_id: vehicle[11],
+    });
+  }
+}
+
+//
+// Compare v4 dataset
+//
+
+console.log("Comparing original and compact v4 datasets...");
+
+let v4Differences = 0;
+
+if (vehicles.length !== decodedVehiclesV4.length) {
+  console.log(
+    `❌ Vehicle count differs: ${vehicles.length} vs ${decodedVehiclesV4.length}`
+  );
+  v4Differences++;
+} else {
+  console.log(`✓ Vehicle count identical: ${vehicles.length}`);
+}
+
+const decodedV4ById = new Map(
+  decodedVehiclesV4.map((vehicle) => [
+    vehicle.vehicle_id,
+    vehicle,
+  ])
+);
+
+if (originalById.size !== decodedV4ById.size) {
+  console.log(
+    `❌ Unique vehicle IDs differ: ${originalById.size} vs ${decodedV4ById.size}`
+  );
+  v4Differences++;
+}
+
+for (const [vehicleId, original] of originalById) {
+  const decodedVehicle = decodedV4ById.get(vehicleId);
+
+  if (!decodedVehicle) {
+    if (v4Differences < 5) {
+      console.log(
+        `❌ Vehicle missing from v4 data: ${vehicleId}`
+      );
+    }
+
+    v4Differences++;
+    continue;
+  }
+
+  if (
+    JSON.stringify(original) !==
+    JSON.stringify(decodedVehicle)
+  ) {
+    if (v4Differences < 5) {
+      console.log(
+        `❌ Difference found for vehicle ${vehicleId}`
+      );
+      console.log("Original:", original);
+      console.log("Decoded: ", decodedVehicle);
+    }
+
+    v4Differences++;
+  }
+}
+
+if (v4Differences === 0) {
+  console.log(
+    "✓ All vehicles are identical after v4 encode/decode"
+  );
+} else {
+  console.log(
+    `❌ Total v4 differences: ${v4Differences}`
+  );
+}
+
+console.log();
+
+
+
+
 //
 // Size comparison
 //
@@ -925,6 +1198,18 @@ const v3VsV2Percent =
     ? (v3VsV2Bytes / allV2JsonSize) * 100
     : 0;
 
+const v4ReductionBytes = allJsonSize - allV4JsonSize;
+const v4ReductionPercent =
+  allJsonSize > 0
+    ? (v4ReductionBytes / allJsonSize) * 100
+    : 0;
+
+const v4VsV3Bytes = allV3JsonSize - allV4JsonSize;
+const v4VsV3Percent =
+  allV3JsonSize > 0
+    ? (v4VsV3Bytes / allV3JsonSize) * 100
+    : 0;
+
 console.log("──────────────────────────────────────");
 console.log("Format comparison");
 console.log("──────────────────────────────────────");
@@ -932,6 +1217,7 @@ console.log(`all.json:     ${formatSize(allJsonSize)}`);
 console.log(`all-v1.json:  ${formatSize(allNewJsonSize)}`);
 console.log(`all-v2.json:  ${formatSize(allV2JsonSize)}`);
 console.log(`all-v3.json:  ${formatSize(allV3JsonSize)}`);
+console.log(`all-v4.json:  ${formatSize(allV4JsonSize)}`);
 console.log();
 console.log(
   `v1 reduction: ${formatSize(v1ReductionBytes)} (${v1ReductionPercent.toFixed(1)}%)`
@@ -947,6 +1233,12 @@ console.log(
 );
 console.log(
   `v3 vs v2:     ${formatSize(v3VsV2Bytes)} (${v3VsV2Percent.toFixed(1)}%)`
+);
+console.log(
+  `v4 reduction: ${formatSize(v4ReductionBytes)} (${v4ReductionPercent.toFixed(1)}%)`
+);
+console.log(
+  `v4 vs v3:     ${formatSize(v4VsV3Bytes)} (${v4VsV3Percent.toFixed(1)}%)`
 );
 console.log();
 
@@ -969,6 +1261,13 @@ if (v3Differences === 0) {
   console.log("  all-v3.json contains identical vehicle data.");
 } else {
   console.log("❌ V3 COMPARISON FAILED");
+}
+
+if (v4Differences === 0) {
+  console.log("✓ V4 COMPARISON PASSED");
+  console.log("  all-v4.json contains identical vehicle data.");
+} else {
+  console.log("❌ V4 COMPARISON FAILED");
 }
 
 console.log();
