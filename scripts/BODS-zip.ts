@@ -460,10 +460,13 @@ for (const vehicle of vehicles) {
     operatorNames[operatorCode] = vehicle.operator;
   }
 
-  const directionIndex = Math.max(
-    0,
-    directions.indexOf(vehicle.direction ?? "")
+const directionIndex = directions.indexOf(vehicle.direction ?? "");
+
+if (directionIndex === -1) {
+  throw new Error(
+    `Unknown direction "${vehicle.direction}" for vehicle ${vehicle.vehicle_id}`
   );
+}
 
   operators[operatorCode].push([
     vehicle.vehicle_id,
