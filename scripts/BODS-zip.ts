@@ -31,8 +31,7 @@ type BodsParsed = {
 type CompactVehicle = [
   string,
   string,
-  string,
-  string,
+  number,
   string,
   string,
   string,
@@ -50,7 +49,30 @@ type CompactVehicleData = {
   vehicles: CompactVehicle[];
 };
 
-const BODS_ZIP_URL = "https://data.bus-data.dft.gov.uk/avl/download/bulk_archive";
+type CompactVehicleV2 = [
+  string,
+  string,
+  number,
+  string,
+  string,
+  number,
+  number,
+  number,
+  string | null,
+  string,
+  string
+];
+
+type CompactVehicleDataV2 = {
+  version: 2;
+  directions: string[];
+  operator_names: Record<string, string>;
+  operators: Record<string, CompactVehicleV2[]>;
+};
+
+const BODS_ZIP_URL =
+  "https://data.bus-data.dft.gov.uk/avl/download/bulk_archive";
+
 const zipPath = "/tmp/bods-national.zip";
 const extractPath = "/tmp/bods-national";
 
@@ -68,6 +90,12 @@ const compactFields = [
   "occupancy",
   "recorded_at",
   "journey_id",
+];
+
+const directions = [
+  "",
+  "inbound",
+  "outbound",
 ];
 
 function elapsed(start: number): string {
@@ -275,7 +303,7 @@ console.log(`all.json size: ${formatSize(allJsonSize)}`);
 console.log();
 
 //
-// Create compact representation
+// Create compact v1 representation
 //
 
 console.log("Creating compact all-new.json...");
@@ -315,7 +343,7 @@ console.log(`all-new.json size: ${formatSize(allNewJsonSize)}`);
 console.log();
 
 //
-// Decode compact representation
+// Decode compact v1 representation
 //
 
 console.log("Decoding all-new.json for comparison...");
@@ -339,18 +367,18 @@ const decodedVehicles: Vehicle[] = decoded.vehicles.map((vehicle) => ({
 }));
 
 //
-// Compare datasets
+// Compare v1 dataset
 //
 
-console.log("Comparing original and compact datasets...");
+console.log("Comparing original and compact v1 datasets...");
 
-let differences = 0;
+let v1Differences = 0;
 
 if (vehicles.length !== decodedVehicles.length) {
   console.log(
     `❌ Vehicle count differs: ${vehicles.length} vs ${decodedVehicles.length}`
   );
-  differences++;
+  v1Differences++;
 } else {
   console.log(`✓ Vehicle count identical: ${vehicles.length}`);
 }
@@ -360,20 +388,196 @@ for (let i = 0; i < vehicles.length; i++) {
   const decodedVehicle = decodedVehicles[i];
 
   if (JSON.stringify(original) !== JSON.stringify(decodedVehicle)) {
-    if (differences < 5) {
+    if (v1Differences < 5) {
       console.log(`❌ Difference found at vehicle index ${i}`);
       console.log("Original:", original);
       console.log("Decoded: ", decodedVehicle);
     }
 
-    differences++;
+    v1Differences++;
   }
 }
 
-if (differences === 0) {
-  console.log("✓ All vehicles are identical after encode/decode");
+if (v1Differences === 0) {
+  console.log("✓ All vehicles are identical after v1 encode/decode");
 } else {
-  console.log(`❌ Total differences: ${differences}`);
+  console.log(`❌ Total v1 differences: ${v1Differences}`);
+}
+
+console.log();
+
+//
+// Create compact v2 representation
+//
+
+console.log("Creating compact all-v2.json...");
+
+const v2Start = performance.now();
+
+const operatorNames: Record<string, string> = {};
+const operators: Record<string, CompactVehicleV2[]> = {};
+
+for (const vehicle of vehicles) {
+  const operatorCode = vehicle.operator_code;
+
+  if (!operators[operatorCode]) {
+    operators[operatorCode] = [];
+  }
+
+  //
+  // Normally operator === operator_code.
+  //
+  // If that ever changes, retain the different operator
+  // name once in operator_names rather than repeating it
+  // on every vehicle.
+  //
+
+  if (
+    vehicle.operator &&
+    vehicle.operator !== operatorCode
+  ) {
+    operatorNames[operatorCode] = vehicle.operator;
+  }
+
+  const directionIndex = Math.max(
+    0,
+    directions.indexOf(vehicle.direction ?? "")
+  );
+
+  operators[operatorCode].push([
+    vehicle.vehicle_id,
+    vehicle.route,
+    directionIndex,
+    vehicle.origin,
+    vehicle.destination,
+    vehicle.latitude,
+    vehicle.longitude,
+    vehicle.bearing ?? 0,
+    vehicle.occupancy,
+    vehicle.recorded_at,
+    vehicle.journey_id,
+  ]);
+}
+
+const compactDataV2: CompactVehicleDataV2 = {
+  version: 2,
+  directions,
+  operator_names: operatorNames,
+  operators,
+};
+
+const allV2Json = JSON.stringify(compactDataV2);
+
+await Bun.write("live/all-v2.json", allV2Json);
+
+const allV2JsonSize = Buffer.byteLength(allV2Json);
+
+console.log(`Compact v2 creation complete: ${elapsed(v2Start)}`);
+console.log(`all-v2.json size: ${formatSize(allV2JsonSize)}`);
+console.log(`Operator groups: ${Object.keys(operators).length}`);
+console.log(`Operator name exceptions: ${Object.keys(operatorNames).length}`);
+console.log();
+
+//
+// Decode compact v2 representation
+//
+
+console.log("Decoding all-v2.json for comparison...");
+
+const decodedV2 = JSON.parse(allV2Json) as CompactVehicleDataV2;
+
+const decodedVehiclesV2: Vehicle[] = [];
+
+for (const [operatorCode, operatorVehicles] of Object.entries(
+  decodedV2.operators
+)) {
+  const operatorName =
+    decodedV2.operator_names[operatorCode] ?? operatorCode;
+
+  for (const vehicle of operatorVehicles) {
+    decodedVehiclesV2.push({
+      vehicle_id: vehicle[0],
+      operator: operatorName,
+      operator_code: operatorCode,
+      route: vehicle[1],
+      direction: decodedV2.directions[vehicle[2]] ?? "",
+      origin: vehicle[3],
+      destination: vehicle[4],
+      latitude: vehicle[5],
+      longitude: vehicle[6],
+      bearing: vehicle[7],
+      occupancy: vehicle[8],
+      recorded_at: vehicle[9],
+      journey_id: vehicle[10],
+    });
+  }
+}
+
+//
+// Compare v2 dataset
+//
+
+console.log("Comparing original and compact v2 datasets...");
+
+let v2Differences = 0;
+
+if (vehicles.length !== decodedVehiclesV2.length) {
+  console.log(
+    `❌ Vehicle count differs: ${vehicles.length} vs ${decodedVehiclesV2.length}`
+  );
+  v2Differences++;
+} else {
+  console.log(`✓ Vehicle count identical: ${vehicles.length}`);
+}
+
+//
+// The v2 vehicles are grouped by operator rather than
+// preserving the original global order, so compare by
+// vehicle ID rather than array position.
+//
+
+const originalById = new Map(
+  vehicles.map((vehicle) => [vehicle.vehicle_id, vehicle])
+);
+
+const decodedV2ById = new Map(
+  decodedVehiclesV2.map((vehicle) => [vehicle.vehicle_id, vehicle])
+);
+
+if (originalById.size !== decodedV2ById.size) {
+  console.log(
+    `❌ Unique vehicle IDs differ: ${originalById.size} vs ${decodedV2ById.size}`
+  );
+  v2Differences++;
+}
+
+for (const [vehicleId, original] of originalById) {
+  const decodedVehicle = decodedV2ById.get(vehicleId);
+
+  if (!decodedVehicle) {
+    if (v2Differences < 5) {
+      console.log(`❌ Vehicle missing from v2 data: ${vehicleId}`);
+    }
+
+    v2Differences++;
+    continue;
+  }
+
+  if (JSON.stringify(original) !== JSON.stringify(decodedVehicle)) {
+    if (v2Differences < 5) {
+      console.log(`❌ Difference found for vehicle ${vehicleId}`);
+      console.log("Original:", original);
+      console.log("Decoded: ", decodedVehicle);
+    }
+
+    v2Differences++;
+  }
+}
+
+if (v2Differences === 0) {
+  console.log("✓ All vehicles are identical after v2 encode/decode");
+} else {
+  console.log(`❌ Total v2 differences: ${v2Differences}`);
 }
 
 console.log();
@@ -382,10 +586,22 @@ console.log();
 // Size comparison
 //
 
-const reductionBytes = allJsonSize - allNewJsonSize;
-const reductionPercent =
+const v1ReductionBytes = allJsonSize - allNewJsonSize;
+const v1ReductionPercent =
   allJsonSize > 0
-    ? (reductionBytes / allJsonSize) * 100
+    ? (v1ReductionBytes / allJsonSize) * 100
+    : 0;
+
+const v2ReductionBytes = allJsonSize - allV2JsonSize;
+const v2ReductionPercent =
+  allJsonSize > 0
+    ? (v2ReductionBytes / allJsonSize) * 100
+    : 0;
+
+const v2VsV1Bytes = allNewJsonSize - allV2JsonSize;
+const v2VsV1Percent =
+  allNewJsonSize > 0
+    ? (v2VsV1Bytes / allNewJsonSize) * 100
     : 0;
 
 console.log("──────────────────────────────────────");
@@ -393,16 +609,31 @@ console.log("Format comparison");
 console.log("──────────────────────────────────────");
 console.log(`all.json:     ${formatSize(allJsonSize)}`);
 console.log(`all-new.json: ${formatSize(allNewJsonSize)}`);
-console.log(`Difference:   ${formatSize(reductionBytes)}`);
-console.log(`Reduction:    ${reductionPercent.toFixed(1)}%`);
+console.log(`all-v2.json:  ${formatSize(allV2JsonSize)}`);
+console.log();
+console.log(
+  `v1 reduction: ${formatSize(v1ReductionBytes)} (${v1ReductionPercent.toFixed(1)}%)`
+);
+console.log(
+  `v2 reduction: ${formatSize(v2ReductionBytes)} (${v2ReductionPercent.toFixed(1)}%)`
+);
+console.log(
+  `v2 vs v1:     ${formatSize(v2VsV1Bytes)} (${v2VsV1Percent.toFixed(1)}%)`
+);
 console.log();
 
-if (differences === 0) {
-  console.log("✓ COMPARISON PASSED");
-  console.log("  Both formats contain identical vehicle data.");
+if (v1Differences === 0) {
+  console.log("✓ V1 COMPARISON PASSED");
+  console.log("  all-new.json contains identical vehicle data.");
 } else {
-  console.log("❌ COMPARISON FAILED");
-  console.log("  The two formats do not contain identical data.");
+  console.log("❌ V1 COMPARISON FAILED");
+}
+
+if (v2Differences === 0) {
+  console.log("✓ V2 COMPARISON PASSED");
+  console.log("  all-v2.json contains identical vehicle data.");
+} else {
+  console.log("❌ V2 COMPARISON FAILED");
 }
 
 console.log();
