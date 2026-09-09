@@ -110,8 +110,13 @@ const compactFieldsV2 = [
 
 const directions = [
   "",
-  "inbound",
-  "outbound",
+  ...Array.from(
+    new Set(
+      vehicles
+        .map((vehicle) => vehicle.direction ?? "")
+        .filter((direction) => direction !== "")
+    )
+  ),
 ];
 
 function elapsed(start: number): string {
