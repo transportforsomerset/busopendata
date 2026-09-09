@@ -378,6 +378,42 @@ const dates = [
     .sort((a, b) => b.localeCompare(a)),
 ];
 
+/////////////////////////////
+// BEGIN - Destination tally
+
+const destinationCounts = new Map<string, number>();
+
+for (const vehicle of vehicles) {
+  const destination = vehicle.destination || "(empty)";
+  destinationCounts.set(
+    destination,
+    (destinationCounts.get(destination) ?? 0) + 1
+  );
+}
+
+const destinationTally = [...destinationCounts.entries()]
+  .sort((a, b) => b[1] - a[1]);
+
+console.log("\nDestination tally");
+console.log("=================\n");
+
+for (const [destination, count] of destinationTally) {
+  console.log(`${String(count).padStart(6)}  ${destination}`);
+}
+
+console.log("\nDestination summary");
+console.log("====================");
+console.log(`Total vehicles:       ${vehicles.length}`);
+console.log(`Unique destinations:  ${destinationTally.length}`);
+console.log(
+  `Repeated destinations: ${
+    destinationTally.filter(([, count]) => count > 1).length
+  }`
+);
+
+// END - Destination tally
+//////////////////////////////////////////
+
 //
 // Write original all.json
 //
