@@ -108,17 +108,6 @@ const compactFieldsV2 = [
   "journey_id",
 ];
 
-const directions = [
-  "",
-  ...Array.from(
-    new Set(
-      vehicles
-        .map((vehicle) => vehicle.direction ?? "")
-        .filter((direction) => direction !== "")
-    )
-  ),
-];
-
 function elapsed(start: number): string {
   return `${((performance.now() - start) / 1000).toFixed(2)}s`;
 }
@@ -304,6 +293,18 @@ for (const activity of vehicleActivities) {
 console.log(`Mapping complete: ${elapsed(mapStart)}`);
 console.log(`Usable vehicles: ${vehicles.length}`);
 console.log();
+
+// Build direction dictionary from the actual data
+const directions = [
+  "",
+  ...Array.from(
+    new Set(
+      vehicles
+        .map((vehicle) => vehicle.direction ?? "")
+        .filter((direction) => direction !== "")
+    )
+  ),
+];
 
 //
 // Write original all.json
