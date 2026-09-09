@@ -437,7 +437,7 @@ const destinationTally = [...destinationCounts.entries()]
 console.log("\nDestination tally");
 console.log("=================\n");
 
-// Don't display the whole list anymore, it's too big!
+console.log("Don't display the whole list anymore, it's too big!");
 //for (const [destination, count] of destinationTally) {
 //  console.log(`${String(count).padStart(6)}  ${destination}`);
 //}
