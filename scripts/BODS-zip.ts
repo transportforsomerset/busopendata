@@ -104,6 +104,7 @@ type CompactVehicleV4 = [
   number,
   number,
   number,
+  number,
   string | null,
   number,
   string,
