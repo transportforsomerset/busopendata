@@ -958,6 +958,10 @@ const destinations = [
   ),
 ];
 
+const destinationIndexByValue = new Map(
+  destinations.map((destination, index) => [destination, index])
+);
+
 const operatorsV4: Record<string, CompactVehicleV4[]> = {};
 
 for (const vehicle of vehicles) {
@@ -977,15 +981,14 @@ for (const vehicle of vehicles) {
     );
   }
 
-  const destinationIndex = destinations.indexOf(
-    vehicle.destination
-  );
+const destinationIndex =
+  destinationIndexByValue.get(vehicle.destination);
 
-  if (destinationIndex === -1) {
-    throw new Error(
-      `Unknown destination "${vehicle.destination}" for vehicle ${vehicle.vehicle_id}`
-    );
-  }
+if (destinationIndex === undefined) {
+  throw new Error(
+    `Unknown destination "${vehicle.destination}" for vehicle ${vehicle.vehicle_id}`
+  );
+}
 
   const recordedDate = vehicle.recorded_at.slice(0, 10);
   const recordedTime = vehicle.recorded_at.slice(11, 19);
