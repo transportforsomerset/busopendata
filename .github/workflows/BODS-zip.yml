@@ -29,7 +29,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add live/all.json live/all-v1.json live/all-v2.json live/all-v3.json
+          git add live/all.json live/all-v1.json live/all-v2.json live/all-v3.json live/all-v4.json
 
           if git diff --cached --quiet; then
             echo "No changes to any of the files."
