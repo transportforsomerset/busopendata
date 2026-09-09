@@ -31,7 +31,8 @@ type BodsParsed = {
 type CompactVehicle = [
   string,
   string,
-  number,
+  string,
+  string,
   string,
   string,
   string,
@@ -66,6 +67,7 @@ type CompactVehicleV2 = [
 type CompactVehicleDataV2 = {
   version: 2;
   directions: string[];
+  fields: string[];
   operator_names: Record<string, string>;
   operators: Record<string, CompactVehicleV2[]>;
 };
@@ -80,6 +82,20 @@ const compactFields = [
   "vehicle_id",
   "operator",
   "operator_code",
+  "route",
+  "direction",
+  "origin",
+  "destination",
+  "latitude",
+  "longitude",
+  "bearing",
+  "occupancy",
+  "recorded_at",
+  "journey_id",
+];
+
+const compactFieldsV2 = [
+  "vehicle_id",
   "route",
   "direction",
   "origin",
@@ -462,6 +478,7 @@ for (const vehicle of vehicles) {
 const compactDataV2: CompactVehicleDataV2 = {
   version: 2,
   directions,
+  fields: compactFieldsV2,
   operator_names: operatorNames,
   operators,
 };
@@ -475,7 +492,9 @@ const allV2JsonSize = Buffer.byteLength(allV2Json);
 console.log(`Compact v2 creation complete: ${elapsed(v2Start)}`);
 console.log(`all-v2.json size: ${formatSize(allV2JsonSize)}`);
 console.log(`Operator groups: ${Object.keys(operators).length}`);
-console.log(`Operator name exceptions: ${Object.keys(operatorNames).length}`);
+console.log(
+  `Operator name exceptions: ${Object.keys(operatorNames).length}`
+);
 console.log();
 
 //
@@ -531,9 +550,8 @@ if (vehicles.length !== decodedVehiclesV2.length) {
 }
 
 //
-// The v2 vehicles are grouped by operator rather than
-// preserving the original global order, so compare by
-// vehicle ID rather than array position.
+// V2 groups vehicles by operator, so the original ordering
+// cannot be preserved. Compare by vehicle ID instead.
 //
 
 const originalById = new Map(
