@@ -72,6 +72,30 @@ type CompactVehicleDataV2 = {
   operators: Record<string, CompactVehicleV2[]>;
 };
 
+type CompactVehicleV3 = [
+  string,
+  string,
+  number,
+  string,
+  string,
+  number,
+  number,
+  number,
+  string | null,
+  number,
+  string,
+  string
+];
+
+type CompactVehicleDataV3 = {
+  version: 3;
+  dates: string[];
+  directions: string[];
+  fields: string[];
+  operator_names: Record<string, string>;
+  operators: Record<string, CompactVehicleV3[]>;
+};
+
 const BODS_ZIP_URL =
   "https://data.bus-data.dft.gov.uk/avl/download/bulk_archive";
 
@@ -105,6 +129,21 @@ const compactFieldsV2 = [
   "bearing",
   "occupancy",
   "recorded_at",
+  "journey_id",
+];
+
+const compactFieldsV3 = [
+  "vehicle_id",
+  "route",
+  "direction",
+  "origin",
+  "destination",
+  "latitude",
+  "longitude",
+  "bearing",
+  "occupancy",
+  "recorded_date",
+  "recorded_time",
   "journey_id",
 ];
 
@@ -307,6 +346,39 @@ const directions = [
 ];
 
 //
+// Build date dictionary from the actual data.
+//
+// Index 0 is always today's UTC date.
+// Older dates follow in descending order of recency.
+// Future dates are rejected because they indicate a
+// possible timestamp or timezone problem.
+//
+
+const today = new Date().toISOString().slice(0, 10);
+
+const vehicleDates = Array.from(
+  new Set(
+    vehicles.map((vehicle) => vehicle.recorded_at.slice(0, 10))
+  )
+);
+
+const futureDates = vehicleDates.filter((date) => date > today);
+
+if (futureDates.length > 0) {
+  throw new Error(
+    `Future-dated vehicle timestamp(s) found: ${futureDates.join(", ")} ` +
+    `(today is ${today})`
+  );
+}
+
+const dates = [
+  today,
+  ...vehicleDates
+    .filter((date) => date !== today)
+    .sort((a, b) => b.localeCompare(a)),
+];
+
+//
 // Write original all.json
 //
 
@@ -328,7 +400,7 @@ console.log();
 // Create compact v1 representation
 //
 
-console.log("Creating compact all-new.json...");
+console.log("Creating compact all-v1.json...");
 
 const compactStart = performance.now();
 
@@ -356,19 +428,19 @@ const compactData: CompactVehicleData = {
 
 const allNewJson = JSON.stringify(compactData);
 
-await Bun.write("live/all-new.json", allNewJson);
+await Bun.write("live/all-v1.json", allNewJson);
 
 const allNewJsonSize = Buffer.byteLength(allNewJson);
 
 console.log(`Compact creation complete: ${elapsed(compactStart)}`);
-console.log(`all-new.json size: ${formatSize(allNewJsonSize)}`);
+console.log(`all-v1.json size: ${formatSize(allNewJsonSize)}`);
 console.log();
 
 //
 // Decode compact v1 representation
 //
 
-console.log("Decoding all-new.json for comparison...");
+console.log("Decoding all-v1.json for comparison...");
 
 const decoded = JSON.parse(allNewJson) as CompactVehicleData;
 
@@ -461,13 +533,13 @@ for (const vehicle of vehicles) {
     operatorNames[operatorCode] = vehicle.operator;
   }
 
-const directionIndex = directions.indexOf(vehicle.direction ?? "");
+  const directionIndex = directions.indexOf(vehicle.direction ?? "");
 
-if (directionIndex === -1) {
-  throw new Error(
-    `Unknown direction "${vehicle.direction}" for vehicle ${vehicle.vehicle_id}`
-  );
-}
+  if (directionIndex === -1) {
+    throw new Error(
+      `Unknown direction "${vehicle.direction}" for vehicle ${vehicle.vehicle_id}`
+    );
+  }
 
   operators[operatorCode].push([
     vehicle.vehicle_id,
@@ -610,6 +682,180 @@ if (v2Differences === 0) {
 console.log();
 
 //
+// Create compact v3 representation
+//
+
+console.log("Creating compact all-v3.json...");
+
+const v3Start = performance.now();
+
+const operatorsV3: Record<string, CompactVehicleV3[]> = {};
+
+for (const vehicle of vehicles) {
+  const operatorCode = vehicle.operator_code;
+
+  if (!operatorsV3[operatorCode]) {
+    operatorsV3[operatorCode] = [];
+  }
+
+  const directionIndex = directions.indexOf(vehicle.direction ?? "");
+
+  if (directionIndex === -1) {
+    throw new Error(
+      `Unknown direction "${vehicle.direction}" for vehicle ${vehicle.vehicle_id}`
+    );
+  }
+
+  const recordedDate = vehicle.recorded_at.slice(0, 10);
+  const recordedTime = vehicle.recorded_at.slice(11, 19);
+  const dateIndex = dates.indexOf(recordedDate);
+
+  if (dateIndex === -1) {
+    throw new Error(
+      `Unknown recorded date "${recordedDate}" for vehicle ${vehicle.vehicle_id}`
+    );
+  }
+
+  operatorsV3[operatorCode].push([
+    vehicle.vehicle_id,
+    vehicle.route,
+    directionIndex,
+    vehicle.origin,
+    vehicle.destination,
+    vehicle.latitude,
+    vehicle.longitude,
+    vehicle.bearing ?? 0,
+    vehicle.occupancy,
+    dateIndex,
+    recordedTime,
+    vehicle.journey_id,
+  ]);
+}
+
+const compactDataV3: CompactVehicleDataV3 = {
+  version: 3,
+  dates,
+  directions,
+  fields: compactFieldsV3,
+  operator_names: operatorNames,
+  operators: operatorsV3,
+};
+
+const allV3Json = JSON.stringify(compactDataV3);
+
+await Bun.write("live/all-v3.json", allV3Json);
+
+const allV3JsonSize = Buffer.byteLength(allV3Json);
+
+console.log(`Compact v3 creation complete: ${elapsed(v3Start)}`);
+console.log(`all-v3.json size: ${formatSize(allV3JsonSize)}`);
+console.log(`Date entries: ${dates.length}`);
+console.log(`Operator groups: ${Object.keys(operatorsV3).length}`);
+console.log();
+
+//
+// Decode compact v3 representation
+//
+
+console.log("Decoding all-v3.json for comparison...");
+
+const decodedV3 = JSON.parse(allV3Json) as CompactVehicleDataV3;
+
+const decodedVehiclesV3: Vehicle[] = [];
+
+for (const [operatorCode, operatorVehicles] of Object.entries(
+  decodedV3.operators
+)) {
+  const operatorName =
+    decodedV3.operator_names[operatorCode] ?? operatorCode;
+
+  for (const vehicle of operatorVehicles) {
+    const date = decodedV3.dates[vehicle[9]];
+
+    if (!date) {
+      throw new Error(
+        `Invalid date index ${vehicle[9]} for vehicle ${vehicle[0]}`
+      );
+    }
+
+    decodedVehiclesV3.push({
+      vehicle_id: vehicle[0],
+      operator: operatorName,
+      operator_code: operatorCode,
+      route: vehicle[1],
+      direction: decodedV3.directions[vehicle[2]] ?? "",
+      origin: vehicle[3],
+      destination: vehicle[4],
+      latitude: vehicle[5],
+      longitude: vehicle[6],
+      bearing: vehicle[7],
+      occupancy: vehicle[8],
+      recorded_at: `${date}T${vehicle[10]}+00:00`,
+      journey_id: vehicle[11],
+    });
+  }
+}
+
+//
+// Compare v3 dataset
+//
+
+console.log("Comparing original and compact v3 datasets...");
+
+let v3Differences = 0;
+
+if (vehicles.length !== decodedVehiclesV3.length) {
+  console.log(
+    `❌ Vehicle count differs: ${vehicles.length} vs ${decodedVehiclesV3.length}`
+  );
+  v3Differences++;
+} else {
+  console.log(`✓ Vehicle count identical: ${vehicles.length}`);
+}
+
+const decodedV3ById = new Map(
+  decodedVehiclesV3.map((vehicle) => [vehicle.vehicle_id, vehicle])
+);
+
+if (originalById.size !== decodedV3ById.size) {
+  console.log(
+    `❌ Unique vehicle IDs differ: ${originalById.size} vs ${decodedV3ById.size}`
+  );
+  v3Differences++;
+}
+
+for (const [vehicleId, original] of originalById) {
+  const decodedVehicle = decodedV3ById.get(vehicleId);
+
+  if (!decodedVehicle) {
+    if (v3Differences < 5) {
+      console.log(`❌ Vehicle missing from v3 data: ${vehicleId}`);
+    }
+
+    v3Differences++;
+    continue;
+  }
+
+  if (JSON.stringify(original) !== JSON.stringify(decodedVehicle)) {
+    if (v3Differences < 5) {
+      console.log(`❌ Difference found for vehicle ${vehicleId}`);
+      console.log("Original:", original);
+      console.log("Decoded: ", decodedVehicle);
+    }
+
+    v3Differences++;
+  }
+}
+
+if (v3Differences === 0) {
+  console.log("✓ All vehicles are identical after v3 encode/decode");
+} else {
+  console.log(`❌ Total v3 differences: ${v3Differences}`);
+}
+
+console.log();
+
+//
 // Size comparison
 //
 
@@ -631,12 +877,25 @@ const v2VsV1Percent =
     ? (v2VsV1Bytes / allNewJsonSize) * 100
     : 0;
 
+const v3ReductionBytes = allJsonSize - allV3JsonSize;
+const v3ReductionPercent =
+  allJsonSize > 0
+    ? (v3ReductionBytes / allJsonSize) * 100
+    : 0;
+
+const v3VsV2Bytes = allV2JsonSize - allV3JsonSize;
+const v3VsV2Percent =
+  allV2JsonSize > 0
+    ? (v3VsV2Bytes / allV2JsonSize) * 100
+    : 0;
+
 console.log("──────────────────────────────────────");
 console.log("Format comparison");
 console.log("──────────────────────────────────────");
 console.log(`all.json:     ${formatSize(allJsonSize)}`);
-console.log(`all-new.json: ${formatSize(allNewJsonSize)}`);
+console.log(`all-v1.json:  ${formatSize(allNewJsonSize)}`);
 console.log(`all-v2.json:  ${formatSize(allV2JsonSize)}`);
+console.log(`all-v3.json:  ${formatSize(allV3JsonSize)}`);
 console.log();
 console.log(
   `v1 reduction: ${formatSize(v1ReductionBytes)} (${v1ReductionPercent.toFixed(1)}%)`
@@ -647,11 +906,17 @@ console.log(
 console.log(
   `v2 vs v1:     ${formatSize(v2VsV1Bytes)} (${v2VsV1Percent.toFixed(1)}%)`
 );
+console.log(
+  `v3 reduction: ${formatSize(v3ReductionBytes)} (${v3ReductionPercent.toFixed(1)}%)`
+);
+console.log(
+  `v3 vs v2:     ${formatSize(v3VsV2Bytes)} (${v3VsV2Percent.toFixed(1)}%)`
+);
 console.log();
 
 if (v1Differences === 0) {
   console.log("✓ V1 COMPARISON PASSED");
-  console.log("  all-new.json contains identical vehicle data.");
+  console.log("  all-v1.json contains identical vehicle data.");
 } else {
   console.log("❌ V1 COMPARISON FAILED");
 }
@@ -661,6 +926,13 @@ if (v2Differences === 0) {
   console.log("  all-v2.json contains identical vehicle data.");
 } else {
   console.log("❌ V2 COMPARISON FAILED");
+}
+
+if (v3Differences === 0) {
+  console.log("✓ V3 COMPARISON PASSED");
+  console.log("  all-v3.json contains identical vehicle data.");
+} else {
+  console.log("❌ V3 COMPARISON FAILED");
 }
 
 console.log();
