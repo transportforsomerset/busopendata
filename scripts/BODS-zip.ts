@@ -821,9 +821,6 @@ console.log("Creating compact all-v4.json...");
 const v4Start = performance.now();
 
 
-const { values: destinations, indexByValue: destinationIndexByValue,} = createDictionary(vehicles.map(vehicle => vehicle.destination));
-const { values: origins,      indexByValue: originIndexByValue,     } = createDictionary(vehicles.map(vehicle => vehicle.origin));
-
 //
 // Build exact destination dictionary from the actual data.
 //
@@ -831,21 +828,8 @@ const { values: origins,      indexByValue: originIndexByValue,     } = createDi
 // "Bus Station" and "Bus_Station" remain separate entries.
 //
 
-const destinations = [
-  "",
-  ...Array.from(
-    new Set(
-      vehicles
-        .map((vehicle) => vehicle.destination)
-        .filter((destination) => destination !== "")
-    )
-  ),
-];
-
-const destinationIndexByValue = new Map(
-  destinations.map((destination, index) => [destination, index])
-);
-
+const { values: destinations, indexByValue: destinationIndexByValue,} = createDictionary(vehicles.map(vehicle => vehicle.destination));
+const { values: origins,      indexByValue: originIndexByValue,     } = createDictionary(vehicles.map(vehicle => vehicle.origin));
 const operatorsV4: Record<string, CompactVehicleV4[]> = {};
 
 for (const vehicle of vehicles) {
