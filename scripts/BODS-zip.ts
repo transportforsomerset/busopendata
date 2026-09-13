@@ -252,18 +252,6 @@ console.log(`Mapping complete: ${elapsed(mapStart)}`);
 console.log(`Usable vehicles: ${vehicles.length}`);
 console.log();
 
-// Build direction dictionary from the actual data
-const directions = [
-  "",
-  ...Array.from(
-    new Set(
-      vehicles
-        .map((vehicle) => vehicle.direction ?? "")
-        .filter((direction) => direction !== "")
-    )
-  ),
-];
-
 //
 // Build date dictionary from the actual data.
 //
