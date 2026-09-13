@@ -66,9 +66,6 @@ const compactFieldsV4 = [
   "journey_id",
 ];
 
-const { values: destinations, indexByValue: destinationIndexByValue,} = createDictionary(vehicles.map(vehicle => vehicle.destination));
-const { values: origins,      indexByValue: originIndexByValue,     } = createDictionary(vehicles.map(vehicle => vehicle.origin));
-
 function elapsed(start: number): string {
   return `${((performance.now() - start) / 1000).toFixed(2)}s`;
 }
