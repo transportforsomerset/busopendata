@@ -1,5 +1,5 @@
 import type { Vehicle } from "./types";
-import { fetchBodsData } from "./fetch-bods-new";
+import { fetchBodsData } from "./BODS-zip";
 import { fetchMegaBusData } from "./fetch-megabus";
 import { fetchFlixData } from "./fetch-flix";
 
