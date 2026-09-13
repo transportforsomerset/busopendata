@@ -470,10 +470,11 @@ for (const vehicle of vehicles) {
   // on every vehicle.
   //
 
-  if (
-    vehicle.operator &&
-    vehicle.operator !== operatorCode
-  ) {
+  const { values: directions,   indexByValue: directionIndexByValue,} = createDictionary(vehicles.map(vehicle => vehicle.direction ?? ""),"");
+  const { values: destinations, indexByValue: destinationIndexByValue,} = createDictionary(vehicles.map(vehicle => vehicle.destination));
+  const { values: origins,      indexByValue: originIndexByValue,     } = createDictionary(vehicles.map(vehicle => vehicle.origin));
+  
+  if (vehicle.operator && vehicle.operator !== operatorCode) {
     operatorNames[operatorCode] = vehicle.operator;
   }
 
@@ -816,9 +817,6 @@ const v4Start = performance.now();
 // "Bus Station" and "Bus_Station" remain separate entries.
 //
 
-const { values: directions,   indexByValue: directionIndexByValue,} = createDictionary(vehicles.map(vehicle => vehicle.direction ?? ""),"");
-const { values: destinations, indexByValue: destinationIndexByValue,} = createDictionary(vehicles.map(vehicle => vehicle.destination));
-const { values: origins,      indexByValue: originIndexByValue,     } = createDictionary(vehicles.map(vehicle => vehicle.origin));
 const operatorsV4: Record<string, CompactVehicleV4[]> = {};
 
 for (const vehicle of vehicles) {
