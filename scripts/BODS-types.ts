@@ -10,7 +10,6 @@ export type BodsParsed = {
             OperatorRef?: string;
             OriginName?: string;
             DestinationName?: string;
-            OperatorRef?: string;
             VehicleRef?: string;
             Bearing?: string;
             VehicleLocation?: {
