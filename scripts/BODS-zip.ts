@@ -820,6 +820,10 @@ console.log("Creating compact all-v4.json...");
 
 const v4Start = performance.now();
 
+
+const { values: destinations, indexByValue: destinationIndexByValue,} = createDictionary(vehicles.map(vehicle => vehicle.destination));
+const { values: origins,      indexByValue: originIndexByValue,     } = createDictionary(vehicles.map(vehicle => vehicle.origin));
+
 //
 // Build exact destination dictionary from the actual data.
 //
