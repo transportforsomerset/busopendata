@@ -645,7 +645,7 @@ for (const vehicle of vehicles) {
 
   const directionIndex = directionIndexByValue.get(vehicle.direction ?? "");
 
-  if (directionIndex === -1) {
+  if (directionIndex === undefined) {
     throw new Error(
       `Unknown direction "${vehicle.direction}" for vehicle ${vehicle.vehicle_id}`
     );
