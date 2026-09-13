@@ -455,6 +455,10 @@ const v2Start = performance.now();
 const operatorNames: Record<string, string> = {};
 const operators: Record<string, CompactVehicleV2[]> = {};
 
+const { values: directions,   indexByValue: directionIndexByValue,} = createDictionary(vehicles.map(vehicle => vehicle.direction ?? ""),"");
+const { values: destinations, indexByValue: destinationIndexByValue,} = createDictionary(vehicles.map(vehicle => vehicle.destination));
+const { values: origins,      indexByValue: originIndexByValue,     } = createDictionary(vehicles.map(vehicle => vehicle.origin));
+
 for (const vehicle of vehicles) {
   const operatorCode = vehicle.operator_code;
 
@@ -469,10 +473,6 @@ for (const vehicle of vehicles) {
   // name once in operator_names rather than repeating it
   // on every vehicle.
   //
-
-  const { values: directions,   indexByValue: directionIndexByValue,} = createDictionary(vehicles.map(vehicle => vehicle.direction ?? ""),"");
-  const { values: destinations, indexByValue: destinationIndexByValue,} = createDictionary(vehicles.map(vehicle => vehicle.destination));
-  const { values: origins,      indexByValue: originIndexByValue,     } = createDictionary(vehicles.map(vehicle => vehicle.origin));
   
   if (vehicle.operator && vehicle.operator !== operatorCode) {
     operatorNames[operatorCode] = vehicle.operator;
