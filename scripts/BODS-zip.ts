@@ -1,3 +1,4 @@
+import { createDictionary } from "./create-dictionary";
 import type { Vehicle } from "./types";
 import type { BodsParsed, CompactVehicle, CompactVehicleData, CompactVehicleV2, CompactVehicleDataV2, CompactVehicleV3, CompactVehicleDataV3, CompactVehicleV4, CompactVehicleDataV4 } from "./BODS-types";
 
@@ -64,6 +65,9 @@ const compactFieldsV4 = [
   "recorded_time",
   "journey_id",
 ];
+
+const { values: destinations, indexByValue: destinationIndexByValue,} = createDictionary(vehicles.map(vehicle => vehicle.destination));
+const { values: origins,      indexByValue: originIndexByValue,     } = createDictionary(vehicles.map(vehicle => vehicle.origin));
 
 function elapsed(start: number): string {
   return `${((performance.now() - start) / 1000).toFixed(2)}s`;
