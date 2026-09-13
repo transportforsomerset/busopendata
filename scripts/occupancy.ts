@@ -1,4 +1,4 @@
-function encodeOccupancy(occupancy: string): number {
+export function encodeOccupancy(occupancy: string): number {
   switch (occupancy) {
     case "":
       return 0;
@@ -13,7 +13,7 @@ function encodeOccupancy(occupancy: string): number {
   }
 }
 
-function decodeOccupancy(value: number): string {
+export function decodeOccupancy(value: number): string {
   switch (value) {
     case 0:
       return "";
