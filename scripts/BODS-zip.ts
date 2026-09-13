@@ -655,6 +655,7 @@ for (const vehicle of vehicles) {
   }
 
   const directionIndex = directions.indexOf(vehicle.direction ?? "");
+  const directionIndex = directions.indexOf(vehicle.direction ?? "");
 
   if (directionIndex === -1) {
     throw new Error(
@@ -828,6 +829,7 @@ const v4Start = performance.now();
 // "Bus Station" and "Bus_Station" remain separate entries.
 //
 
+//const { values: directions,   indexByValue: directionIndexByValue,} = createDictionary(vehicles.map(vehicle => vehicle.direction));
 const { values: destinations, indexByValue: destinationIndexByValue,} = createDictionary(vehicles.map(vehicle => vehicle.destination));
 const { values: origins,      indexByValue: originIndexByValue,     } = createDictionary(vehicles.map(vehicle => vehicle.origin));
 const operatorsV4: Record<string, CompactVehicleV4[]> = {};
