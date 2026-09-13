@@ -1,6 +1,5 @@
 import type { Vehicle } from "./types";
 import { createDictionary } from "./create-dictionary";
-import { encodeOccupancy, decodeOccupancy } from "./occupancy";
 
 type CompactVehicleV4 = [
   string, string, number, string, number, number, number, number,
