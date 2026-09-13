@@ -1,0 +1,22 @@
+name: 2.1 - Run V5 Check
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  Run-V5-Check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Bun Check
+        run: bun run check:v5
