@@ -1,6 +1,7 @@
 name: 2.1 - Run V5 Check
 
 on:
+  push:
   workflow_dispatch:
 
 jobs:
