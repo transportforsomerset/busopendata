@@ -1,5 +1,5 @@
 import type { Vehicle } from "./types";
-import type { BodsParsed, CompactVehicle, CompactVehicleData, CompactVehicleV2, CompactVehicleDataV2, CompactVehicleV3, CompactVehicleDataV3, CompactVehicleV4, CompactVehicleDataV4 } from "/.BODS-types";
+import type { BodsParsed, CompactVehicle, CompactVehicleData, CompactVehicleV2, CompactVehicleDataV2, CompactVehicleV3, CompactVehicleDataV3, CompactVehicleV4, CompactVehicleDataV4 } from "./BODS-types";
 
 const BODS_ZIP_URL =  "https://data.bus-data.dft.gov.uk/avl/download/bulk_archive";
 const zipPath = "/tmp/bods-national.zip";
