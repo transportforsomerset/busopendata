@@ -4,10 +4,16 @@ export interface Dictionary<T extends string = string> {
 }
 
 export function createDictionary<T extends string>(
-  values: T[]
+  values: T[],
+  initialValue?: T
 ): Dictionary<T> {
   const dictionary: T[] = [];
   const indexByValue = new Map<T, number>();
+
+  if (initialValue !== undefined) {
+    dictionary.push(initialValue);
+    indexByValue.set(initialValue, 0);
+  }
 
   for (const value of values) {
     if (!indexByValue.has(value)) {
