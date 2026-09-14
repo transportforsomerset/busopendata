@@ -18,7 +18,7 @@ type CompactVehicleDataV4 = {
 
 type CompactVehicleV5 = [
   string, string, number, number, number, number, number, number,
-  string | null, number, string, string
+  number, number, string, string
 ];
 
 type CompactVehicleDataV5 = {
@@ -95,7 +95,16 @@ for (const [operatorCode, operatorVehicles] of Object.entries(inputV4.operators)
 }
 
 const { values: origins,     indexByValue: originIndexByValue,   } = createDictionary(vehiclesV5.map((vehicle) => vehicle.origin));
-//const { values: occupancies, indexByValue: occupancyIndexByValue,} = createDictionary(["", "seatsAvailable", "standingAvailable", "full"], "");
+const { values: occupancies, indexByValue: occupancyIndexByValue,} = createDictionary(["", "seatsAvailable", "standingAvailable", "full"], "");
+  
+const operators: Record<string, CompactVehicleV5[]> = {};
+
+for (const vehicle of vehiclesV5) {
+  const operatorCode = vehicle.operator_code;
+  operators[operatorCode] ??= [];
+
+  const originIndex    =    originIndexByValue.get(vehicle.origin);
+//  const occupancyIndex = occupancyIndexByValue.get(vehicle.occupancy ?? "");
 
 const occupancy = vehicle.occupancy ?? "";
 
@@ -112,15 +121,6 @@ if (
 
 const occupancyIndex = occupancyIndexByValue.get(occupancy);
   
-const operators: Record<string, CompactVehicleV5[]> = {};
-
-for (const vehicle of vehiclesV5) {
-  const operatorCode = vehicle.operator_code;
-  operators[operatorCode] ??= [];
-
-  const originIndex    =    originIndexByValue.get(vehicle.origin);
-  const occupancyIndex = occupancyIndexByValue.get(vehicle.occupancy ?? "");
-
   if (originIndex === undefined)    { throw new Error(`Unknown origin "${vehicle.origin}" for vehicle ${vehicle.vehicle_id}`); }
   if (occupancyIndex === undefined) { throw new Error(`Unknown occupancy "${vehicle.occupancy}" for vehicle ${vehicle.vehicle_id}` ); }
 
