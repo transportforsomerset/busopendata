@@ -50,7 +50,7 @@ function formatSize(bytes: number): string {
   return `${(bytes / 1024 / 1024).toFixed(2)} MB`;
 }
 
-console.log("v6 locations (for origins and destinations) dictionary test");
+console.log("\n\nv6 locations (for origins and destinations) dictionary test");
 console.log("─────────────────────────");
 
 const inputJson = await Bun.file(inputPath).text();
@@ -186,7 +186,7 @@ await Bun.write(outputPath, outputJson);
 console.log(`Vehicles:       ${vehiclesV6.length}`);
 console.log(`Origin entries: ${locations.length}`);
 console.log(`all-v4.json:    ${formatSize(inputSize)}`);
-console.log(`v5 origin:      ${formatSize(outputSize)}`);
+console.log(`v6 locatons:    ${formatSize(outputSize)}`);
 console.log();
 
 const decodedVehicles: Vehicle[] = [];
