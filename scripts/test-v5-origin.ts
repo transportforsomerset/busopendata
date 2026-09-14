@@ -56,21 +56,21 @@ console.log("──────────────────────�
 
 const inputJson = await Bun.file(inputPath).text();
 const inputSize = Buffer.byteLength(inputJson);
-const input = JSON.parse(inputJson) as CompactVehicleDataV4;
+const inputV4 = JSON.parse(inputJson) as CompactVehicleDataV4;
 
-if (input.version !== 4) {
-  throw new Error(`Expected v4 input, found version ${input.version}`);
+if (inputV4.version !== 4) {
+  throw new Error(`Expected v4 input (via const = inputV4), found version ${inputV4.version}`);
 }
 
 const vehicles: Vehicle[] = [];
 
-for (const [operatorCode, operatorVehicles] of Object.entries(input.operators)) {
-  const operatorName = input.operator_names[operatorCode] ?? operatorCode;
+for (const [operatorCode, operatorVehicles] of Object.entries(inputV4.operators)) {
+  const operatorName = inputV4.operator_names[operatorCode] ?? operatorCode;
 
   for (const vehicle of operatorVehicles) {
-    const date = input.dates[vehicle[9]];
-    const direction = input.directions[vehicle[2]];
-    const destination = input.destinations[vehicle[4]];
+    const date = inputV4.dates[vehicle[9]];
+    const direction = inputV4.directions[vehicle[2]];
+    const destination = inputV4.destinations[vehicle[4]];
 
     if (date === undefined || direction === undefined || destination === undefined) {
       throw new Error(`Invalid dictionary index for vehicle ${vehicle[0]}`);
@@ -109,14 +109,14 @@ for (const vehicle of vehicles) {
   if (originIndex === undefined)    { throw new Error(`Unknown origin "${vehicle.origin}" for vehicle ${vehicle.vehicle_id}`); }
   if (occupancyIndex === undefined) { throw new Error(`Unknown occupancy "${vehicle.occupancy}" for vehicle ${vehicle.vehicle_id}` ); }
 
-  const directionIndex = input.directions.indexOf(vehicle.direction ?? "");
+  const directionIndex = inputV4.directions.indexOf(vehicle.direction ?? "");
   if (directionIndex === -1) {
     throw new Error(
       `Unknown direction "${vehicle.direction}" for vehicle ${vehicle.vehicle_id}`
     );
   }
 
-  const destinationIndex = input.destinations.indexOf(vehicle.destination);
+  const destinationIndex = inputV4.destinations.indexOf(vehicle.destination);
   if (destinationIndex === -1) {
     throw new Error(
       `Unknown destination "${vehicle.destination}" for vehicle ${vehicle.vehicle_id}`
@@ -124,7 +124,7 @@ for (const vehicle of vehicles) {
   }
 
   const recordedDate = vehicle.recorded_at.slice(0, 10);
-  const dateIndex = input.dates.indexOf(recordedDate);
+  const dateIndex = inputV4.dates.indexOf(recordedDate);
   if (dateIndex === -1) {
     throw new Error(
       `Unknown recorded date "${recordedDate}" for vehicle ${vehicle.vehicle_id}`
@@ -149,17 +149,17 @@ for (const vehicle of vehicles) {
 
 const compactDataV5: CompactVehicleDataV5 = {
   version: 5,
-  dates: input.dates,
-  directions: input.directions,
+  dates: inputV4.dates,
+  directions: inputV4.directions,
   origins,
   occupancies,
-  destinations: input.destinations,
+  destinations: inputV4.destinations,
   fields: [
     "vehicle_id", "route", "direction", "origin", "destination",
     "latitude", "longitude", "bearing", "occupancy",
     "recorded_date", "recorded_time", "journey_id",
   ],
-  operator_names: input.operator_names,
+  operator_names: inputV4.operator_names,
   operators,
 };
 
