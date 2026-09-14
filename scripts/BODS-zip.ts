@@ -1022,6 +1022,10 @@ if (v4Differences === 0) {
 console.log();
 
 
+// V5 import use:
+const v5 = await createV5(compactDataV4, vehicles, dates, directions, destinations, operatorNames,);
+await Bun.write("live/all-v5.json", v5.json);
+
 
 
 //
