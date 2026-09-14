@@ -16,18 +16,17 @@ type CompactVehicleDataV4 = {
   operators: Record<string, CompactVehicleV4[]>;
 };
 
-type CompactVehicleV5 = [
+type CompactVehicleV6 = [
   string, string, number, number, number, number, number, number,
   number, number, string, string
 ];
 
-type CompactVehicleDataV5 = {
-  version: 5;
+type CompactVehicleDataV6 = {
+  version: 6;
   dates: string[];
   directions: string[];
-  origins: string[];
+  locations: string[];
   occupancies: string[];
-  destinations: string[];
   fields: string[];
   operator_names: Record<string, string>;
   operators: Record<string, CompactVehicleV5[]>;
@@ -62,7 +61,7 @@ if (inputV4.version !== 4) {
   throw new Error(`Expected v4 input (via const = inputV4), found version ${inputV4.version}`);
 }
 
-const vehiclesV5: Vehicle[] = [];
+const vehiclesV6: Vehicle[] = [];
 
 for (const [operatorCode, operatorVehicles] of Object.entries(inputV4.operators)) {
   const operatorName = inputV4.operator_names[operatorCode] ?? operatorCode;
@@ -76,7 +75,7 @@ for (const [operatorCode, operatorVehicles] of Object.entries(inputV4.operators)
       throw new Error(`Invalid dictionary index for vehicle ${vehicle[0]}`);
     }
 
-    vehiclesV5.push({
+    vehiclesV6.push({
       vehicle_id: vehicle[0],
       operator: operatorName,
       operator_code: operatorCode,
@@ -99,7 +98,7 @@ const { values: occupancies, indexByValue: occupancyIndexByValue,} = createDicti
 const unknownOccupancyValues = new Set<string>();
 const operators: Record<string, CompactVehicleV5[]> = {};
 
-for (const vehicle of vehiclesV5) {
+for (const vehicle of vehiclesV6) {
   const operatorCode = vehicle.operator_code;
   operators[operatorCode] ??= [];
 
@@ -135,7 +134,7 @@ if (
 
 //  const destinationIndex = inputV4.destinations.indexOf(vehicle.destination);
   const destinationIndex = locationIndexByValue.get(vehicle.destination);
-  if (destinationIndex === -1) {
+  if (destinationIndex === undefined) {
     throw new Error(
       `Unknown destination "${vehicle.destination}" for vehicle ${vehicle.vehicle_id}`
     );
@@ -165,13 +164,12 @@ if (
   ]);
 }
 
-const compactDataV5: CompactVehicleDataV5 = {
-  version: 5,
+const compactDataV6: CompactVehicleDataV6 = {
+  version: 6,
   dates: inputV4.dates,
   directions: inputV4.directions,
-  origins,
+  locations,
   occupancies,
-  destinations: inputV4.destinations,
   fields: [
     "vehicle_id", "route", "direction", "origin", "destination",
     "latitude", "longitude", "bearing", "occupancy",
@@ -181,11 +179,11 @@ const compactDataV5: CompactVehicleDataV5 = {
   operators,
 };
 
-const outputJson = JSON.stringify(compactDataV5);
+const outputJson = JSON.stringify(compactDataV6);
 const outputSize = Buffer.byteLength(outputJson);
 await Bun.write(outputPath, outputJson);
 
-console.log(`Vehicles:       ${vehiclesV5.length}`);
+console.log(`Vehicles:       ${vehiclesV6.length}`);
 console.log(`Origin entries: ${origins.length}`);
 console.log(`all-v4.json:    ${formatSize(inputSize)}`);
 console.log(`v5 origin:      ${formatSize(outputSize)}`);
@@ -193,15 +191,15 @@ console.log();
 
 const decodedVehicles: Vehicle[] = [];
 
-for (const [operatorCode, operatorVehicles] of Object.entries(compactDataV5.operators)) {
-  const operatorName = compactDataV5.operator_names[operatorCode] ?? operatorCode;
+for (const [operatorCode, operatorVehicles] of Object.entries(compactDataV6.operators)) {
+  const operatorName = compactDataV6.operator_names[operatorCode] ?? operatorCode;
 
   for (const vehicle of operatorVehicles) {
-    const date = compactDataV5.dates[vehicle[9]];
-    const direction = compactDataV5.directions[vehicle[2]];
-    const origin = compactDataV5.locations[vehicle[3]];
-    const destination = compactDataV5.locations[vehicle[4]];
-    const occupancy = compactDataV5.occupancies[vehicle[8]];
+    const date = compactDataV6.dates[vehicle[9]];
+    const direction = compactDataV6.directions[vehicle[2]];
+    const origin = compactDataV6.locations[vehicle[3]];
+    const destination = compactDataV6.locations[vehicle[4]];
+    const occupancy = compactDataV6.occupancies[vehicle[8]];
 
     if (
       date === undefined ||
