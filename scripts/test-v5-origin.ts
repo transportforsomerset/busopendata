@@ -1,17 +1,6 @@
 import type { Vehicle } from "./types";
 import { createDictionary } from "./create-dictionary";
 
-// BEGIN EXPORT SETUP.
-export async function createV5(
-  input: CompactVehicleDataV4,
-  vehicles: Vehicle[],
-  dates: string[],
-  directions: string[],
-  destinations: string[],
-  operatorNames: Record<string, string>,
-) {
-// END EXPORT SETUP, code below is the standard code for this file.
-
 type CompactVehicleV4 = [
   string, string, number, string, number, number, number, number,
   string | null, number, string, string
@@ -46,6 +35,17 @@ type CompactVehicleDataV5 = {
 
 const inputPath = "live/all-v4.json";
 const outputPath = "live/all-v5-origin.json";
+
+// BEGIN EXPORT SETUP.
+export async function createV5(
+  input: CompactVehicleDataV4,
+  vehicles: Vehicle[],
+  dates: string[],
+  directions: string[],
+  destinations: string[],
+  operatorNames: Record<string, string>,
+) {
+// END EXPORT SETUP, code below is the standard code for this file.
 
 function formatSize(bytes: number): string {
   return `${(bytes / 1024 / 1024).toFixed(2)} MB`;
