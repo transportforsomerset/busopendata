@@ -29,11 +29,11 @@ type CompactVehicleDataV6 = {
   occupancies: string[];
   fields: string[];
   operator_names: Record<string, string>;
-  operators: Record<string, CompactVehicleV5[]>;
+  operators: Record<string, CompactVehicleV6[]>;
 };
 
 const inputPath = "live/all-v4.json";
-const outputPath = "live/all-v5-origin.json";
+const outputPath = "live/all-v6-locations.json";
 
 // BEGIN EXPORT SETUP.
 export async function createV6(
@@ -93,10 +93,10 @@ for (const [operatorCode, operatorVehicles] of Object.entries(inputV4.operators)
   }
 }
 
-const { values: locations, indexByValue: locationIndexByValue } = createDictionary([...vehiclesV5.map((vehicle) => vehicle.origin),...vehiclesV5.map((vehicle) => vehicle.destination),]);
+const { values: locations, indexByValue: locationIndexByValue } = createDictionary([...vehiclesV6.map((vehicle) => vehicle.origin),...vehiclesV6.map((vehicle) => vehicle.destination),]);
 const { values: occupancies, indexByValue: occupancyIndexByValue,} = createDictionary(["", "seatsAvailable", "standingAvailable", "full"], "");
 const unknownOccupancyValues = new Set<string>();
-const operators: Record<string, CompactVehicleV5[]> = {};
+const operators: Record<string, CompactVehicleV6[]> = {};
 
 for (const vehicle of vehiclesV6) {
   const operatorCode = vehicle.operator_code;
@@ -184,7 +184,7 @@ const outputSize = Buffer.byteLength(outputJson);
 await Bun.write(outputPath, outputJson);
 
 console.log(`Vehicles:       ${vehiclesV6.length}`);
-console.log(`Origin entries: ${origins.length}`);
+console.log(`Origin entries: ${locations.length}`);
 console.log(`all-v4.json:    ${formatSize(inputSize)}`);
 console.log(`v5 origin:      ${formatSize(outputSize)}`);
 console.log();
@@ -229,7 +229,7 @@ for (const [operatorCode, operatorVehicles] of Object.entries(compactDataV6.oper
   }
 }
 
-const sourceById = new Map(vehiclesV5.map((vehicle) => [vehicle.vehicle_id, vehicle]));
+const sourceById = new Map(vehiclesV6.map((vehicle) => [vehicle.vehicle_id, vehicle]));
 const decodedById = new Map(decodedVehicles.map((vehicle) => [vehicle.vehicle_id, vehicle]));
 
 let differences = 0;
@@ -270,8 +270,8 @@ if (unknownOccupancyValues.size > 0) {
 
 // BEGIN EXPORT FINISH.
       return {
-        compactDataV5,
-        json: JSON.stringify(compactDataV5),
+        compactDataV6,
+        json: JSON.stringify(compactDataV6),
         differences,
     };
 }
