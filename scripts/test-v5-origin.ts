@@ -95,8 +95,23 @@ for (const [operatorCode, operatorVehicles] of Object.entries(inputV4.operators)
 }
 
 const { values: origins,     indexByValue: originIndexByValue,   } = createDictionary(vehiclesV5.map((vehicle) => vehicle.origin));
-const { values: occupancies, indexByValue: occupancyIndexByValue,} = createDictionary(["", "seatsAvailable", "standingAvailable", "full"], "");
+//const { values: occupancies, indexByValue: occupancyIndexByValue,} = createDictionary(["", "seatsAvailable", "standingAvailable", "full"], "");
 
+const occupancy = vehicle.occupancy ?? "";
+
+if (
+  occupancy !== "" &&
+  occupancy !== "seatsAvailable" &&
+  occupancy !== "standingAvailable" &&
+  occupancy !== "full"
+) {
+  throw new Error(
+    `Unknown occupancy "${vehicle.occupancy}" for vehicle ${vehicle.vehicle_id}`
+  );
+}
+
+const occupancyIndex = occupancyIndexByValue.get(occupancy);
+  
 const operators: Record<string, CompactVehicleV5[]> = {};
 
 for (const vehicle of vehiclesV5) {
