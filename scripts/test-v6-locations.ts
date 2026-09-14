@@ -50,7 +50,7 @@ function formatSize(bytes: number): string {
   return `${(bytes / 1024 / 1024).toFixed(2)} MB`;
 }
 
-console.log("v6 origin dictionary test");
+console.log("v6 locations (for origins and destinations) dictionary test");
 console.log("─────────────────────────");
 
 const inputJson = await Bun.file(inputPath).text();
@@ -208,7 +208,7 @@ for (const [operatorCode, operatorVehicles] of Object.entries(compactDataV6.oper
       destination === undefined ||
       occupancy === undefined
     ) {
-      throw new Error(`Invalid v5 dictionary index for vehicle ${vehicle[0]}`);
+      throw new Error(`Invalid v6 dictionary index for vehicle ${vehicle[0]}`);
     }
 
     decodedVehicles.push({
@@ -251,9 +251,9 @@ for (const [vehicleId, original] of sourceById) {
 }
 
 if (differences === 0) {
-  console.log("✓ All vehicles are identical after v5 origin encode/decode");
+  console.log("✓ All vehicles are identical after v6 origin encode/decode");
 } else {
-  console.log(`❌ Total v5 differences: ${differences}`);
+  console.log(`❌ Total v6 differences: ${differences}`);
 }
 
 const savingsBytes = inputSize - outputSize;
