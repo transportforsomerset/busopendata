@@ -172,7 +172,7 @@ for (const [operatorCode, operatorVehicles] of Object.entries(compactDataV5.oper
     const direction = compactDataV5.directions[vehicle[2]];
     const origin = compactDataV5.origins[vehicle[3]];
     const destination = compactDataV5.destinations[vehicle[4]];
-    const occupancy = encoded.occupancies[values[8]];
+    const occupancy = compactDataV5.occupancies[values[8]];
 
     if (
       date === undefined ||
