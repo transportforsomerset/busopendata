@@ -183,10 +183,10 @@ const outputJson = JSON.stringify(compactDataV6);
 const outputSize = Buffer.byteLength(outputJson);
 await Bun.write(outputPath, outputJson);
 
-console.log(`Vehicles:       ${vehiclesV6.length}`);
-console.log(`Origin entries: ${locations.length}`);
-console.log(`all-v4.json:    ${formatSize(inputSize)}`);
-console.log(`v6 locatons:    ${formatSize(outputSize)}`);
+console.log(`Vehicles:         ${vehiclesV6.length}`);
+console.log(`Location entries: ${locations.length}`);
+console.log(`all-v4.json:      ${formatSize(inputSize)}`);
+console.log(`v6 locatons:      ${formatSize(outputSize)}`);
 console.log();
 
 const decodedVehicles: Vehicle[] = [];
@@ -251,7 +251,7 @@ for (const [vehicleId, original] of sourceById) {
 }
 
 if (differences === 0) {
-  console.log("✓ All vehicles are identical after v6 origin encode/decode");
+  console.log("✓ All vehicles are identical after v6 location encode/decode");
 } else {
   console.log(`❌ Total v6 differences: ${differences}`);
 }
