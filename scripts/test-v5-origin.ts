@@ -1,6 +1,17 @@
 import type { Vehicle } from "./types";
 import { createDictionary } from "./create-dictionary";
 
+// BEGIN EXPORT SETUP.
+export async function createV5(
+  input: CompactVehicleDataV4,
+  vehicles: Vehicle[],
+  dates: string[],
+  directions: string[],
+  destinations: string[],
+  operatorNames: Record<string, string>,
+) {
+// END EXPORT SETUP, code below is the standard code for this file.
+
 type CompactVehicleV4 = [
   string, string, number, string, number, number, number, number,
   string | null, number, string, string
@@ -233,3 +244,13 @@ const savingsBytes = inputSize - outputSize;
 const savingsPercent = inputSize > 0 ? (savingsBytes / inputSize) * 100 : 0;
 
 console.log(`Savings:        ${formatSize(savingsBytes)} (${savingsPercent.toFixed(1)}%)`);
+
+
+// BEGIN EXPORT FINISH.
+      return {
+        compactDataV5,
+        json: JSON.stringify(compactDataV5),
+        differences,
+    };
+}
+// END EXPORT FINISH.
