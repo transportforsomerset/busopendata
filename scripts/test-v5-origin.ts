@@ -104,7 +104,7 @@ for (const vehicle of vehiclesV5) {
   operators[operatorCode] ??= [];
 
   const originIndex    =    originIndexByValue.get(vehicle.origin);
-  const occupancyIndex = occupancyIndexByValue.get(vehicle.occupancy);
+  const occupancyIndex = occupancyIndexByValue.get(vehicle.occupancy ?? "");
 
   if (originIndex === undefined)    { throw new Error(`Unknown origin "${vehicle.origin}" for vehicle ${vehicle.vehicle_id}`); }
   if (occupancyIndex === undefined) { throw new Error(`Unknown occupancy "${vehicle.occupancy}" for vehicle ${vehicle.vehicle_id}` ); }
