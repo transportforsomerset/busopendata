@@ -1,5 +1,6 @@
 import { createDictionary } from "./create-dictionary";
 import { createV5 } from "./test-v5-origin";
+import { createV6 } from "/.test-v6-locations";
 import type { Vehicle } from "./types";
 import type { BodsParsed, CompactVehicle, CompactVehicleData, CompactVehicleV2, CompactVehicleDataV2, CompactVehicleV3, CompactVehicleDataV3, CompactVehicleV4, CompactVehicleDataV4 } from "./BODS-types";
 
@@ -1144,3 +1145,7 @@ console.log("──────────────────────�
 // V5 import use:
 const v5 = await createV5(compactDataV4, vehicles, dates, directions, destinations, operatorNames,);
 await Bun.write("live/all-v5.json", v5.json);
+
+// V6 import use:
+const v6 = await createV6(compactDataV4, vehicles, dates, directions, destinations, operatorNames,);
+await Bun.write("live/all-v6.json", v6.json);
