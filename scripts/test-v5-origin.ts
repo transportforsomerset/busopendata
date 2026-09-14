@@ -62,7 +62,7 @@ if (inputV4.version !== 4) {
   throw new Error(`Expected v4 input (via const = inputV4), found version ${inputV4.version}`);
 }
 
-const vehicles: Vehicle[] = [];
+const vehiclesV5: Vehicle[] = [];
 
 for (const [operatorCode, operatorVehicles] of Object.entries(inputV4.operators)) {
   const operatorName = inputV4.operator_names[operatorCode] ?? operatorCode;
@@ -76,7 +76,7 @@ for (const [operatorCode, operatorVehicles] of Object.entries(inputV4.operators)
       throw new Error(`Invalid dictionary index for vehicle ${vehicle[0]}`);
     }
 
-    vehicles.push({
+    vehiclesV5.push({
       vehicle_id: vehicle[0],
       operator: operatorName,
       operator_code: operatorCode,
@@ -94,12 +94,12 @@ for (const [operatorCode, operatorVehicles] of Object.entries(inputV4.operators)
   }
 }
 
-const { values: origins,     indexByValue: originIndexByValue,   } = createDictionary(vehicles.map((vehicle) => vehicle.origin));
+const { values: origins,     indexByValue: originIndexByValue,   } = createDictionary(vehiclesV5.map((vehicle) => vehicle.origin));
 const { values: occupancies, indexByValue: occupancyIndexByValue,} = createDictionary(["", "seatsAvailable", "standingAvailable", "full"], "");
 
 const operators: Record<string, CompactVehicleV5[]> = {};
 
-for (const vehicle of vehicles) {
+for (const vehicle of vehiclesV5) {
   const operatorCode = vehicle.operator_code;
   operators[operatorCode] ??= [];
 
@@ -167,7 +167,7 @@ const outputJson = JSON.stringify(compactDataV5);
 const outputSize = Buffer.byteLength(outputJson);
 await Bun.write(outputPath, outputJson);
 
-console.log(`Vehicles:       ${vehicles.length}`);
+console.log(`Vehicles:       ${vehiclesV5.length}`);
 console.log(`Origin entries: ${origins.length}`);
 console.log(`all-v4.json:    ${formatSize(inputSize)}`);
 console.log(`v5 origin:      ${formatSize(outputSize)}`);
@@ -213,7 +213,7 @@ for (const [operatorCode, operatorVehicles] of Object.entries(compactDataV5.oper
   }
 }
 
-const sourceById = new Map(vehicles.map((vehicle) => [vehicle.vehicle_id, vehicle]));
+const sourceById = new Map(vehiclesV5.map((vehicle) => [vehicle.vehicle_id, vehicle]));
 const decodedById = new Map(decodedVehicles.map((vehicle) => [vehicle.vehicle_id, vehicle]));
 
 let differences = 0;
