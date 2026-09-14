@@ -94,7 +94,7 @@ for (const [operatorCode, operatorVehicles] of Object.entries(inputV4.operators)
   }
 }
 
-const { values: origins,     indexByValue: originIndexByValue,   } = createDictionary(vehiclesV5.map((vehicle) => vehicle.origin));
+const { values: locations, indexByValue: locationIndexByValue } = createDictionary([...vehiclesV5.map((vehicle) => vehicle.origin),...vehiclesV5.map((vehicle) => vehicle.destination),]);
 const { values: occupancies, indexByValue: occupancyIndexByValue,} = createDictionary(["", "seatsAvailable", "standingAvailable", "full"], "");
 const unknownOccupancyValues = new Set<string>();
 const operators: Record<string, CompactVehicleV5[]> = {};
@@ -103,7 +103,7 @@ for (const vehicle of vehiclesV5) {
   const operatorCode = vehicle.operator_code;
   operators[operatorCode] ??= [];
 
-  const originIndex    =    originIndexByValue.get(vehicle.origin);
+  const originIndex    =    locationIndexByValue.get(vehicle.origin);
 //  const occupancyIndex = occupancyIndexByValue.get(vehicle.occupancy ?? "");
 
 let occupancy = vehicle.occupancy ?? "";
@@ -133,7 +133,8 @@ if (
     );
   }
 
-  const destinationIndex = inputV4.destinations.indexOf(vehicle.destination);
+//  const destinationIndex = inputV4.destinations.indexOf(vehicle.destination);
+  const destinationIndex = locationIndexByValue.get(vehicle.destination);
   if (destinationIndex === -1) {
     throw new Error(
       `Unknown destination "${vehicle.destination}" for vehicle ${vehicle.vehicle_id}`
@@ -198,8 +199,8 @@ for (const [operatorCode, operatorVehicles] of Object.entries(compactDataV5.oper
   for (const vehicle of operatorVehicles) {
     const date = compactDataV5.dates[vehicle[9]];
     const direction = compactDataV5.directions[vehicle[2]];
-    const origin = compactDataV5.origins[vehicle[3]];
-    const destination = compactDataV5.destinations[vehicle[4]];
+    const origin = compactDataV5.locations[vehicle[3]];
+    const destination = compactDataV5.locations[vehicle[4]];
     const occupancy = compactDataV5.occupancies[vehicle[8]];
 
     if (
