@@ -26,6 +26,7 @@ type CompactVehicleDataV5 = {
   dates: string[];
   directions: string[];
   origins: string[];
+  occupancies: string[];
   destinations: string[];
   fields: string[];
   operator_names: Record<string, string>;
@@ -82,10 +83,8 @@ for (const [operatorCode, operatorVehicles] of Object.entries(input.operators)) 
   }
 }
 
-const {
-  values: origins,
-  indexByValue: originIndexByValue,
-} = createDictionary(vehicles.map((vehicle) => vehicle.origin));
+const { values: origins,     indexByValue: originIndexByValue,   } = createDictionary(vehicles.map((vehicle) => vehicle.origin));
+const { values: occupancies, indexByValue: occupancyIndexByValue,} = createDictionary(["", "seatsAvailable", "standingAvailable", "full"], "");
 
 const operators: Record<string, CompactVehicleV5[]> = {};
 
@@ -93,13 +92,11 @@ for (const vehicle of vehicles) {
   const operatorCode = vehicle.operator_code;
   operators[operatorCode] ??= [];
 
-  const originIndex = originIndexByValue.get(vehicle.origin);
+  const originIndex    =    originIndexByValue.get(vehicle.origin);
+  const occupancyIndex = occupancyIndexByValue.get(vehicle.occupancy);
 
-  if (originIndex === undefined) {
-    throw new Error(
-      `Unknown origin "${vehicle.origin}" for vehicle ${vehicle.vehicle_id}`
-    );
-  }
+  if (originIndex === undefined)    { throw new Error(`Unknown origin "${vehicle.origin}" for vehicle ${vehicle.vehicle_id}`); }
+  if (occupancyIndex === undefined) { throw new Error(`Unknown occupancy "${vehicle.occupancy}" for vehicle ${vehicle.vehicle_id}` ); }
 
   const directionIndex = input.directions.indexOf(vehicle.direction ?? "");
   if (directionIndex === -1) {
@@ -132,7 +129,7 @@ for (const vehicle of vehicles) {
     vehicle.latitude,
     vehicle.longitude,
     vehicle.bearing ?? 0,
-    vehicle.occupancy,
+    occupancyIndex,
     dateIndex,
     vehicle.recorded_at.slice(11, 19),
     vehicle.journey_id,
@@ -144,6 +141,7 @@ const compactDataV5: CompactVehicleDataV5 = {
   dates: input.dates,
   directions: input.directions,
   origins,
+  occupancies,
   destinations: input.destinations,
   fields: [
     "vehicle_id", "route", "direction", "origin", "destination",
@@ -174,12 +172,14 @@ for (const [operatorCode, operatorVehicles] of Object.entries(compactDataV5.oper
     const direction = compactDataV5.directions[vehicle[2]];
     const origin = compactDataV5.origins[vehicle[3]];
     const destination = compactDataV5.destinations[vehicle[4]];
+    const occupancy = encoded.occupancies[values[8]];
 
     if (
       date === undefined ||
       direction === undefined ||
       origin === undefined ||
-      destination === undefined
+      destination === undefined ||
+      occupancy === undefined
     ) {
       throw new Error(`Invalid v5 dictionary index for vehicle ${vehicle[0]}`);
     }
@@ -195,7 +195,7 @@ for (const [operatorCode, operatorVehicles] of Object.entries(compactDataV5.oper
       latitude: vehicle[5],
       longitude: vehicle[6],
       bearing: vehicle[7],
-      occupancy: vehicle[8],
+      occupancy,
       recorded_at: `${date}T${vehicle[10]}+00:00`,
       journey_id: vehicle[11],
     });
