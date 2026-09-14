@@ -37,7 +37,7 @@ const inputPath = "live/all-v4.json";
 const outputPath = "live/all-v5-origin.json";
 
 // BEGIN EXPORT SETUP.
-export async function createV5(
+export async function createV6(
   input: CompactVehicleDataV4,
   vehicles: Vehicle[],
   dates: string[],
@@ -51,7 +51,7 @@ function formatSize(bytes: number): string {
   return `${(bytes / 1024 / 1024).toFixed(2)} MB`;
 }
 
-console.log("v5 origin dictionary test");
+console.log("v6 origin dictionary test");
 console.log("─────────────────────────");
 
 const inputJson = await Bun.file(inputPath).text();
