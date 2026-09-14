@@ -106,7 +106,9 @@ for (const vehicle of vehiclesV5) {
   const originIndex    =    originIndexByValue.get(vehicle.origin);
 //  const occupancyIndex = occupancyIndexByValue.get(vehicle.occupancy ?? "");
 
-const occupancy = vehicle.occupancy ?? "";
+const unknownOccupancyValues = new Set<string>();
+let occupancy = vehicle.occupancy ?? "";
+//const occupancy = vehicle.occupancy ?? "";
 
 if (
   occupancy !== "" &&
@@ -114,9 +116,9 @@ if (
   occupancy !== "standingAvailable" &&
   occupancy !== "full"
 ) {
-  throw new Error(
-    `Unknown occupancy "${vehicle.occupancy}" for vehicle ${vehicle.vehicle_id}`
-  );
+  unknownOccupancyValues.add(occupancy);
+  occupancy = "";
+  //throw new Error(`Unknown occupancy "${vehicle.occupancy}" for vehicle ${vehicle.vehicle_id}`);
 }
 
 const occupancyIndex = occupancyIndexByValue.get(occupancy);
@@ -260,6 +262,12 @@ const savingsPercent = inputSize > 0 ? (savingsBytes / inputSize) * 100 : 0;
 
 console.log(`Savings:        ${formatSize(savingsBytes)} (${savingsPercent.toFixed(1)}%)`);
 
+
+// Any new values for "occupancy"?
+if (unknownOccupancyValues.size > 0) {
+  console.log(`⚠️ Unknown occupancy values detected: ${[...unknownOccupancyValues,].join(", ")}`);
+  console.log("These values were encoded as empty occupancy.");
+}
 
 // BEGIN EXPORT FINISH.
       return {
