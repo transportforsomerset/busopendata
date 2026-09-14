@@ -1,4 +1,5 @@
 import { createDictionary } from "./create-dictionary";
+import { createV5 } from "./test-v5-origin";
 import type { Vehicle } from "./types";
 import type { BodsParsed, CompactVehicle, CompactVehicleData, CompactVehicleV2, CompactVehicleDataV2, CompactVehicleV3, CompactVehicleDataV3, CompactVehicleV4, CompactVehicleDataV4 } from "./BODS-types";
 
