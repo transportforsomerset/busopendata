@@ -1150,3 +1150,7 @@ await Bun.write("live/all-v5.json", v5.json);
 // V6 import use:
 const v6 = await createV6(compactDataV4, vehicles, dates, directions, destinations, operatorNames,);
 await Bun.write("live/all-v6.json", v6.json);
+
+// V7 import use:
+const v7 = await createV6(compactDataV4, vehicles, dates, directions, destinations, operatorNames,);
+await Bun.write("live/all-v7.json", v7.json);
