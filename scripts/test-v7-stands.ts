@@ -22,7 +22,7 @@ type CompactVehicleV7 = [
 ];
 
 type CompactVehicleDataV7 = {
-  version: 6;
+  version: 7;
   dates: string[];
   directions: string[];
   locations: string[];
@@ -61,7 +61,7 @@ if (inputV4.version !== 4) {
   throw new Error(`Expected v4 input (via const = inputV4), found version ${inputV4.version}`);
 }
 
-const vehiclesV6: Vehicle[] = [];
+const vehiclesV7: Vehicle[] = [];
 
 for (const [operatorCode, operatorVehicles] of Object.entries(inputV4.operators)) {
   const operatorName = inputV4.operator_names[operatorCode] ?? operatorCode;
@@ -96,7 +96,7 @@ for (const [operatorCode, operatorVehicles] of Object.entries(inputV4.operators)
 const { values: locations, indexByValue: locationIndexByValue } = createDictionary([...vehiclesV7.map((vehicle) => vehicle.origin),...vehiclesV7.map((vehicle) => vehicle.destination),]);
 const { values: occupancies, indexByValue: occupancyIndexByValue,} = createDictionary(["", "seatsAvailable", "standingAvailable", "full"], "");
 const unknownOccupancyValues = new Set<string>();
-const operators: Record<string, CompactVehicleV6[]> = {};
+const operators: Record<string, CompactVehicleV7[]> = {};
 
 for (const vehicle of vehiclesV7) {
   const operatorCode = vehicle.operator_code;
