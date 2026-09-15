@@ -93,7 +93,7 @@ for (const [operatorCode, operatorVehicles] of Object.entries(inputV4.operators)
   }
 }
 
-const { values: locations, indexByValue: locationIndexByValue } = createDictionary([...vehiclesV6.map((vehicle) => vehicle.origin),...vehiclesV6.map((vehicle) => vehicle.destination),]);
+const { values: locations, indexByValue: locationIndexByValue } = createDictionary([...vehiclesV6.map((vehicle) => vehicle.origin),...vehiclesV6.map((vehicle) => vehicle.destination),], undefined, true);
 const { values: occupancies, indexByValue: occupancyIndexByValue,} = createDictionary(["", "seatsAvailable", "standingAvailable", "full"], "");
 const unknownOccupancyValues = new Set<string>();
 const operators: Record<string, CompactVehicleV6[]> = {};
