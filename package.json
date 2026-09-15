@@ -2,7 +2,7 @@
   "name": "transport-for-somerset-bus-data",
   "version": "0.8.0",
   "description": "Bus data collector for Transport for Somerset",
-  "private": true,
+  "private": false,
   "type": "module",
   "packageManager": "bun@1.4.2",
   "scripts": {
