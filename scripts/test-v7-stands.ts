@@ -34,7 +34,7 @@ type CompactVehicleDataV7 = {
 };
 
 const inputPath = "live/all-v4.json";
-const outputPath = "live/all-v7-stands.json";
+const outputPath = "live/all-v7.json";
 
 // BEGIN EXPORT SETUP.
 export async function createV7(
