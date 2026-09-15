@@ -26,6 +26,7 @@ type CompactVehicleDataV7 = {
   dates: string[];
   directions: string[];
   locations: string[];
+  stands: string[];
   occupancies: string[];
   fields: string[];
   operator_names: Record<string, string>;
@@ -89,12 +90,14 @@ for (const [operatorCode, operatorVehicles] of Object.entries(inputV4.operators)
       occupancy: vehicle[8],
       recorded_at: `${date}T${vehicle[10]}+00:00`,
       journey_id: vehicle[11],
+      stands: [""],
     });
   }
 }
 
 const { values: locations,   indexByValue: locationIndexByValue  } = createDictionary([...vehiclesV7.map((vehicle) => vehicle.origin),...vehiclesV7.map((vehicle) => vehicle.destination),]);
 //const { values: stands,      indexByValue: standIndexByValue     } = createDictionary([""], "");
+  const standIndex = 0;
   const stands = [""];
 const { values: occupancies, indexByValue: occupancyIndexByValue,} = createDictionary(["", "seatsAvailable", "standingAvailable", "full"], "");
 
@@ -226,7 +229,6 @@ for (const [operatorCode, operatorVehicles] of Object.entries(compactDataV7.oper
       occupancy,
       recorded_at: `${date}T${vehicle[10]}+00:00`,
       journey_id: vehicle[11],
-      stand,
     });
   }
 }
