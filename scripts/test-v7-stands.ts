@@ -90,7 +90,6 @@ for (const [operatorCode, operatorVehicles] of Object.entries(inputV4.operators)
       occupancy: vehicle[8],
       recorded_at: `${date}T${vehicle[10]}+00:00`,
       journey_id: vehicle[11],
-      stands: [""],
     });
   }
 }
@@ -172,6 +171,7 @@ const compactDataV7: CompactVehicleDataV7 = {
   directions: inputV4.directions,
   locations,
   occupancies,
+  stands: [""],
   fields: [
     "vehicle_id", "route", "direction", "origin", "destination",
     "latitude", "longitude", "bearing", "occupancy",
