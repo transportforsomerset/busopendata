@@ -29,7 +29,7 @@ type CompactVehicleDataV7 = {
   occupancies: string[];
   fields: string[];
   operator_names: Record<string, string>;
-  operators: Record<string, CompactVehicleV6[]>;
+  operators: Record<string, CompactVehicleV7[]>;
 };
 
 const inputPath = "live/all-v4.json";
@@ -178,7 +178,7 @@ const outputJson = JSON.stringify(compactDataV7);
 const outputSize = Buffer.byteLength(outputJson);
 await Bun.write(outputPath, outputJson);
 
-console.log(`Vehicles:       ${vehiclesV6.length}`);
+console.log(`Vehicles:       ${vehiclesV7.length}`);
 console.log(`Stand entries: ${locations.length}`);
 console.log(`all-v4.json:   ${formatSize(inputSize)}`);
 console.log(`v7 stands:     ${formatSize(outputSize)}`);
@@ -190,11 +190,11 @@ for (const [operatorCode, operatorVehicles] of Object.entries(compactDataV7.oper
   const operatorName = compactDataV7.operator_names[operatorCode] ?? operatorCode;
 
   for (const vehicle of operatorVehicles) {
-    const date = compactDataV6.dates[vehicle[9]];
-    const direction = compactDataV6.directions[vehicle[2]];
-    const origin = compactDataV6.locations[vehicle[3]];
-    const destination = compactDataV6.locations[vehicle[4]];
-    const occupancy = compactDataV6.occupancies[vehicle[8]];
+    const date = compactDataV7.dates[vehicle[9]];
+    const direction = compactDataV7.directions[vehicle[2]];
+    const origin = compactDataV7.locations[vehicle[3]];
+    const destination = compactDataV7.locations[vehicle[4]];
+    const occupancy = compactDataV7.occupancies[vehicle[8]];
 
     if (
       date === undefined ||
