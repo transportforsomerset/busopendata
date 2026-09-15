@@ -186,7 +186,7 @@ await Bun.write(outputPath, outputJson);
 console.log(`Vehicles:         ${vehiclesV6.length}`);
 console.log(`Location entries: ${locations.length}`);
 console.log(`all-v4.json:      ${formatSize(inputSize)}`);
-console.log(`v6 locatons:      ${formatSize(outputSize)}`);
+console.log(`v6 locations:      ${formatSize(outputSize)}`);
 console.log();
 
 const decodedVehicles: Vehicle[] = [];
