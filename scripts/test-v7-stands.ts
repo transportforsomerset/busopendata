@@ -18,7 +18,7 @@ type CompactVehicleDataV4 = {
 
 type CompactVehicleV7 = [
   string, string, number, number, number, number, number, number,
-  number, number, string, string
+  number, number, string, string, number
 ];
 
 type CompactVehicleDataV7 = {
@@ -89,12 +89,16 @@ for (const [operatorCode, operatorVehicles] of Object.entries(inputV4.operators)
       occupancy: vehicle[8],
       recorded_at: `${date}T${vehicle[10]}+00:00`,
       journey_id: vehicle[11],
+      stand: vehicle[12],
     });
   }
 }
 
-const { values: locations, indexByValue: locationIndexByValue } = createDictionary([...vehiclesV7.map((vehicle) => vehicle.origin),...vehiclesV7.map((vehicle) => vehicle.destination),]);
+const { values: locations,   indexByValue: locationIndexByValue  } = createDictionary([...vehiclesV7.map((vehicle) => vehicle.origin),...vehiclesV7.map((vehicle) => vehicle.destination),]);
+//const { values: stands,      indexByValue: standIndexByValue     } = createDictionary([""], "");
+  const stands = [""];
 const { values: occupancies, indexByValue: occupancyIndexByValue,} = createDictionary(["", "seatsAvailable", "standingAvailable", "full"], "");
+
 const unknownOccupancyValues = new Set<string>();
 const operators: Record<string, CompactVehicleV7[]> = {};
 
@@ -142,7 +146,7 @@ if (
       `Unknown recorded date "${recordedDate}" for vehicle ${vehicle.vehicle_id}`
     );
   }
-
+const standIndex = 0;
   operators[operatorCode].push([
     vehicle.vehicle_id,
     vehicle.route,
@@ -156,6 +160,7 @@ if (
     dateIndex,
     vehicle.recorded_at.slice(11, 19),
     vehicle.journey_id,
+    standIndex,
   ]);
 }
 
@@ -168,7 +173,7 @@ const compactDataV7: CompactVehicleDataV7 = {
   fields: [
     "vehicle_id", "route", "direction", "origin", "destination",
     "latitude", "longitude", "bearing", "occupancy",
-    "recorded_date", "recorded_time", "journey_id",
+    "recorded_date", "recorded_time", "journey_id", "stand",
   ],
   operator_names: inputV4.operator_names,
   operators,
@@ -178,8 +183,8 @@ const outputJson = JSON.stringify(compactDataV7);
 const outputSize = Buffer.byteLength(outputJson);
 await Bun.write(outputPath, outputJson);
 
-console.log(`Vehicles:       ${vehiclesV7.length}`);
-console.log(`Stand entries: ${locations.length}`);
+console.log(`Vehicles:      ${vehiclesV7.length}`);
+console.log(`Stand entries: ${stands.length}`);
 console.log(`all-v4.json:   ${formatSize(inputSize)}`);
 console.log(`v7 stands:     ${formatSize(outputSize)}`);
 console.log();
@@ -195,15 +200,17 @@ for (const [operatorCode, operatorVehicles] of Object.entries(compactDataV7.oper
     const origin = compactDataV7.locations[vehicle[3]];
     const destination = compactDataV7.locations[vehicle[4]];
     const occupancy = compactDataV7.occupancies[vehicle[8]];
+    const stand = compactDataV7.stands[vehicle[12]];
 
     if (
       date === undefined ||
       direction === undefined ||
       origin === undefined ||
       destination === undefined ||
-      occupancy === undefined
+      occupancy === undefined ||
+      stand === undefined
     ) {
-      throw new Error(`Invalid v6 dictionary index for vehicle ${vehicle[0]}`);
+      throw new Error(`Invalid v7 dictionary index for vehicle ${vehicle[0]}`);
     }
 
     decodedVehicles.push({
@@ -220,6 +227,7 @@ for (const [operatorCode, operatorVehicles] of Object.entries(compactDataV7.oper
       occupancy,
       recorded_at: `${date}T${vehicle[10]}+00:00`,
       journey_id: vehicle[11],
+      stand,
     });
   }
 }
