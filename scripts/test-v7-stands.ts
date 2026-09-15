@@ -89,7 +89,6 @@ for (const [operatorCode, operatorVehicles] of Object.entries(inputV4.operators)
       occupancy: vehicle[8],
       recorded_at: `${date}T${vehicle[10]}+00:00`,
       journey_id: vehicle[11],
-      stand: vehicle[12],
     });
   }
 }
