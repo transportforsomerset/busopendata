@@ -1,14 +1,43 @@
 export {};
 
-const inputFile = "data/naptan-national.csv";
+const dataURL =
+  "https://beta-naptan.dft.gov.uk/Download/National/csv";
 
-console.log("Reading NaPTAN national CSV...");
-console.log(inputFile);
+const outputFile = "data/naptan-national.csv";
 
-const file = Bun.file(inputFile);
-const text = await file.text();
+console.log("Downloading NaPTAN national CSV...");
+console.log(dataURL);
 
-const lines = text.split(/\r?\n/).filter(line => line.length > 0);
+const response = await fetch(dataURL);
+
+if (!response.ok) {
+  throw new Error(
+    `NaPTAN download failed: ${response.status} ${response.statusText}`
+  );
+}
+
+const data = await response.arrayBuffer();
+const bytes = new Uint8Array(data);
+
+await Bun.write(outputFile, bytes);
+
+console.log(
+  `Downloaded ${(bytes.length / 1024 / 1024).toFixed(1)} MB`
+);
+
+console.log(`Saved to ${outputFile}`);
+
+// --------------------------------------------------
+// Analyse the downloaded CSV
+// --------------------------------------------------
+
+console.log("\nReading downloaded CSV...");
+
+const text = await Bun.file(outputFile).text();
+
+const lines = text
+  .split(/\r?\n/)
+  .filter(line => line.length > 0);
 
 const header = lines[0].split(",");
 const rows = lines.slice(1);
