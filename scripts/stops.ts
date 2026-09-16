@@ -1,3 +1,5 @@
+export {};
+
 const dataURL = "https://beta-naptan.dft.gov.uk/Download/National/csv";
 const outputFile = "data/naptan-national.csv";
 
