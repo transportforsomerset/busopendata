@@ -1,11 +1,11 @@
-name: 2 - Run Bun Check
+name: 2 - Run TypeScript Check
 
 on:
   push:
   workflow_dispatch:
 
 jobs:
-  Run-Bun-Check:
+  Run-TypeScript-Check:
     runs-on: ubuntu-latest
 
     steps:
