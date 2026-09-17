@@ -21,8 +21,9 @@ jobs:
 
       - name: Prepare live files
         run: |
-          mkdir -p _site
-          cp live/* _site/
+          mkdir -p _site # create the folder /_site/ for GitHub Pages.
+          cp live/* _site/ # copy all files from /live/ to the GitHub Pages /_site/ folder.
+          rm -f _site/*.md # but then remove any .md files before deployment.
 
       - name: Setup Pages
         uses: actions/configure-pages@v6
