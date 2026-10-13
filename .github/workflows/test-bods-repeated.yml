@@ -1,0 +1,24 @@
+name: 3.3 - Test Repeat BODS Bus Data via the API
+
+on:
+  workflow_dispatch:
+  workflow_call: 
+
+jobs:
+  Repeat-Fetch-BODS-API-Data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Test repeated BODS requests
+        run: bun run test:bods-repeated
+        env:
+          BODS_API_KEY: ${{ secrets.BUS_DATA_API }}
