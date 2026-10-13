@@ -4,25 +4,25 @@
   "description": "Bus data collector for Transport for Somerset",
   "private": false,
   "type": "module",
-  "packageManager": "bun@1.4.2",
+  "packageManager": "bun@1.4.3",
   "scripts": {
-    "check:types": "tsc --noEmit",
+    "check:types": "bun check",
     "check:fetch": "bun run --parallel bods flix megabus",
     "container": "bun run scripts/container.ts",
     "bods-api": "bun run scripts/fetch-bods-api.ts --debug",
     "bods-zip": "bun run scripts/BODS-zip.ts",
     "flix": "bun run scripts/fetch-flix.ts --debug",
     "megabus": "bun run scripts/fetch-megabus.ts --debug",
-    "stops": "bun run scripts/stops.ts"
+    "stops": "bun run scripts/stops.ts",
+    "test:bods-repeated": "bun run scripts/test-bods-repeated.ts"
   },
   "contributors": [
     "Transport for Somerset"
   ],
   "devDependencies": {
-    "@types/bun": "1.4.2",
-    "typescript": "7.0.2"
+    "@types/bun": "1.4.3"
   },
   "engines": {
-    "bun": "1.4.2"
+    "bun": "1.4.3"
   }
 }
