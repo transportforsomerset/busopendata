@@ -1,15 +1,18 @@
 import { fetchBodsData } from "./fetch-bods-api";
 
-const requestCount = 50;
-const intervalMs = 10_000;
+const requestCount = 50;   // Check data 50 times.
+const intervalMs = 10_000; // Check every 10 seconds. 
 
 let previousVehicles: Map<string, Awaited<ReturnType<typeof fetchBodsData>>[number]> | null = null;
 
 console.log("BODS repeated-request experiment");
 console.log(`Requests: ${requestCount}`);
-console.log(`Interval: ${intervalMs / 1000} seconds`);
+console.log(`Target interval: ${intervalMs / 1000} seconds (start-to-start)`);
 
 for (let requestNumber = 1; requestNumber <= requestCount; requestNumber++) {
+  // Measure the whole task so the next request starts at the target interval.
+  const taskStartedAt = performance.now();
+
   console.log(`\n--- Request ${requestNumber}/${requestCount} ---`);
   console.log(`Started: ${new Date().toISOString()}`);
 
@@ -71,8 +74,17 @@ for (let requestNumber = 1; requestNumber <= requestCount; requestNumber++) {
   }
 
   if (requestNumber < requestCount) {
-    console.log("Waiting 5 seconds...");
-    await Bun.sleep(intervalMs);
+    const taskDurationMs = performance.now() - taskStartedAt;
+    const remainingMs = intervalMs - taskDurationMs;
+
+    console.log(`Task completed in ${(taskDurationMs / 1000).toFixed(2)} seconds.`);
+
+    if (remainingMs > 0) {
+      console.log(`Waiting ${(remainingMs / 1000).toFixed(2)} seconds...`);
+      await Bun.sleep(remainingMs);
+    } else {
+      console.log("Task took longer than the target interval; starting next request immediately.");
+    }
   }
 }
 
