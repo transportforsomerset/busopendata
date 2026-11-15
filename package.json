@@ -11,6 +11,7 @@
     "container": "bun run scripts/container.ts",
     "bods-api": "bun run scripts/fetch-bods-api.ts --debug",
     "bods-zip": "bun run scripts/BODS-zip.ts",
+    "deploydeploydeploy": "bun run deploy-deploy-deploy.ts",
     "flix": "bun run scripts/fetch-flix.ts --debug",
     "megabus": "bun run scripts/fetch-megabus.ts --debug",
     "stops": "bun run scripts/stops.ts",
