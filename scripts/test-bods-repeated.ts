@@ -1,6 +1,6 @@
 import { fetchBodsData } from "./fetch-bods-api";
 
-const requestCount = 20;
+const requestCount = 50;
 const intervalMs = 5_000;
 
 let previousVehicles: Map<string, Awaited<ReturnType<typeof fetchBodsData>>[number]> | null = null;
