@@ -4,7 +4,7 @@
   "description": "Bus data collector for Transport for Somerset",
   "private": false,
   "type": "module",
-  "packageManager": "bun@1.4.4",
+  "packageManager": "bun@1.4.5",
   "scripts": {
     "check:types": "bun check",
     "check:fetch": "bun run --parallel bods flix megabus",
@@ -24,6 +24,6 @@
     "@types/bun": "1.4.4"
   },
   "engines": {
-    "bun": "1.4.4"
+    "bun": "1.4.5"
   }
 }
